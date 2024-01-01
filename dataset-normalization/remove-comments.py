@@ -26,6 +26,6 @@ def process_directory(directory_path):
 
 
 if __name__ == "__main__":
-    current_directory = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE23_Relative_Path_Traversal"  # os.getcwd()
+    current_directory = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases"  # os.getcwd()
     process_directory(current_directory)
     print("Script completed successfully.")

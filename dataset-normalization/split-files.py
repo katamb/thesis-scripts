@@ -91,7 +91,7 @@ def update_file_names(file_path):
 def process_directory(directory_path):
     for root, dirs, files in os.walk(directory_path):
         for file in files:
-            if "good" in file or "bad" in file:
+            if "good" in file or "bad" in file or "Helper" in file:
                 continue
             file_path = os.path.join(root, file)
             if "CWE" in file and file.endswith(".java"):
