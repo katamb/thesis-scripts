@@ -22,7 +22,7 @@ def process_directory(directory_path):
 
 
 """
-Run through all files in subdirectories and remove the lines not starting with 
+Run through all files in subdirectories and remove references to the unused lines
 """
 if __name__ == "__main__":
     current_directory = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases"  # os.getcwd()
