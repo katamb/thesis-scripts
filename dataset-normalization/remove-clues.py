@@ -14,7 +14,18 @@ def remove_clues(file_path, counter):
 
     # Rename functions
     content = content.replace("good()", "process()")
+    content = content.replace("good1()", "process1()")
+    content = content.replace("good(HttpServletRequest", "process(HttpServletRequest")
+    content = content.replace("good1(HttpServletRequest", "process1(HttpServletRequest")
+    content = content.replace("good1(request", "process1(request")
+    content = content.replace("goodG2B()", "processG2B()")
+    content = content.replace("goodG2B(request", "processG2B(request")
+    content = content.replace("goodG2B(HttpServletRequest", "processG2B(HttpServletRequest")
+    content = content.replace("goodB2G()", "processB2G()")
+    content = content.replace("goodB2G(request", "processB2G(request")
+    content = content.replace("goodB2G(HttpServletRequest", "processB2G(HttpServletRequest")
     content = content.replace("bad()", "handle()")
+    content = content.replace("bad(HttpServletRequest", "handle(HttpServletRequest")
 
     # Rename file
     old_file_name = get_file_name(file_path)
@@ -32,18 +43,38 @@ def remove_clues(file_path, counter):
         cwe_description = " ".join(old_file_name.split("__")[0].split("_")[1:])
         f.write(f"{new_file_name}, {old_file_name}, {cwe}, {cwe_present}, {cwe_description} \n")
 
+    return old_file_name, new_file_name
+
+
+def process_main_file(file_path, renamings):
+    with open(file_path, 'r') as file:
+        content = file.read()
+
+    for k in renamings:
+        content = content.replace(k + "()", renamings[k] + "()")
+
+    with open(file_path, 'w') as file:
+        file.write(content)
+
 
 def process_directory(directory_path):
     counter = 1000
     for root, dirs, files in os.walk(directory_path):
+        renamings = {}
         for file in files:
-            if file.endswith(".java") and "Main" not in file:
+            if "Helper" in file:
+                continue
+            elif file.endswith(".java") and "Main" not in file:
                 file_path = os.path.join(root, file)
-                remove_clues(file_path, counter)
+                file_names_tuple = remove_clues(file_path, counter)
+                renamings[file_names_tuple[0]] = file_names_tuple[1]
                 counter += 1
+            elif "Main" in file:
+                file_path = os.path.join(root, file)
+                process_main_file(file_path, renamings)
 
 
 if __name__ == "__main__":
-    current_directory = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE23_Relative_Path_Traversal"
+    current_directory = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases"
     process_directory(current_directory)
     print("Script completed successfully.")

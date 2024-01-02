@@ -175,6 +175,7 @@ public class CWE23_Relative_Path_Traversal__connect_tcp_01 extends AbstractTestC
     """
     #template = "You are a naming consultant for new companies. What is a good name for a {company} that makes {product}?"
 
+    # ToDo: remove first line (package name)
     prompt = PromptTemplate.from_template(noever_template)
     llm = OpenAI(temperature=0, model_name="gpt-4-1106-preview")
 

@@ -5,7 +5,7 @@ def process_directory(directory_path):
     count = 0
     for root, dirs, files in os.walk(directory_path):
         for file in files:
-            if file.endswith(".java") and "CWE" in file:
+            if file.startswith("J") and file.endswith(".java"):
                 count += 1
     print("Amount of files " + str(count))
 
