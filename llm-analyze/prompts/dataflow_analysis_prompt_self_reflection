@@ -1,0 +1,4 @@
+Is this analysis correct? Return your response in the following format:
+Yes / No
+explanation: <reason for the analysis being correct or wrong>
+Final Vulnerability analysis verdict: vulnerability: <YES or NO> | vulnerability type: <CWE_ID>

@@ -8,8 +8,8 @@ class BaseLlmRunner:
         self.file_path = file_path
         self.prompt_name = prompt_name
         self.llm = ChatOpenAI(temperature=0, model_name="gpt-4-1106-preview")
-        base_result_path = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing-results\\"
-        self.result_folder_path = base_result_path + prompt_name
+        self.base_result_path = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing-results\\"
+        self.result_folder_path = self.base_result_path + self.prompt_name
         if not os.path.exists(self.result_folder_path):
             os.makedirs(self.result_folder_path)
 
@@ -28,10 +28,21 @@ class BaseLlmRunner:
         file_name = self.file_path[last_slash_index:last_dot_index]
         return file_name
 
-    def load_prompt_from_file(self):
-        with open("./prompts/" + self.prompt_name, 'r') as file:
+    @staticmethod
+    def load_prompt_from_file(prompt_name):
+        with open("./prompts/" + prompt_name, 'r') as file:
             content = file.read()
         return content
+
+    @staticmethod
+    def clean_result(result):
+        cwe_words = []
+        for word in result.split():
+            if "cwe" in word.lower():
+                cleaned_word = word.replace(":", "").replace(",", "").replace(";", "")
+                if cleaned_word not in cwe_words:
+                    cwe_words.append(cleaned_word)
+        return " ".join(cwe_words)
 
     @abstractmethod
     def run_prompt(self):

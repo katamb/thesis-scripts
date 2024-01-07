@@ -5,3 +5,7 @@ modified_noever_prompt; J1852; CWE-330: Use of Insufficiently Random Values; 13.
 modified_noever_prompt; J1853; CWE IDs: -; 13.934823036193848s; total_tokens: 465, completion_tokens: 307, prompt_tokens: 158; 0.01079
 modified_noever_prompt; J1854; CWE IDs: CWE-330; 18.343825578689575s; total_tokens: 375, completion_tokens: 228, prompt_tokens: 147; 0.00831
 modified_noever_prompt; J1855; CWE IDs: -; 13.155085325241089s; total_tokens: 510, completion_tokens: 347, prompt_tokens: 163; 0.012039999999999999
+dataflow_analysis_prompt; J2627; CWE-79; 14.379631519317627s; total_tokens: 865, completion_tokens: 292, prompt_tokens: 573; 0.01449
+dataflow_analysis_prompt_self_reflection; J2627; CWE-79; 19.3204665184021; total_tokens: 1915, completion_tokens: 421, prompt_tokens: 1494; 0.02757
+dataflow_analysis_prompt; J2630; CWE-79; 18.96355652809143s; total_tokens: 685, completion_tokens: 271, prompt_tokens: 414; 0.01227
+dataflow_analysis_prompt_self_reflection; J2630; ; 24.044480800628662; total_tokens: 1532, completion_tokens: 377, prompt_tokens: 1155; 0.02286
