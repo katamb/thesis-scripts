@@ -1,4 +1,5 @@
 from SimplePromptRunner import SimplePromptRunner
+from SelfReflectionPromptRunner import SelfReflectionPromptRunner
 import os
 
 
@@ -9,10 +10,13 @@ def process_directory(directory_path):
                 continue
             elif file.startswith("J") and file.endswith(".java"):
                 file_path = os.path.join(root, file)
-                print(file_path)
+                runner = SimplePromptRunner(file_path, "modified_noever_prompt")
+                runner.run_prompt()
 
 
 if __name__ == "__main__":
-    file = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE23_Relative_Path_Traversal\\J1774.java"
-    runner = SimplePromptRunner(file)
-    runner.run_prompt()
+    #file = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE80_XSS\\s01\\J2628.java"
+    #runner = SimplePromptRunner(file, "modified_noever_prompt")
+    #runner.run_prompt()
+    folder = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE338_Weak_PRNG"
+    process_directory(folder)

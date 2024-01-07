@@ -1,0 +1,7 @@
+prompt_name; file_name; cwe_ids; time_taken; tokens_used; cost
+modified_noever_prompt; J1776; CWE IDs: CWE-22, CWE-209; 38.22222352027893s; total_tokens: 1087, completion_tokens: 427, prompt_tokens: 660; 0.01941
+modified_noever_prompt; J2628; CWE-79, CWE-117; 20.55654501914978s; total_tokens: 496, completion_tokens: 277, prompt_tokens: 219; 0.010499999999999999
+modified_noever_prompt; J1852; CWE-330: Use of Insufficiently Random Values; 13.023247241973877s; total_tokens: 351, completion_tokens: 215, prompt_tokens: 136; 0.00781
+modified_noever_prompt; J1853; CWE IDs: -; 13.934823036193848s; total_tokens: 465, completion_tokens: 307, prompt_tokens: 158; 0.01079
+modified_noever_prompt; J1854; CWE IDs: CWE-330; 18.343825578689575s; total_tokens: 375, completion_tokens: 228, prompt_tokens: 147; 0.00831
+modified_noever_prompt; J1855; CWE IDs: -; 13.155085325241089s; total_tokens: 510, completion_tokens: 347, prompt_tokens: 163; 0.012039999999999999
