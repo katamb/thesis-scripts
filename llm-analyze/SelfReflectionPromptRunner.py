@@ -33,9 +33,15 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
             print(llm_response_1)
 
         tokens_used = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
-        cwes = self.clean_result(llm_response_1)
         with open("results.csv", "a") as res:
-            res.write(f"{self.prompt_name}; {self.get_file_name()}; {cwes}; {time_spent_1}s; {tokens_used}; {cost_1}\n")
+            res.write(
+                f"{self.prompt_name}; "
+                f"{self.get_file_name()}; "
+                f"{self.clean_result(llm_response_1)}; "
+                f"{time_spent_1}s; "
+                f"{tokens_used}; "
+                f"{cost_1}\n"
+            )
 
         with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
             r.write(llm_response_1)
@@ -56,15 +62,15 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         tokens_used = (f"total_tokens: {self.safe_int_addition(total_tokens_1, total_tokens_2)}, "
                        f"completion_tokens: {self.safe_int_addition(completion_tokens_1, completion_tokens_2)}, "
                        f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2)}")
-        cwes = self.clean_result(llm_response_2)
         with open("results.csv", "a") as res:
             res.write(
                 f"{self.self_reflection_prompt_name}; "
                 f"{self.get_file_name()}; "
-                f"{cwes}; "
+                f"{self.clean_result(llm_response_2)}; "
                 f"{self.safe_float_addition(time_spent_1, time_spent_2)}; "
                 f"{tokens_used}; "
-                f"{self.safe_float_addition(cost_1, cost_2)}\n")
+                f"{self.safe_float_addition(cost_1, cost_2)}\n"
+            )
 
         with open(self.self_reflection_result_folder_path + "\\" + self.get_file_name(), "w") as r:
             r.write(llm_response_2)

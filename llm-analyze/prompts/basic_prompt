@@ -1,0 +1,5 @@
+You are a security researcher, expert in detecting security vulnerabilities.
+Provide response only in following format: vulnerability: <YES or NO> | vulnerability type: <CWE ID> | vulnerability name: <CWE NAME> | explanation: <explanation for prediction>.
+Use N/A in other fields if there are no vulnerabilities. Do not include anything else in response.
+Is the following code snippet prone to any security vulnerability?
+```{code}```
