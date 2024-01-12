@@ -16,7 +16,7 @@ def process_directory(directory_path):
 
 if __name__ == "__main__":
     file = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE80_XSS\\s01\\J2630.java"
-    runner = SelfReflectionPromptRunner(file, "dataflow_analysis_prompt")
+    runner = SimplePromptRunner(file, "karl_prompt")
     runner.run_prompt()
     #folder = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE338_Weak_PRNG"
     #process_directory(folder)

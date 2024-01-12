@@ -1,6 +1,7 @@
 from abc import abstractmethod
 from langchain.chat_models import ChatOpenAI
 import os
+import re
 
 
 class BaseLlmRunner:
@@ -35,14 +36,12 @@ class BaseLlmRunner:
         return content
 
     @staticmethod
-    def clean_result(result):
-        cwe_words = []
-        for word in result.split():
-            if "cwe" in word.lower():
-                cleaned_word = word.replace(":", "").replace(",", "").replace(";", "")
-                if cleaned_word not in cwe_words:
-                    cwe_words.append(cleaned_word)
-        return " ".join(cwe_words)
+    def clean_result(text):
+        pattern = r'\b(?:cwe-|CWE-|cwe|CWE)(\d+)\b'
+        matches = re.findall(pattern, text, re.IGNORECASE)
+        unique_matches = set(matches)
+        formatted_matches = [f'CWE-{match}' for match in unique_matches]
+        return " ".join(formatted_matches)
 
     @abstractmethod
     def run_prompt(self):

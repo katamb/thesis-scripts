@@ -9,3 +9,5 @@ dataflow_analysis_prompt; J2627; CWE-79; 14.379631519317627s; total_tokens: 865,
 dataflow_analysis_prompt_self_reflection; J2627; CWE-79; 19.3204665184021; total_tokens: 1915, completion_tokens: 421, prompt_tokens: 1494; 0.02757
 dataflow_analysis_prompt; J2630; CWE-79; 18.96355652809143s; total_tokens: 685, completion_tokens: 271, prompt_tokens: 414; 0.01227
 dataflow_analysis_prompt_self_reflection; J2630; ; 24.044480800628662; total_tokens: 1532, completion_tokens: 377, prompt_tokens: 1155; 0.02286
+karl_prompt; J2630; CWE CWE-79; 46.955486536026s; total_tokens: 861, completion_tokens: 607, prompt_tokens: 254; 0.02075
+karl_prompt; J2630; CWE-79; 36.95482349395752s; total_tokens: 722, completion_tokens: 489, prompt_tokens: 233; 0.016999999999999998

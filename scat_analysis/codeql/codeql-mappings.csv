@@ -1,0 +1,1161 @@
+CWE,Language,Query id,Query name
+CWE-20,Java/Kotlin,java/count-untrusted-data-external-api,Frequency counts for external APIs that are used with untrusted data
+CWE-20,Java/Kotlin,java/overly-large-range,Overly permissive regular expression range
+CWE-20,Java/Kotlin,java/untrusted-data-to-external-api,Untrusted data passed to external API
+CWE-20,Java/Kotlin,java/improper-validation-of-array-construction,Improper validation of user-provided size used for array construction
+CWE-20,Java/Kotlin,java/improper-validation-of-array-construction-code-specified,Improper validation of code-specified size used for array construction
+CWE-20,Java/Kotlin,java/improper-validation-of-array-construction-local,Improper validation of local user-provided size used for array construction
+CWE-20,Java/Kotlin,java/improper-validation-of-array-index,Improper validation of user-provided array index
+CWE-20,Java/Kotlin,java/improper-validation-of-array-index-code-specified,Improper validation of code-specified array index
+CWE-20,Java/Kotlin,java/improper-validation-of-array-index-local,Improper validation of local user-provided array index
+CWE-20,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-22,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-22,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-22,Java/Kotlin,java/zipslip,"Arbitrary file access during archive extraction (""Zip Slip"")"
+CWE-22,Java/Kotlin,java/partial-path-traversal,Partial path traversal vulnerability
+CWE-22,Java/Kotlin,java/partial-path-traversal-from-remote,Partial path traversal vulnerability from remote
+CWE-22,Java/Kotlin,java/openstream-called-on-tainted-url,openStream called on URLs created from remote source
+CWE-23,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-23,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-23,Java/Kotlin,java/partial-path-traversal,Partial path traversal vulnerability
+CWE-23,Java/Kotlin,java/partial-path-traversal-from-remote,Partial path traversal vulnerability from remote
+CWE-36,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-36,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-36,Java/Kotlin,java/openstream-called-on-tainted-url,openStream called on URLs created from remote source
+CWE-73,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-73,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-73,Java/Kotlin,java/file-path-injection,File Path Injection
+CWE-74,Java/Kotlin,java/jndi-injection,JNDI lookup with user-controlled name
+CWE-74,Java/Kotlin,java/xslt-injection,XSLT transformation with user-controlled stylesheet
+CWE-74,Java/Kotlin,java/relative-path-command,Executing a command with a relative path
+CWE-74,Java/Kotlin,java/command-line-injection,Uncontrolled command line
+CWE-74,Java/Kotlin,java/command-line-injection-local,Local-user-controlled command line
+CWE-74,Java/Kotlin,java/concatenated-command-line,Building a command line with string concatenation
+CWE-74,Java/Kotlin,java/android/webview-addjavascriptinterface,Access Java object methods through JavaScript exposure
+CWE-74,Java/Kotlin,java/android/websettings-javascript-enabled,Android WebView JavaScript settings
+CWE-74,Java/Kotlin,java/xss,Cross-site scripting
+CWE-74,Java/Kotlin,java/xss-local,Cross-site scripting from local source
+CWE-74,Java/Kotlin,java/concatenated-sql-query,Query built by concatenation with a possibly-untrusted string
+CWE-74,Java/Kotlin,java/sql-injection,Query built from user-controlled sources
+CWE-74,Java/Kotlin,java/sql-injection-local,Query built from local-user-controlled sources
+CWE-74,Java/Kotlin,java/ldap-injection,LDAP query built from user-controlled sources
+CWE-74,Java/Kotlin,java/android/arbitrary-apk-installation,Android APK installation
+CWE-74,Java/Kotlin,java/groovy-injection,Groovy Language injection
+CWE-74,Java/Kotlin,java/insecure-bean-validation,Insecure Bean Validation
+CWE-74,Java/Kotlin,java/jexl-expression-injection,Expression language injection (JEXL)
+CWE-74,Java/Kotlin,java/mvel-expression-injection,Expression language injection (MVEL)
+CWE-74,Java/Kotlin,java/spel-expression-injection,Expression language injection (Spring)
+CWE-74,Java/Kotlin,java/server-side-template-injection,Server-side template injection
+CWE-74,Java/Kotlin,java/netty-http-request-or-response-splitting,Disabled Netty HTTP header validation
+CWE-74,Java/Kotlin,java/http-response-splitting,HTTP response splitting
+CWE-74,Java/Kotlin,java/http-response-splitting-local,HTTP response splitting from local source
+CWE-74,Java/Kotlin,java/tainted-format-string,Use of externally-controlled format string
+CWE-74,Java/Kotlin,java/tainted-format-string-local,Use of externally-controlled format string from local source
+CWE-74,Java/Kotlin,java/xml/xpath-injection,XPath injection
+CWE-74,Java/Kotlin,java/android/unsafe-android-webview-fetch,Unsafe resource fetching in Android WebView
+CWE-74,Java/Kotlin,java/ognl-injection,OGNL Expression Language statement with user-controlled input
+CWE-74,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-74,Java/Kotlin,java/command-line-injection-extra,Command Injection into Runtime.exec() with dangerous command
+CWE-74,Java/Kotlin,java/command-line-injection-extra-local,Command Injection into Runtime.exec() with dangerous command
+CWE-74,Java/Kotlin,java/command-line-injection-experimental,Uncontrolled command line (experimental sinks)
+CWE-74,Java/Kotlin,java/mybatis-annotation-sql-injection,SQL injection in MyBatis annotation
+CWE-74,Java/Kotlin,java/mybatis-xml-sql-injection,SQL injection in MyBatis Mapper XML
+CWE-74,Java/Kotlin,java/beanshell-injection,BeanShell injection
+CWE-74,Java/Kotlin,java/android-insecure-dex-loading,Insecure loading of an Android Dex File
+CWE-74,Java/Kotlin,java/jshell-injection,JShell injection
+CWE-74,Java/Kotlin,java/javaee-expression-injection,Jakarta Expression Language injection
+CWE-74,Java/Kotlin,java/jython-injection,Injection in Jython
+CWE-74,Java/Kotlin,java/unsafe-eval,Injection in Java Script Engine
+CWE-74,Java/Kotlin,java/spring-view-manipulation-implicit,Spring Implicit View Manipulation
+CWE-74,Java/Kotlin,java/spring-view-manipulation,Spring View Manipulation
+CWE-74,Java/Kotlin,java/xquery-injection,XQuery query built from user-controlled sources
+CWE-77,Java/Kotlin,java/relative-path-command,Executing a command with a relative path
+CWE-77,Java/Kotlin,java/command-line-injection,Uncontrolled command line
+CWE-77,Java/Kotlin,java/command-line-injection-local,Local-user-controlled command line
+CWE-77,Java/Kotlin,java/concatenated-command-line,Building a command line with string concatenation
+CWE-77,Java/Kotlin,java/ognl-injection,OGNL Expression Language statement with user-controlled input
+CWE-77,Java/Kotlin,java/command-line-injection-extra,Command Injection into Runtime.exec() with dangerous command
+CWE-77,Java/Kotlin,java/command-line-injection-extra-local,Command Injection into Runtime.exec() with dangerous command
+CWE-77,Java/Kotlin,java/command-line-injection-experimental,Uncontrolled command line (experimental sinks)
+CWE-78,Java/Kotlin,java/relative-path-command,Executing a command with a relative path
+CWE-78,Java/Kotlin,java/command-line-injection,Uncontrolled command line
+CWE-78,Java/Kotlin,java/command-line-injection-local,Local-user-controlled command line
+CWE-78,Java/Kotlin,java/concatenated-command-line,Building a command line with string concatenation
+CWE-78,Java/Kotlin,java/command-line-injection-extra,Command Injection into Runtime.exec() with dangerous command
+CWE-78,Java/Kotlin,java/command-line-injection-extra-local,Command Injection into Runtime.exec() with dangerous command
+CWE-78,Java/Kotlin,java/command-line-injection-experimental,Uncontrolled command line (experimental sinks)
+CWE-79,Java/Kotlin,java/android/webview-addjavascriptinterface,Access Java object methods through JavaScript exposure
+CWE-79,Java/Kotlin,java/android/websettings-javascript-enabled,Android WebView JavaScript settings
+CWE-79,Java/Kotlin,java/xss,Cross-site scripting
+CWE-79,Java/Kotlin,java/xss-local,Cross-site scripting from local source
+CWE-79,Java/Kotlin,java/android/unsafe-android-webview-fetch,Unsafe resource fetching in Android WebView
+CWE-88,Java/Kotlin,java/relative-path-command,Executing a command with a relative path
+CWE-88,Java/Kotlin,java/command-line-injection,Uncontrolled command line
+CWE-88,Java/Kotlin,java/command-line-injection-local,Local-user-controlled command line
+CWE-88,Java/Kotlin,java/concatenated-command-line,Building a command line with string concatenation
+CWE-88,Java/Kotlin,java/command-line-injection-experimental,Uncontrolled command line (experimental sinks)
+CWE-89,Java/Kotlin,java/concatenated-sql-query,Query built by concatenation with a possibly-untrusted string
+CWE-89,Java/Kotlin,java/sql-injection,Query built from user-controlled sources
+CWE-89,Java/Kotlin,java/sql-injection-local,Query built from local-user-controlled sources
+CWE-89,Java/Kotlin,java/mybatis-annotation-sql-injection,SQL injection in MyBatis annotation
+CWE-89,Java/Kotlin,java/mybatis-xml-sql-injection,SQL injection in MyBatis Mapper XML
+CWE-90,Java/Kotlin,java/ldap-injection,LDAP query built from user-controlled sources
+CWE-91,Java/Kotlin,java/xml/xpath-injection,XPath injection
+CWE-91,Java/Kotlin,java/xquery-injection,XQuery query built from user-controlled sources
+CWE-93,Java/Kotlin,java/netty-http-request-or-response-splitting,Disabled Netty HTTP header validation
+CWE-93,Java/Kotlin,java/http-response-splitting,HTTP response splitting
+CWE-93,Java/Kotlin,java/http-response-splitting-local,HTTP response splitting from local source
+CWE-94,Java/Kotlin,java/android/arbitrary-apk-installation,Android APK installation
+CWE-94,Java/Kotlin,java/groovy-injection,Groovy Language injection
+CWE-94,Java/Kotlin,java/insecure-bean-validation,Insecure Bean Validation
+CWE-94,Java/Kotlin,java/jexl-expression-injection,Expression language injection (JEXL)
+CWE-94,Java/Kotlin,java/mvel-expression-injection,Expression language injection (MVEL)
+CWE-94,Java/Kotlin,java/spel-expression-injection,Expression language injection (Spring)
+CWE-94,Java/Kotlin,java/server-side-template-injection,Server-side template injection
+CWE-94,Java/Kotlin,java/beanshell-injection,BeanShell injection
+CWE-94,Java/Kotlin,java/android-insecure-dex-loading,Insecure loading of an Android Dex File
+CWE-94,Java/Kotlin,java/jshell-injection,JShell injection
+CWE-94,Java/Kotlin,java/javaee-expression-injection,Jakarta Expression Language injection
+CWE-94,Java/Kotlin,java/jython-injection,Injection in Jython
+CWE-94,Java/Kotlin,java/unsafe-eval,Injection in Java Script Engine
+CWE-94,Java/Kotlin,java/spring-view-manipulation-implicit,Spring Implicit View Manipulation
+CWE-94,Java/Kotlin,java/spring-view-manipulation,Spring View Manipulation
+CWE-95,Java/Kotlin,java/jython-injection,Injection in Jython
+CWE-113,Java/Kotlin,java/netty-http-request-or-response-splitting,Disabled Netty HTTP header validation
+CWE-113,Java/Kotlin,java/http-response-splitting,HTTP response splitting
+CWE-113,Java/Kotlin,java/http-response-splitting-local,HTTP response splitting from local source
+CWE-116,Java/Kotlin,java/log-injection,Log Injection
+CWE-117,Java/Kotlin,java/log-injection,Log Injection
+CWE-129,Java/Kotlin,java/improper-validation-of-array-construction,Improper validation of user-provided size used for array construction
+CWE-129,Java/Kotlin,java/improper-validation-of-array-construction-code-specified,Improper validation of code-specified size used for array construction
+CWE-129,Java/Kotlin,java/improper-validation-of-array-construction-local,Improper validation of local user-provided size used for array construction
+CWE-129,Java/Kotlin,java/improper-validation-of-array-index,Improper validation of user-provided array index
+CWE-129,Java/Kotlin,java/improper-validation-of-array-index-code-specified,Improper validation of code-specified array index
+CWE-129,Java/Kotlin,java/improper-validation-of-array-index-local,Improper validation of local user-provided array index
+CWE-134,Java/Kotlin,java/tainted-format-string,Use of externally-controlled format string
+CWE-134,Java/Kotlin,java/tainted-format-string-local,Use of externally-controlled format string from local source
+CWE-185,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-190,Java/Kotlin,java/implicit-cast-in-compound-assignment,Implicit narrowing conversion in compound assignment
+CWE-190,Java/Kotlin,java/integer-multiplication-cast-to-long,Result of multiplication cast to wider type
+CWE-190,Java/Kotlin,java/tainted-arithmetic,User-controlled data in arithmetic expression
+CWE-190,Java/Kotlin,java/tainted-arithmetic-local,Local-user-controlled data in arithmetic expression
+CWE-190,Java/Kotlin,java/uncontrolled-arithmetic,Uncontrolled data in arithmetic expression
+CWE-190,Java/Kotlin,java/extreme-value-arithmetic,Use of extreme values in arithmetic expression
+CWE-190,Java/Kotlin,java/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition
+CWE-191,Java/Kotlin,java/tainted-arithmetic,User-controlled data in arithmetic expression
+CWE-191,Java/Kotlin,java/tainted-arithmetic-local,Local-user-controlled data in arithmetic expression
+CWE-191,Java/Kotlin,java/uncontrolled-arithmetic,Uncontrolled data in arithmetic expression
+CWE-191,Java/Kotlin,java/extreme-value-arithmetic,Use of extreme values in arithmetic expression
+CWE-193,Java/Kotlin,java/index-out-of-bounds,Array index out of bounds
+CWE-197,Java/Kotlin,java/implicit-cast-in-compound-assignment,Implicit narrowing conversion in compound assignment
+CWE-197,Java/Kotlin,java/integer-multiplication-cast-to-long,Result of multiplication cast to wider type
+CWE-197,Java/Kotlin,java/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition
+CWE-197,Java/Kotlin,java/tainted-numeric-cast,User-controlled data in numeric cast
+CWE-197,Java/Kotlin,java/tainted-numeric-cast-local,Local-user-controlled data in numeric cast
+CWE-200,Java/Kotlin,java/android/websettings-allow-content-access,Android WebView settings allows access to content links
+CWE-200,Java/Kotlin,java/android/websettings-file-access,Android WebSettings file access
+CWE-200,Java/Kotlin,java/local-temp-file-or-directory-information-disclosure,Local information disclosure in a temporary directory
+CWE-200,Java/Kotlin,java/stack-trace-exposure,Information exposure through a stack trace
+CWE-200,Java/Kotlin,java/android/sensitive-keyboard-cache,Android sensitive keyboard cache
+CWE-200,Java/Kotlin,java/sensitive-log,Insertion of sensitive information into log files
+CWE-200,Java/Kotlin,java/insecure-webview-resource-response,Insecure Android WebView Resource Response
+CWE-200,Java/Kotlin,java/sensitive-android-file-leak,Leaking sensitive Android file
+CWE-200,Java/Kotlin,java/possible-timing-attack-against-signature,Possible timing attack against signature validation
+CWE-200,Java/Kotlin,java/timing-attack-against-headers-value,Timing attack against header value
+CWE-200,Java/Kotlin,java/timing-attack-against-signature,Timing attack against signature validation
+CWE-200,Java/Kotlin,java/server-directory-listing,Directories and files exposure
+CWE-200,Java/Kotlin,java/sensitive-query-with-get,Sensitive GET Query
+CWE-203,Java/Kotlin,java/possible-timing-attack-against-signature,Possible timing attack against signature validation
+CWE-203,Java/Kotlin,java/timing-attack-against-headers-value,Timing attack against header value
+CWE-203,Java/Kotlin,java/timing-attack-against-signature,Timing attack against signature validation
+CWE-208,Java/Kotlin,java/possible-timing-attack-against-signature,Possible timing attack against signature validation
+CWE-208,Java/Kotlin,java/timing-attack-against-headers-value,Timing attack against header value
+CWE-208,Java/Kotlin,java/timing-attack-against-signature,Timing attack against signature validation
+CWE-209,Java/Kotlin,java/stack-trace-exposure,Information exposure through a stack trace
+CWE-221,Java/Kotlin,java/overly-general-catch,Overly-general catch clause
+CWE-227,Java/Kotlin,java/ejb/container-interference,EJB interferes with container operation
+CWE-227,Java/Kotlin,java/ejb/file-io,EJB uses file input/output
+CWE-227,Java/Kotlin,java/ejb/graphics,EJB uses graphics
+CWE-227,Java/Kotlin,java/ejb/native-code,EJB uses native code
+CWE-227,Java/Kotlin,java/ejb/reflection,EJB uses reflection
+CWE-227,Java/Kotlin,java/ejb/security-configuration-access,EJB accesses security configuration
+CWE-227,Java/Kotlin,java/ejb/substitution-in-serialization,EJB uses substitution in serialization
+CWE-227,Java/Kotlin,java/ejb/socket-or-stream-handler-factory,EJB sets socket factory or URL stream handler factory
+CWE-227,Java/Kotlin,java/ejb/server-socket,EJB uses server socket
+CWE-227,Java/Kotlin,java/ejb/non-final-static-field,EJB uses non-final static field
+CWE-227,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-227,Java/Kotlin,java/ejb/this,EJB uses 'this' as argument or result
+CWE-227,Java/Kotlin,java/ejb/threads,EJB uses threads
+CWE-227,Java/Kotlin,java/missing-call-to-super-clone,Missing super clone
+CWE-227,Java/Kotlin,java/inconsistent-equals-and-hashcode,Inconsistent equals and hashCode
+CWE-227,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-227,Java/Kotlin,java/missing-super-finalize,Finalizer inconsistency
+CWE-227,Java/Kotlin,java/missing-format-argument,Missing format argument
+CWE-227,Java/Kotlin,java/unused-format-argument,Unused format argument
+CWE-227,Java/Kotlin,java/static-initialization-vector,Using a static initialization vector for encryption
+CWE-227,Java/Kotlin,java/empty-finalizer,Empty body of finalizer
+CWE-248,Java/Kotlin,java/uncaught-number-format-exception,Missing catch of NumberFormatException
+CWE-248,Java/Kotlin,java/uncaught-servlet-exception,Uncaught Servlet Exception
+CWE-252,Java/Kotlin,java/inconsistent-call-on-result,Inconsistent operation on return value
+CWE-252,Java/Kotlin,java/return-value-ignored,Method result ignored
+CWE-256,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-256,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-260,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-260,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-266,Java/Kotlin,java/android/intent-uri-permission-manipulation,Intent URI permission manipulation
+CWE-269,Java/Kotlin,java/android/intent-uri-permission-manipulation,Intent URI permission manipulation
+CWE-269,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-271,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-273,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-284,Java/Kotlin,java/local-temp-file-or-directory-information-disclosure,Local information disclosure in a temporary directory
+CWE-284,Java/Kotlin,java/android/intent-uri-permission-manipulation,Intent URI permission manipulation
+CWE-284,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-284,Java/Kotlin,java/insecure-smtp-ssl,Insecure JavaMail SSL Configuration
+CWE-284,Java/Kotlin,java/unsafe-hostname-verification,Unsafe hostname verification
+CWE-284,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-284,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-284,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-284,Java/Kotlin,java/world-writable-file-read,Reading from a world writable file
+CWE-284,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-284,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-284,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-284,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-284,Java/Kotlin,java/user-controlled-bypass,User-controlled bypass of sensitive method
+CWE-284,Java/Kotlin,java/tainted-permissions-check,User-controlled data used in permissions check
+CWE-284,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-284,Java/Kotlin,java/improper-intent-verification,Improper verification of intent by broadcast receiver
+CWE-284,Java/Kotlin,java/android/incomplete-provider-permissions,Missing read or write permission in a content provider
+CWE-284,Java/Kotlin,java/android/implicitly-exported-component,Implicitly exported Android component
+CWE-284,Java/Kotlin,java/android/implicit-pendingintents,Use of implicit PendingIntents
+CWE-284,Java/Kotlin,java/android/sensitive-communication,Leaking sensitive information through an implicit Intent
+CWE-284,Java/Kotlin,java/android/sensitive-result-receiver,Leaking sensitive information through a ResultReceiver
+CWE-284,Java/Kotlin,java/android/intent-redirection,Android Intent redirection
+CWE-284,Java/Kotlin,java/ignored-hostname-verification,Ignored result of hostname verification
+CWE-284,Java/Kotlin,java/insecure-ldaps-endpoint,Insecure LDAPS Endpoint Configuration
+CWE-284,Java/Kotlin,java/unvalidated-cors-origin-set,CORS is derived from untrusted input
+CWE-284,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-284,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-284,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-284,Java/Kotlin,java/incorrect-url-verification,Incorrect URL verification
+CWE-285,Java/Kotlin,java/local-temp-file-or-directory-information-disclosure,Local information disclosure in a temporary directory
+CWE-285,Java/Kotlin,java/android/intent-uri-permission-manipulation,Intent URI permission manipulation
+CWE-285,Java/Kotlin,java/world-writable-file-read,Reading from a world writable file
+CWE-285,Java/Kotlin,java/android/incomplete-provider-permissions,Missing read or write permission in a content provider
+CWE-285,Java/Kotlin,java/android/implicitly-exported-component,Implicitly exported Android component
+CWE-285,Java/Kotlin,java/android/implicit-pendingintents,Use of implicit PendingIntents
+CWE-285,Java/Kotlin,java/android/sensitive-communication,Leaking sensitive information through an implicit Intent
+CWE-285,Java/Kotlin,java/android/sensitive-result-receiver,Leaking sensitive information through a ResultReceiver
+CWE-285,Java/Kotlin,java/android/intent-redirection,Android Intent redirection
+CWE-285,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-285,Java/Kotlin,java/incorrect-url-verification,Incorrect URL verification
+CWE-287,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-287,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-287,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-287,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-287,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-287,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-287,Java/Kotlin,java/user-controlled-bypass,User-controlled bypass of sensitive method
+CWE-287,Java/Kotlin,java/tainted-permissions-check,User-controlled data used in permissions check
+CWE-287,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-287,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-290,Java/Kotlin,java/user-controlled-bypass,User-controlled bypass of sensitive method
+CWE-290,Java/Kotlin,java/tainted-permissions-check,User-controlled data used in permissions check
+CWE-295,Java/Kotlin,java/android/missing-certificate-pinning,Android missing certificate pinning
+CWE-295,Java/Kotlin,java/improper-webview-certificate-validation,Android WebView that accepts all certificates
+CWE-295,Java/Kotlin,java/insecure-trustmanager,TrustManager that accepts all certificates
+CWE-295,Java/Kotlin,java/insecure-smtp-ssl,Insecure JavaMail SSL Configuration
+CWE-295,Java/Kotlin,java/unsafe-hostname-verification,Unsafe hostname verification
+CWE-295,Java/Kotlin,java/jxbrowser/disabled-certificate-validation,JxBrowser with disabled certificate validation
+CWE-295,Java/Kotlin,java/ignored-hostname-verification,Ignored result of hostname verification
+CWE-295,Java/Kotlin,java/insecure-ldaps-endpoint,Insecure LDAPS Endpoint Configuration
+CWE-295,Java/Kotlin,java/disabled-certificate-revocation-checking,Disabled certificate revocation checking
+CWE-297,Java/Kotlin,java/insecure-smtp-ssl,Insecure JavaMail SSL Configuration
+CWE-297,Java/Kotlin,java/unsafe-hostname-verification,Unsafe hostname verification
+CWE-297,Java/Kotlin,java/ignored-hostname-verification,Ignored result of hostname verification
+CWE-297,Java/Kotlin,java/insecure-ldaps-endpoint,Insecure LDAPS Endpoint Configuration
+CWE-299,Java/Kotlin,java/disabled-certificate-revocation-checking,Disabled certificate revocation checking
+CWE-300,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-311,Java/Kotlin,java/android/backup-enabled,Application backup allowed
+CWE-311,Java/Kotlin,java/android/cleartext-storage-database,Cleartext storage of sensitive information using a local database on Android
+CWE-311,Java/Kotlin,java/android/cleartext-storage-filesystem,Cleartext storage of sensitive information in the Android filesystem
+CWE-311,Java/Kotlin,java/cleartext-storage-in-class,Cleartext storage of sensitive information using storable class
+CWE-311,Java/Kotlin,java/cleartext-storage-in-cookie,Cleartext storage of sensitive information in cookie
+CWE-311,Java/Kotlin,java/cleartext-storage-in-properties,Cleartext storage of sensitive information using 'Properties' class
+CWE-311,Java/Kotlin,java/android/cleartext-storage-shared-prefs,Cleartext storage of sensitive information using SharedPreferences on Android
+CWE-311,Java/Kotlin,java/non-https-url,Failure to use HTTPS URLs
+CWE-311,Java/Kotlin,java/non-ssl-connection,Failure to use SSL
+CWE-311,Java/Kotlin,java/non-ssl-socket-factory,Failure to use SSL socket factories
+CWE-311,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-311,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-311,Java/Kotlin,java/insecure-cookie,Failure to use secure cookies
+CWE-311,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-312,Java/Kotlin,java/android/backup-enabled,Application backup allowed
+CWE-312,Java/Kotlin,java/android/cleartext-storage-database,Cleartext storage of sensitive information using a local database on Android
+CWE-312,Java/Kotlin,java/android/cleartext-storage-filesystem,Cleartext storage of sensitive information in the Android filesystem
+CWE-312,Java/Kotlin,java/cleartext-storage-in-class,Cleartext storage of sensitive information using storable class
+CWE-312,Java/Kotlin,java/cleartext-storage-in-cookie,Cleartext storage of sensitive information in cookie
+CWE-312,Java/Kotlin,java/cleartext-storage-in-properties,Cleartext storage of sensitive information using 'Properties' class
+CWE-312,Java/Kotlin,java/android/cleartext-storage-shared-prefs,Cleartext storage of sensitive information using SharedPreferences on Android
+CWE-313,Java/Kotlin,java/cleartext-storage-in-properties,Cleartext storage of sensitive information using 'Properties' class
+CWE-315,Java/Kotlin,java/cleartext-storage-in-cookie,Cleartext storage of sensitive information in cookie
+CWE-319,Java/Kotlin,java/non-https-url,Failure to use HTTPS URLs
+CWE-319,Java/Kotlin,java/non-ssl-connection,Failure to use SSL
+CWE-319,Java/Kotlin,java/non-ssl-socket-factory,Failure to use SSL socket factories
+CWE-319,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-319,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-319,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-326,Java/Kotlin,java/insufficient-key-size,Use of a cryptographic algorithm with insufficient key size
+CWE-326,Java/Kotlin,java/weak-cryptographic-algorithm,Use of a broken or risky cryptographic algorithm
+CWE-326,Java/Kotlin,java/potentially-weak-cryptographic-algorithm,Use of a potentially broken or risky cryptographic algorithm
+CWE-327,Java/Kotlin,java/weak-cryptographic-algorithm,Use of a broken or risky cryptographic algorithm
+CWE-327,Java/Kotlin,java/potentially-weak-cryptographic-algorithm,Use of a potentially broken or risky cryptographic algorithm
+CWE-327,Java/Kotlin,java/rsa-without-oaep,Use of RSA algorithm without OAEP
+CWE-327,Java/Kotlin,java/azure-storage/unsafe-client-side-encryption-in-use,Unsafe usage of v1 version of Azure Storage client-side encryption (CVE-2022-30187).
+CWE-327,Java/Kotlin,java/unsafe-tls-version,Unsafe TLS version
+CWE-327,Java/Kotlin,java/hash-without-salt,Use of a hash function without a salt
+CWE-328,Java/Kotlin,java/weak-cryptographic-algorithm,Use of a broken or risky cryptographic algorithm
+CWE-328,Java/Kotlin,java/potentially-weak-cryptographic-algorithm,Use of a potentially broken or risky cryptographic algorithm
+CWE-329,Java/Kotlin,java/static-initialization-vector,Using a static initialization vector for encryption
+CWE-330,Java/Kotlin,java/random-used-once,Random used only once
+CWE-330,Java/Kotlin,java/static-initialization-vector,Using a static initialization vector for encryption
+CWE-330,Java/Kotlin,java/predictable-seed,Use of a predictable seed in a secure random number generator
+CWE-330,Java/Kotlin,java/jhipster-prng,Detect JHipster Generator Vulnerability CVE-2019-16303
+CWE-330,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-330,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-330,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-330,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-335,Java/Kotlin,java/random-used-once,Random used only once
+CWE-335,Java/Kotlin,java/predictable-seed,Use of a predictable seed in a secure random number generator
+CWE-337,Java/Kotlin,java/predictable-seed,Use of a predictable seed in a secure random number generator
+CWE-338,Java/Kotlin,java/jhipster-prng,Detect JHipster Generator Vulnerability CVE-2019-16303
+CWE-344,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-344,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-344,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-344,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-345,Java/Kotlin,java/missing-jwt-signature-check,Missing JWT signature check
+CWE-345,Java/Kotlin,java/spring-disabled-csrf-protection,Disabled Spring CSRF protection
+CWE-345,Java/Kotlin,java/unvalidated-cors-origin-set,CORS is derived from untrusted input
+CWE-345,Java/Kotlin,java/ip-address-spoofing,IP address spoofing
+CWE-345,Java/Kotlin,java/jsonp-injection,JSONP Injection
+CWE-346,Java/Kotlin,java/unvalidated-cors-origin-set,CORS is derived from untrusted input
+CWE-347,Java/Kotlin,java/missing-jwt-signature-check,Missing JWT signature check
+CWE-348,Java/Kotlin,java/ip-address-spoofing,IP address spoofing
+CWE-352,Java/Kotlin,java/spring-disabled-csrf-protection,Disabled Spring CSRF protection
+CWE-352,Java/Kotlin,java/jsonp-injection,JSONP Injection
+CWE-362,Java/Kotlin,java/toctou-race-condition,Time-of-check time-of-use race condition
+CWE-362,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-367,Java/Kotlin,java/toctou-race-condition,Time-of-check time-of-use race condition
+CWE-382,Java/Kotlin,java/ejb/container-interference,EJB interferes with container operation
+CWE-382,Java/Kotlin,java/jvm-exit,Forcible JVM termination
+CWE-383,Java/Kotlin,java/ejb/threads,EJB uses threads
+CWE-391,Java/Kotlin,java/discarded-exception,Discarded exception
+CWE-391,Java/Kotlin,java/ignored-error-status-of-call,Ignored error status of call
+CWE-396,Java/Kotlin,java/overly-general-catch,Overly-general catch clause
+CWE-398,Java/Kotlin,java/deprecated-call,Deprecated method or constructor invocation
+CWE-398,Java/Kotlin,java/dead-class,Dead class
+CWE-398,Java/Kotlin,java/dead-enum-constant,Dead enum constant
+CWE-398,Java/Kotlin,java/dead-field,Dead field
+CWE-398,Java/Kotlin,java/dead-function,Dead method
+CWE-398,Java/Kotlin,java/lines-of-dead-code,Lines of dead code in files
+CWE-398,Java/Kotlin,java/unused-parameter,Useless parameter
+CWE-398,Java/Kotlin,java/useless-null-check,Useless null check
+CWE-398,Java/Kotlin,java/useless-type-test,Useless type test
+CWE-398,Java/Kotlin,java/useless-upcast,Useless upcast
+CWE-398,Java/Kotlin,java/empty-container,Container contents are never initialized
+CWE-398,Java/Kotlin,java/unused-container,Container contents are never accessed
+CWE-398,Java/Kotlin,java/constant-comparison,Useless comparison test
+CWE-398,Java/Kotlin,java/dereferenced-value-is-always-null,Dereferenced variable is always null
+CWE-398,Java/Kotlin,java/dereferenced-expr-may-be-null,Dereferenced expression may be null
+CWE-398,Java/Kotlin,java/dereferenced-value-may-be-null,Dereferenced variable may be null
+CWE-398,Java/Kotlin,java/empty-synchronized-block,Empty synchronized block
+CWE-398,Java/Kotlin,java/unreachable-catch-clause,Unreachable catch clause
+CWE-398,Java/Kotlin,java/potentially-dangerous-function,Use of a potentially dangerous function
+CWE-398,Java/Kotlin,java/todo-comment,TODO/FIXME comments
+CWE-398,Java/Kotlin,java/unused-reference-type,Unused classes and interfaces
+CWE-398,Java/Kotlin,java/overwritten-assignment-to-local,Assigned value is overwritten
+CWE-398,Java/Kotlin,java/useless-assignment-to-local,Useless assignment to local variable
+CWE-398,Java/Kotlin,java/unused-initialized-local,Local variable is initialized but not used
+CWE-398,Java/Kotlin,java/local-variable-is-never-read,Unread local variable
+CWE-398,Java/Kotlin,java/unused-field,Unused field
+CWE-398,Java/Kotlin,java/unused-label,Unused label
+CWE-398,Java/Kotlin,java/unused-local-variable,Unused local variable
+CWE-398,Java/Kotlin,java/switch-fall-through,Unterminated switch case
+CWE-398,Java/Kotlin,java/redundant-cast,Unnecessary cast
+CWE-398,Java/Kotlin,java/unused-import,Unnecessary import
+CWE-400,Java/Kotlin,java/input-resource-leak,Potential input resource leak
+CWE-400,Java/Kotlin,java/database-resource-leak,Potential database resource leak
+CWE-400,Java/Kotlin,java/output-resource-leak,Potential output resource leak
+CWE-400,Java/Kotlin,java/polynomial-redos,Polynomial regular expression used on uncontrolled data
+CWE-400,Java/Kotlin,java/redos,Inefficient regular expression
+CWE-400,Java/Kotlin,java/regex-injection,Regular expression injection
+CWE-400,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-400,Java/Kotlin,java/local-thread-resource-abuse,Uncontrolled thread resource consumption from local input source
+CWE-400,Java/Kotlin,java/thread-resource-abuse,Uncontrolled thread resource consumption
+CWE-404,Java/Kotlin,java/missing-super-finalize,Finalizer inconsistency
+CWE-404,Java/Kotlin,java/input-resource-leak,Potential input resource leak
+CWE-404,Java/Kotlin,java/database-resource-leak,Potential database resource leak
+CWE-404,Java/Kotlin,java/output-resource-leak,Potential output resource leak
+CWE-404,Java/Kotlin,java/empty-finalizer,Empty body of finalizer
+CWE-404,Java/Kotlin,java/disabled-certificate-revocation-checking,Disabled certificate revocation checking
+CWE-405,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-405,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-409,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-409,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-413,Java/Kotlin,java/unsynchronized-getter,Inconsistent synchronization of getter and setter
+CWE-420,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-421,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-441,Java/Kotlin,java/android/unsafe-content-uri-resolution,Uncontrolled data used in content resolution
+CWE-441,Java/Kotlin,java/ssrf,Server-side request forgery
+CWE-457,Java/Kotlin,java/unassigned-field,Field is never assigned a non-null value
+CWE-459,Java/Kotlin,java/missing-super-finalize,Finalizer inconsistency
+CWE-459,Java/Kotlin,java/empty-finalizer,Empty body of finalizer
+CWE-470,Java/Kotlin,java/android/fragment-injection,Android fragment injection
+CWE-470,Java/Kotlin,java/android/fragment-injection-preference-activity,Android fragment injection in PreferenceActivity
+CWE-470,Java/Kotlin,java/unsafe-reflection,Use of externally-controlled input to select classes or code ('unsafe reflection')
+CWE-476,Java/Kotlin,java/dereferenced-value-is-always-null,Dereferenced variable is always null
+CWE-476,Java/Kotlin,java/dereferenced-expr-may-be-null,Dereferenced expression may be null
+CWE-476,Java/Kotlin,java/dereferenced-value-may-be-null,Dereferenced variable may be null
+CWE-477,Java/Kotlin,java/deprecated-call,Deprecated method or constructor invocation
+CWE-478,Java/Kotlin,java/missing-default-in-switch,Missing default case in switch
+CWE-478,Java/Kotlin,java/missing-case-in-switch,Missing enum case in switch
+CWE-480,Java/Kotlin,java/assignment-in-boolean-expression,Assignment in Boolean expression
+CWE-480,Java/Kotlin,java/reference-equality-on-strings,Reference equality test on strings
+CWE-481,Java/Kotlin,java/assignment-in-boolean-expression,Assignment in Boolean expression
+CWE-484,Java/Kotlin,java/switch-fall-through,Unterminated switch case
+CWE-485,Java/Kotlin,java/missing-call-to-super-clone,Missing super clone
+CWE-485,Java/Kotlin,java/cleartext-storage-in-class,Cleartext storage of sensitive information using storable class
+CWE-485,Java/Kotlin,java/android/debuggable-attribute-enabled,Android debuggable attribute enabled
+CWE-485,Java/Kotlin,java/android/webview-debugging-enabled,Android Webview debugging enabled
+CWE-485,Java/Kotlin,java/trust-boundary-violation,Trust boundary violation
+CWE-485,Java/Kotlin,java/android/unsafe-android-webview-fetch,Unsafe resource fetching in Android WebView
+CWE-485,Java/Kotlin,java/abstract-to-concrete-cast,Cast from abstract to concrete collection
+CWE-485,Java/Kotlin,java/internal-representation-exposure,Exposing internal representation
+CWE-485,Java/Kotlin,java/main-method-in-enterprise-bean,Main Method in Enterprise Java Bean
+CWE-485,Java/Kotlin,java/main-method-in-web-components,Main Method in Java EE Web Components
+CWE-485,Java/Kotlin,java/struts-development-mode,Apache Struts development mode enabled
+CWE-489,Java/Kotlin,java/android/debuggable-attribute-enabled,Android debuggable attribute enabled
+CWE-489,Java/Kotlin,java/android/webview-debugging-enabled,Android Webview debugging enabled
+CWE-489,Java/Kotlin,java/main-method-in-enterprise-bean,Main Method in Enterprise Java Bean
+CWE-489,Java/Kotlin,java/main-method-in-web-components,Main Method in Java EE Web Components
+CWE-489,Java/Kotlin,java/struts-development-mode,Apache Struts development mode enabled
+CWE-494,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-497,Java/Kotlin,java/stack-trace-exposure,Information exposure through a stack trace
+CWE-499,Java/Kotlin,java/cleartext-storage-in-class,Cleartext storage of sensitive information using storable class
+CWE-501,Java/Kotlin,java/trust-boundary-violation,Trust boundary violation
+CWE-502,Java/Kotlin,java/unsafe-deserialization,Deserialization of user-controlled data
+CWE-502,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-502,Java/Kotlin,java/unsafe-deserialization-rmi,Unsafe deserialization in a remotely callable method.
+CWE-502,Java/Kotlin,java/unsafe-deserialization-spring-exporter-in-configuration-class,Unsafe deserialization with Spring's remote service exporters.
+CWE-502,Java/Kotlin,java/unsafe-deserialization-spring-exporter-in-xml-configuration,Unsafe deserialization with Spring's remote service exporters.
+CWE-522,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-522,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-522,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-522,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-524,Java/Kotlin,java/android/sensitive-keyboard-cache,Android sensitive keyboard cache
+CWE-532,Java/Kotlin,java/sensitive-log,Insertion of sensitive information into log files
+CWE-538,Java/Kotlin,java/sensitive-log,Insertion of sensitive information into log files
+CWE-538,Java/Kotlin,java/server-directory-listing,Directories and files exposure
+CWE-543,Java/Kotlin,java/lazy-initialization,Incorrect lazy initialization of a static field
+CWE-546,Java/Kotlin,java/todo-comment,TODO/FIXME comments
+CWE-548,Java/Kotlin,java/server-directory-listing,Directories and files exposure
+CWE-552,Java/Kotlin,java/sensitive-log,Insertion of sensitive information into log files
+CWE-552,Java/Kotlin,java/server-directory-listing,Directories and files exposure
+CWE-552,Java/Kotlin,java/unsafe-url-forward-dispatch-load,"Unsafe URL forward, dispatch, or load from remote source"
+CWE-555,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-555,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-561,Java/Kotlin,java/dead-class,Dead class
+CWE-561,Java/Kotlin,java/dead-enum-constant,Dead enum constant
+CWE-561,Java/Kotlin,java/dead-field,Dead field
+CWE-561,Java/Kotlin,java/dead-function,Dead method
+CWE-561,Java/Kotlin,java/lines-of-dead-code,Lines of dead code in files
+CWE-561,Java/Kotlin,java/unused-parameter,Useless parameter
+CWE-561,Java/Kotlin,java/useless-null-check,Useless null check
+CWE-561,Java/Kotlin,java/useless-type-test,Useless type test
+CWE-561,Java/Kotlin,java/useless-upcast,Useless upcast
+CWE-561,Java/Kotlin,java/empty-container,Container contents are never initialized
+CWE-561,Java/Kotlin,java/unused-container,Container contents are never accessed
+CWE-561,Java/Kotlin,java/constant-comparison,Useless comparison test
+CWE-561,Java/Kotlin,java/unreachable-catch-clause,Unreachable catch clause
+CWE-561,Java/Kotlin,java/unused-reference-type,Unused classes and interfaces
+CWE-561,Java/Kotlin,java/useless-assignment-to-local,Useless assignment to local variable
+CWE-561,Java/Kotlin,java/local-variable-is-never-read,Unread local variable
+CWE-561,Java/Kotlin,java/unused-field,Unused field
+CWE-561,Java/Kotlin,java/unused-label,Unused label
+CWE-561,Java/Kotlin,java/redundant-cast,Unnecessary cast
+CWE-561,Java/Kotlin,java/unused-import,Unnecessary import
+CWE-563,Java/Kotlin,java/overwritten-assignment-to-local,Assigned value is overwritten
+CWE-563,Java/Kotlin,java/unused-initialized-local,Local variable is initialized but not used
+CWE-563,Java/Kotlin,java/unused-local-variable,Unused local variable
+CWE-564,Java/Kotlin,java/concatenated-sql-query,Query built by concatenation with a possibly-untrusted string
+CWE-564,Java/Kotlin,java/sql-injection,Query built from user-controlled sources
+CWE-564,Java/Kotlin,java/sql-injection-local,Query built from local-user-controlled sources
+CWE-568,Java/Kotlin,java/missing-super-finalize,Finalizer inconsistency
+CWE-568,Java/Kotlin,java/empty-finalizer,Empty body of finalizer
+CWE-570,Java/Kotlin,java/constant-comparison,Useless comparison test
+CWE-571,Java/Kotlin,java/constant-comparison,Useless comparison test
+CWE-572,Java/Kotlin,java/call-to-thread-run,Direct call to a run() method
+CWE-573,Java/Kotlin,java/ejb/container-interference,EJB interferes with container operation
+CWE-573,Java/Kotlin,java/ejb/file-io,EJB uses file input/output
+CWE-573,Java/Kotlin,java/ejb/graphics,EJB uses graphics
+CWE-573,Java/Kotlin,java/ejb/native-code,EJB uses native code
+CWE-573,Java/Kotlin,java/ejb/reflection,EJB uses reflection
+CWE-573,Java/Kotlin,java/ejb/security-configuration-access,EJB accesses security configuration
+CWE-573,Java/Kotlin,java/ejb/substitution-in-serialization,EJB uses substitution in serialization
+CWE-573,Java/Kotlin,java/ejb/socket-or-stream-handler-factory,EJB sets socket factory or URL stream handler factory
+CWE-573,Java/Kotlin,java/ejb/server-socket,EJB uses server socket
+CWE-573,Java/Kotlin,java/ejb/non-final-static-field,EJB uses non-final static field
+CWE-573,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-573,Java/Kotlin,java/ejb/this,EJB uses 'this' as argument or result
+CWE-573,Java/Kotlin,java/ejb/threads,EJB uses threads
+CWE-573,Java/Kotlin,java/missing-call-to-super-clone,Missing super clone
+CWE-573,Java/Kotlin,java/inconsistent-equals-and-hashcode,Inconsistent equals and hashCode
+CWE-573,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-573,Java/Kotlin,java/missing-super-finalize,Finalizer inconsistency
+CWE-573,Java/Kotlin,java/missing-format-argument,Missing format argument
+CWE-573,Java/Kotlin,java/unused-format-argument,Unused format argument
+CWE-573,Java/Kotlin,java/static-initialization-vector,Using a static initialization vector for encryption
+CWE-573,Java/Kotlin,java/empty-finalizer,Empty body of finalizer
+CWE-574,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-575,Java/Kotlin,java/ejb/graphics,EJB uses graphics
+CWE-576,Java/Kotlin,java/ejb/file-io,EJB uses file input/output
+CWE-577,Java/Kotlin,java/ejb/socket-or-stream-handler-factory,EJB sets socket factory or URL stream handler factory
+CWE-577,Java/Kotlin,java/ejb/server-socket,EJB uses server socket
+CWE-578,Java/Kotlin,java/ejb/container-interference,EJB interferes with container operation
+CWE-580,Java/Kotlin,java/missing-call-to-super-clone,Missing super clone
+CWE-581,Java/Kotlin,java/inconsistent-equals-and-hashcode,Inconsistent equals and hashCode
+CWE-582,Java/Kotlin,java/static-array,Array constant vulnerable to change
+CWE-584,Java/Kotlin,java/abnormal-finally-completion,Finally block may not complete normally
+CWE-585,Java/Kotlin,java/empty-synchronized-block,Empty synchronized block
+CWE-592,Java/Kotlin,java/user-controlled-bypass,User-controlled bypass of sensitive method
+CWE-592,Java/Kotlin,java/tainted-permissions-check,User-controlled data used in permissions check
+CWE-595,Java/Kotlin,java/reference-equality-with-object,Reference equality test on java.lang.Object
+CWE-595,Java/Kotlin,java/reference-equality-of-boxed-types,Reference equality test of boxed types
+CWE-595,Java/Kotlin,java/reference-equality-on-strings,Reference equality test on strings
+CWE-597,Java/Kotlin,java/reference-equality-on-strings,Reference equality test on strings
+CWE-598,Java/Kotlin,java/sensitive-query-with-get,Sensitive GET Query
+CWE-600,Java/Kotlin,java/uncaught-servlet-exception,Uncaught Servlet Exception
+CWE-601,Java/Kotlin,java/unvalidated-url-redirection,URL redirection from remote source
+CWE-601,Java/Kotlin,java/unvalidated-url-redirection-local,URL redirection from local source
+CWE-601,Java/Kotlin,java/spring-unvalidated-url-redirection,Spring url redirection from remote source
+CWE-609,Java/Kotlin,java/unsafe-double-checked-locking,Double-checked locking is not thread-safe
+CWE-609,Java/Kotlin,java/unsafe-double-checked-locking-init-order,Race condition in double-checked locking object initialization
+CWE-609,Java/Kotlin,java/lazy-initialization,Incorrect lazy initialization of a static field
+CWE-610,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-610,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-610,Java/Kotlin,java/android/unsafe-content-uri-resolution,Uncontrolled data used in content resolution
+CWE-610,Java/Kotlin,java/android/fragment-injection,Android fragment injection
+CWE-610,Java/Kotlin,java/android/fragment-injection-preference-activity,Android fragment injection in PreferenceActivity
+CWE-610,Java/Kotlin,java/unvalidated-url-redirection,URL redirection from remote source
+CWE-610,Java/Kotlin,java/unvalidated-url-redirection-local,URL redirection from local source
+CWE-610,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-610,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-610,Java/Kotlin,java/ssrf,Server-side request forgery
+CWE-610,Java/Kotlin,java/file-path-injection,File Path Injection
+CWE-610,Java/Kotlin,java/unsafe-reflection,Use of externally-controlled input to select classes or code ('unsafe reflection')
+CWE-610,Java/Kotlin,java/spring-unvalidated-url-redirection,Spring url redirection from remote source
+CWE-611,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-611,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-614,Java/Kotlin,java/insecure-cookie,Failure to use secure cookies
+CWE-625,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-628,Java/Kotlin,java/missing-format-argument,Missing format argument
+CWE-628,Java/Kotlin,java/unused-format-argument,Unused format argument
+CWE-642,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-642,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-642,Java/Kotlin,java/file-path-injection,File Path Injection
+CWE-643,Java/Kotlin,java/xml/xpath-injection,XPath injection
+CWE-652,Java/Kotlin,java/xquery-injection,XQuery query built from user-controlled sources
+CWE-657,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-657,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-657,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-657,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-662,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-662,Java/Kotlin,java/wait-on-condition-interface,Wait on condition
+CWE-662,Java/Kotlin,java/call-to-thread-run,Direct call to a run() method
+CWE-662,Java/Kotlin,java/unsafe-double-checked-locking,Double-checked locking is not thread-safe
+CWE-662,Java/Kotlin,java/unsafe-double-checked-locking-init-order,Race condition in double-checked locking object initialization
+CWE-662,Java/Kotlin,java/unsafe-sync-on-field,Futile synchronization on field
+CWE-662,Java/Kotlin,java/inconsistent-field-synchronization,Inconsistent synchronization for field
+CWE-662,Java/Kotlin,java/lazy-initialization,Incorrect lazy initialization of a static field
+CWE-662,Java/Kotlin,java/non-sync-override,Non-synchronized override of synchronized method
+CWE-662,Java/Kotlin,java/notify-instead-of-notify-all,notify instead of notifyAll
+CWE-662,Java/Kotlin,java/sleep-with-lock-held,Sleep with lock held
+CWE-662,Java/Kotlin,java/sync-on-boxed-types,Synchronization on boxed types or strings
+CWE-662,Java/Kotlin,java/unsynchronized-getter,Inconsistent synchronization of getter and setter
+CWE-662,Java/Kotlin,java/inconsistent-sync-writeobject,Inconsistent synchronization for writeObject()
+CWE-662,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-662,Java/Kotlin,java/wait-with-two-locks,Wait with two locks held
+CWE-662,Java/Kotlin,java/lock-order-inconsistency,Lock order inconsistency
+CWE-664,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-664,Java/Kotlin,java/implicit-cast-in-compound-assignment,Implicit narrowing conversion in compound assignment
+CWE-664,Java/Kotlin,java/integer-multiplication-cast-to-long,Result of multiplication cast to wider type
+CWE-664,Java/Kotlin,java/missing-call-to-super-clone,Missing super clone
+CWE-664,Java/Kotlin,java/wait-on-condition-interface,Wait on condition
+CWE-664,Java/Kotlin,java/call-to-thread-run,Direct call to a run() method
+CWE-664,Java/Kotlin,java/unsafe-double-checked-locking,Double-checked locking is not thread-safe
+CWE-664,Java/Kotlin,java/unsafe-double-checked-locking-init-order,Race condition in double-checked locking object initialization
+CWE-664,Java/Kotlin,java/unsafe-sync-on-field,Futile synchronization on field
+CWE-664,Java/Kotlin,java/inconsistent-field-synchronization,Inconsistent synchronization for field
+CWE-664,Java/Kotlin,java/lazy-initialization,Incorrect lazy initialization of a static field
+CWE-664,Java/Kotlin,java/non-sync-override,Non-synchronized override of synchronized method
+CWE-664,Java/Kotlin,java/notify-instead-of-notify-all,notify instead of notifyAll
+CWE-664,Java/Kotlin,java/sleep-with-lock-held,Sleep with lock held
+CWE-664,Java/Kotlin,java/sync-on-boxed-types,Synchronization on boxed types or strings
+CWE-664,Java/Kotlin,java/unsynchronized-getter,Inconsistent synchronization of getter and setter
+CWE-664,Java/Kotlin,java/inconsistent-sync-writeobject,Inconsistent synchronization for writeObject()
+CWE-664,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-664,Java/Kotlin,java/wait-with-two-locks,Wait with two locks held
+CWE-664,Java/Kotlin,java/missing-super-finalize,Finalizer inconsistency
+CWE-664,Java/Kotlin,java/input-resource-leak,Potential input resource leak
+CWE-664,Java/Kotlin,java/database-resource-leak,Potential database resource leak
+CWE-664,Java/Kotlin,java/output-resource-leak,Potential output resource leak
+CWE-664,Java/Kotlin,java/impossible-array-cast,Impossible array cast
+CWE-664,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-664,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-664,Java/Kotlin,java/zipslip,"Arbitrary file access during archive extraction (""Zip Slip"")"
+CWE-664,Java/Kotlin,java/partial-path-traversal,Partial path traversal vulnerability
+CWE-664,Java/Kotlin,java/partial-path-traversal-from-remote,Partial path traversal vulnerability from remote
+CWE-664,Java/Kotlin,java/android/arbitrary-apk-installation,Android APK installation
+CWE-664,Java/Kotlin,java/groovy-injection,Groovy Language injection
+CWE-664,Java/Kotlin,java/insecure-bean-validation,Insecure Bean Validation
+CWE-664,Java/Kotlin,java/jexl-expression-injection,Expression language injection (JEXL)
+CWE-664,Java/Kotlin,java/mvel-expression-injection,Expression language injection (MVEL)
+CWE-664,Java/Kotlin,java/spel-expression-injection,Expression language injection (Spring)
+CWE-664,Java/Kotlin,java/server-side-template-injection,Server-side template injection
+CWE-664,Java/Kotlin,java/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition
+CWE-664,Java/Kotlin,java/android/websettings-allow-content-access,Android WebView settings allows access to content links
+CWE-664,Java/Kotlin,java/android/websettings-file-access,Android WebSettings file access
+CWE-664,Java/Kotlin,java/local-temp-file-or-directory-information-disclosure,Local information disclosure in a temporary directory
+CWE-664,Java/Kotlin,java/stack-trace-exposure,Information exposure through a stack trace
+CWE-664,Java/Kotlin,java/android/intent-uri-permission-manipulation,Intent URI permission manipulation
+CWE-664,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-664,Java/Kotlin,java/insecure-smtp-ssl,Insecure JavaMail SSL Configuration
+CWE-664,Java/Kotlin,java/unsafe-hostname-verification,Unsafe hostname verification
+CWE-664,Java/Kotlin,java/android/backup-enabled,Application backup allowed
+CWE-664,Java/Kotlin,java/android/cleartext-storage-database,Cleartext storage of sensitive information using a local database on Android
+CWE-664,Java/Kotlin,java/android/cleartext-storage-filesystem,Cleartext storage of sensitive information in the Android filesystem
+CWE-664,Java/Kotlin,java/cleartext-storage-in-class,Cleartext storage of sensitive information using storable class
+CWE-664,Java/Kotlin,java/cleartext-storage-in-cookie,Cleartext storage of sensitive information in cookie
+CWE-664,Java/Kotlin,java/cleartext-storage-in-properties,Cleartext storage of sensitive information using 'Properties' class
+CWE-664,Java/Kotlin,java/android/cleartext-storage-shared-prefs,Cleartext storage of sensitive information using SharedPreferences on Android
+CWE-664,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-664,Java/Kotlin,java/android/unsafe-content-uri-resolution,Uncontrolled data used in content resolution
+CWE-664,Java/Kotlin,java/android/fragment-injection,Android fragment injection
+CWE-664,Java/Kotlin,java/android/fragment-injection-preference-activity,Android fragment injection in PreferenceActivity
+CWE-664,Java/Kotlin,java/android/debuggable-attribute-enabled,Android debuggable attribute enabled
+CWE-664,Java/Kotlin,java/android/webview-debugging-enabled,Android Webview debugging enabled
+CWE-664,Java/Kotlin,java/trust-boundary-violation,Trust boundary violation
+CWE-664,Java/Kotlin,java/unsafe-deserialization,Deserialization of user-controlled data
+CWE-664,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-664,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-664,Java/Kotlin,java/android/sensitive-keyboard-cache,Android sensitive keyboard cache
+CWE-664,Java/Kotlin,java/sensitive-log,Insertion of sensitive information into log files
+CWE-664,Java/Kotlin,java/unvalidated-url-redirection,URL redirection from remote source
+CWE-664,Java/Kotlin,java/unvalidated-url-redirection-local,URL redirection from local source
+CWE-664,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-664,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-664,Java/Kotlin,java/tainted-numeric-cast,User-controlled data in numeric cast
+CWE-664,Java/Kotlin,java/tainted-numeric-cast-local,Local-user-controlled data in numeric cast
+CWE-664,Java/Kotlin,java/polynomial-redos,Polynomial regular expression used on uncontrolled data
+CWE-664,Java/Kotlin,java/redos,Inefficient regular expression
+CWE-664,Java/Kotlin,java/regex-injection,Regular expression injection
+CWE-664,Java/Kotlin,java/world-writable-file-read,Reading from a world writable file
+CWE-664,Java/Kotlin,java/android/unsafe-android-webview-fetch,Unsafe resource fetching in Android WebView
+CWE-664,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-664,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-664,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-664,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-664,Java/Kotlin,java/user-controlled-bypass,User-controlled bypass of sensitive method
+CWE-664,Java/Kotlin,java/tainted-permissions-check,User-controlled data used in permissions check
+CWE-664,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-664,Java/Kotlin,java/lock-order-inconsistency,Lock order inconsistency
+CWE-664,Java/Kotlin,java/ssrf,Server-side request forgery
+CWE-664,Java/Kotlin,java/improper-intent-verification,Improper verification of intent by broadcast receiver
+CWE-664,Java/Kotlin,java/android/incomplete-provider-permissions,Missing read or write permission in a content provider
+CWE-664,Java/Kotlin,java/android/implicitly-exported-component,Implicitly exported Android component
+CWE-664,Java/Kotlin,java/android/implicit-pendingintents,Use of implicit PendingIntents
+CWE-664,Java/Kotlin,java/android/sensitive-communication,Leaking sensitive information through an implicit Intent
+CWE-664,Java/Kotlin,java/android/sensitive-result-receiver,Leaking sensitive information through a ResultReceiver
+CWE-664,Java/Kotlin,java/android/intent-redirection,Android Intent redirection
+CWE-664,Java/Kotlin,java/empty-finalizer,Empty body of finalizer
+CWE-664,Java/Kotlin,java/unassigned-field,Field is never assigned a non-null value
+CWE-664,Java/Kotlin,java/overly-general-catch,Overly-general catch clause
+CWE-664,Java/Kotlin,java/abstract-to-concrete-cast,Cast from abstract to concrete collection
+CWE-664,Java/Kotlin,java/internal-representation-exposure,Exposing internal representation
+CWE-664,Java/Kotlin,java/static-array,Array constant vulnerable to change
+CWE-664,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-664,Java/Kotlin,java/openstream-called-on-tainted-url,openStream called on URLs created from remote source
+CWE-664,Java/Kotlin,java/file-path-injection,File Path Injection
+CWE-664,Java/Kotlin,java/beanshell-injection,BeanShell injection
+CWE-664,Java/Kotlin,java/android-insecure-dex-loading,Insecure loading of an Android Dex File
+CWE-664,Java/Kotlin,java/jshell-injection,JShell injection
+CWE-664,Java/Kotlin,java/javaee-expression-injection,Jakarta Expression Language injection
+CWE-664,Java/Kotlin,java/jython-injection,Injection in Jython
+CWE-664,Java/Kotlin,java/unsafe-eval,Injection in Java Script Engine
+CWE-664,Java/Kotlin,java/spring-view-manipulation-implicit,Spring Implicit View Manipulation
+CWE-664,Java/Kotlin,java/spring-view-manipulation,Spring View Manipulation
+CWE-664,Java/Kotlin,java/insecure-webview-resource-response,Insecure Android WebView Resource Response
+CWE-664,Java/Kotlin,java/sensitive-android-file-leak,Leaking sensitive Android file
+CWE-664,Java/Kotlin,java/possible-timing-attack-against-signature,Possible timing attack against signature validation
+CWE-664,Java/Kotlin,java/timing-attack-against-headers-value,Timing attack against header value
+CWE-664,Java/Kotlin,java/timing-attack-against-signature,Timing attack against signature validation
+CWE-664,Java/Kotlin,java/ignored-hostname-verification,Ignored result of hostname verification
+CWE-664,Java/Kotlin,java/insecure-ldaps-endpoint,Insecure LDAPS Endpoint Configuration
+CWE-664,Java/Kotlin,java/disabled-certificate-revocation-checking,Disabled certificate revocation checking
+CWE-664,Java/Kotlin,java/unvalidated-cors-origin-set,CORS is derived from untrusted input
+CWE-664,Java/Kotlin,java/local-thread-resource-abuse,Uncontrolled thread resource consumption from local input source
+CWE-664,Java/Kotlin,java/thread-resource-abuse,Uncontrolled thread resource consumption
+CWE-664,Java/Kotlin,java/unsafe-reflection,Use of externally-controlled input to select classes or code ('unsafe reflection')
+CWE-664,Java/Kotlin,java/main-method-in-enterprise-bean,Main Method in Enterprise Java Bean
+CWE-664,Java/Kotlin,java/main-method-in-web-components,Main Method in Java EE Web Components
+CWE-664,Java/Kotlin,java/struts-development-mode,Apache Struts development mode enabled
+CWE-664,Java/Kotlin,java/unsafe-deserialization-rmi,Unsafe deserialization in a remotely callable method.
+CWE-664,Java/Kotlin,java/unsafe-deserialization-spring-exporter-in-configuration-class,Unsafe deserialization with Spring's remote service exporters.
+CWE-664,Java/Kotlin,java/unsafe-deserialization-spring-exporter-in-xml-configuration,Unsafe deserialization with Spring's remote service exporters.
+CWE-664,Java/Kotlin,java/server-directory-listing,Directories and files exposure
+CWE-664,Java/Kotlin,java/unsafe-url-forward-dispatch-load,"Unsafe URL forward, dispatch, or load from remote source"
+CWE-664,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-664,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-664,Java/Kotlin,java/sensitive-query-with-get,Sensitive GET Query
+CWE-664,Java/Kotlin,java/spring-unvalidated-url-redirection,Spring url redirection from remote source
+CWE-664,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-664,Java/Kotlin,java/insecure-rmi-jmx-server-initialization,InsecureRmiJmxAuthenticationEnvironment
+CWE-664,Java/Kotlin,java/incorrect-url-verification,Incorrect URL verification
+CWE-665,Java/Kotlin,java/unassigned-field,Field is never assigned a non-null value
+CWE-665,Java/Kotlin,java/insecure-rmi-jmx-server-initialization,InsecureRmiJmxAuthenticationEnvironment
+CWE-667,Java/Kotlin,java/unsafe-double-checked-locking,Double-checked locking is not thread-safe
+CWE-667,Java/Kotlin,java/unsafe-double-checked-locking-init-order,Race condition in double-checked locking object initialization
+CWE-667,Java/Kotlin,java/lazy-initialization,Incorrect lazy initialization of a static field
+CWE-667,Java/Kotlin,java/sleep-with-lock-held,Sleep with lock held
+CWE-667,Java/Kotlin,java/unsynchronized-getter,Inconsistent synchronization of getter and setter
+CWE-667,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-667,Java/Kotlin,java/wait-with-two-locks,Wait with two locks held
+CWE-667,Java/Kotlin,java/lock-order-inconsistency,Lock order inconsistency
+CWE-668,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-668,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-668,Java/Kotlin,java/zipslip,"Arbitrary file access during archive extraction (""Zip Slip"")"
+CWE-668,Java/Kotlin,java/partial-path-traversal,Partial path traversal vulnerability
+CWE-668,Java/Kotlin,java/partial-path-traversal-from-remote,Partial path traversal vulnerability from remote
+CWE-668,Java/Kotlin,java/android/websettings-allow-content-access,Android WebView settings allows access to content links
+CWE-668,Java/Kotlin,java/android/websettings-file-access,Android WebSettings file access
+CWE-668,Java/Kotlin,java/local-temp-file-or-directory-information-disclosure,Local information disclosure in a temporary directory
+CWE-668,Java/Kotlin,java/stack-trace-exposure,Information exposure through a stack trace
+CWE-668,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-668,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-668,Java/Kotlin,java/android/sensitive-keyboard-cache,Android sensitive keyboard cache
+CWE-668,Java/Kotlin,java/sensitive-log,Insertion of sensitive information into log files
+CWE-668,Java/Kotlin,java/world-writable-file-read,Reading from a world writable file
+CWE-668,Java/Kotlin,java/android/implicit-pendingintents,Use of implicit PendingIntents
+CWE-668,Java/Kotlin,java/android/sensitive-communication,Leaking sensitive information through an implicit Intent
+CWE-668,Java/Kotlin,java/android/sensitive-result-receiver,Leaking sensitive information through a ResultReceiver
+CWE-668,Java/Kotlin,java/static-array,Array constant vulnerable to change
+CWE-668,Java/Kotlin,java/openstream-called-on-tainted-url,openStream called on URLs created from remote source
+CWE-668,Java/Kotlin,java/file-path-injection,File Path Injection
+CWE-668,Java/Kotlin,java/insecure-webview-resource-response,Insecure Android WebView Resource Response
+CWE-668,Java/Kotlin,java/sensitive-android-file-leak,Leaking sensitive Android file
+CWE-668,Java/Kotlin,java/possible-timing-attack-against-signature,Possible timing attack against signature validation
+CWE-668,Java/Kotlin,java/timing-attack-against-headers-value,Timing attack against header value
+CWE-668,Java/Kotlin,java/timing-attack-against-signature,Timing attack against signature validation
+CWE-668,Java/Kotlin,java/server-directory-listing,Directories and files exposure
+CWE-668,Java/Kotlin,java/unsafe-url-forward-dispatch-load,"Unsafe URL forward, dispatch, or load from remote source"
+CWE-668,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-668,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-668,Java/Kotlin,java/sensitive-query-with-get,Sensitive GET Query
+CWE-669,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-669,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-669,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-670,Java/Kotlin,java/whitespace-contradicts-precedence,Whitespace contradicts operator precedence
+CWE-670,Java/Kotlin,java/assignment-in-boolean-expression,Assignment in Boolean expression
+CWE-670,Java/Kotlin,java/reference-equality-on-strings,Reference equality test on strings
+CWE-670,Java/Kotlin,java/switch-fall-through,Unterminated switch case
+CWE-671,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-671,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-671,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-671,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-674,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-674,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-675,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-676,Java/Kotlin,java/potentially-dangerous-function,Use of a potentially dangerous function
+CWE-681,Java/Kotlin,java/implicit-cast-in-compound-assignment,Implicit narrowing conversion in compound assignment
+CWE-681,Java/Kotlin,java/integer-multiplication-cast-to-long,Result of multiplication cast to wider type
+CWE-681,Java/Kotlin,java/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition
+CWE-681,Java/Kotlin,java/tainted-numeric-cast,User-controlled data in numeric cast
+CWE-681,Java/Kotlin,java/tainted-numeric-cast-local,Local-user-controlled data in numeric cast
+CWE-682,Java/Kotlin,java/implicit-cast-in-compound-assignment,Implicit narrowing conversion in compound assignment
+CWE-682,Java/Kotlin,java/integer-multiplication-cast-to-long,Result of multiplication cast to wider type
+CWE-682,Java/Kotlin,java/index-out-of-bounds,Array index out of bounds
+CWE-682,Java/Kotlin,java/tainted-arithmetic,User-controlled data in arithmetic expression
+CWE-682,Java/Kotlin,java/tainted-arithmetic-local,Local-user-controlled data in arithmetic expression
+CWE-682,Java/Kotlin,java/uncontrolled-arithmetic,Uncontrolled data in arithmetic expression
+CWE-682,Java/Kotlin,java/extreme-value-arithmetic,Use of extreme values in arithmetic expression
+CWE-682,Java/Kotlin,java/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition
+CWE-685,Java/Kotlin,java/missing-format-argument,Missing format argument
+CWE-685,Java/Kotlin,java/unused-format-argument,Unused format argument
+CWE-691,Java/Kotlin,java/ejb/container-interference,EJB interferes with container operation
+CWE-691,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-691,Java/Kotlin,java/whitespace-contradicts-precedence,Whitespace contradicts operator precedence
+CWE-691,Java/Kotlin,java/assignment-in-boolean-expression,Assignment in Boolean expression
+CWE-691,Java/Kotlin,java/reference-equality-on-strings,Reference equality test on strings
+CWE-691,Java/Kotlin,java/wait-on-condition-interface,Wait on condition
+CWE-691,Java/Kotlin,java/call-to-thread-run,Direct call to a run() method
+CWE-691,Java/Kotlin,java/unsafe-double-checked-locking,Double-checked locking is not thread-safe
+CWE-691,Java/Kotlin,java/unsafe-double-checked-locking-init-order,Race condition in double-checked locking object initialization
+CWE-691,Java/Kotlin,java/unsafe-sync-on-field,Futile synchronization on field
+CWE-691,Java/Kotlin,java/inconsistent-field-synchronization,Inconsistent synchronization for field
+CWE-691,Java/Kotlin,java/lazy-initialization,Incorrect lazy initialization of a static field
+CWE-691,Java/Kotlin,java/non-sync-override,Non-synchronized override of synchronized method
+CWE-691,Java/Kotlin,java/notify-instead-of-notify-all,notify instead of notifyAll
+CWE-691,Java/Kotlin,java/sleep-with-lock-held,Sleep with lock held
+CWE-691,Java/Kotlin,java/sync-on-boxed-types,Synchronization on boxed types or strings
+CWE-691,Java/Kotlin,java/unsynchronized-getter,Inconsistent synchronization of getter and setter
+CWE-691,Java/Kotlin,java/inconsistent-sync-writeobject,Inconsistent synchronization for writeObject()
+CWE-691,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-691,Java/Kotlin,java/wait-with-two-locks,Wait with two locks held
+CWE-691,Java/Kotlin,java/non-short-circuit-evaluation,Dangerous non-short-circuit logic
+CWE-691,Java/Kotlin,java/constant-loop-condition,Constant loop condition
+CWE-691,Java/Kotlin,java/android/arbitrary-apk-installation,Android APK installation
+CWE-691,Java/Kotlin,java/groovy-injection,Groovy Language injection
+CWE-691,Java/Kotlin,java/insecure-bean-validation,Insecure Bean Validation
+CWE-691,Java/Kotlin,java/jexl-expression-injection,Expression language injection (JEXL)
+CWE-691,Java/Kotlin,java/mvel-expression-injection,Expression language injection (MVEL)
+CWE-691,Java/Kotlin,java/spel-expression-injection,Expression language injection (Spring)
+CWE-691,Java/Kotlin,java/server-side-template-injection,Server-side template injection
+CWE-691,Java/Kotlin,java/toctou-race-condition,Time-of-check time-of-use race condition
+CWE-691,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-691,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-691,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-691,Java/Kotlin,java/android/unsafe-android-webview-fetch,Unsafe resource fetching in Android WebView
+CWE-691,Java/Kotlin,java/lock-order-inconsistency,Lock order inconsistency
+CWE-691,Java/Kotlin,java/unreachable-exit-in-loop,Loop with unreachable exit condition
+CWE-691,Java/Kotlin,java/switch-fall-through,Unterminated switch case
+CWE-691,Java/Kotlin,java/overly-general-catch,Overly-general catch clause
+CWE-691,Java/Kotlin,java/uncaught-number-format-exception,Missing catch of NumberFormatException
+CWE-691,Java/Kotlin,java/jvm-exit,Forcible JVM termination
+CWE-691,Java/Kotlin,java/abnormal-finally-completion,Finally block may not complete normally
+CWE-691,Java/Kotlin,java/beanshell-injection,BeanShell injection
+CWE-691,Java/Kotlin,java/android-insecure-dex-loading,Insecure loading of an Android Dex File
+CWE-691,Java/Kotlin,java/jshell-injection,JShell injection
+CWE-691,Java/Kotlin,java/javaee-expression-injection,Jakarta Expression Language injection
+CWE-691,Java/Kotlin,java/jython-injection,Injection in Jython
+CWE-691,Java/Kotlin,java/unsafe-eval,Injection in Java Script Engine
+CWE-691,Java/Kotlin,java/spring-view-manipulation-implicit,Spring Implicit View Manipulation
+CWE-691,Java/Kotlin,java/spring-view-manipulation,Spring View Manipulation
+CWE-691,Java/Kotlin,java/uncaught-servlet-exception,Uncaught Servlet Exception
+CWE-693,Java/Kotlin,java/count-untrusted-data-external-api,Frequency counts for external APIs that are used with untrusted data
+CWE-693,Java/Kotlin,java/overly-large-range,Overly permissive regular expression range
+CWE-693,Java/Kotlin,java/untrusted-data-to-external-api,Untrusted data passed to external API
+CWE-693,Java/Kotlin,java/improper-validation-of-array-construction,Improper validation of user-provided size used for array construction
+CWE-693,Java/Kotlin,java/improper-validation-of-array-construction-code-specified,Improper validation of code-specified size used for array construction
+CWE-693,Java/Kotlin,java/improper-validation-of-array-construction-local,Improper validation of local user-provided size used for array construction
+CWE-693,Java/Kotlin,java/improper-validation-of-array-index,Improper validation of user-provided array index
+CWE-693,Java/Kotlin,java/improper-validation-of-array-index-code-specified,Improper validation of code-specified array index
+CWE-693,Java/Kotlin,java/improper-validation-of-array-index-local,Improper validation of local user-provided array index
+CWE-693,Java/Kotlin,java/local-temp-file-or-directory-information-disclosure,Local information disclosure in a temporary directory
+CWE-693,Java/Kotlin,java/android/intent-uri-permission-manipulation,Intent URI permission manipulation
+CWE-693,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-693,Java/Kotlin,java/android/missing-certificate-pinning,Android missing certificate pinning
+CWE-693,Java/Kotlin,java/improper-webview-certificate-validation,Android WebView that accepts all certificates
+CWE-693,Java/Kotlin,java/insecure-trustmanager,TrustManager that accepts all certificates
+CWE-693,Java/Kotlin,java/insecure-smtp-ssl,Insecure JavaMail SSL Configuration
+CWE-693,Java/Kotlin,java/unsafe-hostname-verification,Unsafe hostname verification
+CWE-693,Java/Kotlin,java/android/backup-enabled,Application backup allowed
+CWE-693,Java/Kotlin,java/android/cleartext-storage-database,Cleartext storage of sensitive information using a local database on Android
+CWE-693,Java/Kotlin,java/android/cleartext-storage-filesystem,Cleartext storage of sensitive information in the Android filesystem
+CWE-693,Java/Kotlin,java/cleartext-storage-in-class,Cleartext storage of sensitive information using storable class
+CWE-693,Java/Kotlin,java/cleartext-storage-in-cookie,Cleartext storage of sensitive information in cookie
+CWE-693,Java/Kotlin,java/cleartext-storage-in-properties,Cleartext storage of sensitive information using 'Properties' class
+CWE-693,Java/Kotlin,java/android/cleartext-storage-shared-prefs,Cleartext storage of sensitive information using SharedPreferences on Android
+CWE-693,Java/Kotlin,java/non-https-url,Failure to use HTTPS URLs
+CWE-693,Java/Kotlin,java/non-ssl-connection,Failure to use SSL
+CWE-693,Java/Kotlin,java/non-ssl-socket-factory,Failure to use SSL socket factories
+CWE-693,Java/Kotlin,java/insufficient-key-size,Use of a cryptographic algorithm with insufficient key size
+CWE-693,Java/Kotlin,java/weak-cryptographic-algorithm,Use of a broken or risky cryptographic algorithm
+CWE-693,Java/Kotlin,java/potentially-weak-cryptographic-algorithm,Use of a potentially broken or risky cryptographic algorithm
+CWE-693,Java/Kotlin,java/missing-jwt-signature-check,Missing JWT signature check
+CWE-693,Java/Kotlin,java/spring-disabled-csrf-protection,Disabled Spring CSRF protection
+CWE-693,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-693,Java/Kotlin,java/insecure-basic-auth,Insecure basic authentication
+CWE-693,Java/Kotlin,java/insecure-ldap-auth,Insecure LDAP authentication
+CWE-693,Java/Kotlin,java/insecure-cookie,Failure to use secure cookies
+CWE-693,Java/Kotlin,java/world-writable-file-read,Reading from a world writable file
+CWE-693,Java/Kotlin,java/rsa-without-oaep,Use of RSA algorithm without OAEP
+CWE-693,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-693,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-693,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-693,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-693,Java/Kotlin,java/user-controlled-bypass,User-controlled bypass of sensitive method
+CWE-693,Java/Kotlin,java/tainted-permissions-check,User-controlled data used in permissions check
+CWE-693,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-693,Java/Kotlin,java/improper-intent-verification,Improper verification of intent by broadcast receiver
+CWE-693,Java/Kotlin,java/android/incomplete-provider-permissions,Missing read or write permission in a content provider
+CWE-693,Java/Kotlin,java/android/implicitly-exported-component,Implicitly exported Android component
+CWE-693,Java/Kotlin,java/android/implicit-pendingintents,Use of implicit PendingIntents
+CWE-693,Java/Kotlin,java/android/sensitive-communication,Leaking sensitive information through an implicit Intent
+CWE-693,Java/Kotlin,java/android/sensitive-result-receiver,Leaking sensitive information through a ResultReceiver
+CWE-693,Java/Kotlin,java/android/intent-redirection,Android Intent redirection
+CWE-693,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-693,Java/Kotlin,java/jxbrowser/disabled-certificate-validation,JxBrowser with disabled certificate validation
+CWE-693,Java/Kotlin,java/ignored-hostname-verification,Ignored result of hostname verification
+CWE-693,Java/Kotlin,java/insecure-ldaps-endpoint,Insecure LDAPS Endpoint Configuration
+CWE-693,Java/Kotlin,java/disabled-certificate-revocation-checking,Disabled certificate revocation checking
+CWE-693,Java/Kotlin,java/azure-storage/unsafe-client-side-encryption-in-use,Unsafe usage of v1 version of Azure Storage client-side encryption (CVE-2022-30187).
+CWE-693,Java/Kotlin,java/unsafe-tls-version,Unsafe TLS version
+CWE-693,Java/Kotlin,java/unvalidated-cors-origin-set,CORS is derived from untrusted input
+CWE-693,Java/Kotlin,java/ip-address-spoofing,IP address spoofing
+CWE-693,Java/Kotlin,java/jsonp-injection,JSONP Injection
+CWE-693,Java/Kotlin,java/credentials-in-properties,Cleartext Credentials in Properties File
+CWE-693,Java/Kotlin,java/password-in-configuration,Password in configuration file
+CWE-693,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-693,Java/Kotlin,java/hash-without-salt,Use of a hash function without a salt
+CWE-693,Java/Kotlin,java/incorrect-url-verification,Incorrect URL verification
+CWE-695,Java/Kotlin,java/ejb/file-io,EJB uses file input/output
+CWE-695,Java/Kotlin,java/ejb/graphics,EJB uses graphics
+CWE-695,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-695,Java/Kotlin,java/ejb/threads,EJB uses threads
+CWE-697,Java/Kotlin,java/missing-default-in-switch,Missing default case in switch
+CWE-697,Java/Kotlin,java/reference-equality-with-object,Reference equality test on java.lang.Object
+CWE-697,Java/Kotlin,java/reference-equality-of-boxed-types,Reference equality test of boxed types
+CWE-697,Java/Kotlin,java/reference-equality-on-strings,Reference equality test on strings
+CWE-697,Java/Kotlin,java/missing-case-in-switch,Missing enum case in switch
+CWE-697,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-703,Java/Kotlin,java/inconsistent-call-on-result,Inconsistent operation on return value
+CWE-703,Java/Kotlin,java/return-value-ignored,Method result ignored
+CWE-703,Java/Kotlin,java/stack-trace-exposure,Information exposure through a stack trace
+CWE-703,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-703,Java/Kotlin,java/discarded-exception,Discarded exception
+CWE-703,Java/Kotlin,java/overly-general-catch,Overly-general catch clause
+CWE-703,Java/Kotlin,java/ignored-error-status-of-call,Ignored error status of call
+CWE-703,Java/Kotlin,java/uncaught-number-format-exception,Missing catch of NumberFormatException
+CWE-703,Java/Kotlin,java/uncaught-servlet-exception,Uncaught Servlet Exception
+CWE-703,Java/Kotlin,java/android/nfe-local-android-dos,Local Android DoS Caused By NumberFormatException
+CWE-704,Java/Kotlin,java/implicit-cast-in-compound-assignment,Implicit narrowing conversion in compound assignment
+CWE-704,Java/Kotlin,java/integer-multiplication-cast-to-long,Result of multiplication cast to wider type
+CWE-704,Java/Kotlin,java/impossible-array-cast,Impossible array cast
+CWE-704,Java/Kotlin,java/comparison-with-wider-type,Comparison of narrow type with wide type in loop condition
+CWE-704,Java/Kotlin,java/tainted-numeric-cast,User-controlled data in numeric cast
+CWE-704,Java/Kotlin,java/tainted-numeric-cast-local,Local-user-controlled data in numeric cast
+CWE-705,Java/Kotlin,java/ejb/container-interference,EJB interferes with container operation
+CWE-705,Java/Kotlin,java/overly-general-catch,Overly-general catch clause
+CWE-705,Java/Kotlin,java/uncaught-number-format-exception,Missing catch of NumberFormatException
+CWE-705,Java/Kotlin,java/jvm-exit,Forcible JVM termination
+CWE-705,Java/Kotlin,java/abnormal-finally-completion,Finally block may not complete normally
+CWE-705,Java/Kotlin,java/uncaught-servlet-exception,Uncaught Servlet Exception
+CWE-706,Java/Kotlin,java/path-injection,Uncontrolled data used in path expression
+CWE-706,Java/Kotlin,java/path-injection-local,Local-user-controlled data in path expression
+CWE-706,Java/Kotlin,java/zipslip,"Arbitrary file access during archive extraction (""Zip Slip"")"
+CWE-706,Java/Kotlin,java/partial-path-traversal,Partial path traversal vulnerability
+CWE-706,Java/Kotlin,java/partial-path-traversal-from-remote,Partial path traversal vulnerability from remote
+CWE-706,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-706,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-706,Java/Kotlin,java/openstream-called-on-tainted-url,openStream called on URLs created from remote source
+CWE-707,Java/Kotlin,java/jndi-injection,JNDI lookup with user-controlled name
+CWE-707,Java/Kotlin,java/xslt-injection,XSLT transformation with user-controlled stylesheet
+CWE-707,Java/Kotlin,java/relative-path-command,Executing a command with a relative path
+CWE-707,Java/Kotlin,java/command-line-injection,Uncontrolled command line
+CWE-707,Java/Kotlin,java/command-line-injection-local,Local-user-controlled command line
+CWE-707,Java/Kotlin,java/concatenated-command-line,Building a command line with string concatenation
+CWE-707,Java/Kotlin,java/android/webview-addjavascriptinterface,Access Java object methods through JavaScript exposure
+CWE-707,Java/Kotlin,java/android/websettings-javascript-enabled,Android WebView JavaScript settings
+CWE-707,Java/Kotlin,java/xss,Cross-site scripting
+CWE-707,Java/Kotlin,java/xss-local,Cross-site scripting from local source
+CWE-707,Java/Kotlin,java/concatenated-sql-query,Query built by concatenation with a possibly-untrusted string
+CWE-707,Java/Kotlin,java/sql-injection,Query built from user-controlled sources
+CWE-707,Java/Kotlin,java/sql-injection-local,Query built from local-user-controlled sources
+CWE-707,Java/Kotlin,java/ldap-injection,LDAP query built from user-controlled sources
+CWE-707,Java/Kotlin,java/android/arbitrary-apk-installation,Android APK installation
+CWE-707,Java/Kotlin,java/groovy-injection,Groovy Language injection
+CWE-707,Java/Kotlin,java/insecure-bean-validation,Insecure Bean Validation
+CWE-707,Java/Kotlin,java/jexl-expression-injection,Expression language injection (JEXL)
+CWE-707,Java/Kotlin,java/mvel-expression-injection,Expression language injection (MVEL)
+CWE-707,Java/Kotlin,java/spel-expression-injection,Expression language injection (Spring)
+CWE-707,Java/Kotlin,java/server-side-template-injection,Server-side template injection
+CWE-707,Java/Kotlin,java/netty-http-request-or-response-splitting,Disabled Netty HTTP header validation
+CWE-707,Java/Kotlin,java/http-response-splitting,HTTP response splitting
+CWE-707,Java/Kotlin,java/http-response-splitting-local,HTTP response splitting from local source
+CWE-707,Java/Kotlin,java/log-injection,Log Injection
+CWE-707,Java/Kotlin,java/tainted-format-string,Use of externally-controlled format string
+CWE-707,Java/Kotlin,java/tainted-format-string-local,Use of externally-controlled format string from local source
+CWE-707,Java/Kotlin,java/xml/xpath-injection,XPath injection
+CWE-707,Java/Kotlin,java/android/unsafe-android-webview-fetch,Unsafe resource fetching in Android WebView
+CWE-707,Java/Kotlin,java/ognl-injection,OGNL Expression Language statement with user-controlled input
+CWE-707,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-707,Java/Kotlin,java/command-line-injection-extra,Command Injection into Runtime.exec() with dangerous command
+CWE-707,Java/Kotlin,java/command-line-injection-extra-local,Command Injection into Runtime.exec() with dangerous command
+CWE-707,Java/Kotlin,java/command-line-injection-experimental,Uncontrolled command line (experimental sinks)
+CWE-707,Java/Kotlin,java/mybatis-annotation-sql-injection,SQL injection in MyBatis annotation
+CWE-707,Java/Kotlin,java/mybatis-xml-sql-injection,SQL injection in MyBatis Mapper XML
+CWE-707,Java/Kotlin,java/beanshell-injection,BeanShell injection
+CWE-707,Java/Kotlin,java/android-insecure-dex-loading,Insecure loading of an Android Dex File
+CWE-707,Java/Kotlin,java/jshell-injection,JShell injection
+CWE-707,Java/Kotlin,java/javaee-expression-injection,Jakarta Expression Language injection
+CWE-707,Java/Kotlin,java/jython-injection,Injection in Jython
+CWE-707,Java/Kotlin,java/unsafe-eval,Injection in Java Script Engine
+CWE-707,Java/Kotlin,java/spring-view-manipulation-implicit,Spring Implicit View Manipulation
+CWE-707,Java/Kotlin,java/spring-view-manipulation,Spring View Manipulation
+CWE-707,Java/Kotlin,java/xquery-injection,XQuery query built from user-controlled sources
+CWE-710,Java/Kotlin,java/deprecated-call,Deprecated method or constructor invocation
+CWE-710,Java/Kotlin,java/dead-class,Dead class
+CWE-710,Java/Kotlin,java/dead-enum-constant,Dead enum constant
+CWE-710,Java/Kotlin,java/dead-field,Dead field
+CWE-710,Java/Kotlin,java/dead-function,Dead method
+CWE-710,Java/Kotlin,java/lines-of-dead-code,Lines of dead code in files
+CWE-710,Java/Kotlin,java/unused-parameter,Useless parameter
+CWE-710,Java/Kotlin,java/ejb/container-interference,EJB interferes with container operation
+CWE-710,Java/Kotlin,java/ejb/file-io,EJB uses file input/output
+CWE-710,Java/Kotlin,java/ejb/graphics,EJB uses graphics
+CWE-710,Java/Kotlin,java/ejb/native-code,EJB uses native code
+CWE-710,Java/Kotlin,java/ejb/reflection,EJB uses reflection
+CWE-710,Java/Kotlin,java/ejb/security-configuration-access,EJB accesses security configuration
+CWE-710,Java/Kotlin,java/ejb/substitution-in-serialization,EJB uses substitution in serialization
+CWE-710,Java/Kotlin,java/ejb/socket-or-stream-handler-factory,EJB sets socket factory or URL stream handler factory
+CWE-710,Java/Kotlin,java/ejb/server-socket,EJB uses server socket
+CWE-710,Java/Kotlin,java/ejb/non-final-static-field,EJB uses non-final static field
+CWE-710,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-710,Java/Kotlin,java/ejb/this,EJB uses 'this' as argument or result
+CWE-710,Java/Kotlin,java/ejb/threads,EJB uses threads
+CWE-710,Java/Kotlin,java/useless-null-check,Useless null check
+CWE-710,Java/Kotlin,java/useless-type-test,Useless type test
+CWE-710,Java/Kotlin,java/useless-upcast,Useless upcast
+CWE-710,Java/Kotlin,java/missing-call-to-super-clone,Missing super clone
+CWE-710,Java/Kotlin,java/empty-container,Container contents are never initialized
+CWE-710,Java/Kotlin,java/unused-container,Container contents are never accessed
+CWE-710,Java/Kotlin,java/inconsistent-equals-and-hashcode,Inconsistent equals and hashCode
+CWE-710,Java/Kotlin,java/constant-comparison,Useless comparison test
+CWE-710,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-710,Java/Kotlin,java/missing-super-finalize,Finalizer inconsistency
+CWE-710,Java/Kotlin,java/missing-format-argument,Missing format argument
+CWE-710,Java/Kotlin,java/unused-format-argument,Unused format argument
+CWE-710,Java/Kotlin,java/dereferenced-value-is-always-null,Dereferenced variable is always null
+CWE-710,Java/Kotlin,java/dereferenced-expr-may-be-null,Dereferenced expression may be null
+CWE-710,Java/Kotlin,java/dereferenced-value-may-be-null,Dereferenced variable may be null
+CWE-710,Java/Kotlin,java/empty-synchronized-block,Empty synchronized block
+CWE-710,Java/Kotlin,java/unreachable-catch-clause,Unreachable catch clause
+CWE-710,Java/Kotlin,java/static-initialization-vector,Using a static initialization vector for encryption
+CWE-710,Java/Kotlin,java/potentially-dangerous-function,Use of a potentially dangerous function
+CWE-710,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-710,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-710,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-710,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-710,Java/Kotlin,java/todo-comment,TODO/FIXME comments
+CWE-710,Java/Kotlin,java/unused-reference-type,Unused classes and interfaces
+CWE-710,Java/Kotlin,java/overwritten-assignment-to-local,Assigned value is overwritten
+CWE-710,Java/Kotlin,java/useless-assignment-to-local,Useless assignment to local variable
+CWE-710,Java/Kotlin,java/empty-finalizer,Empty body of finalizer
+CWE-710,Java/Kotlin,java/unused-initialized-local,Local variable is initialized but not used
+CWE-710,Java/Kotlin,java/local-variable-is-never-read,Unread local variable
+CWE-710,Java/Kotlin,java/unused-field,Unused field
+CWE-710,Java/Kotlin,java/unused-label,Unused label
+CWE-710,Java/Kotlin,java/unused-local-variable,Unused local variable
+CWE-710,Java/Kotlin,java/switch-fall-through,Unterminated switch case
+CWE-710,Java/Kotlin,java/redundant-cast,Unnecessary cast
+CWE-710,Java/Kotlin,java/unused-import,Unnecessary import
+CWE-732,Java/Kotlin,java/local-temp-file-or-directory-information-disclosure,Local information disclosure in a temporary directory
+CWE-732,Java/Kotlin,java/world-writable-file-read,Reading from a world writable file
+CWE-749,Java/Kotlin,java/android/unsafe-android-webview-fetch,Unsafe resource fetching in Android WebView
+CWE-754,Java/Kotlin,java/inconsistent-call-on-result,Inconsistent operation on return value
+CWE-754,Java/Kotlin,java/return-value-ignored,Method result ignored
+CWE-754,Java/Kotlin,java/unsafe-cert-trust,Unsafe certificate trust
+CWE-755,Java/Kotlin,java/stack-trace-exposure,Information exposure through a stack trace
+CWE-755,Java/Kotlin,java/overly-general-catch,Overly-general catch clause
+CWE-755,Java/Kotlin,java/android/nfe-local-android-dos,Local Android DoS Caused By NumberFormatException
+CWE-759,Java/Kotlin,java/hash-without-salt,Use of a hash function without a salt
+CWE-764,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-772,Java/Kotlin,java/input-resource-leak,Potential input resource leak
+CWE-772,Java/Kotlin,java/database-resource-leak,Potential database resource leak
+CWE-772,Java/Kotlin,java/output-resource-leak,Potential output resource leak
+CWE-776,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-776,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-780,Java/Kotlin,java/rsa-without-oaep,Use of RSA algorithm without OAEP
+CWE-783,Java/Kotlin,java/whitespace-contradicts-precedence,Whitespace contradicts operator precedence
+CWE-798,Java/Kotlin,java/hardcoded-credential-api-call,Hard-coded credential in API call
+CWE-798,Java/Kotlin,java/hardcoded-credential-comparison,Hard-coded credential comparison
+CWE-798,Java/Kotlin,java/hardcoded-credential-sensitive-call,Hard-coded credential in sensitive call
+CWE-798,Java/Kotlin,java/hardcoded-password-field,Hard-coded password field
+CWE-807,Java/Kotlin,java/user-controlled-bypass,User-controlled bypass of sensitive method
+CWE-807,Java/Kotlin,java/tainted-permissions-check,User-controlled data used in permissions check
+CWE-820,Java/Kotlin,java/lazy-initialization,Incorrect lazy initialization of a static field
+CWE-820,Java/Kotlin,java/non-sync-override,Non-synchronized override of synchronized method
+CWE-821,Java/Kotlin,java/ejb/synchronization,EJB uses synchronization
+CWE-821,Java/Kotlin,java/call-to-thread-run,Direct call to a run() method
+CWE-827,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-827,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-829,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-829,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-829,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-833,Java/Kotlin,java/sleep-with-lock-held,Sleep with lock held
+CWE-833,Java/Kotlin,java/unreleased-lock,Unreleased lock
+CWE-833,Java/Kotlin,java/wait-with-two-locks,Wait with two locks held
+CWE-833,Java/Kotlin,java/lock-order-inconsistency,Lock order inconsistency
+CWE-834,Java/Kotlin,java/constant-loop-condition,Constant loop condition
+CWE-834,Java/Kotlin,java/xxe,Resolving XML external entity in user-controlled data
+CWE-834,Java/Kotlin,java/xxe-local,Resolving XML external entity in user-controlled data from local source
+CWE-834,Java/Kotlin,java/unreachable-exit-in-loop,Loop with unreachable exit condition
+CWE-835,Java/Kotlin,java/constant-loop-condition,Constant loop condition
+CWE-835,Java/Kotlin,java/unreachable-exit-in-loop,Loop with unreachable exit condition
+CWE-862,Java/Kotlin,java/incorrect-url-verification,Incorrect URL verification
+CWE-863,Java/Kotlin,java/permissive-dot-regex,URL matched by permissive . in a regular expression
+CWE-913,Java/Kotlin,java/android/arbitrary-apk-installation,Android APK installation
+CWE-913,Java/Kotlin,java/groovy-injection,Groovy Language injection
+CWE-913,Java/Kotlin,java/insecure-bean-validation,Insecure Bean Validation
+CWE-913,Java/Kotlin,java/jexl-expression-injection,Expression language injection (JEXL)
+CWE-913,Java/Kotlin,java/mvel-expression-injection,Expression language injection (MVEL)
+CWE-913,Java/Kotlin,java/spel-expression-injection,Expression language injection (Spring)
+CWE-913,Java/Kotlin,java/server-side-template-injection,Server-side template injection
+CWE-913,Java/Kotlin,java/android/fragment-injection,Android fragment injection
+CWE-913,Java/Kotlin,java/android/fragment-injection-preference-activity,Android fragment injection in PreferenceActivity
+CWE-913,Java/Kotlin,java/unsafe-deserialization,Deserialization of user-controlled data
+CWE-913,Java/Kotlin,java/log4j-injection,Potential Log4J LDAP JNDI injection (CVE-2021-44228)
+CWE-913,Java/Kotlin,java/beanshell-injection,BeanShell injection
+CWE-913,Java/Kotlin,java/android-insecure-dex-loading,Insecure loading of an Android Dex File
+CWE-913,Java/Kotlin,java/jshell-injection,JShell injection
+CWE-913,Java/Kotlin,java/javaee-expression-injection,Jakarta Expression Language injection
+CWE-913,Java/Kotlin,java/jython-injection,Injection in Jython
+CWE-913,Java/Kotlin,java/unsafe-eval,Injection in Java Script Engine
+CWE-913,Java/Kotlin,java/spring-view-manipulation-implicit,Spring Implicit View Manipulation
+CWE-913,Java/Kotlin,java/spring-view-manipulation,Spring View Manipulation
+CWE-913,Java/Kotlin,java/unsafe-reflection,Use of externally-controlled input to select classes or code ('unsafe reflection')
+CWE-913,Java/Kotlin,java/unsafe-deserialization-rmi,Unsafe deserialization in a remotely callable method.
+CWE-913,Java/Kotlin,java/unsafe-deserialization-spring-exporter-in-configuration-class,Unsafe deserialization with Spring's remote service exporters.
+CWE-913,Java/Kotlin,java/unsafe-deserialization-spring-exporter-in-xml-configuration,Unsafe deserialization with Spring's remote service exporters.
+CWE-916,Java/Kotlin,java/hash-without-salt,Use of a hash function without a salt
+CWE-917,Java/Kotlin,java/ognl-injection,OGNL Expression Language statement with user-controlled input
+CWE-918,Java/Kotlin,java/ssrf,Server-side request forgery
+CWE-922,Java/Kotlin,java/android/backup-enabled,Application backup allowed
+CWE-922,Java/Kotlin,java/android/cleartext-storage-database,Cleartext storage of sensitive information using a local database on Android
+CWE-922,Java/Kotlin,java/android/cleartext-storage-filesystem,Cleartext storage of sensitive information in the Android filesystem
+CWE-922,Java/Kotlin,java/cleartext-storage-in-class,Cleartext storage of sensitive information using storable class
+CWE-922,Java/Kotlin,java/cleartext-storage-in-cookie,Cleartext storage of sensitive information in cookie
+CWE-922,Java/Kotlin,java/cleartext-storage-in-properties,Cleartext storage of sensitive information using 'Properties' class
+CWE-922,Java/Kotlin,java/android/cleartext-storage-shared-prefs,Cleartext storage of sensitive information using SharedPreferences on Android
+CWE-923,Java/Kotlin,java/insecure-smtp-ssl,Insecure JavaMail SSL Configuration
+CWE-923,Java/Kotlin,java/unsafe-hostname-verification,Unsafe hostname verification
+CWE-923,Java/Kotlin,java/socket-auth-race-condition,Race condition in socket authentication
+CWE-923,Java/Kotlin,java/maven/non-https-url,Failure to use HTTPS or SFTP URL in Maven artifact upload/download
+CWE-923,Java/Kotlin,java/improper-intent-verification,Improper verification of intent by broadcast receiver
+CWE-923,Java/Kotlin,java/android/intent-redirection,Android Intent redirection
+CWE-923,Java/Kotlin,java/ignored-hostname-verification,Ignored result of hostname verification
+CWE-923,Java/Kotlin,java/insecure-ldaps-endpoint,Insecure LDAPS Endpoint Configuration
+CWE-925,Java/Kotlin,java/improper-intent-verification,Improper verification of intent by broadcast receiver
+CWE-926,Java/Kotlin,java/android/intent-uri-permission-manipulation,Intent URI permission manipulation
+CWE-926,Java/Kotlin,java/android/incomplete-provider-permissions,Missing read or write permission in a content provider
+CWE-926,Java/Kotlin,java/android/implicitly-exported-component,Implicitly exported Android component
+CWE-926,Java/Kotlin,java/android/intent-redirection,Android Intent redirection
+CWE-927,Java/Kotlin,java/android/implicit-pendingintents,Use of implicit PendingIntents
+CWE-927,Java/Kotlin,java/android/sensitive-communication,Leaking sensitive information through an implicit Intent
+CWE-927,Java/Kotlin,java/android/sensitive-result-receiver,Leaking sensitive information through a ResultReceiver
+CWE-939,Java/Kotlin,java/incorrect-url-verification,Incorrect URL verification
+CWE-940,Java/Kotlin,java/android/intent-redirection,Android Intent redirection
+CWE-943,Java/Kotlin,java/concatenated-sql-query,Query built by concatenation with a possibly-untrusted string
+CWE-943,Java/Kotlin,java/sql-injection,Query built from user-controlled sources
+CWE-943,Java/Kotlin,java/sql-injection-local,Query built from local-user-controlled sources
+CWE-943,Java/Kotlin,java/ldap-injection,LDAP query built from user-controlled sources
+CWE-943,Java/Kotlin,java/xml/xpath-injection,XPath injection
+CWE-943,Java/Kotlin,java/mybatis-annotation-sql-injection,SQL injection in MyBatis annotation
+CWE-943,Java/Kotlin,java/mybatis-xml-sql-injection,SQL injection in MyBatis Mapper XML
+CWE-943,Java/Kotlin,java/xquery-injection,XQuery query built from user-controlled sources
+CWE-1004,Java/Kotlin,java/tomcat-disabled-httponly,Tomcat config disables 'HttpOnly' flag (XSS risk)
+CWE-1004,Java/Kotlin,java/sensitive-cookie-not-httponly,Sensitive cookies without the HttpOnly response header set
+CWE-1104,Java/Kotlin,java/maven/dependency-upon-bintray,Depending upon JCenter/Bintray as an artifact repository
+CWE-1204,Java/Kotlin,java/static-initialization-vector,Using a static initialization vector for encryption
+CWE-1333,Java/Kotlin,java/polynomial-redos,Polynomial regular expression used on uncontrolled data
+CWE-1333,Java/Kotlin,java/redos,Inefficient regular expression
+CWE-1336,Java/Kotlin,java/server-side-template-injection,Server-side template injection
