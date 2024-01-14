@@ -8,6 +8,7 @@ import re
 class BaseLlmRunner:
     def __init__(self, file_path, prompt_name):
         load_dotenv(find_dotenv())
+        self.dataset_name = os.environ.get("CURRENT_DATASET_NAME")
         self.file_path = file_path
         self.prompt_name = prompt_name
         self.llm = ChatOpenAI(temperature=0, model_name="gpt-4-1106-preview")
