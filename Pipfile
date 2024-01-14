@@ -8,6 +8,7 @@ requests = "*"
 langchain = "*"
 openai = "==0.28.1"
 python-dotenv = "*"
+langchain-community = "*"
 
 [dev-packages]
 

@@ -1,10 +1,11 @@
 from BaseLlmRunner import BaseLlmRunner
-from langchain.callbacks import get_openai_callback
+from langchain_community.callbacks import get_openai_callback
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationChain
 from datetime import date
 import time
 import os
+import re
 
 
 class SelfReflectionPromptRunner(BaseLlmRunner):
@@ -35,13 +36,15 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
 
         tokens_used = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
         with open("results.csv", "a") as res:
+            cwes = self.clean_result(llm_response_1)
             res.write(
                 f"{self.prompt_name};"
                 f"{self.get_file_name()};"
+                f"{len(cwes) != 0};"
                 f"{self.clean_result(llm_response_1)};"
-                f"{time_spent_1}s;"
+                f"{time_spent_1};"
                 f"{tokens_used};"
-                f"{cost_1}$;"
+                f"{cost_1};"
                 f"{str(date.today())}\n"
             )
 
@@ -68,10 +71,11 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
             res.write(
                 f"{self.self_reflection_prompt_name};"
                 f"{self.get_file_name()};"
+                f"{self.is_vulnerability_present(llm_response_2)};"
                 f"{self.clean_result(llm_response_2)};"
                 f"{self.safe_float_addition(time_spent_1, time_spent_2)};"
                 f"{tokens_used};"
-                f"{self.safe_float_addition(cost_1, cost_2)}$;"
+                f"{self.safe_float_addition(cost_1, cost_2)};"
                 f"{str(date.today())}\n"
             )
 
@@ -88,9 +92,23 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
     def safe_float_addition(str_1, str_2):
         return str(float(str_1) + float(str_2))
 
+    @staticmethod
+    def is_vulnerability_present(input_text):
+        vulnerability_pattern = re.compile(r'vulnerability: (YES|NO) \|')
+
+        vulnerability_match = vulnerability_pattern.search(input_text)
+
+        if vulnerability_match:
+            vulnerability_status = vulnerability_match.group(1).strip()
+            if vulnerability_status.upper() == "YES":
+                return True
+            if vulnerability_status.upper() == "NO":
+                return False
+
+        return None
+
     def validate(self):
         first_template = self.load_prompt_from_file(self.prompt_name)
         second_template = self.load_prompt_from_file(self.prompt_name + "_self_reflection")
         if first_template == "" or second_template == "":
             raise Exception("One of the templates is not defined!")
-

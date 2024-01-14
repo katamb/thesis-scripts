@@ -1,6 +1,6 @@
 from dotenv import load_dotenv, find_dotenv
 from abc import abstractmethod
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 import os
 import re
 
