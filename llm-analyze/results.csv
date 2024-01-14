@@ -17,3 +17,7 @@ dataflow_analysis_prompt;J1376;True;CWE-22;20.816408395767212;total_tokens: 1109
 dataflow_analysis_prompt_self_reflection;J1376;True;CWE-22;26.54342007637024;total_tokens: 2374, completion_tokens: 416, prompt_tokens: 1958;0.032060000000000005;2024-01-14
 dataflow_analysis_prompt;J1375;True;CWE-22;20.78569746017456;total_tokens: 971, completion_tokens: 308, prompt_tokens: 663;0.015870000000000002;2024-01-14
 dataflow_analysis_prompt_self_reflection;J1375;True;CWE-22;29.932763814926147;total_tokens: 2129, completion_tokens: 439, prompt_tokens: 1690;0.030070000000000003;2024-01-14
+dataflow_analysis_prompt;J1378;True;CWE-22;19.972818851470947;total_tokens: 1203, completion_tokens: 368, prompt_tokens: 835;0.019389999999999998;2024-01-14
+dataflow_analysis_prompt_self_reflection;J1378;True;CWE-22;28.24605965614319;total_tokens: 2636, completion_tokens: 542, prompt_tokens: 2094;0.0372;2024-01-14
+dataflow_analysis_prompt;J1379;True;CWE-22;26.91485595703125;total_tokens: 1013, completion_tokens: 350, prompt_tokens: 663;0.01713;2024-01-14
+dataflow_analysis_prompt_self_reflection;J1379;False;CWE-200 CWE-22;35.59427309036255;total_tokens: 2226, completion_tokens: 494, prompt_tokens: 1732;0.03214;2024-01-14
