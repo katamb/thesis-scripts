@@ -11,8 +11,12 @@ def process_directory(directory_path):
                 continue
             elif file.startswith("J") and file.endswith(".java"):
                 file_path = os.path.join(root, file)
-                runner = SelfReflectionPromptRunner(file_path, "dataflow_analysis_prompt")
-                runner.run_prompt()
+                if ("CWE89" in file_path
+                        or "CWE78" in file_path
+                        or "CWE476" in file_path
+                        or "CWE190" in file_path):
+                    runner = SelfReflectionPromptRunner(file_path, "dataflow_analysis_prompt")
+                    runner.run_prompt()
 
 
 if __name__ == "__main__":
@@ -23,5 +27,5 @@ if __name__ == "__main__":
     #runner.run_prompt()
 
     dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
-    folder = os.path.join(dataset_root, "src", "testcases", "CWE523_Unprotected_Cred_Transport")
+    folder = os.path.join(dataset_root, "src", "testcases")
     process_directory(folder)

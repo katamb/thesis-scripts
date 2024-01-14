@@ -44,7 +44,6 @@ def process_directory(directory_path):
                     currcount = count_per_cwe[cwe]
                     count_per_cwe[cwe] = currcount + 1
                 else:
-                    print(cwe)
                     count_per_cwe[cwe] = 1
     print("Amount of files " + str(count))
     print(count_per_cwe)
