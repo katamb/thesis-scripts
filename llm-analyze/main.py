@@ -11,14 +11,14 @@ def process_directory(directory_path):
                 continue
             elif file.startswith("J") and file.endswith(".java"):
                 file_path = os.path.join(root, file)
-                runner = SimplePromptRunner(file_path, "modified_noever_prompt")
+                runner = SelfReflectionPromptRunner(file_path, "dataflow_analysis_prompt")
                 runner.run_prompt()
 
 
 if __name__ == "__main__":
     load_dotenv(find_dotenv())
-    file = os.environ.get("DATASET_DIRECTORY_ROOT") + "\\src\\testcases\\CWE80_XSS\\s01\\J2630.java"
-    runner = SimplePromptRunner(file, "karl_prompt")
+    file = os.environ.get("DATASET_DIRECTORY_ROOT") + "\\src\\testcases\\CWE23_Relative_Path_Traversal\\J1376.java"
+    runner = SelfReflectionPromptRunner(file, "dataflow_analysis_prompt")
     runner.run_prompt()
     #folder = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE338_Weak_PRNG"
     #process_directory(folder)

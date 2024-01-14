@@ -2,6 +2,7 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain.callbacks import get_openai_callback
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationChain
+from datetime import date
 import time
 import os
 
@@ -35,12 +36,13 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         tokens_used = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
         with open("results.csv", "a") as res:
             res.write(
-                f"{self.prompt_name}; "
-                f"{self.get_file_name()}; "
-                f"{self.clean_result(llm_response_1)}; "
-                f"{time_spent_1}s; "
-                f"{tokens_used}; "
-                f"{cost_1}\n"
+                f"{self.prompt_name};"
+                f"{self.get_file_name()};"
+                f"{self.clean_result(llm_response_1)};"
+                f"{time_spent_1}s;"
+                f"{tokens_used};"
+                f"{cost_1}$;"
+                f"{str(date.today())}\n"
             )
 
         with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
@@ -64,12 +66,13 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
                        f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2)}")
         with open("results.csv", "a") as res:
             res.write(
-                f"{self.self_reflection_prompt_name}; "
-                f"{self.get_file_name()}; "
-                f"{self.clean_result(llm_response_2)}; "
-                f"{self.safe_float_addition(time_spent_1, time_spent_2)}; "
-                f"{tokens_used}; "
-                f"{self.safe_float_addition(cost_1, cost_2)}\n"
+                f"{self.self_reflection_prompt_name};"
+                f"{self.get_file_name()};"
+                f"{self.clean_result(llm_response_2)};"
+                f"{self.safe_float_addition(time_spent_1, time_spent_2)};"
+                f"{tokens_used};"
+                f"{self.safe_float_addition(cost_1, cost_2)}$;"
+                f"{str(date.today())}\n"
             )
 
         with open(self.self_reflection_result_folder_path + "\\" + self.get_file_name(), "w") as r:

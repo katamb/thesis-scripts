@@ -2,6 +2,7 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain.callbacks import get_openai_callback
+from datetime import date
 import time
 
 
@@ -26,12 +27,13 @@ class SimplePromptRunner(BaseLlmRunner):
 
         with open("results.csv", "a") as res:
             res.write(
-                f"{self.prompt_name}; "
-                f"{self.get_file_name()}; "
-                f"{self.clean_result(llm_response)}; "
-                f"{time_spent}s; "
-                f"{tokens_used}; "
-                f"{cost}\n"
+                f"{self.prompt_name};"
+                f"{self.get_file_name()};"
+                f"{self.clean_result(llm_response)};"
+                f"{time_spent}s;"
+                f"{tokens_used};"
+                f"{cost}$;"
+                f"{str(date.today())}\n"
             )
 
         with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:

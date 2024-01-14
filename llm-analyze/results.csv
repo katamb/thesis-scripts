@@ -1,13 +1,17 @@
-prompt_name; file_name; cwe_ids; time_taken; tokens_used; cost
-modified_noever_prompt; J1776; CWE IDs: CWE-22, CWE-209; 38.22222352027893s; total_tokens: 1087, completion_tokens: 427, prompt_tokens: 660; 0.01941
-modified_noever_prompt; J2628; CWE-79, CWE-117; 20.55654501914978s; total_tokens: 496, completion_tokens: 277, prompt_tokens: 219; 0.010499999999999999
-modified_noever_prompt; J1852; CWE-330: Use of Insufficiently Random Values; 13.023247241973877s; total_tokens: 351, completion_tokens: 215, prompt_tokens: 136; 0.00781
-modified_noever_prompt; J1853; CWE IDs: -; 13.934823036193848s; total_tokens: 465, completion_tokens: 307, prompt_tokens: 158; 0.01079
-modified_noever_prompt; J1854; CWE IDs: CWE-330; 18.343825578689575s; total_tokens: 375, completion_tokens: 228, prompt_tokens: 147; 0.00831
-modified_noever_prompt; J1855; CWE IDs: -; 13.155085325241089s; total_tokens: 510, completion_tokens: 347, prompt_tokens: 163; 0.012039999999999999
-dataflow_analysis_prompt; J2627; CWE-79; 14.379631519317627s; total_tokens: 865, completion_tokens: 292, prompt_tokens: 573; 0.01449
-dataflow_analysis_prompt_self_reflection; J2627; CWE-79; 19.3204665184021; total_tokens: 1915, completion_tokens: 421, prompt_tokens: 1494; 0.02757
-dataflow_analysis_prompt; J2630; CWE-79; 18.96355652809143s; total_tokens: 685, completion_tokens: 271, prompt_tokens: 414; 0.01227
-dataflow_analysis_prompt_self_reflection; J2630; ; 24.044480800628662; total_tokens: 1532, completion_tokens: 377, prompt_tokens: 1155; 0.02286
-karl_prompt; J2630; CWE CWE-79; 46.955486536026s; total_tokens: 861, completion_tokens: 607, prompt_tokens: 254; 0.02075
-karl_prompt; J2630; CWE-79; 36.95482349395752s; total_tokens: 722, completion_tokens: 489, prompt_tokens: 233; 0.016999999999999998
+prompt_name; file_name; cwe_ids; time_taken; tokens_used; cost; created_at
+modified_noever_prompt; J1776; CWE IDs: CWE-22, CWE-209; 38.22222352027893s; total_tokens: 1087, completion_tokens: 427, prompt_tokens: 660; 0.01941$;2024-01-01
+modified_noever_prompt; J2628; CWE-79, CWE-117; 20.55654501914978s; total_tokens: 496, completion_tokens: 277, prompt_tokens: 219; 0.010499999999999999$;2024-01-01
+modified_noever_prompt; J1852; CWE-330: Use of Insufficiently Random Values; 13.023247241973877s; total_tokens: 351, completion_tokens: 215, prompt_tokens: 136; 0.00781$;2024-01-01
+modified_noever_prompt; J1853; CWE IDs: -; 13.934823036193848s; total_tokens: 465, completion_tokens: 307, prompt_tokens: 158; 0.01079$;2024-01-01
+modified_noever_prompt; J1854; CWE IDs: CWE-330; 18.343825578689575s; total_tokens: 375, completion_tokens: 228, prompt_tokens: 147; 0.00831$;2024-01-01
+modified_noever_prompt; J1855; CWE IDs: -; 13.155085325241089s; total_tokens: 510, completion_tokens: 347, prompt_tokens: 163; 0.012039999999999999$;2024-01-01
+dataflow_analysis_prompt; J2627; CWE-79; 14.379631519317627s; total_tokens: 865, completion_tokens: 292, prompt_tokens: 573; 0.01449$;2024-01-01
+dataflow_analysis_prompt_self_reflection; J2627; CWE-79; 19.3204665184021; total_tokens: 1915, completion_tokens: 421, prompt_tokens: 1494; 0.02757$;2024-01-01
+dataflow_analysis_prompt; J2630; CWE-79; 18.96355652809143s; total_tokens: 685, completion_tokens: 271, prompt_tokens: 414; 0.01227$;2024-01-01
+dataflow_analysis_prompt_self_reflection; J2630; ; 24.044480800628662; total_tokens: 1532, completion_tokens: 377, prompt_tokens: 1155; 0.02286$;2024-01-01
+karl_prompt; J2630; CWE CWE-79; 46.955486536026s; total_tokens: 861, completion_tokens: 607, prompt_tokens: 254; 0.02075$;2024-01-01
+karl_prompt; J2630; CWE-79; 36.95482349395752s; total_tokens: 722, completion_tokens: 489, prompt_tokens: 233; 0.016999999999999998$;2024-01-01
+dataflow_analysis_prompt;J1374;CWE-22;18.415040969848633s;total_tokens: 1195, completion_tokens: 343, prompt_tokens: 852;0.01881$;2024-01-14
+dataflow_analysis_prompt_self_reflection; J1374; ; 24.295912265777588; total_tokens: 2563, completion_tokens: 460, prompt_tokens: 2103; 0.03483
+dataflow_analysis_prompt;J1376;CWE-22;20.816408395767212s;total_tokens: 1109, completion_tokens: 316, prompt_tokens: 793;0.017410000000000002$;2024-01-14
+dataflow_analysis_prompt_self_reflection;J1376;CWE-22;26.54342007637024;total_tokens: 2374, completion_tokens: 416, prompt_tokens: 1958;0.032060000000000005$;2024-01-14
