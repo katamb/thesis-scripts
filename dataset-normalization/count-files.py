@@ -22,8 +22,13 @@ def get_matching_cwes():
     print(f"not affected {not_affected_cwes}")
 
 
-def get_cwe(filename):
-    return filename.split("_")[0]
+def get_cwe(file_path):
+    match = re.search(r'CWE(\d+)_', file_path)
+    if match:
+        return match.group(1)
+    else:
+        return None
+    #return filename.split("_")[0]
 
 
 def process_directory(directory_path):
@@ -31,9 +36,10 @@ def process_directory(directory_path):
     count_per_cwe = dict()
     for root, dirs, files in os.walk(directory_path):
         for file in files:
-            if file.startswith("CWE") and file.endswith(".java"):
+            file_path = os.path.join(root, file)
+            if file.startswith("J") and file.endswith(".java"):
                 count += 1
-                cwe = get_cwe(file)
+                cwe = "CWE-" + get_cwe(file_path)
                 if cwe in count_per_cwe:
                     currcount = count_per_cwe[cwe]
                     count_per_cwe[cwe] = currcount + 1
@@ -45,7 +51,7 @@ def process_directory(directory_path):
 
 
 if __name__ == "__main__":
-    current_directory = "C:\\Users\\karlt\\thesis\\datasets\\juliet-top-25\\src\\testcases"  # os.getcwd()
+    current_directory = "C:\\Users\\karlt\\thesis\\datasets\\juliet-top-25\\src\\testcases"
     process_directory(current_directory)
     print("Script completed successfully.")
     #get_matching_cwes()

@@ -1,3 +1,4 @@
+from dotenv import load_dotenv, find_dotenv
 from abc import abstractmethod
 from langchain.chat_models import ChatOpenAI
 import os
@@ -6,10 +7,11 @@ import re
 
 class BaseLlmRunner:
     def __init__(self, file_path, prompt_name):
+        load_dotenv(find_dotenv())
         self.file_path = file_path
         self.prompt_name = prompt_name
         self.llm = ChatOpenAI(temperature=0, model_name="gpt-4-1106-preview")
-        self.base_result_path = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing-results\\"
+        self.base_result_path = os.environ.get('DATASET_DIRECTORY_ROOT') + "-results\\"
         self.result_folder_path = self.base_result_path + self.prompt_name
         if not os.path.exists(self.result_folder_path):
             os.makedirs(self.result_folder_path)

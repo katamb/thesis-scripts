@@ -1,3 +1,4 @@
+from dotenv import load_dotenv, find_dotenv
 from SimplePromptRunner import SimplePromptRunner
 from SelfReflectionPromptRunner import SelfReflectionPromptRunner
 import os
@@ -15,7 +16,8 @@ def process_directory(directory_path):
 
 
 if __name__ == "__main__":
-    file = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE80_XSS\\s01\\J2630.java"
+    load_dotenv(find_dotenv())
+    file = os.environ.get("DATASET_DIRECTORY_ROOT") + "\\src\\testcases\\CWE80_XSS\\s01\\J2630.java"
     runner = SimplePromptRunner(file, "karl_prompt")
     runner.run_prompt()
     #folder = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases\\CWE338_Weak_PRNG"

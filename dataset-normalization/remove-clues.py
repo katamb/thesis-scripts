@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv, find_dotenv
 
 
 def get_file_name(file_path):
@@ -37,7 +38,8 @@ def remove_clues(file_path, counter):
     with open(new_file_path, 'w') as file:
         file.write(content)
 
-    with open("C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\file-mapping.csv", "a") as f:
+    current_dir = os.environ.get('DATASET_DIRECTORY_ROOT')
+    with open(current_dir + "\\file-mapping.csv", "a") as f:
         cwe = old_file_name.split("_")[0]
         cwe_present = "bad" in old_file_name
         cwe_description = " ".join(old_file_name.split("__")[0].split("_")[1:])
@@ -75,6 +77,7 @@ def process_directory(directory_path):
 
 
 if __name__ == "__main__":
-    current_directory = "C:\\Users\\karlt\\thesis\\datasets\\mini-testing\\src\\testcases"
-    process_directory(current_directory)
+    load_dotenv(find_dotenv())
+    current_dir = os.environ.get('DATASET_DIRECTORY_ROOT') + "\\src\\testcases\\"
+    process_directory(current_dir)
     print("Script completed successfully.")
