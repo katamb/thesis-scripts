@@ -37,7 +37,7 @@ def process_directory(directory_path):
     for root, dirs, files in os.walk(directory_path):
         for file in files:
             file_path = os.path.join(root, file)
-            if file.startswith("J") and file.endswith(".java"):
+            if file.startswith("CWE") and file.endswith(".java"):
                 count += 1
                 cwe = "CWE-" + get_cwe(file_path)
                 if cwe in count_per_cwe:

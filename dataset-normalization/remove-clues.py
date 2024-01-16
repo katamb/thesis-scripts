@@ -43,7 +43,7 @@ def remove_clues(file_path, counter):
         cwe = old_file_name.split("_")[0]
         cwe_present = "bad" in old_file_name
         cwe_description = " ".join(old_file_name.split("__")[0].split("_")[1:])
-        f.write(f"{new_file_name}, {old_file_name}, {cwe}, {cwe_present}, {cwe_description} \n")
+        f.write(f"{new_file_name}, {old_file_name}, CWE-{cwe[3:]}, {cwe_present}, {cwe_description} \n")
 
     return old_file_name, new_file_name
 
