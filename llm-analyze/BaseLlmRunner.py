@@ -11,7 +11,8 @@ class BaseLlmRunner:
         self.dataset_name = os.environ.get("CURRENT_DATASET_NAME")
         self.file_path = file_path
         self.prompt_name = prompt_name
-        self.llm = ChatOpenAI(temperature=0, model_name="gpt-4-1106-preview")
+        self.model_name = "gpt-4-1106-preview"
+        self.llm = ChatOpenAI(temperature=0, model_name=self.model_name)
         self.base_result_path = os.environ.get('DATASET_DIRECTORY_ROOT') + "-results\\"
         self.result_folder_path = self.base_result_path + self.prompt_name
         if not os.path.exists(self.result_folder_path):

@@ -38,6 +38,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         with open("results.csv", "a") as res:
             cwes = self.clean_result(llm_response_1)
             res.write(
+                f"{self.model_name};"
                 f"{self.dataset_name};"
                 f"{self.prompt_name};"
                 f"{self.get_file_name()};"
@@ -70,6 +71,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
                        f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2)}")
         with open("results.csv", "a") as res:
             res.write(
+                f"{self.model_name};"
                 f"{self.dataset_name};"
                 f"{self.self_reflection_prompt_name};"
                 f"{self.get_file_name()};"

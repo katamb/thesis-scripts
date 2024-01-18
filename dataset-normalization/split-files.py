@@ -1,5 +1,9 @@
 from dotenv import load_dotenv, find_dotenv
 import os
+import re
+
+
+pattern = r"__([^)]+)\(\)\)\.runTest"
 
 
 def count_braces(line):
@@ -34,21 +38,28 @@ def split_files(file_path):
     bad_content = ""
     inside_bad_function = False
     inside_good_function = False
+    skip_count_check = False
     function_braces_count = 0
+
     for line in content.split("\n"):
-        if function_braces_count == 0:
+        if function_braces_count == 0 and not skip_count_check:
             inside_bad_function = False
             inside_good_function = False
+        skip_count_check = False
 
         if line.strip().startswith("public void bad") or line.strip().startswith("private void bad"):
             inside_bad_function = True
             inside_good_function = False
             bad_content += line + "\n"
+            if "{" in line and "}" not in line:
+                skip_count_check = True
             function_braces_count += count_braces(line)
         elif line.strip().startswith("public void good") or line.strip().startswith("private void good"):
             inside_good_function = True
             inside_bad_function = False
             good_content += line + "\n"
+            if "{" in line and "}" not in line:
+                skip_count_check = True
             function_braces_count += count_braces(line)
         elif inside_bad_function:
             bad_content += line + "\n"
@@ -77,9 +88,11 @@ def update_file_names(file_path):
         content = file.read()
 
     for line in content.split("\n"):
-        if "_01()" in line:
-            new_good_line = line.replace("_01()", "_01_good()")
-            new_bad_line = line.replace("_01()", "_01_bad()")
+        match = re.search(pattern, line)
+        if match:
+            extracted_text = match.group(1)
+            new_good_line = line.replace(extracted_text, extracted_text + "_good")
+            new_bad_line = line.replace(extracted_text, extracted_text + "_bad")
             new_content += new_good_line + "\n"
             new_content += new_bad_line + "\n"
         else:
@@ -91,16 +104,17 @@ def update_file_names(file_path):
 
 def process_directory(directory_path):
     for root, dirs, files in os.walk(directory_path):
-        changed_file_names = []
         for file in files:
+            file_path = os.path.join(root, file)
             # skip already converted files
             if "good" in file or "bad" in file or "Helper" in file:
                 continue
-            file_path = os.path.join(root, file)
-            if "CWE" in file and file.endswith(".java"):
-                split_files(file_path)
             elif "Main" in file:
+                # Change file names in main files that call the files
                 update_file_names(file_path)
+            elif "CWE" in file and file.endswith(".java"):
+                # Split files matching that into 2: good and bad case
+                split_files(file_path)
 
 
 if __name__ == "__main__":

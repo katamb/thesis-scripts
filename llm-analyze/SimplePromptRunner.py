@@ -28,6 +28,7 @@ class SimplePromptRunner(BaseLlmRunner):
         with open("results.csv", "a") as res:
             cwes = self.clean_result(llm_response)
             res.write(
+                f"{self.model_name};"
                 f"{self.dataset_name};"
                 f"{self.prompt_name};"
                 f"{self.get_file_name()};"

@@ -2,8 +2,8 @@ CREATE TABLE dataset(
     file_name VARCHAR(250) PRIMARY KEY,
     original_file_name VARCHAR(250),
     cwe_id VARCHAR(250),
-    cwe_id VARCHAR(250),
     cwe_present BOOLEAN,
+    acceptable_cwe_ids text,
     cwe_description text
 );
 
