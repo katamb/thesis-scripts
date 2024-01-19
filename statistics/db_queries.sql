@@ -46,8 +46,8 @@ WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
 SELECT avg(cost) as avg_cost, sum(cost) as sum_cost, avg(time_taken) as avg_time_taken, sum(time_taken) as sum_time_taken
 FROM results
 WHERE prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
-    AND ds.dataset_name = '<ds_name>'  -- e.g. juliet-top-25-subset-34
-    AND res.llm_model = '<model_name>'  -- e.g. gpt-4-1106-preview
+    AND dataset_name = '<ds_name>'  -- e.g. juliet-top-25-subset-34
+    AND llm_model = '<model_name>';  -- e.g. gpt-4-1106-preview
 
 -- Overall data v2
 select cwe_id, count(*)
