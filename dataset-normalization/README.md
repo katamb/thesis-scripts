@@ -16,4 +16,8 @@ Thus, Gradle build tool was added and all ant-related stuff was removed for simp
 4. Run `remove-comments.py` to remove all comments and extra whitespace from the test files.
 5. Run `prune-testcases.py` to remove the more complex testcases.
 6. Run `split-files.py` to split files into 2: good case and bad case.
-7. 
+7. Run `remove-clues.py` script. After that, some manual processing might still be required. 
+Look for functions and variables containing "good" or "bad" in names and make changes to those. 
+8. For using a subset, `get-random-subset.py` script can be used. Make sure to set the variable
+`amount_of_files_to_keep_per_cwe` to the fitting number.
+9.  
