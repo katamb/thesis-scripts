@@ -18,7 +18,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
 
     def run_prompt(self):
         self.validate()
-        conversation = ConversationChain(llm=self.llm, verbose=True)
+        conversation = ConversationChain(llm=self.llm)
         code = self.load_file_content()
 
         first_template = self.load_prompt_from_file(self.prompt_name)

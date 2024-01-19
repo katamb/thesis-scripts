@@ -14,7 +14,7 @@ class SimplePromptRunner(BaseLlmRunner):
         template = self.load_prompt_from_file(self.prompt_name)
         code = self.load_file_content()
         prompt = PromptTemplate.from_template(template)
-        chain = LLMChain(llm=self.llm, prompt=prompt, verbose=True)
+        chain = LLMChain(llm=self.llm, prompt=prompt)
 
         with get_openai_callback() as cb:
             start = time.time()

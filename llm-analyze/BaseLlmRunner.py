@@ -1,6 +1,7 @@
 from dotenv import load_dotenv, find_dotenv
 from abc import abstractmethod
 from langchain_openai import ChatOpenAI
+from langchain.globals import set_verbose
 import os
 import re
 
@@ -13,6 +14,7 @@ class BaseLlmRunner:
         self.prompt_name = prompt_name
         self.model_name = "gpt-4-1106-preview"
         self.llm = ChatOpenAI(temperature=0, model_name=self.model_name)
+        set_verbose(True)
         self.base_result_path = os.environ.get('DATASET_DIRECTORY_ROOT') + "-results\\"
         self.result_folder_path = self.base_result_path + self.prompt_name
         if not os.path.exists(self.result_folder_path):

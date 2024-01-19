@@ -1,0 +1,579 @@
+dataset_name,file_name,original_file_name,cwe_id,cwe_present,acceptable_cwe_ids,cwe_description
+juliet-top-25-subset-34,J10126,CWE129_Improper_Validation_of_Array_Index__connect_tcp_array_read_no_check_41_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10127,CWE129_Improper_Validation_of_Array_Index__connect_tcp_array_read_no_check_41_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10530,CWE129_Improper_Validation_of_Array_Index__database_array_read_no_check_02_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10531,CWE129_Improper_Validation_of_Array_Index__database_array_read_no_check_02_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10676,CWE129_Improper_Validation_of_Array_Index__Environment_array_read_check_max_09_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10677,CWE129_Improper_Validation_of_Array_Index__Environment_array_read_check_max_09_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10738,CWE129_Improper_Validation_of_Array_Index__Environment_array_read_check_min_21_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10739,CWE129_Improper_Validation_of_Array_Index__Environment_array_read_check_min_21_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10754,CWE129_Improper_Validation_of_Array_Index__Environment_array_read_no_check_04_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J10755,CWE129_Improper_Validation_of_Array_Index__Environment_array_read_no_check_04_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11014,CWE129_Improper_Validation_of_Array_Index__File_array_size_02_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11015,CWE129_Improper_Validation_of_Array_Index__File_array_size_02_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11176,CWE129_Improper_Validation_of_Array_Index__getCookies_Servlet_array_read_check_min_17_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11177,CWE129_Improper_Validation_of_Array_Index__getCookies_Servlet_array_read_check_min_17_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11338,CWE129_Improper_Validation_of_Array_Index__getParameter_Servlet_array_read_check_max_10_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11339,CWE129_Improper_Validation_of_Array_Index__getParameter_Servlet_array_read_check_max_10_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11558,CWE129_Improper_Validation_of_Array_Index__getQueryString_Servlet_array_read_check_max_10_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11559,CWE129_Improper_Validation_of_Array_Index__getQueryString_Servlet_array_read_check_max_10_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11608,CWE129_Improper_Validation_of_Array_Index__getQueryString_Servlet_array_read_check_min_13_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J11609,CWE129_Improper_Validation_of_Array_Index__getQueryString_Servlet_array_read_check_min_13_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12224,CWE129_Improper_Validation_of_Array_Index__negative_fixed_array_read_no_check_13_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12225,CWE129_Improper_Validation_of_Array_Index__negative_fixed_array_read_no_check_13_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12290,CWE129_Improper_Validation_of_Array_Index__PropertiesFile_array_read_check_max_02_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12291,CWE129_Improper_Validation_of_Array_Index__PropertiesFile_array_read_check_max_02_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12326,CWE129_Improper_Validation_of_Array_Index__PropertiesFile_array_read_check_max_41_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12327,CWE129_Improper_Validation_of_Array_Index__PropertiesFile_array_read_check_max_41_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12498,CWE129_Improper_Validation_of_Array_Index__PropertiesFile_array_write_no_check_21_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12499,CWE129_Improper_Validation_of_Array_Index__PropertiesFile_array_write_no_check_21_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12752,CWE129_Improper_Validation_of_Array_Index__random_array_read_check_max_13_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12753,CWE129_Improper_Validation_of_Array_Index__random_array_read_check_max_13_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12930,CWE129_Improper_Validation_of_Array_Index__random_array_write_no_check_14_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J12931,CWE129_Improper_Validation_of_Array_Index__random_array_write_no_check_14_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J13100,CWE129_Improper_Validation_of_Array_Index__URLConnection_array_size_11_bad,CWE-129,True,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J13101,CWE129_Improper_Validation_of_Array_Index__URLConnection_array_size_11_good,CWE-129,False,CWE-129 CWE-1285,Improper Validation of Array Index
+juliet-top-25-subset-34,J14350,CWE190_Integer_Overflow__int_getCookies_Servlet_square_41_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J14351,CWE190_Integer_Overflow__int_getCookies_Servlet_square_41_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J14374,CWE190_Integer_Overflow__int_getParameter_Servlet_add_10_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J14375,CWE190_Integer_Overflow__int_getParameter_Servlet_add_10_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J14728,CWE190_Integer_Overflow__int_listen_tcp_square_11_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J14729,CWE190_Integer_Overflow__int_listen_tcp_square_11_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J14944,CWE190_Integer_Overflow__int_PropertiesFile_multiply_09_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J14945,CWE190_Integer_Overflow__int_PropertiesFile_multiply_09_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15370,CWE190_Integer_Overflow__int_URLConnection_square_02_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15371,CWE190_Integer_Overflow__int_URLConnection_square_02_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15376,CWE190_Integer_Overflow__int_URLConnection_square_05_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15377,CWE190_Integer_Overflow__int_URLConnection_square_05_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15728,CWE190_Integer_Overflow__long_rand_multiply_05_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15729,CWE190_Integer_Overflow__long_rand_multiply_05_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15890,CWE190_Integer_Overflow__short_console_readLine_multiply_41_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15891,CWE190_Integer_Overflow__short_console_readLine_multiply_41_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15936,CWE190_Integer_Overflow__short_console_readLine_square_42_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J15937,CWE190_Integer_Overflow__short_console_readLine_square_42_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J16260,CWE190_Integer_Overflow__byte_max_postinc_07_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J16261,CWE190_Integer_Overflow__byte_max_postinc_07_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J16322,CWE190_Integer_Overflow__byte_rand_postinc_16_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J16323,CWE190_Integer_Overflow__byte_rand_postinc_16_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J16950,CWE190_Integer_Overflow__int_URLConnection_postinc_45_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J16951,CWE190_Integer_Overflow__int_URLConnection_postinc_45_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J17186,CWE190_Integer_Overflow__short_rand_postinc_08_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J17187,CWE190_Integer_Overflow__short_rand_postinc_08_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J17318,CWE190_Integer_Overflow__byte_rand_preinc_08_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J17319,CWE190_Integer_Overflow__byte_rand_preinc_08_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J17866,CWE190_Integer_Overflow__int_Property_preinc_21_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J17867,CWE190_Integer_Overflow__int_Property_preinc_21_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J18108,CWE190_Integer_Overflow__short_console_readLine_preinc_07_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J18109,CWE190_Integer_Overflow__short_console_readLine_preinc_07_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J18138,CWE190_Integer_Overflow__short_console_readLine_preinc_45_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J18139,CWE190_Integer_Overflow__short_console_readLine_preinc_45_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-subset-34,J18234,CWE23_Relative_Path_Traversal__connect_tcp_04_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18235,CWE23_Relative_Path_Traversal__connect_tcp_04_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18264,CWE23_Relative_Path_Traversal__connect_tcp_31_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18265,CWE23_Relative_Path_Traversal__connect_tcp_31_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18272,CWE23_Relative_Path_Traversal__console_readLine_01_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18273,CWE23_Relative_Path_Traversal__console_readLine_01_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18368,CWE23_Relative_Path_Traversal__Environment_05_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18369,CWE23_Relative_Path_Traversal__Environment_05_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18452,CWE23_Relative_Path_Traversal__getCookies_Servlet_03_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18453,CWE23_Relative_Path_Traversal__getCookies_Servlet_03_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18458,CWE23_Relative_Path_Traversal__getCookies_Servlet_06_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18459,CWE23_Relative_Path_Traversal__getCookies_Servlet_06_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18532,CWE23_Relative_Path_Traversal__getParameter_Servlet_42_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18533,CWE23_Relative_Path_Traversal__getParameter_Servlet_42_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18584,CWE23_Relative_Path_Traversal__listen_tcp_03_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18585,CWE23_Relative_Path_Traversal__listen_tcp_03_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18588,CWE23_Relative_Path_Traversal__listen_tcp_05_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18589,CWE23_Relative_Path_Traversal__listen_tcp_05_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18596,CWE23_Relative_Path_Traversal__listen_tcp_09_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18597,CWE23_Relative_Path_Traversal__listen_tcp_09_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18604,CWE23_Relative_Path_Traversal__listen_tcp_13_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18605,CWE23_Relative_Path_Traversal__listen_tcp_13_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18630,CWE23_Relative_Path_Traversal__PropertiesFile_04_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18631,CWE23_Relative_Path_Traversal__PropertiesFile_04_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18670,CWE23_Relative_Path_Traversal__Property_02_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18671,CWE23_Relative_Path_Traversal__Property_02_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18686,CWE23_Relative_Path_Traversal__Property_10_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18687,CWE23_Relative_Path_Traversal__Property_10_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18702,CWE23_Relative_Path_Traversal__Property_21_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18703,CWE23_Relative_Path_Traversal__Property_21_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18736,CWE23_Relative_Path_Traversal__URLConnection_13_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18737,CWE23_Relative_Path_Traversal__URLConnection_13_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18748,CWE23_Relative_Path_Traversal__URLConnection_31_bad,CWE-23,True,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18749,CWE23_Relative_Path_Traversal__URLConnection_31_good,CWE-23,False,CWE-22 CWE-23 CWE-24 CWE-25 CWE-26 CWE-27 CWE-28 CWE-29 CWE-30 CWE-31 CWE-32 CWE-33 CWE-34,Relative Path Traversal
+juliet-top-25-subset-34,J18756,CWE256_Plaintext_Storage_of_Password__basic_01_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18757,CWE256_Plaintext_Storage_of_Password__basic_01_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18758,CWE256_Plaintext_Storage_of_Password__basic_02_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18759,CWE256_Plaintext_Storage_of_Password__basic_02_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18760,CWE256_Plaintext_Storage_of_Password__basic_03_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18761,CWE256_Plaintext_Storage_of_Password__basic_03_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18764,CWE256_Plaintext_Storage_of_Password__basic_05_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18765,CWE256_Plaintext_Storage_of_Password__basic_05_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18766,CWE256_Plaintext_Storage_of_Password__basic_06_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18767,CWE256_Plaintext_Storage_of_Password__basic_06_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18770,CWE256_Plaintext_Storage_of_Password__basic_08_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18771,CWE256_Plaintext_Storage_of_Password__basic_08_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18772,CWE256_Plaintext_Storage_of_Password__basic_09_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18773,CWE256_Plaintext_Storage_of_Password__basic_09_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18774,CWE256_Plaintext_Storage_of_Password__basic_10_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18775,CWE256_Plaintext_Storage_of_Password__basic_10_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18780,CWE256_Plaintext_Storage_of_Password__basic_13_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18781,CWE256_Plaintext_Storage_of_Password__basic_13_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18782,CWE256_Plaintext_Storage_of_Password__basic_14_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18783,CWE256_Plaintext_Storage_of_Password__basic_14_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18784,CWE256_Plaintext_Storage_of_Password__basic_15_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18785,CWE256_Plaintext_Storage_of_Password__basic_15_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18788,CWE256_Plaintext_Storage_of_Password__basic_17_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18789,CWE256_Plaintext_Storage_of_Password__basic_17_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18790,CWE256_Plaintext_Storage_of_Password__basic_21_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18791,CWE256_Plaintext_Storage_of_Password__basic_21_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18792,CWE256_Plaintext_Storage_of_Password__basic_31_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18793,CWE256_Plaintext_Storage_of_Password__basic_31_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18794,CWE256_Plaintext_Storage_of_Password__basic_41_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18795,CWE256_Plaintext_Storage_of_Password__basic_41_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18796,CWE256_Plaintext_Storage_of_Password__basic_42_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18797,CWE256_Plaintext_Storage_of_Password__basic_42_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18798,CWE256_Plaintext_Storage_of_Password__basic_45_bad,CWE-256,True,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18799,CWE256_Plaintext_Storage_of_Password__basic_45_good,CWE-256,False,CWE-256 CWE-522,Plaintext Storage of Password
+juliet-top-25-subset-34,J18800,CWE259_Hard_Coded_Password__driverManager_01_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18801,CWE259_Hard_Coded_Password__driverManager_01_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18802,CWE259_Hard_Coded_Password__driverManager_02_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18803,CWE259_Hard_Coded_Password__driverManager_02_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18806,CWE259_Hard_Coded_Password__driverManager_04_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18807,CWE259_Hard_Coded_Password__driverManager_04_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18826,CWE259_Hard_Coded_Password__driverManager_14_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18827,CWE259_Hard_Coded_Password__driverManager_14_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18832,CWE259_Hard_Coded_Password__driverManager_17_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18833,CWE259_Hard_Coded_Password__driverManager_17_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18842,CWE259_Hard_Coded_Password__driverManager_45_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18843,CWE259_Hard_Coded_Password__driverManager_45_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18848,CWE259_Hard_Coded_Password__kerberosKey_03_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18849,CWE259_Hard_Coded_Password__kerberosKey_03_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18860,CWE259_Hard_Coded_Password__kerberosKey_09_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18861,CWE259_Hard_Coded_Password__kerberosKey_09_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18868,CWE259_Hard_Coded_Password__kerberosKey_13_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18869,CWE259_Hard_Coded_Password__kerberosKey_13_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18872,CWE259_Hard_Coded_Password__kerberosKey_15_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18873,CWE259_Hard_Coded_Password__kerberosKey_15_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18892,CWE259_Hard_Coded_Password__passwordAuth_03_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18893,CWE259_Hard_Coded_Password__passwordAuth_03_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18904,CWE259_Hard_Coded_Password__passwordAuth_09_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18905,CWE259_Hard_Coded_Password__passwordAuth_09_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18914,CWE259_Hard_Coded_Password__passwordAuth_14_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18915,CWE259_Hard_Coded_Password__passwordAuth_14_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18920,CWE259_Hard_Coded_Password__passwordAuth_17_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18921,CWE259_Hard_Coded_Password__passwordAuth_17_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18924,CWE259_Hard_Coded_Password__passwordAuth_31_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18925,CWE259_Hard_Coded_Password__passwordAuth_31_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18928,CWE259_Hard_Coded_Password__passwordAuth_42_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18929,CWE259_Hard_Coded_Password__passwordAuth_42_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18930,CWE259_Hard_Coded_Password__passwordAuth_45_bad,CWE-259,True,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18931,CWE259_Hard_Coded_Password__passwordAuth_45_good,CWE-259,False,CWE-259 CWE-798,Hard Coded Password
+juliet-top-25-subset-34,J18932,CWE321_Hard_Coded_Cryptographic_Key__basic_01_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18933,CWE321_Hard_Coded_Cryptographic_Key__basic_01_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18934,CWE321_Hard_Coded_Cryptographic_Key__basic_02_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18935,CWE321_Hard_Coded_Cryptographic_Key__basic_02_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18936,CWE321_Hard_Coded_Cryptographic_Key__basic_03_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18937,CWE321_Hard_Coded_Cryptographic_Key__basic_03_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18938,CWE321_Hard_Coded_Cryptographic_Key__basic_04_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18939,CWE321_Hard_Coded_Cryptographic_Key__basic_04_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18940,CWE321_Hard_Coded_Cryptographic_Key__basic_05_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18941,CWE321_Hard_Coded_Cryptographic_Key__basic_05_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18942,CWE321_Hard_Coded_Cryptographic_Key__basic_06_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18943,CWE321_Hard_Coded_Cryptographic_Key__basic_06_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18944,CWE321_Hard_Coded_Cryptographic_Key__basic_07_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18945,CWE321_Hard_Coded_Cryptographic_Key__basic_07_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18948,CWE321_Hard_Coded_Cryptographic_Key__basic_09_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18949,CWE321_Hard_Coded_Cryptographic_Key__basic_09_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18950,CWE321_Hard_Coded_Cryptographic_Key__basic_10_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18951,CWE321_Hard_Coded_Cryptographic_Key__basic_10_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18954,CWE321_Hard_Coded_Cryptographic_Key__basic_12_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18955,CWE321_Hard_Coded_Cryptographic_Key__basic_12_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18956,CWE321_Hard_Coded_Cryptographic_Key__basic_13_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18957,CWE321_Hard_Coded_Cryptographic_Key__basic_13_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18960,CWE321_Hard_Coded_Cryptographic_Key__basic_15_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18961,CWE321_Hard_Coded_Cryptographic_Key__basic_15_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18966,CWE321_Hard_Coded_Cryptographic_Key__basic_21_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18967,CWE321_Hard_Coded_Cryptographic_Key__basic_21_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18968,CWE321_Hard_Coded_Cryptographic_Key__basic_31_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18969,CWE321_Hard_Coded_Cryptographic_Key__basic_31_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18970,CWE321_Hard_Coded_Cryptographic_Key__basic_41_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18971,CWE321_Hard_Coded_Cryptographic_Key__basic_41_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18972,CWE321_Hard_Coded_Cryptographic_Key__basic_42_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18973,CWE321_Hard_Coded_Cryptographic_Key__basic_42_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18974,CWE321_Hard_Coded_Cryptographic_Key__basic_45_bad,CWE-321,True,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18975,CWE321_Hard_Coded_Cryptographic_Key__basic_45_good,CWE-321,False,CWE-321 CWE-798,Hard Coded Cryptographic Key
+juliet-top-25-subset-34,J18994,CWE36_Absolute_Path_Traversal__connect_tcp_10_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J18995,CWE36_Absolute_Path_Traversal__connect_tcp_10_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19000,CWE36_Absolute_Path_Traversal__connect_tcp_13_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19001,CWE36_Absolute_Path_Traversal__connect_tcp_13_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19024,CWE36_Absolute_Path_Traversal__console_readLine_03_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19025,CWE36_Absolute_Path_Traversal__console_readLine_03_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19042,CWE36_Absolute_Path_Traversal__console_readLine_12_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19043,CWE36_Absolute_Path_Traversal__console_readLine_12_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19108,CWE36_Absolute_Path_Traversal__Environment_01_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19109,CWE36_Absolute_Path_Traversal__Environment_01_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19122,CWE36_Absolute_Path_Traversal__Environment_08_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19123,CWE36_Absolute_Path_Traversal__Environment_08_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19156,CWE36_Absolute_Path_Traversal__File_03_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19157,CWE36_Absolute_Path_Traversal__File_03_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19306,CWE36_Absolute_Path_Traversal__getQueryString_Servlet_12_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19307,CWE36_Absolute_Path_Traversal__getQueryString_Servlet_12_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19324,CWE36_Absolute_Path_Traversal__getQueryString_Servlet_42_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19325,CWE36_Absolute_Path_Traversal__getQueryString_Servlet_42_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19344,CWE36_Absolute_Path_Traversal__listen_tcp_09_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19345,CWE36_Absolute_Path_Traversal__listen_tcp_09_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19346,CWE36_Absolute_Path_Traversal__listen_tcp_10_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19347,CWE36_Absolute_Path_Traversal__listen_tcp_10_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19354,CWE36_Absolute_Path_Traversal__listen_tcp_14_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19355,CWE36_Absolute_Path_Traversal__listen_tcp_14_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19374,CWE36_Absolute_Path_Traversal__PropertiesFile_02_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19375,CWE36_Absolute_Path_Traversal__PropertiesFile_02_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19382,CWE36_Absolute_Path_Traversal__PropertiesFile_06_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19383,CWE36_Absolute_Path_Traversal__PropertiesFile_06_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19400,CWE36_Absolute_Path_Traversal__PropertiesFile_15_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19401,CWE36_Absolute_Path_Traversal__PropertiesFile_15_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19408,CWE36_Absolute_Path_Traversal__PropertiesFile_31_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19409,CWE36_Absolute_Path_Traversal__PropertiesFile_31_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19500,CWE36_Absolute_Path_Traversal__URLConnection_42_bad,CWE-36,True,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19501,CWE36_Absolute_Path_Traversal__URLConnection_42_good,CWE-36,False,CWE-22 CWE-36 CWE-37 CWE-38 CWE-39 CWE-40,Absolute Path Traversal
+juliet-top-25-subset-34,J19508,CWE476_NULL_Pointer_Dereference__binary_if_03_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19509,CWE476_NULL_Pointer_Dereference__binary_if_03_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19554,CWE476_NULL_Pointer_Dereference__deref_after_check_09_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19555,CWE476_NULL_Pointer_Dereference__deref_after_check_09_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19556,CWE476_NULL_Pointer_Dereference__deref_after_check_10_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19557,CWE476_NULL_Pointer_Dereference__deref_after_check_10_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19588,CWE476_NULL_Pointer_Dereference__Integer_09_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19589,CWE476_NULL_Pointer_Dereference__Integer_09_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19648,CWE476_NULL_Pointer_Dereference__int_array_17_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19649,CWE476_NULL_Pointer_Dereference__int_array_17_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19660,CWE476_NULL_Pointer_Dereference__null_check_after_deref_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19661,CWE476_NULL_Pointer_Dereference__null_check_after_deref_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19666,CWE476_NULL_Pointer_Dereference__null_check_after_deref_04_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19667,CWE476_NULL_Pointer_Dereference__null_check_after_deref_04_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19680,CWE476_NULL_Pointer_Dereference__null_check_after_deref_11_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19681,CWE476_NULL_Pointer_Dereference__null_check_after_deref_11_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19684,CWE476_NULL_Pointer_Dereference__null_check_after_deref_13_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19685,CWE476_NULL_Pointer_Dereference__null_check_after_deref_13_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19686,CWE476_NULL_Pointer_Dereference__null_check_after_deref_14_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19687,CWE476_NULL_Pointer_Dereference__null_check_after_deref_14_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19720,CWE476_NULL_Pointer_Dereference__StringBuilder_14_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19721,CWE476_NULL_Pointer_Dereference__StringBuilder_14_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19730,CWE476_NULL_Pointer_Dereference__StringBuilder_31_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19731,CWE476_NULL_Pointer_Dereference__StringBuilder_31_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19736,CWE476_NULL_Pointer_Dereference__StringBuilder_45_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19737,CWE476_NULL_Pointer_Dereference__StringBuilder_45_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19740,CWE476_NULL_Pointer_Dereference__String_02_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19741,CWE476_NULL_Pointer_Dereference__String_02_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19742,CWE476_NULL_Pointer_Dereference__String_03_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19743,CWE476_NULL_Pointer_Dereference__String_03_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19758,CWE476_NULL_Pointer_Dereference__String_11_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19759,CWE476_NULL_Pointer_Dereference__String_11_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19760,CWE476_NULL_Pointer_Dereference__String_12_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19761,CWE476_NULL_Pointer_Dereference__String_12_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-subset-34,J19782,CWE523_Unprotected_Cred_Transport__Servlet_01_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19783,CWE523_Unprotected_Cred_Transport__Servlet_01_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19784,CWE523_Unprotected_Cred_Transport__Servlet_02_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19785,CWE523_Unprotected_Cred_Transport__Servlet_02_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19786,CWE523_Unprotected_Cred_Transport__Servlet_03_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19787,CWE523_Unprotected_Cred_Transport__Servlet_03_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19788,CWE523_Unprotected_Cred_Transport__Servlet_04_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19789,CWE523_Unprotected_Cred_Transport__Servlet_04_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19790,CWE523_Unprotected_Cred_Transport__Servlet_05_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19791,CWE523_Unprotected_Cred_Transport__Servlet_05_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19792,CWE523_Unprotected_Cred_Transport__Servlet_06_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19793,CWE523_Unprotected_Cred_Transport__Servlet_06_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19794,CWE523_Unprotected_Cred_Transport__Servlet_07_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19795,CWE523_Unprotected_Cred_Transport__Servlet_07_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19796,CWE523_Unprotected_Cred_Transport__Servlet_08_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19797,CWE523_Unprotected_Cred_Transport__Servlet_08_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19798,CWE523_Unprotected_Cred_Transport__Servlet_09_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19799,CWE523_Unprotected_Cred_Transport__Servlet_09_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19800,CWE523_Unprotected_Cred_Transport__Servlet_10_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19801,CWE523_Unprotected_Cred_Transport__Servlet_10_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19802,CWE523_Unprotected_Cred_Transport__Servlet_11_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19803,CWE523_Unprotected_Cred_Transport__Servlet_11_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19804,CWE523_Unprotected_Cred_Transport__Servlet_12_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19805,CWE523_Unprotected_Cred_Transport__Servlet_12_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19806,CWE523_Unprotected_Cred_Transport__Servlet_13_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19807,CWE523_Unprotected_Cred_Transport__Servlet_13_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19808,CWE523_Unprotected_Cred_Transport__Servlet_14_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19809,CWE523_Unprotected_Cred_Transport__Servlet_14_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19810,CWE523_Unprotected_Cred_Transport__Servlet_15_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19811,CWE523_Unprotected_Cred_Transport__Servlet_15_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19812,CWE523_Unprotected_Cred_Transport__Servlet_16_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19813,CWE523_Unprotected_Cred_Transport__Servlet_16_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19814,CWE523_Unprotected_Cred_Transport__Servlet_17_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19815,CWE523_Unprotected_Cred_Transport__Servlet_17_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-subset-34,J19816,CWE549_Missing_Password_Masking__Servlet_01_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19817,CWE549_Missing_Password_Masking__Servlet_01_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19818,CWE549_Missing_Password_Masking__Servlet_02_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19819,CWE549_Missing_Password_Masking__Servlet_02_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19820,CWE549_Missing_Password_Masking__Servlet_03_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19821,CWE549_Missing_Password_Masking__Servlet_03_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19822,CWE549_Missing_Password_Masking__Servlet_04_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19823,CWE549_Missing_Password_Masking__Servlet_04_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19824,CWE549_Missing_Password_Masking__Servlet_05_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19825,CWE549_Missing_Password_Masking__Servlet_05_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19826,CWE549_Missing_Password_Masking__Servlet_06_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19827,CWE549_Missing_Password_Masking__Servlet_06_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19828,CWE549_Missing_Password_Masking__Servlet_07_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19829,CWE549_Missing_Password_Masking__Servlet_07_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19830,CWE549_Missing_Password_Masking__Servlet_08_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19831,CWE549_Missing_Password_Masking__Servlet_08_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19832,CWE549_Missing_Password_Masking__Servlet_09_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19833,CWE549_Missing_Password_Masking__Servlet_09_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19834,CWE549_Missing_Password_Masking__Servlet_10_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19835,CWE549_Missing_Password_Masking__Servlet_10_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19836,CWE549_Missing_Password_Masking__Servlet_11_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19837,CWE549_Missing_Password_Masking__Servlet_11_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19838,CWE549_Missing_Password_Masking__Servlet_12_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19839,CWE549_Missing_Password_Masking__Servlet_12_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19840,CWE549_Missing_Password_Masking__Servlet_13_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19841,CWE549_Missing_Password_Masking__Servlet_13_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19842,CWE549_Missing_Password_Masking__Servlet_14_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19843,CWE549_Missing_Password_Masking__Servlet_14_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19844,CWE549_Missing_Password_Masking__Servlet_15_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19845,CWE549_Missing_Password_Masking__Servlet_15_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19846,CWE549_Missing_Password_Masking__Servlet_16_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19847,CWE549_Missing_Password_Masking__Servlet_16_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19848,CWE549_Missing_Password_Masking__Servlet_17_bad,CWE-549,True,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19849,CWE549_Missing_Password_Masking__Servlet_17_good,CWE-549,False,CWE-522 CWE-549,Missing Password Masking
+juliet-top-25-subset-34,J19852,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_02_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19853,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_02_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19854,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_03_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19855,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_03_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19858,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_05_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19859,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_05_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19860,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_06_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19861,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_06_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19862,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_07_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19863,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_07_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19864,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_08_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19865,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_08_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19866,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_09_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19867,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_09_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19870,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_11_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19871,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_11_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19874,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_13_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19875,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_13_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19876,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_14_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19877,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_14_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19878,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_15_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19879,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_15_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19880,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_16_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19881,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_16_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19882,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_17_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19883,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_17_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19884,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_21_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19885,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_21_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19886,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_31_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19887,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_31_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19888,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_41_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19889,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_41_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19890,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_42_bad,CWE-566,True,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19891,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_42_good,CWE-566,False,CWE-566 CWE-639,Authorization Bypass Through SQL Primary
+juliet-top-25-subset-34,J19898,CWE606_Unchecked_Loop_Condition__connect_tcp_03_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J19899,CWE606_Unchecked_Loop_Condition__connect_tcp_03_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J19954,CWE606_Unchecked_Loop_Condition__console_readLine_09_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J19955,CWE606_Unchecked_Loop_Condition__console_readLine_09_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J19972,CWE606_Unchecked_Loop_Condition__console_readLine_21_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J19973,CWE606_Unchecked_Loop_Condition__console_readLine_21_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20008,CWE606_Unchecked_Loop_Condition__database_14_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20009,CWE606_Unchecked_Loop_Condition__database_14_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20016,CWE606_Unchecked_Loop_Condition__database_21_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20017,CWE606_Unchecked_Loop_Condition__database_21_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20098,CWE606_Unchecked_Loop_Condition__File_15_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20099,CWE606_Unchecked_Loop_Condition__File_15_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20118,CWE606_Unchecked_Loop_Condition__getCookies_Servlet_03_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20119,CWE606_Unchecked_Loop_Condition__getCookies_Servlet_03_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20136,CWE606_Unchecked_Loop_Condition__getCookies_Servlet_12_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20137,CWE606_Unchecked_Loop_Condition__getCookies_Servlet_12_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20158,CWE606_Unchecked_Loop_Condition__getParameter_Servlet_01_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20159,CWE606_Unchecked_Loop_Condition__getParameter_Servlet_01_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20208,CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_04_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20209,CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_04_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20212,CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_06_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20213,CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_06_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20302,CWE606_Unchecked_Loop_Condition__PropertiesFile_07_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20303,CWE606_Unchecked_Loop_Condition__PropertiesFile_07_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20312,CWE606_Unchecked_Loop_Condition__PropertiesFile_12_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20313,CWE606_Unchecked_Loop_Condition__PropertiesFile_12_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20316,CWE606_Unchecked_Loop_Condition__PropertiesFile_14_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20317,CWE606_Unchecked_Loop_Condition__PropertiesFile_14_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20356,CWE606_Unchecked_Loop_Condition__Property_12_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20357,CWE606_Unchecked_Loop_Condition__Property_12_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20364,CWE606_Unchecked_Loop_Condition__Property_16_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20365,CWE606_Unchecked_Loop_Condition__Property_16_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20384,CWE606_Unchecked_Loop_Condition__URLConnection_04_bad,CWE-606,True,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20385,CWE606_Unchecked_Loop_Condition__URLConnection_04_good,CWE-606,False,CWE-606 CWE-1284,Unchecked Loop Condition
+juliet-top-25-subset-34,J20432,CWE78_OS_Command_Injection__connect_tcp_06_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20433,CWE78_OS_Command_Injection__connect_tcp_06_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20464,CWE78_OS_Command_Injection__connect_tcp_45_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20465,CWE78_OS_Command_Injection__connect_tcp_45_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20478,CWE78_OS_Command_Injection__console_readLine_07_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20479,CWE78_OS_Command_Injection__console_readLine_07_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20496,CWE78_OS_Command_Injection__console_readLine_16_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20497,CWE78_OS_Command_Injection__console_readLine_16_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20626,CWE78_OS_Command_Injection__File_15_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20627,CWE78_OS_Command_Injection__File_15_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20632,CWE78_OS_Command_Injection__File_21_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20633,CWE78_OS_Command_Injection__File_21_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20676,CWE78_OS_Command_Injection__getCookies_Servlet_21_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20677,CWE78_OS_Command_Injection__getCookies_Servlet_21_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20680,CWE78_OS_Command_Injection__getCookies_Servlet_41_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20681,CWE78_OS_Command_Injection__getCookies_Servlet_41_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20736,CWE78_OS_Command_Injection__getQueryString_Servlet_04_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20737,CWE78_OS_Command_Injection__getQueryString_Servlet_04_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20756,CWE78_OS_Command_Injection__getQueryString_Servlet_14_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20757,CWE78_OS_Command_Injection__getQueryString_Servlet_14_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20772,CWE78_OS_Command_Injection__getQueryString_Servlet_45_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20773,CWE78_OS_Command_Injection__getQueryString_Servlet_45_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20808,CWE78_OS_Command_Injection__listen_tcp_21_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20809,CWE78_OS_Command_Injection__listen_tcp_21_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20822,CWE78_OS_Command_Injection__PropertiesFile_03_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20823,CWE78_OS_Command_Injection__PropertiesFile_03_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20830,CWE78_OS_Command_Injection__PropertiesFile_07_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20831,CWE78_OS_Command_Injection__PropertiesFile_07_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20840,CWE78_OS_Command_Injection__PropertiesFile_12_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20841,CWE78_OS_Command_Injection__PropertiesFile_12_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20856,CWE78_OS_Command_Injection__PropertiesFile_41_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20857,CWE78_OS_Command_Injection__PropertiesFile_41_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20890,CWE78_OS_Command_Injection__Property_15_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20891,CWE78_OS_Command_Injection__Property_15_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-subset-34,J20972,CWE80_XSS__CWE182_Servlet_connect_tcp_12_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J20973,CWE80_XSS__CWE182_Servlet_connect_tcp_12_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21062,CWE80_XSS__CWE182_Servlet_File_13_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21063,CWE80_XSS__CWE182_Servlet_File_13_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21126,CWE80_XSS__CWE182_Servlet_getParameter_Servlet_01_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21127,CWE80_XSS__CWE182_Servlet_getParameter_Servlet_01_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21138,CWE80_XSS__CWE182_Servlet_getParameter_Servlet_07_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21139,CWE80_XSS__CWE182_Servlet_getParameter_Servlet_07_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21164,CWE80_XSS__CWE182_Servlet_getParameter_Servlet_41_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21165,CWE80_XSS__CWE182_Servlet_getParameter_Servlet_41_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21176,CWE80_XSS__CWE182_Servlet_getQueryString_Servlet_04_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21177,CWE80_XSS__CWE182_Servlet_getQueryString_Servlet_04_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21214,CWE80_XSS__CWE182_Servlet_listen_tcp_01_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21215,CWE80_XSS__CWE182_Servlet_listen_tcp_01_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21318,CWE80_XSS__CWE182_Servlet_URLConnection_09_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21319,CWE80_XSS__CWE182_Servlet_URLConnection_09_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21362,CWE80_XSS__Servlet_connect_tcp_09_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21363,CWE80_XSS__Servlet_connect_tcp_09_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21442,CWE80_XSS__Servlet_File_05_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21443,CWE80_XSS__Servlet_File_05_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21460,CWE80_XSS__Servlet_File_14_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21461,CWE80_XSS__Servlet_File_14_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21498,CWE80_XSS__Servlet_getCookies_Servlet_11_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21499,CWE80_XSS__Servlet_getCookies_Servlet_11_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21522,CWE80_XSS__Servlet_getParameter_Servlet_01_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21523,CWE80_XSS__Servlet_getParameter_Servlet_01_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21572,CWE80_XSS__Servlet_getQueryString_Servlet_04_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21573,CWE80_XSS__Servlet_getQueryString_Servlet_04_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21600,CWE80_XSS__Servlet_getQueryString_Servlet_21_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21601,CWE80_XSS__Servlet_getQueryString_Servlet_21_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21646,CWE80_XSS__Servlet_listen_tcp_31_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21647,CWE80_XSS__Servlet_listen_tcp_31_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21726,CWE80_XSS__Servlet_URLConnection_15_bad,CWE-80,True,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21727,CWE80_XSS__Servlet_URLConnection_15_good,CWE-80,False,CWE-80 CWE-79,XSS
+juliet-top-25-subset-34,J21754,CWE81_XSS_Error_Message__Servlet_connect_tcp_07_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21755,CWE81_XSS_Error_Message__Servlet_connect_tcp_07_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21778,CWE81_XSS_Error_Message__Servlet_connect_tcp_31_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21779,CWE81_XSS_Error_Message__Servlet_connect_tcp_31_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21802,CWE81_XSS_Error_Message__Servlet_database_09_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21803,CWE81_XSS_Error_Message__Servlet_database_09_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21830,CWE81_XSS_Error_Message__Servlet_File_01_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21831,CWE81_XSS_Error_Message__Servlet_File_01_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21884,CWE81_XSS_Error_Message__Servlet_getCookies_Servlet_06_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21885,CWE81_XSS_Error_Message__Servlet_getCookies_Servlet_06_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21888,CWE81_XSS_Error_Message__Servlet_getCookies_Servlet_08_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21889,CWE81_XSS_Error_Message__Servlet_getCookies_Servlet_08_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21902,CWE81_XSS_Error_Message__Servlet_getCookies_Servlet_15_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21903,CWE81_XSS_Error_Message__Servlet_getCookies_Servlet_15_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21994,CWE81_XSS_Error_Message__Servlet_getQueryString_Servlet_17_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J21995,CWE81_XSS_Error_Message__Servlet_getQueryString_Servlet_17_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22014,CWE81_XSS_Error_Message__Servlet_listen_tcp_05_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22015,CWE81_XSS_Error_Message__Servlet_listen_tcp_05_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22026,CWE81_XSS_Error_Message__Servlet_listen_tcp_11_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22027,CWE81_XSS_Error_Message__Servlet_listen_tcp_11_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22032,CWE81_XSS_Error_Message__Servlet_listen_tcp_14_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22033,CWE81_XSS_Error_Message__Servlet_listen_tcp_14_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22054,CWE81_XSS_Error_Message__Servlet_PropertiesFile_03_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22055,CWE81_XSS_Error_Message__Servlet_PropertiesFile_03_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22066,CWE81_XSS_Error_Message__Servlet_PropertiesFile_09_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22067,CWE81_XSS_Error_Message__Servlet_PropertiesFile_09_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22078,CWE81_XSS_Error_Message__Servlet_PropertiesFile_15_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22079,CWE81_XSS_Error_Message__Servlet_PropertiesFile_15_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22080,CWE81_XSS_Error_Message__Servlet_PropertiesFile_16_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22081,CWE81_XSS_Error_Message__Servlet_PropertiesFile_16_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22088,CWE81_XSS_Error_Message__Servlet_PropertiesFile_41_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22089,CWE81_XSS_Error_Message__Servlet_PropertiesFile_41_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22118,CWE81_XSS_Error_Message__Servlet_URLConnection_13_bad,CWE-81,True,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22119,CWE81_XSS_Error_Message__Servlet_URLConnection_13_good,CWE-81,False,CWE-81 CWE-79,XSS Error Message
+juliet-top-25-subset-34,J22150,CWE83_XSS_Attribute__Servlet_connect_tcp_07_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22151,CWE83_XSS_Attribute__Servlet_connect_tcp_07_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22152,CWE83_XSS_Attribute__Servlet_connect_tcp_08_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22153,CWE83_XSS_Attribute__Servlet_connect_tcp_08_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22180,CWE83_XSS_Attribute__Servlet_connect_tcp_45_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22181,CWE83_XSS_Attribute__Servlet_connect_tcp_45_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22186,CWE83_XSS_Attribute__Servlet_database_03_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22187,CWE83_XSS_Attribute__Servlet_database_03_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22324,CWE83_XSS_Attribute__Servlet_getParameter_Servlet_06_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22325,CWE83_XSS_Attribute__Servlet_getParameter_Servlet_06_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22340,CWE83_XSS_Attribute__Servlet_getParameter_Servlet_14_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22341,CWE83_XSS_Attribute__Servlet_getParameter_Servlet_14_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22346,CWE83_XSS_Attribute__Servlet_getParameter_Servlet_17_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22347,CWE83_XSS_Attribute__Servlet_getParameter_Servlet_17_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22374,CWE83_XSS_Attribute__Servlet_getQueryString_Servlet_09_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22375,CWE83_XSS_Attribute__Servlet_getQueryString_Servlet_09_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22388,CWE83_XSS_Attribute__Servlet_getQueryString_Servlet_16_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22389,CWE83_XSS_Attribute__Servlet_getQueryString_Servlet_16_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22408,CWE83_XSS_Attribute__Servlet_listen_tcp_04_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22409,CWE83_XSS_Attribute__Servlet_listen_tcp_04_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22416,CWE83_XSS_Attribute__Servlet_listen_tcp_08_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22417,CWE83_XSS_Attribute__Servlet_listen_tcp_08_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22420,CWE83_XSS_Attribute__Servlet_listen_tcp_10_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22421,CWE83_XSS_Attribute__Servlet_listen_tcp_10_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22464,CWE83_XSS_Attribute__Servlet_PropertiesFile_10_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22465,CWE83_XSS_Attribute__Servlet_PropertiesFile_10_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22472,CWE83_XSS_Attribute__Servlet_PropertiesFile_14_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22473,CWE83_XSS_Attribute__Servlet_PropertiesFile_14_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22500,CWE83_XSS_Attribute__Servlet_URLConnection_06_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22501,CWE83_XSS_Attribute__Servlet_URLConnection_06_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22508,CWE83_XSS_Attribute__Servlet_URLConnection_10_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22509,CWE83_XSS_Attribute__Servlet_URLConnection_10_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22524,CWE83_XSS_Attribute__Servlet_URLConnection_21_bad,CWE-83,True,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22525,CWE83_XSS_Attribute__Servlet_URLConnection_21_good,CWE-83,False,CWE-83 CWE-79 CWE-82,XSS Attribute
+juliet-top-25-subset-34,J22584,CWE89_SQL_Injection__connect_tcp_executeQuery_04_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J22585,CWE89_SQL_Injection__connect_tcp_executeQuery_04_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J22710,CWE89_SQL_Injection__connect_tcp_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J22711,CWE89_SQL_Injection__connect_tcp_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23230,CWE89_SQL_Injection__Environment_executeBatch_31_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23231,CWE89_SQL_Injection__Environment_executeBatch_31_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23590,CWE89_SQL_Injection__File_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23591,CWE89_SQL_Injection__File_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23782,CWE89_SQL_Injection__getCookies_Servlet_execute_09_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23783,CWE89_SQL_Injection__getCookies_Servlet_execute_09_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23876,CWE89_SQL_Injection__getParameter_Servlet_executeBatch_12_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J23877,CWE89_SQL_Injection__getParameter_Servlet_executeBatch_12_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24046,CWE89_SQL_Injection__getParameter_Servlet_prepareStatement_09_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24047,CWE89_SQL_Injection__getParameter_Servlet_prepareStatement_09_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24134,CWE89_SQL_Injection__getQueryString_Servlet_executeQuery_09_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24135,CWE89_SQL_Injection__getQueryString_Servlet_executeQuery_09_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24218,CWE89_SQL_Injection__getQueryString_Servlet_execute_07_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24219,CWE89_SQL_Injection__getQueryString_Servlet_execute_07_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24370,CWE89_SQL_Injection__listen_tcp_executeQuery_17_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24371,CWE89_SQL_Injection__listen_tcp_executeQuery_17_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24444,CWE89_SQL_Injection__listen_tcp_execute_10_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24445,CWE89_SQL_Injection__listen_tcp_execute_10_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24616,CWE89_SQL_Injection__PropertiesFile_executeUpdate_08_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24617,CWE89_SQL_Injection__PropertiesFile_executeUpdate_08_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24788,CWE89_SQL_Injection__Property_executeQuery_06_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24789,CWE89_SQL_Injection__Property_executeQuery_06_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24808,CWE89_SQL_Injection__Property_executeQuery_16_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J24809,CWE89_SQL_Injection__Property_executeQuery_16_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J25094,CWE89_SQL_Injection__URLConnection_execute_05_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J25095,CWE89_SQL_Injection__URLConnection_execute_05_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J25116,CWE89_SQL_Injection__URLConnection_execute_16_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J25117,CWE89_SQL_Injection__URLConnection_execute_16_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J25136,CWE89_SQL_Injection__URLConnection_prepareStatement_04_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-subset-34,J25137,CWE89_SQL_Injection__URLConnection_prepareStatement_04_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
