@@ -915,3 +915,5 @@ gpt-4-1106-preview;juliet-top-25-subset-34;dataflow_analysis_prompt;J25137;True;
 gpt-4-1106-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_self_reflection;J24789;True;CWE-89;39.89159154891968;total_tokens: 3696, completion_tokens: 539, prompt_tokens: 3157;0.04774;2024-01-19
 gpt-4-1106-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_self_reflection;J24809;True;CWE-89;41.65870189666748;total_tokens: 2429, completion_tokens: 456, prompt_tokens: 1973;0.03341;2024-01-19
 gpt-4-1106-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_self_reflection;J25137;True;CWE-89;68.6554365158081;total_tokens: 4591, completion_tokens: 630, prompt_tokens: 3961;0.058510000000000006;2024-01-19
+gpt-4-1106-preview;juliet-top-25-subset-34;dataflow_analysis_prompt;J18272;True;CWE-22;21.39838194847107;total_tokens: 1047, completion_tokens: 254, prompt_tokens: 793;0.015550000000000001;2024-01-20
+gpt-4-1106-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_self_reflection;J18272;None;;30.6596782207489;total_tokens: 2285, completion_tokens: 389, prompt_tokens: 1896;0.03063;2024-01-20

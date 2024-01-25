@@ -1,391 +1,391 @@
 dataset_name,file_name,original_file_name,cwe_id,cwe_present,acceptable_cwe_ids,cwe_description
-juliet-top-25-small,J1144,CWE190_Integer_Overflow__byte_console_readLine_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1145,CWE190_Integer_Overflow__byte_console_readLine_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1146,CWE190_Integer_Overflow__byte_console_readLine_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1147,CWE190_Integer_Overflow__byte_console_readLine_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1148,CWE190_Integer_Overflow__byte_console_readLine_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1149,CWE190_Integer_Overflow__byte_console_readLine_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1150,CWE190_Integer_Overflow__byte_max_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1151,CWE190_Integer_Overflow__byte_max_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1152,CWE190_Integer_Overflow__byte_max_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1153,CWE190_Integer_Overflow__byte_max_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1154,CWE190_Integer_Overflow__byte_max_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1155,CWE190_Integer_Overflow__byte_max_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1156,CWE190_Integer_Overflow__byte_rand_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1157,CWE190_Integer_Overflow__byte_rand_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1158,CWE190_Integer_Overflow__byte_rand_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1159,CWE190_Integer_Overflow__byte_rand_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1160,CWE190_Integer_Overflow__byte_rand_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1161,CWE190_Integer_Overflow__byte_rand_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1162,CWE190_Integer_Overflow__int_connect_tcp_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1163,CWE190_Integer_Overflow__int_connect_tcp_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1164,CWE190_Integer_Overflow__int_connect_tcp_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1165,CWE190_Integer_Overflow__int_connect_tcp_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1166,CWE190_Integer_Overflow__int_connect_tcp_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1167,CWE190_Integer_Overflow__int_connect_tcp_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1168,CWE190_Integer_Overflow__int_console_readLine_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1169,CWE190_Integer_Overflow__int_console_readLine_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1170,CWE190_Integer_Overflow__int_console_readLine_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1171,CWE190_Integer_Overflow__int_console_readLine_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1172,CWE190_Integer_Overflow__int_console_readLine_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1173,CWE190_Integer_Overflow__int_console_readLine_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1174,CWE190_Integer_Overflow__int_database_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1175,CWE190_Integer_Overflow__int_database_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1176,CWE190_Integer_Overflow__int_database_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1177,CWE190_Integer_Overflow__int_database_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1178,CWE190_Integer_Overflow__int_database_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1179,CWE190_Integer_Overflow__int_database_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1180,CWE190_Integer_Overflow__int_Environment_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1181,CWE190_Integer_Overflow__int_Environment_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1182,CWE190_Integer_Overflow__int_Environment_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1183,CWE190_Integer_Overflow__int_Environment_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1184,CWE190_Integer_Overflow__int_Environment_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1185,CWE190_Integer_Overflow__int_Environment_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1186,CWE190_Integer_Overflow__int_File_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1187,CWE190_Integer_Overflow__int_File_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1188,CWE190_Integer_Overflow__int_File_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1189,CWE190_Integer_Overflow__int_File_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1190,CWE190_Integer_Overflow__int_File_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1191,CWE190_Integer_Overflow__int_File_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1192,CWE190_Integer_Overflow__int_getCookies_Servlet_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1193,CWE190_Integer_Overflow__int_getCookies_Servlet_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1194,CWE190_Integer_Overflow__int_getCookies_Servlet_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1195,CWE190_Integer_Overflow__int_getCookies_Servlet_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1196,CWE190_Integer_Overflow__int_getCookies_Servlet_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1197,CWE190_Integer_Overflow__int_getCookies_Servlet_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1198,CWE190_Integer_Overflow__int_getParameter_Servlet_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1199,CWE190_Integer_Overflow__int_getParameter_Servlet_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1200,CWE190_Integer_Overflow__int_getParameter_Servlet_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1201,CWE190_Integer_Overflow__int_getParameter_Servlet_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1202,CWE190_Integer_Overflow__int_getParameter_Servlet_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1203,CWE190_Integer_Overflow__int_getParameter_Servlet_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1204,CWE190_Integer_Overflow__int_getQueryString_Servlet_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1205,CWE190_Integer_Overflow__int_getQueryString_Servlet_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1206,CWE190_Integer_Overflow__int_getQueryString_Servlet_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1207,CWE190_Integer_Overflow__int_getQueryString_Servlet_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1208,CWE190_Integer_Overflow__int_getQueryString_Servlet_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1209,CWE190_Integer_Overflow__int_getQueryString_Servlet_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1210,CWE190_Integer_Overflow__int_listen_tcp_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1211,CWE190_Integer_Overflow__int_listen_tcp_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1212,CWE190_Integer_Overflow__int_listen_tcp_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1213,CWE190_Integer_Overflow__int_listen_tcp_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1214,CWE190_Integer_Overflow__int_listen_tcp_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1215,CWE190_Integer_Overflow__int_listen_tcp_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1216,CWE190_Integer_Overflow__int_max_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1217,CWE190_Integer_Overflow__int_max_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1218,CWE190_Integer_Overflow__int_max_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1219,CWE190_Integer_Overflow__int_max_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1220,CWE190_Integer_Overflow__int_max_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1221,CWE190_Integer_Overflow__int_max_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1222,CWE190_Integer_Overflow__int_PropertiesFile_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1223,CWE190_Integer_Overflow__int_PropertiesFile_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1224,CWE190_Integer_Overflow__int_PropertiesFile_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1225,CWE190_Integer_Overflow__int_PropertiesFile_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1226,CWE190_Integer_Overflow__int_PropertiesFile_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1227,CWE190_Integer_Overflow__int_PropertiesFile_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1228,CWE190_Integer_Overflow__int_Property_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1229,CWE190_Integer_Overflow__int_Property_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1230,CWE190_Integer_Overflow__int_Property_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1231,CWE190_Integer_Overflow__int_Property_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1232,CWE190_Integer_Overflow__int_Property_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1233,CWE190_Integer_Overflow__int_Property_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1234,CWE190_Integer_Overflow__int_random_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1235,CWE190_Integer_Overflow__int_random_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1236,CWE190_Integer_Overflow__int_random_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1237,CWE190_Integer_Overflow__int_random_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1238,CWE190_Integer_Overflow__int_random_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1239,CWE190_Integer_Overflow__int_random_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1240,CWE190_Integer_Overflow__int_URLConnection_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1241,CWE190_Integer_Overflow__int_URLConnection_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1242,CWE190_Integer_Overflow__int_URLConnection_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1243,CWE190_Integer_Overflow__int_URLConnection_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1244,CWE190_Integer_Overflow__int_URLConnection_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1245,CWE190_Integer_Overflow__int_URLConnection_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1246,CWE190_Integer_Overflow__long_console_readLine_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1247,CWE190_Integer_Overflow__long_console_readLine_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1248,CWE190_Integer_Overflow__long_console_readLine_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1249,CWE190_Integer_Overflow__long_console_readLine_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1250,CWE190_Integer_Overflow__long_console_readLine_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1251,CWE190_Integer_Overflow__long_console_readLine_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1252,CWE190_Integer_Overflow__long_max_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1253,CWE190_Integer_Overflow__long_max_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1254,CWE190_Integer_Overflow__long_max_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1255,CWE190_Integer_Overflow__long_max_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1256,CWE190_Integer_Overflow__long_max_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1257,CWE190_Integer_Overflow__long_max_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1258,CWE190_Integer_Overflow__long_rand_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1259,CWE190_Integer_Overflow__long_rand_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1260,CWE190_Integer_Overflow__long_rand_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1261,CWE190_Integer_Overflow__long_rand_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1262,CWE190_Integer_Overflow__long_rand_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1263,CWE190_Integer_Overflow__long_rand_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1264,CWE190_Integer_Overflow__short_console_readLine_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1265,CWE190_Integer_Overflow__short_console_readLine_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1266,CWE190_Integer_Overflow__short_console_readLine_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1267,CWE190_Integer_Overflow__short_console_readLine_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1268,CWE190_Integer_Overflow__short_console_readLine_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1269,CWE190_Integer_Overflow__short_console_readLine_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1270,CWE190_Integer_Overflow__short_max_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1271,CWE190_Integer_Overflow__short_max_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1272,CWE190_Integer_Overflow__short_max_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1273,CWE190_Integer_Overflow__short_max_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1274,CWE190_Integer_Overflow__short_max_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1275,CWE190_Integer_Overflow__short_max_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1276,CWE190_Integer_Overflow__short_rand_add_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1277,CWE190_Integer_Overflow__short_rand_add_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1278,CWE190_Integer_Overflow__short_rand_multiply_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1279,CWE190_Integer_Overflow__short_rand_multiply_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1280,CWE190_Integer_Overflow__short_rand_square_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1281,CWE190_Integer_Overflow__short_rand_square_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1282,CWE190_Integer_Overflow__byte_console_readLine_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1283,CWE190_Integer_Overflow__byte_console_readLine_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1284,CWE190_Integer_Overflow__byte_max_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1285,CWE190_Integer_Overflow__byte_max_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1286,CWE190_Integer_Overflow__byte_rand_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1287,CWE190_Integer_Overflow__byte_rand_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1288,CWE190_Integer_Overflow__int_connect_tcp_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1289,CWE190_Integer_Overflow__int_connect_tcp_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1290,CWE190_Integer_Overflow__int_console_readLine_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1291,CWE190_Integer_Overflow__int_console_readLine_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1292,CWE190_Integer_Overflow__int_database_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1293,CWE190_Integer_Overflow__int_database_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1294,CWE190_Integer_Overflow__int_Environment_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1295,CWE190_Integer_Overflow__int_Environment_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1296,CWE190_Integer_Overflow__int_File_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1297,CWE190_Integer_Overflow__int_File_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1298,CWE190_Integer_Overflow__int_getCookies_Servlet_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1299,CWE190_Integer_Overflow__int_getCookies_Servlet_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1300,CWE190_Integer_Overflow__int_getParameter_Servlet_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1301,CWE190_Integer_Overflow__int_getParameter_Servlet_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1302,CWE190_Integer_Overflow__int_getQueryString_Servlet_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1303,CWE190_Integer_Overflow__int_getQueryString_Servlet_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1304,CWE190_Integer_Overflow__int_listen_tcp_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1305,CWE190_Integer_Overflow__int_listen_tcp_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1306,CWE190_Integer_Overflow__int_max_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1307,CWE190_Integer_Overflow__int_max_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1308,CWE190_Integer_Overflow__int_PropertiesFile_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1309,CWE190_Integer_Overflow__int_PropertiesFile_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1310,CWE190_Integer_Overflow__int_Property_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1311,CWE190_Integer_Overflow__int_Property_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1312,CWE190_Integer_Overflow__int_random_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1313,CWE190_Integer_Overflow__int_random_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1314,CWE190_Integer_Overflow__int_URLConnection_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1315,CWE190_Integer_Overflow__int_URLConnection_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1316,CWE190_Integer_Overflow__long_console_readLine_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1317,CWE190_Integer_Overflow__long_console_readLine_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1318,CWE190_Integer_Overflow__long_max_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1319,CWE190_Integer_Overflow__long_max_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1320,CWE190_Integer_Overflow__long_rand_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1321,CWE190_Integer_Overflow__long_rand_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1322,CWE190_Integer_Overflow__short_console_readLine_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1323,CWE190_Integer_Overflow__short_console_readLine_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1324,CWE190_Integer_Overflow__short_max_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1325,CWE190_Integer_Overflow__short_max_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1326,CWE190_Integer_Overflow__short_rand_postinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1327,CWE190_Integer_Overflow__short_rand_postinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1328,CWE190_Integer_Overflow__byte_console_readLine_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1329,CWE190_Integer_Overflow__byte_console_readLine_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1330,CWE190_Integer_Overflow__byte_max_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1331,CWE190_Integer_Overflow__byte_max_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1332,CWE190_Integer_Overflow__byte_rand_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1333,CWE190_Integer_Overflow__byte_rand_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1334,CWE190_Integer_Overflow__int_connect_tcp_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1335,CWE190_Integer_Overflow__int_connect_tcp_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1336,CWE190_Integer_Overflow__int_console_readLine_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1337,CWE190_Integer_Overflow__int_console_readLine_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1338,CWE190_Integer_Overflow__int_database_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1339,CWE190_Integer_Overflow__int_database_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1340,CWE190_Integer_Overflow__int_Environment_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1341,CWE190_Integer_Overflow__int_Environment_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1342,CWE190_Integer_Overflow__int_File_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1343,CWE190_Integer_Overflow__int_File_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1344,CWE190_Integer_Overflow__int_getCookies_Servlet_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1345,CWE190_Integer_Overflow__int_getCookies_Servlet_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1346,CWE190_Integer_Overflow__int_getParameter_Servlet_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1347,CWE190_Integer_Overflow__int_getParameter_Servlet_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1348,CWE190_Integer_Overflow__int_getQueryString_Servlet_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1349,CWE190_Integer_Overflow__int_getQueryString_Servlet_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1350,CWE190_Integer_Overflow__int_listen_tcp_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1351,CWE190_Integer_Overflow__int_listen_tcp_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1352,CWE190_Integer_Overflow__int_max_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1353,CWE190_Integer_Overflow__int_max_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1354,CWE190_Integer_Overflow__int_PropertiesFile_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1355,CWE190_Integer_Overflow__int_PropertiesFile_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1356,CWE190_Integer_Overflow__int_Property_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1357,CWE190_Integer_Overflow__int_Property_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1358,CWE190_Integer_Overflow__int_random_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1359,CWE190_Integer_Overflow__int_random_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1360,CWE190_Integer_Overflow__int_URLConnection_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1361,CWE190_Integer_Overflow__int_URLConnection_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1362,CWE190_Integer_Overflow__long_console_readLine_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1363,CWE190_Integer_Overflow__long_console_readLine_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1364,CWE190_Integer_Overflow__long_max_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1365,CWE190_Integer_Overflow__long_max_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1366,CWE190_Integer_Overflow__long_rand_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1367,CWE190_Integer_Overflow__long_rand_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1368,CWE190_Integer_Overflow__short_console_readLine_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1369,CWE190_Integer_Overflow__short_console_readLine_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1370,CWE190_Integer_Overflow__short_max_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1371,CWE190_Integer_Overflow__short_max_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1372,CWE190_Integer_Overflow__short_rand_preinc_01_bad,CWE-190,True,Integer Overflow
-juliet-top-25-small,J1373,CWE190_Integer_Overflow__short_rand_preinc_01_good,CWE-190,False,Integer Overflow
-juliet-top-25-small,J1432,CWE476_NULL_Pointer_Dereference__binary_if_01_bad,CWE-476,True,NULL Pointer Dereference
-juliet-top-25-small,J1433,CWE476_NULL_Pointer_Dereference__binary_if_01_good,CWE-476,False,NULL Pointer Dereference
-juliet-top-25-small,J1434,CWE476_NULL_Pointer_Dereference__deref_after_check_01_bad,CWE-476,True,NULL Pointer Dereference
-juliet-top-25-small,J1435,CWE476_NULL_Pointer_Dereference__deref_after_check_01_good,CWE-476,False,NULL Pointer Dereference
-juliet-top-25-small,J1436,CWE476_NULL_Pointer_Dereference__Integer_01_bad,CWE-476,True,NULL Pointer Dereference
-juliet-top-25-small,J1437,CWE476_NULL_Pointer_Dereference__Integer_01_good,CWE-476,False,NULL Pointer Dereference
-juliet-top-25-small,J1438,CWE476_NULL_Pointer_Dereference__int_array_01_bad,CWE-476,True,NULL Pointer Dereference
-juliet-top-25-small,J1439,CWE476_NULL_Pointer_Dereference__int_array_01_good,CWE-476,False,NULL Pointer Dereference
-juliet-top-25-small,J1440,CWE476_NULL_Pointer_Dereference__null_check_after_deref_01_bad,CWE-476,True,NULL Pointer Dereference
-juliet-top-25-small,J1441,CWE476_NULL_Pointer_Dereference__null_check_after_deref_01_good,CWE-476,False,NULL Pointer Dereference
-juliet-top-25-small,J1442,CWE476_NULL_Pointer_Dereference__StringBuilder_01_bad,CWE-476,True,NULL Pointer Dereference
-juliet-top-25-small,J1443,CWE476_NULL_Pointer_Dereference__StringBuilder_01_good,CWE-476,False,NULL Pointer Dereference
-juliet-top-25-small,J1444,CWE476_NULL_Pointer_Dereference__String_01_bad,CWE-476,True,NULL Pointer Dereference
-juliet-top-25-small,J1445,CWE476_NULL_Pointer_Dereference__String_01_good,CWE-476,False,NULL Pointer Dereference
-juliet-top-25-small,J1446,CWE523_Unprotected_Cred_Transport__Servlet_01_bad,CWE-523,True,Unprotected Cred Transport
-juliet-top-25-small,J1447,CWE523_Unprotected_Cred_Transport__Servlet_01_good,CWE-523,False,Unprotected Cred Transport
-juliet-top-25-small,J1476,CWE78_OS_Command_Injection__connect_tcp_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1477,CWE78_OS_Command_Injection__connect_tcp_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1478,CWE78_OS_Command_Injection__console_readLine_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1479,CWE78_OS_Command_Injection__console_readLine_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1480,CWE78_OS_Command_Injection__database_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1481,CWE78_OS_Command_Injection__database_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1482,CWE78_OS_Command_Injection__Environment_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1483,CWE78_OS_Command_Injection__Environment_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1484,CWE78_OS_Command_Injection__File_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1485,CWE78_OS_Command_Injection__File_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1486,CWE78_OS_Command_Injection__getCookies_Servlet_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1487,CWE78_OS_Command_Injection__getCookies_Servlet_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1488,CWE78_OS_Command_Injection__getParameter_Servlet_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1489,CWE78_OS_Command_Injection__getParameter_Servlet_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1490,CWE78_OS_Command_Injection__getQueryString_Servlet_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1491,CWE78_OS_Command_Injection__getQueryString_Servlet_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1492,CWE78_OS_Command_Injection__listen_tcp_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1493,CWE78_OS_Command_Injection__listen_tcp_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1494,CWE78_OS_Command_Injection__PropertiesFile_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1495,CWE78_OS_Command_Injection__PropertiesFile_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1496,CWE78_OS_Command_Injection__Property_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1497,CWE78_OS_Command_Injection__Property_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1498,CWE78_OS_Command_Injection__URLConnection_01_bad,CWE-78,True,OS Command Injection
-juliet-top-25-small,J1499,CWE78_OS_Command_Injection__URLConnection_01_good,CWE-78,False,OS Command Injection
-juliet-top-25-small,J1572,CWE89_SQL_Injection__connect_tcp_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1573,CWE89_SQL_Injection__connect_tcp_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1574,CWE89_SQL_Injection__connect_tcp_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1575,CWE89_SQL_Injection__connect_tcp_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1576,CWE89_SQL_Injection__connect_tcp_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1577,CWE89_SQL_Injection__connect_tcp_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1578,CWE89_SQL_Injection__connect_tcp_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1579,CWE89_SQL_Injection__connect_tcp_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1580,CWE89_SQL_Injection__connect_tcp_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1581,CWE89_SQL_Injection__connect_tcp_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1582,CWE89_SQL_Injection__console_readLine_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1583,CWE89_SQL_Injection__console_readLine_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1584,CWE89_SQL_Injection__console_readLine_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1585,CWE89_SQL_Injection__console_readLine_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1586,CWE89_SQL_Injection__console_readLine_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1587,CWE89_SQL_Injection__console_readLine_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1588,CWE89_SQL_Injection__console_readLine_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1589,CWE89_SQL_Injection__console_readLine_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1590,CWE89_SQL_Injection__console_readLine_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1591,CWE89_SQL_Injection__console_readLine_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1592,CWE89_SQL_Injection__database_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1593,CWE89_SQL_Injection__database_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1594,CWE89_SQL_Injection__database_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1595,CWE89_SQL_Injection__database_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1596,CWE89_SQL_Injection__database_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1597,CWE89_SQL_Injection__database_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1598,CWE89_SQL_Injection__database_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1599,CWE89_SQL_Injection__database_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1600,CWE89_SQL_Injection__database_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1601,CWE89_SQL_Injection__database_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1602,CWE89_SQL_Injection__Environment_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1603,CWE89_SQL_Injection__Environment_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1604,CWE89_SQL_Injection__Environment_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1605,CWE89_SQL_Injection__Environment_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1606,CWE89_SQL_Injection__Environment_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1607,CWE89_SQL_Injection__Environment_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1608,CWE89_SQL_Injection__Environment_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1609,CWE89_SQL_Injection__Environment_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1610,CWE89_SQL_Injection__Environment_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1611,CWE89_SQL_Injection__Environment_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1612,CWE89_SQL_Injection__File_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1613,CWE89_SQL_Injection__File_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1614,CWE89_SQL_Injection__File_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1615,CWE89_SQL_Injection__File_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1616,CWE89_SQL_Injection__File_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1617,CWE89_SQL_Injection__File_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1618,CWE89_SQL_Injection__File_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1619,CWE89_SQL_Injection__File_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1620,CWE89_SQL_Injection__File_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1621,CWE89_SQL_Injection__File_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1622,CWE89_SQL_Injection__getCookies_Servlet_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1623,CWE89_SQL_Injection__getCookies_Servlet_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1624,CWE89_SQL_Injection__getCookies_Servlet_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1625,CWE89_SQL_Injection__getCookies_Servlet_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1626,CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1627,CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1628,CWE89_SQL_Injection__getCookies_Servlet_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1629,CWE89_SQL_Injection__getCookies_Servlet_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1630,CWE89_SQL_Injection__getCookies_Servlet_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1631,CWE89_SQL_Injection__getCookies_Servlet_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1632,CWE89_SQL_Injection__getParameter_Servlet_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1633,CWE89_SQL_Injection__getParameter_Servlet_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1634,CWE89_SQL_Injection__getParameter_Servlet_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1635,CWE89_SQL_Injection__getParameter_Servlet_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1636,CWE89_SQL_Injection__getParameter_Servlet_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1637,CWE89_SQL_Injection__getParameter_Servlet_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1638,CWE89_SQL_Injection__getParameter_Servlet_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1639,CWE89_SQL_Injection__getParameter_Servlet_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1640,CWE89_SQL_Injection__getParameter_Servlet_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1641,CWE89_SQL_Injection__getParameter_Servlet_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1642,CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1643,CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1644,CWE89_SQL_Injection__getQueryString_Servlet_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1645,CWE89_SQL_Injection__getQueryString_Servlet_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1646,CWE89_SQL_Injection__getQueryString_Servlet_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1647,CWE89_SQL_Injection__getQueryString_Servlet_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1648,CWE89_SQL_Injection__getQueryString_Servlet_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1649,CWE89_SQL_Injection__getQueryString_Servlet_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1650,CWE89_SQL_Injection__getQueryString_Servlet_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1651,CWE89_SQL_Injection__getQueryString_Servlet_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1652,CWE89_SQL_Injection__listen_tcp_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1653,CWE89_SQL_Injection__listen_tcp_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1654,CWE89_SQL_Injection__listen_tcp_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1655,CWE89_SQL_Injection__listen_tcp_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1656,CWE89_SQL_Injection__listen_tcp_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1657,CWE89_SQL_Injection__listen_tcp_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1658,CWE89_SQL_Injection__listen_tcp_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1659,CWE89_SQL_Injection__listen_tcp_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1660,CWE89_SQL_Injection__listen_tcp_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1661,CWE89_SQL_Injection__listen_tcp_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1662,CWE89_SQL_Injection__PropertiesFile_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1663,CWE89_SQL_Injection__PropertiesFile_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1664,CWE89_SQL_Injection__PropertiesFile_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1665,CWE89_SQL_Injection__PropertiesFile_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1666,CWE89_SQL_Injection__PropertiesFile_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1667,CWE89_SQL_Injection__PropertiesFile_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1668,CWE89_SQL_Injection__PropertiesFile_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1669,CWE89_SQL_Injection__PropertiesFile_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1670,CWE89_SQL_Injection__PropertiesFile_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1671,CWE89_SQL_Injection__PropertiesFile_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1672,CWE89_SQL_Injection__Property_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1673,CWE89_SQL_Injection__Property_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1674,CWE89_SQL_Injection__Property_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1675,CWE89_SQL_Injection__Property_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1676,CWE89_SQL_Injection__Property_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1677,CWE89_SQL_Injection__Property_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1678,CWE89_SQL_Injection__Property_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1679,CWE89_SQL_Injection__Property_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1680,CWE89_SQL_Injection__Property_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1681,CWE89_SQL_Injection__Property_prepareStatement_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1682,CWE89_SQL_Injection__URLConnection_executeBatch_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1683,CWE89_SQL_Injection__URLConnection_executeBatch_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1684,CWE89_SQL_Injection__URLConnection_executeQuery_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1685,CWE89_SQL_Injection__URLConnection_executeQuery_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1686,CWE89_SQL_Injection__URLConnection_executeUpdate_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1687,CWE89_SQL_Injection__URLConnection_executeUpdate_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1688,CWE89_SQL_Injection__URLConnection_execute_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1689,CWE89_SQL_Injection__URLConnection_execute_01_good,CWE-89,False,SQL Injection
-juliet-top-25-small,J1690,CWE89_SQL_Injection__URLConnection_prepareStatement_01_bad,CWE-89,True,SQL Injection
-juliet-top-25-small,J1691,CWE89_SQL_Injection__URLConnection_prepareStatement_01_good,CWE-89,False,SQL Injection
+juliet-top-25-small,J1144,CWE190_Integer_Overflow__byte_console_readLine_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1145,CWE190_Integer_Overflow__byte_console_readLine_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1146,CWE190_Integer_Overflow__byte_console_readLine_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1147,CWE190_Integer_Overflow__byte_console_readLine_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1148,CWE190_Integer_Overflow__byte_console_readLine_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1149,CWE190_Integer_Overflow__byte_console_readLine_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1150,CWE190_Integer_Overflow__byte_max_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1151,CWE190_Integer_Overflow__byte_max_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1152,CWE190_Integer_Overflow__byte_max_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1153,CWE190_Integer_Overflow__byte_max_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1154,CWE190_Integer_Overflow__byte_max_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1155,CWE190_Integer_Overflow__byte_max_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1156,CWE190_Integer_Overflow__byte_rand_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1157,CWE190_Integer_Overflow__byte_rand_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1158,CWE190_Integer_Overflow__byte_rand_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1159,CWE190_Integer_Overflow__byte_rand_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1160,CWE190_Integer_Overflow__byte_rand_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1161,CWE190_Integer_Overflow__byte_rand_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1162,CWE190_Integer_Overflow__int_connect_tcp_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1163,CWE190_Integer_Overflow__int_connect_tcp_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1164,CWE190_Integer_Overflow__int_connect_tcp_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1165,CWE190_Integer_Overflow__int_connect_tcp_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1166,CWE190_Integer_Overflow__int_connect_tcp_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1167,CWE190_Integer_Overflow__int_connect_tcp_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1168,CWE190_Integer_Overflow__int_console_readLine_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1169,CWE190_Integer_Overflow__int_console_readLine_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1170,CWE190_Integer_Overflow__int_console_readLine_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1171,CWE190_Integer_Overflow__int_console_readLine_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1172,CWE190_Integer_Overflow__int_console_readLine_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1173,CWE190_Integer_Overflow__int_console_readLine_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1174,CWE190_Integer_Overflow__int_database_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1175,CWE190_Integer_Overflow__int_database_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1176,CWE190_Integer_Overflow__int_database_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1177,CWE190_Integer_Overflow__int_database_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1178,CWE190_Integer_Overflow__int_database_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1179,CWE190_Integer_Overflow__int_database_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1180,CWE190_Integer_Overflow__int_Environment_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1181,CWE190_Integer_Overflow__int_Environment_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1182,CWE190_Integer_Overflow__int_Environment_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1183,CWE190_Integer_Overflow__int_Environment_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1184,CWE190_Integer_Overflow__int_Environment_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1185,CWE190_Integer_Overflow__int_Environment_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1186,CWE190_Integer_Overflow__int_File_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1187,CWE190_Integer_Overflow__int_File_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1188,CWE190_Integer_Overflow__int_File_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1189,CWE190_Integer_Overflow__int_File_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1190,CWE190_Integer_Overflow__int_File_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1191,CWE190_Integer_Overflow__int_File_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1192,CWE190_Integer_Overflow__int_getCookies_Servlet_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1193,CWE190_Integer_Overflow__int_getCookies_Servlet_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1194,CWE190_Integer_Overflow__int_getCookies_Servlet_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1195,CWE190_Integer_Overflow__int_getCookies_Servlet_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1196,CWE190_Integer_Overflow__int_getCookies_Servlet_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1197,CWE190_Integer_Overflow__int_getCookies_Servlet_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1198,CWE190_Integer_Overflow__int_getParameter_Servlet_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1199,CWE190_Integer_Overflow__int_getParameter_Servlet_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1200,CWE190_Integer_Overflow__int_getParameter_Servlet_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1201,CWE190_Integer_Overflow__int_getParameter_Servlet_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1202,CWE190_Integer_Overflow__int_getParameter_Servlet_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1203,CWE190_Integer_Overflow__int_getParameter_Servlet_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1204,CWE190_Integer_Overflow__int_getQueryString_Servlet_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1205,CWE190_Integer_Overflow__int_getQueryString_Servlet_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1206,CWE190_Integer_Overflow__int_getQueryString_Servlet_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1207,CWE190_Integer_Overflow__int_getQueryString_Servlet_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1208,CWE190_Integer_Overflow__int_getQueryString_Servlet_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1209,CWE190_Integer_Overflow__int_getQueryString_Servlet_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1210,CWE190_Integer_Overflow__int_listen_tcp_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1211,CWE190_Integer_Overflow__int_listen_tcp_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1212,CWE190_Integer_Overflow__int_listen_tcp_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1213,CWE190_Integer_Overflow__int_listen_tcp_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1214,CWE190_Integer_Overflow__int_listen_tcp_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1215,CWE190_Integer_Overflow__int_listen_tcp_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1216,CWE190_Integer_Overflow__int_max_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1217,CWE190_Integer_Overflow__int_max_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1218,CWE190_Integer_Overflow__int_max_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1219,CWE190_Integer_Overflow__int_max_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1220,CWE190_Integer_Overflow__int_max_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1221,CWE190_Integer_Overflow__int_max_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1222,CWE190_Integer_Overflow__int_PropertiesFile_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1223,CWE190_Integer_Overflow__int_PropertiesFile_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1224,CWE190_Integer_Overflow__int_PropertiesFile_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1225,CWE190_Integer_Overflow__int_PropertiesFile_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1226,CWE190_Integer_Overflow__int_PropertiesFile_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1227,CWE190_Integer_Overflow__int_PropertiesFile_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1228,CWE190_Integer_Overflow__int_Property_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1229,CWE190_Integer_Overflow__int_Property_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1230,CWE190_Integer_Overflow__int_Property_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1231,CWE190_Integer_Overflow__int_Property_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1232,CWE190_Integer_Overflow__int_Property_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1233,CWE190_Integer_Overflow__int_Property_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1234,CWE190_Integer_Overflow__int_random_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1235,CWE190_Integer_Overflow__int_random_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1236,CWE190_Integer_Overflow__int_random_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1237,CWE190_Integer_Overflow__int_random_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1238,CWE190_Integer_Overflow__int_random_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1239,CWE190_Integer_Overflow__int_random_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1240,CWE190_Integer_Overflow__int_URLConnection_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1241,CWE190_Integer_Overflow__int_URLConnection_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1242,CWE190_Integer_Overflow__int_URLConnection_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1243,CWE190_Integer_Overflow__int_URLConnection_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1244,CWE190_Integer_Overflow__int_URLConnection_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1245,CWE190_Integer_Overflow__int_URLConnection_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1246,CWE190_Integer_Overflow__long_console_readLine_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1247,CWE190_Integer_Overflow__long_console_readLine_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1248,CWE190_Integer_Overflow__long_console_readLine_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1249,CWE190_Integer_Overflow__long_console_readLine_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1250,CWE190_Integer_Overflow__long_console_readLine_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1251,CWE190_Integer_Overflow__long_console_readLine_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1252,CWE190_Integer_Overflow__long_max_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1253,CWE190_Integer_Overflow__long_max_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1254,CWE190_Integer_Overflow__long_max_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1255,CWE190_Integer_Overflow__long_max_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1256,CWE190_Integer_Overflow__long_max_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1257,CWE190_Integer_Overflow__long_max_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1258,CWE190_Integer_Overflow__long_rand_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1259,CWE190_Integer_Overflow__long_rand_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1260,CWE190_Integer_Overflow__long_rand_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1261,CWE190_Integer_Overflow__long_rand_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1262,CWE190_Integer_Overflow__long_rand_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1263,CWE190_Integer_Overflow__long_rand_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1264,CWE190_Integer_Overflow__short_console_readLine_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1265,CWE190_Integer_Overflow__short_console_readLine_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1266,CWE190_Integer_Overflow__short_console_readLine_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1267,CWE190_Integer_Overflow__short_console_readLine_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1268,CWE190_Integer_Overflow__short_console_readLine_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1269,CWE190_Integer_Overflow__short_console_readLine_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1270,CWE190_Integer_Overflow__short_max_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1271,CWE190_Integer_Overflow__short_max_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1272,CWE190_Integer_Overflow__short_max_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1273,CWE190_Integer_Overflow__short_max_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1274,CWE190_Integer_Overflow__short_max_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1275,CWE190_Integer_Overflow__short_max_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1276,CWE190_Integer_Overflow__short_rand_add_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1277,CWE190_Integer_Overflow__short_rand_add_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1278,CWE190_Integer_Overflow__short_rand_multiply_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1279,CWE190_Integer_Overflow__short_rand_multiply_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1280,CWE190_Integer_Overflow__short_rand_square_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1281,CWE190_Integer_Overflow__short_rand_square_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1282,CWE190_Integer_Overflow__byte_console_readLine_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1283,CWE190_Integer_Overflow__byte_console_readLine_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1284,CWE190_Integer_Overflow__byte_max_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1285,CWE190_Integer_Overflow__byte_max_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1286,CWE190_Integer_Overflow__byte_rand_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1287,CWE190_Integer_Overflow__byte_rand_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1288,CWE190_Integer_Overflow__int_connect_tcp_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1289,CWE190_Integer_Overflow__int_connect_tcp_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1290,CWE190_Integer_Overflow__int_console_readLine_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1291,CWE190_Integer_Overflow__int_console_readLine_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1292,CWE190_Integer_Overflow__int_database_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1293,CWE190_Integer_Overflow__int_database_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1294,CWE190_Integer_Overflow__int_Environment_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1295,CWE190_Integer_Overflow__int_Environment_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1296,CWE190_Integer_Overflow__int_File_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1297,CWE190_Integer_Overflow__int_File_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1298,CWE190_Integer_Overflow__int_getCookies_Servlet_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1299,CWE190_Integer_Overflow__int_getCookies_Servlet_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1300,CWE190_Integer_Overflow__int_getParameter_Servlet_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1301,CWE190_Integer_Overflow__int_getParameter_Servlet_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1302,CWE190_Integer_Overflow__int_getQueryString_Servlet_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1303,CWE190_Integer_Overflow__int_getQueryString_Servlet_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1304,CWE190_Integer_Overflow__int_listen_tcp_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1305,CWE190_Integer_Overflow__int_listen_tcp_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1306,CWE190_Integer_Overflow__int_max_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1307,CWE190_Integer_Overflow__int_max_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1308,CWE190_Integer_Overflow__int_PropertiesFile_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1309,CWE190_Integer_Overflow__int_PropertiesFile_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1310,CWE190_Integer_Overflow__int_Property_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1311,CWE190_Integer_Overflow__int_Property_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1312,CWE190_Integer_Overflow__int_random_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1313,CWE190_Integer_Overflow__int_random_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1314,CWE190_Integer_Overflow__int_URLConnection_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1315,CWE190_Integer_Overflow__int_URLConnection_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1316,CWE190_Integer_Overflow__long_console_readLine_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1317,CWE190_Integer_Overflow__long_console_readLine_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1318,CWE190_Integer_Overflow__long_max_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1319,CWE190_Integer_Overflow__long_max_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1320,CWE190_Integer_Overflow__long_rand_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1321,CWE190_Integer_Overflow__long_rand_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1322,CWE190_Integer_Overflow__short_console_readLine_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1323,CWE190_Integer_Overflow__short_console_readLine_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1324,CWE190_Integer_Overflow__short_max_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1325,CWE190_Integer_Overflow__short_max_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1326,CWE190_Integer_Overflow__short_rand_postinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1327,CWE190_Integer_Overflow__short_rand_postinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1328,CWE190_Integer_Overflow__byte_console_readLine_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1329,CWE190_Integer_Overflow__byte_console_readLine_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1330,CWE190_Integer_Overflow__byte_max_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1331,CWE190_Integer_Overflow__byte_max_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1332,CWE190_Integer_Overflow__byte_rand_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1333,CWE190_Integer_Overflow__byte_rand_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1334,CWE190_Integer_Overflow__int_connect_tcp_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1335,CWE190_Integer_Overflow__int_connect_tcp_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1336,CWE190_Integer_Overflow__int_console_readLine_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1337,CWE190_Integer_Overflow__int_console_readLine_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1338,CWE190_Integer_Overflow__int_database_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1339,CWE190_Integer_Overflow__int_database_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1340,CWE190_Integer_Overflow__int_Environment_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1341,CWE190_Integer_Overflow__int_Environment_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1342,CWE190_Integer_Overflow__int_File_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1343,CWE190_Integer_Overflow__int_File_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1344,CWE190_Integer_Overflow__int_getCookies_Servlet_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1345,CWE190_Integer_Overflow__int_getCookies_Servlet_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1346,CWE190_Integer_Overflow__int_getParameter_Servlet_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1347,CWE190_Integer_Overflow__int_getParameter_Servlet_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1348,CWE190_Integer_Overflow__int_getQueryString_Servlet_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1349,CWE190_Integer_Overflow__int_getQueryString_Servlet_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1350,CWE190_Integer_Overflow__int_listen_tcp_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1351,CWE190_Integer_Overflow__int_listen_tcp_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1352,CWE190_Integer_Overflow__int_max_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1353,CWE190_Integer_Overflow__int_max_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1354,CWE190_Integer_Overflow__int_PropertiesFile_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1355,CWE190_Integer_Overflow__int_PropertiesFile_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1356,CWE190_Integer_Overflow__int_Property_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1357,CWE190_Integer_Overflow__int_Property_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1358,CWE190_Integer_Overflow__int_random_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1359,CWE190_Integer_Overflow__int_random_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1360,CWE190_Integer_Overflow__int_URLConnection_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1361,CWE190_Integer_Overflow__int_URLConnection_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1362,CWE190_Integer_Overflow__long_console_readLine_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1363,CWE190_Integer_Overflow__long_console_readLine_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1364,CWE190_Integer_Overflow__long_max_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1365,CWE190_Integer_Overflow__long_max_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1366,CWE190_Integer_Overflow__long_rand_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1367,CWE190_Integer_Overflow__long_rand_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1368,CWE190_Integer_Overflow__short_console_readLine_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1369,CWE190_Integer_Overflow__short_console_readLine_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1370,CWE190_Integer_Overflow__short_max_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1371,CWE190_Integer_Overflow__short_max_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1372,CWE190_Integer_Overflow__short_rand_preinc_01_bad,CWE-190,True,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1373,CWE190_Integer_Overflow__short_rand_preinc_01_good,CWE-190,False,CWE-190 CWE-680,Integer Overflow
+juliet-top-25-small,J1432,CWE476_NULL_Pointer_Dereference__binary_if_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1433,CWE476_NULL_Pointer_Dereference__binary_if_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1434,CWE476_NULL_Pointer_Dereference__deref_after_check_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1435,CWE476_NULL_Pointer_Dereference__deref_after_check_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1436,CWE476_NULL_Pointer_Dereference__Integer_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1437,CWE476_NULL_Pointer_Dereference__Integer_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1438,CWE476_NULL_Pointer_Dereference__int_array_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1439,CWE476_NULL_Pointer_Dereference__int_array_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1440,CWE476_NULL_Pointer_Dereference__null_check_after_deref_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1441,CWE476_NULL_Pointer_Dereference__null_check_after_deref_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1442,CWE476_NULL_Pointer_Dereference__StringBuilder_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1443,CWE476_NULL_Pointer_Dereference__StringBuilder_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1444,CWE476_NULL_Pointer_Dereference__String_01_bad,CWE-476,True,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1445,CWE476_NULL_Pointer_Dereference__String_01_good,CWE-476,False,CWE-476,NULL Pointer Dereference
+juliet-top-25-small,J1446,CWE523_Unprotected_Cred_Transport__Servlet_01_bad,CWE-523,True,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-small,J1447,CWE523_Unprotected_Cred_Transport__Servlet_01_good,CWE-523,False,CWE-522 CWE-523,Unprotected Cred Transport
+juliet-top-25-small,J1476,CWE78_OS_Command_Injection__connect_tcp_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1477,CWE78_OS_Command_Injection__connect_tcp_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1478,CWE78_OS_Command_Injection__console_readLine_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1479,CWE78_OS_Command_Injection__console_readLine_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1480,CWE78_OS_Command_Injection__database_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1481,CWE78_OS_Command_Injection__database_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1482,CWE78_OS_Command_Injection__Environment_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1483,CWE78_OS_Command_Injection__Environment_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1484,CWE78_OS_Command_Injection__File_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1485,CWE78_OS_Command_Injection__File_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1486,CWE78_OS_Command_Injection__getCookies_Servlet_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1487,CWE78_OS_Command_Injection__getCookies_Servlet_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1488,CWE78_OS_Command_Injection__getParameter_Servlet_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1489,CWE78_OS_Command_Injection__getParameter_Servlet_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1490,CWE78_OS_Command_Injection__getQueryString_Servlet_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1491,CWE78_OS_Command_Injection__getQueryString_Servlet_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1492,CWE78_OS_Command_Injection__listen_tcp_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1493,CWE78_OS_Command_Injection__listen_tcp_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1494,CWE78_OS_Command_Injection__PropertiesFile_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1495,CWE78_OS_Command_Injection__PropertiesFile_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1496,CWE78_OS_Command_Injection__Property_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1497,CWE78_OS_Command_Injection__Property_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1498,CWE78_OS_Command_Injection__URLConnection_01_bad,CWE-78,True,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1499,CWE78_OS_Command_Injection__URLConnection_01_good,CWE-78,False,CWE-78 CWE-77,OS Command Injection
+juliet-top-25-small,J1572,CWE89_SQL_Injection__connect_tcp_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1573,CWE89_SQL_Injection__connect_tcp_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1574,CWE89_SQL_Injection__connect_tcp_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1575,CWE89_SQL_Injection__connect_tcp_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1576,CWE89_SQL_Injection__connect_tcp_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1577,CWE89_SQL_Injection__connect_tcp_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1578,CWE89_SQL_Injection__connect_tcp_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1579,CWE89_SQL_Injection__connect_tcp_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1580,CWE89_SQL_Injection__connect_tcp_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1581,CWE89_SQL_Injection__connect_tcp_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1582,CWE89_SQL_Injection__console_readLine_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1583,CWE89_SQL_Injection__console_readLine_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1584,CWE89_SQL_Injection__console_readLine_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1585,CWE89_SQL_Injection__console_readLine_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1586,CWE89_SQL_Injection__console_readLine_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1587,CWE89_SQL_Injection__console_readLine_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1588,CWE89_SQL_Injection__console_readLine_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1589,CWE89_SQL_Injection__console_readLine_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1590,CWE89_SQL_Injection__console_readLine_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1591,CWE89_SQL_Injection__console_readLine_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1592,CWE89_SQL_Injection__database_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1593,CWE89_SQL_Injection__database_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1594,CWE89_SQL_Injection__database_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1595,CWE89_SQL_Injection__database_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1596,CWE89_SQL_Injection__database_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1597,CWE89_SQL_Injection__database_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1598,CWE89_SQL_Injection__database_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1599,CWE89_SQL_Injection__database_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1600,CWE89_SQL_Injection__database_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1601,CWE89_SQL_Injection__database_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1602,CWE89_SQL_Injection__Environment_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1603,CWE89_SQL_Injection__Environment_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1604,CWE89_SQL_Injection__Environment_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1605,CWE89_SQL_Injection__Environment_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1606,CWE89_SQL_Injection__Environment_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1607,CWE89_SQL_Injection__Environment_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1608,CWE89_SQL_Injection__Environment_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1609,CWE89_SQL_Injection__Environment_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1610,CWE89_SQL_Injection__Environment_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1611,CWE89_SQL_Injection__Environment_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1612,CWE89_SQL_Injection__File_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1613,CWE89_SQL_Injection__File_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1614,CWE89_SQL_Injection__File_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1615,CWE89_SQL_Injection__File_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1616,CWE89_SQL_Injection__File_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1617,CWE89_SQL_Injection__File_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1618,CWE89_SQL_Injection__File_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1619,CWE89_SQL_Injection__File_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1620,CWE89_SQL_Injection__File_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1621,CWE89_SQL_Injection__File_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1622,CWE89_SQL_Injection__getCookies_Servlet_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1623,CWE89_SQL_Injection__getCookies_Servlet_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1624,CWE89_SQL_Injection__getCookies_Servlet_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1625,CWE89_SQL_Injection__getCookies_Servlet_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1626,CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1627,CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1628,CWE89_SQL_Injection__getCookies_Servlet_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1629,CWE89_SQL_Injection__getCookies_Servlet_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1630,CWE89_SQL_Injection__getCookies_Servlet_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1631,CWE89_SQL_Injection__getCookies_Servlet_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1632,CWE89_SQL_Injection__getParameter_Servlet_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1633,CWE89_SQL_Injection__getParameter_Servlet_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1634,CWE89_SQL_Injection__getParameter_Servlet_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1635,CWE89_SQL_Injection__getParameter_Servlet_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1636,CWE89_SQL_Injection__getParameter_Servlet_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1637,CWE89_SQL_Injection__getParameter_Servlet_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1638,CWE89_SQL_Injection__getParameter_Servlet_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1639,CWE89_SQL_Injection__getParameter_Servlet_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1640,CWE89_SQL_Injection__getParameter_Servlet_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1641,CWE89_SQL_Injection__getParameter_Servlet_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1642,CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1643,CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1644,CWE89_SQL_Injection__getQueryString_Servlet_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1645,CWE89_SQL_Injection__getQueryString_Servlet_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1646,CWE89_SQL_Injection__getQueryString_Servlet_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1647,CWE89_SQL_Injection__getQueryString_Servlet_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1648,CWE89_SQL_Injection__getQueryString_Servlet_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1649,CWE89_SQL_Injection__getQueryString_Servlet_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1650,CWE89_SQL_Injection__getQueryString_Servlet_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1651,CWE89_SQL_Injection__getQueryString_Servlet_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1652,CWE89_SQL_Injection__listen_tcp_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1653,CWE89_SQL_Injection__listen_tcp_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1654,CWE89_SQL_Injection__listen_tcp_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1655,CWE89_SQL_Injection__listen_tcp_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1656,CWE89_SQL_Injection__listen_tcp_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1657,CWE89_SQL_Injection__listen_tcp_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1658,CWE89_SQL_Injection__listen_tcp_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1659,CWE89_SQL_Injection__listen_tcp_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1660,CWE89_SQL_Injection__listen_tcp_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1661,CWE89_SQL_Injection__listen_tcp_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1662,CWE89_SQL_Injection__PropertiesFile_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1663,CWE89_SQL_Injection__PropertiesFile_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1664,CWE89_SQL_Injection__PropertiesFile_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1665,CWE89_SQL_Injection__PropertiesFile_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1666,CWE89_SQL_Injection__PropertiesFile_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1667,CWE89_SQL_Injection__PropertiesFile_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1668,CWE89_SQL_Injection__PropertiesFile_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1669,CWE89_SQL_Injection__PropertiesFile_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1670,CWE89_SQL_Injection__PropertiesFile_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1671,CWE89_SQL_Injection__PropertiesFile_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1672,CWE89_SQL_Injection__Property_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1673,CWE89_SQL_Injection__Property_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1674,CWE89_SQL_Injection__Property_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1675,CWE89_SQL_Injection__Property_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1676,CWE89_SQL_Injection__Property_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1677,CWE89_SQL_Injection__Property_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1678,CWE89_SQL_Injection__Property_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1679,CWE89_SQL_Injection__Property_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1680,CWE89_SQL_Injection__Property_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1681,CWE89_SQL_Injection__Property_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1682,CWE89_SQL_Injection__URLConnection_executeBatch_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1683,CWE89_SQL_Injection__URLConnection_executeBatch_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1684,CWE89_SQL_Injection__URLConnection_executeQuery_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1685,CWE89_SQL_Injection__URLConnection_executeQuery_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1686,CWE89_SQL_Injection__URLConnection_executeUpdate_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1687,CWE89_SQL_Injection__URLConnection_executeUpdate_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1688,CWE89_SQL_Injection__URLConnection_execute_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1689,CWE89_SQL_Injection__URLConnection_execute_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1690,CWE89_SQL_Injection__URLConnection_prepareStatement_01_bad,CWE-89,True,CWE-89 CWE-564 CWE-943,SQL Injection
+juliet-top-25-small,J1691,CWE89_SQL_Injection__URLConnection_prepareStatement_01_good,CWE-89,False,CWE-89 CWE-564 CWE-943,SQL Injection

@@ -1,4 +1,7 @@
+from dotenv import find_dotenv, load_dotenv
+from datetime import date
 import csv
+import os
 
 
 # Reading CSV file
@@ -34,71 +37,39 @@ def does_item_exist(file_name, simplified_results):
 
 
 def aggregate():
-    mappings = read_csv('codeql-mappings.csv')
-    results = read_csv('codeql-results.csv')
+    cql_mappings = read_csv('codeql-mappings.csv')
+    cql_results = read_csv('codeql-initial-results.csv')
     simplified_results = []
-    for item in results:
-        row = []
-        if item[0] == "Name":
+    for cql_result in cql_results:
+        row = [os.environ.get("CURRENT_DATASET_NAME"), "codeql"]
+
+        # Get Java file name
+        file_name = get_file_name(cql_result[4])
+        if not file_name.startswith("J"):  # Only look at files starting with "J"
             continue
-        file_name = get_file_name(item[4])
-        if not file_name.startswith("J"):
-            continue
-        explanation = item[0]
         row.append(file_name)
+
+        # Add CWE list
+        explanation = cql_result[0]
         cwes = ""
-        for mapping in mappings:
+        for mapping in cql_mappings:
             if mapping[3] == explanation:
                 cwes += mapping[0] + " "
         row.append(cwes.strip())
+        row.append(explanation)
 
-        item_exists = does_item_exist(file_name, simplified_results)
-        if item_exists:
-            for obj in simplified_results:
-                if obj[0] == file_name and obj[1] != cwes.strip():
-                    obj[1] = obj[1] + " " + cwes.strip()
-        else:
-            simplified_results.append(row)
+        # Add rows
+        row.append(cql_result[5])
+        row.append(cql_result[7])
 
-    write_csv('simplified-results.csv', simplified_results)
+        # Add date
+        row.append(str(date.today()))
 
+        simplified_results.append(row)
 
-def add_to_file_data():
-    mappings = read_csv('file-mapping.csv')
-    results = read_csv('simplified-results.csv')
-    for mapping in mappings:
-        if mapping[0] == "new file name":
-            continue
-
-        for item in results:
-            if item[0] == mapping[0]:
-                mapping.append(item[1])
-
-    write_csv('file-mapping.csv', mappings)
-
-
-def print_supported_cwes():
-    mappings = read_csv('codeql-mappings.csv')
-    results = []
-    for item in mappings:
-        el = item[0].strip()
-        if el not in results:
-            results.append(el)
-    print(results)
-
-
-def print_juliet_cwes():
-    mappings = read_csv('file-mapping.csv')
-    results = []
-    for item in mappings:
-        el = item[2].strip()
-        if el not in results:
-            results.append(el)
-            print(el)
-    print(results)
+    write_csv('codeql-results.csv', simplified_results)
 
 
 if __name__ == "__main__":
-    #aggregate()
-    #add_to_file_data()
-    print_juliet_cwes()
+    load_dotenv(find_dotenv())
+    aggregate()

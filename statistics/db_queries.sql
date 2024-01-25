@@ -1,6 +1,6 @@
 -- Get true positives
 SELECT ds.file_name, ds.cwe_id, ds.cwe_present, res.identified_cwe_ids, res.vulnerability_detected, res.time_taken, res.cost
-FROM results res
+FROM llm_results res
 INNER JOIN public.dataset ds ON res.file_name = ds.file_name
     AND res.dataset_name = ds.dataset_name
 WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
@@ -11,7 +11,7 @@ WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
 
 -- Get true negatives
 SELECT ds.file_name, ds.cwe_id, ds.cwe_present, res.identified_cwe_ids, res.vulnerability_detected, res.time_taken, res.cost
-FROM results res
+FROM llm_results res
 INNER JOIN public.dataset ds ON res.file_name = ds.file_name
     AND res.dataset_name = ds.dataset_name
 WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
@@ -22,7 +22,7 @@ WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
 
 -- Get false positives
 SELECT ds.file_name, ds.cwe_id, ds.cwe_present, res.identified_cwe_ids, res.vulnerability_detected, res.time_taken, res.cost
-FROM results res
+FROM llm_results res
 INNER JOIN public.dataset ds ON res.file_name = ds.file_name
     AND res.dataset_name = ds.dataset_name
 WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
@@ -33,7 +33,7 @@ WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
 
 -- Get false negatives
 SELECT ds.file_name, ds.cwe_id, ds.cwe_present, res.identified_cwe_ids, res.vulnerability_detected, res.time_taken, res.cost
-FROM results res
+FROM llm_results res
 INNER JOIN public.dataset ds ON res.file_name = ds.file_name
     AND res.dataset_name = ds.dataset_name
 WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
@@ -44,7 +44,7 @@ WHERE res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
 
 -- Get overall data
 SELECT avg(cost) as avg_cost, sum(cost) as sum_cost, avg(time_taken) as avg_time_taken, sum(time_taken) as sum_time_taken
-FROM results
+FROM llm_results
 WHERE prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
     AND dataset_name = '<ds_name>'  -- e.g. juliet-top-25-subset-34
     AND llm_model = '<model_name>';  -- e.g. gpt-4-1106-preview

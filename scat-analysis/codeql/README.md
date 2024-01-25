@@ -2,6 +2,7 @@
 
 ## Setting up the CodeQL
 Follow docs here: https://docs.github.com/en/code-security/codeql-cli/getting-started-with-the-codeql-cli/setting-up-the-codeql-cli
+Used: `codeql database create codeql-analysis-top-25 --language=java --overwrite`
 
 ## Running CodeQL
 Follow docs here: https://docs.github.com/en/code-security/codeql-cli/getting-started-with-the-codeql-cli/analyzing-your-code-with-codeql-queries
