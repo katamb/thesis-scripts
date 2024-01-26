@@ -10,6 +10,10 @@ openai = "*"
 python-dotenv = "*"
 langchain-community = "*"
 langchain-openai = "*"
+tree-sitter = "*"
+packaging = "*"
+setuptools = "*"
+importlib = "*"
 
 [dev-packages]
 

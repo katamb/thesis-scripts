@@ -1,0 +1,4 @@
+Is this analysis correct?
+Provide response only in following format:
+  vulnerability: <YES or NO> | vulnerability type: <CWE ID> | vulnerability name: <CWE NAME> | explanation: <reason for the initial analysis being correct or wrong>.
+Use N/A in other fields if there are no vulnerabilities. Do not include anything else in response.
