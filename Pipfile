@@ -14,6 +14,9 @@ tree-sitter = "*"
 packaging = "*"
 setuptools = "*"
 importlib = "*"
+langchainhub = "*"
+langchain-experimental = "*"
+asyncio = "*"
 
 [dev-packages]
 

@@ -40,6 +40,7 @@
    Can it be utilized here? Asking first to explain the code and then provide response has not shown improvements for similar tasks: https://arxiv.org/pdf/2308.12697.pdf
 2. ToT (Tree of Thought): Similar problem to previous one.
 3. ReAct (Reason + Act): Potentially guess a vulnerability and then search internet for examples to use some type of few-shot approach?
+   Using agents we can provide access to AST, SCAT results, other LLM responses?
 4. RAP (Reasoning via planning): 
 
 ![img.png](img.png)

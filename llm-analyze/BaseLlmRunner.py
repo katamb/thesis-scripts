@@ -12,8 +12,8 @@ class BaseLlmRunner:
         self.dataset_name = os.environ.get("CURRENT_DATASET_NAME")
         self.file_path = file_path
         self.prompt_name = prompt_name
-        self.model_name = "gpt-4-1106-preview"
-        self.llm = ChatOpenAI(temperature=0, model_name=self.model_name)
+        self.model_name = "gpt-4-0125-preview"
+        self.llm = ChatOpenAI(temperature=0, model_name=self.model_name, streaming=False)
         set_verbose(True)
         self.base_result_path = os.environ.get('RESULTS_DIRECTORY_ROOT') + "\\" + self.dataset_name + "\\"
         self.result_folder_path = self.base_result_path + self.prompt_name
