@@ -23,3 +23,6 @@ Some of the documentation is really hard to correlate to the tool output.
      * I - Internationalization (I18N)
      * X - Experimental (EXPERIMENTAL)
      * P - Performance (PERFORMANCE)
+
+Due to official CWE mappings not being available, after running the `aggregate_sb_results.py`, the cwes 
+were manually mapped. Added special flag CWE-NR, meaning the classification was correct, but is not relevant for given CWEs.

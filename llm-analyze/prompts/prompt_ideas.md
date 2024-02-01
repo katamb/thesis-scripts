@@ -42,6 +42,7 @@
 3. ReAct (Reason + Act): Potentially guess a vulnerability and then search internet for examples to use some type of few-shot approach?
    Using agents we can provide access to AST, SCAT results, other LLM responses?
 4. RAP (Reasoning via planning): 
+5. Meta-prompting?
 
 ![img.png](img.png)
 Image from: https://arxiv.org/pdf/2310.04406v2.pdf
