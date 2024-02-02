@@ -932,3 +932,8 @@ gpt-4-1106-preview;juliet-top-25-subset-34;react_prompt;J14350;True;CWE-20;17.05
 gpt-4-1106-preview;juliet-top-25-subset-34;react_prompt;J14350;True;CWE-807;8.23972773551941;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-01-29
 gpt-4-1106-preview;juliet-top-25-subset-34;react_full_prompt;J14350;True;CWE-190;12.057707071304321;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-01-29
 gpt-4-0125-preview;juliet-top-25-subset-34;react_full_prompt;J14350;True;CWE-190;16.11500644683838;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-01-29
+gpt-4-0125-preview;juliet-top-25-subset-34;react_full_prompt;J14351;True;CWE-807;12.227479219436646;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-01-30
+gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt;J14351;True;CWE-89;7.4562296867370605;total_tokens: 618, completion_tokens: 113, prompt_tokens: 505;0.0;2024-02-02
+gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt_self_refinement_2;J14351;False;CWE-89;28.500467538833618;total_tokens: 2425, completion_tokens: 375, prompt_tokens: 2050;0.0;2024-02-02
+gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt;J14351;True;CWE-807;4.670829772949219;total_tokens: 555, completion_tokens: 50, prompt_tokens: 505;0.0;2024-02-02
+gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt_rci_2;J14351;True;CWE-807 CWE-190;14.586563110351562;total_tokens: 1955, completion_tokens: 185, prompt_tokens: 1770;0.0;2024-02-02

@@ -2,6 +2,7 @@
 
 -- Single query --
 SELECT
+    -- cwe_id,  -- Uncomment for grouped response
     COUNT(DISTINCT CASE WHEN sq.true_positive THEN sq.file_name END) as true_positive_count,
     COUNT(DISTINCT CASE WHEN sq.false_positive THEN sq.file_name END) as false_positive_count,
     COUNT(DISTINCT CASE WHEN sq.true_negative THEN sq.file_name END) as true_negative_count,
@@ -10,6 +11,7 @@ FROM (
     SELECT
         ds.file_name,
         ds.cwe_present,
+        -- ds.cwe_id,  -- Uncomment for grouped response
         CASE
             WHEN NOT ds.cwe_present AND NOT EXISTS (
                 SELECT 1
@@ -47,7 +49,9 @@ FROM (
         AND res.dataset_name = ds.dataset_name
         AND res.scat_tool = '<tool>'  -- e.g. codeql
     WHERE ds.dataset_name = '<dataset>'  -- e.g. juliet-top-25-subset-34
-) sq;
+) sq
+-- GROUP BY cwe_id  -- Uncomment for grouped response
+;
 
 
 -- Query one-by-one --
