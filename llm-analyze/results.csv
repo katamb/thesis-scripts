@@ -937,3 +937,5 @@ gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt;J14351;True;CWE-89;7.456
 gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt_self_refinement_2;J14351;False;CWE-89;28.500467538833618;total_tokens: 2425, completion_tokens: 375, prompt_tokens: 2050;0.0;2024-02-02
 gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt;J14351;True;CWE-807;4.670829772949219;total_tokens: 555, completion_tokens: 50, prompt_tokens: 505;0.0;2024-02-02
 gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt_rci_2;J14351;True;CWE-807 CWE-190;14.586563110351562;total_tokens: 1955, completion_tokens: 185, prompt_tokens: 1770;0.0;2024-02-02
+gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt_rci;J14351;True;CWE-807;3.6955161094665527;total_tokens: 559, completion_tokens: 54, prompt_tokens: 505;0.00667;2024-02-03
+gpt-4-0125-preview;juliet-top-25-subset-34;basic_prompt_rci_improve;J14351;True;CWE-20;27.37412405014038;total_tokens: 2521, completion_tokens: 450, prompt_tokens: 2071;0.03421;2024-02-03

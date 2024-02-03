@@ -1,6 +1,11 @@
 --- SCAT ---
 
 -- Single query --
+WITH scat_res AS (
+    SELECT file_name, dataset_name, scat_tool, STRING_AGG(identified_cwe_ids, ' ') AS concatenated_cwe_ids
+    FROM scat_results
+    GROUP BY file_name, dataset_name, scat_tool
+)
 SELECT
     -- cwe_id,  -- Uncomment for grouped response
     COUNT(DISTINCT CASE WHEN sq.true_positive THEN sq.file_name END) as true_positive_count,
@@ -16,7 +21,7 @@ FROM (
             WHEN NOT ds.cwe_present AND NOT EXISTS (
                 SELECT 1
                 FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
-                INNER JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+                INNER JOIN unnest(string_to_array(res.concatenated_cwe_ids, ' ')) AS id2 ON id1 = id2
             ) THEN TRUE
             ELSE FALSE
         END AS true_negative,
@@ -24,7 +29,7 @@ FROM (
             WHEN ds.cwe_present AND NOT EXISTS (
                 SELECT 1
                 FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
-                INNER JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+                INNER JOIN unnest(string_to_array(res.concatenated_cwe_ids, ' ')) AS id2 ON id1 = id2
             ) THEN TRUE
             ELSE FALSE
         END AS false_negative,
@@ -32,7 +37,7 @@ FROM (
             WHEN NOT ds.cwe_present AND EXISTS (
                 SELECT 1
                 FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
-                JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+                JOIN unnest(string_to_array(res.concatenated_cwe_ids, ' ')) AS id2 ON id1 = id2
             ) THEN TRUE
             ELSE FALSE
         END AS false_positive,
@@ -40,12 +45,12 @@ FROM (
             WHEN ds.cwe_present AND EXISTS (
                 SELECT 1
                 FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
-                JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+                JOIN unnest(string_to_array(res.concatenated_cwe_ids, ' ')) AS id2 ON id1 = id2
             ) THEN TRUE
             ELSE FALSE
         END AS true_positive
     FROM dataset ds
-    LEFT JOIN scat_results res ON res.file_name = ds.file_name
+    LEFT JOIN scat_res res ON res.file_name = ds.file_name
         AND res.dataset_name = ds.dataset_name
         AND res.scat_tool = '<tool>'  -- e.g. codeql
     WHERE ds.dataset_name = '<dataset>'  -- e.g. juliet-top-25-subset-34

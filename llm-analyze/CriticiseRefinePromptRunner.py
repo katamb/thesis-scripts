@@ -41,7 +41,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
             total_tokens_1 = cb1.total_tokens
             completion_tokens_1 = cb1.completion_tokens
             prompt_tokens_1 = cb1.prompt_tokens
-            cost_1 = cb1.total_cost
+            cost_1 = self.calculate_cost(cb1.prompt_tokens, cb1.completion_tokens)  # cb1.total_cost
             time_spent_1 = end - start
             print(llm_response_1)
 
@@ -76,7 +76,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
             total_tokens_2 = cb2.total_tokens
             completion_tokens_2 = cb2.completion_tokens
             prompt_tokens_2 = cb2.prompt_tokens
-            cost_2 = cb2.total_cost
+            cost_2 = self.calculate_cost(cb2.prompt_tokens, cb2.completion_tokens) # cb2.total_cost
             time_spent_2 = end - start
             print(llm_response_2)
 
@@ -94,7 +94,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
             total_tokens_3 = cb3.total_tokens
             completion_tokens_3 = cb3.completion_tokens
             prompt_tokens_3 = cb3.prompt_tokens
-            cost_3 = cb3.total_cost
+            cost_3 = self.calculate_cost(cb3.prompt_tokens, cb3.completion_tokens)  # cb3.total_cost
             time_spent_3 = end - start
             print(llm_response_3)
 

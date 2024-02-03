@@ -1,3 +1,51 @@
+-- Single query --
+SELECT
+    -- cwe_id,  -- Uncomment for grouped response
+    COUNT(DISTINCT CASE WHEN sq.true_positive THEN sq.file_name END) as true_positive_count,
+    COUNT(DISTINCT CASE WHEN sq.false_positive THEN sq.file_name END) as false_positive_count,
+    COUNT(DISTINCT CASE WHEN sq.true_negative THEN sq.file_name END) as true_negative_count,
+    COUNT(DISTINCT CASE WHEN sq.false_negative THEN sq.file_name END) as false_negative_count
+FROM (
+    SELECT
+        ds.file_name,
+        ds.cwe_present,
+        -- ds.cwe_id,  -- Uncomment for grouped response
+        CASE
+            WHEN NOT ds.cwe_present AND NOT res.vulnerability_detected
+            THEN TRUE
+            ELSE FALSE
+        END AS true_negative,
+        CASE
+            WHEN ds.cwe_present AND NOT res.vulnerability_detected
+            THEN TRUE
+            ELSE FALSE
+        END AS false_negative,
+        CASE
+            WHEN NOT ds.cwe_present AND res.vulnerability_detected AND EXISTS (
+                SELECT 1
+                FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
+                JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+            ) THEN TRUE
+            ELSE FALSE
+        END AS false_positive,
+        CASE
+            WHEN ds.cwe_present AND res.vulnerability_detected AND EXISTS (
+                SELECT 1
+                FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
+                JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+            ) THEN TRUE
+            ELSE FALSE
+        END AS true_positive
+    FROM dataset ds
+    LEFT JOIN llm_results res ON res.file_name = ds.file_name
+        AND res.dataset_name = ds.dataset_name
+        AND res.llm_model = '<model_name>'  -- e.g. gpt-4-1106-preview
+        AND res.prompt_name = '<prompt_name>'  -- e.g. dataflow_analysis_prompt
+    WHERE ds.dataset_name = '<dataset>'  -- e.g. juliet-top-25-subset-34
+) sq
+-- GROUP BY cwe_id  -- Uncomment for grouped response
+;
+
 -- Get true positives
 SELECT ds.file_name, ds.cwe_id, ds.cwe_present, res.identified_cwe_ids, res.vulnerability_detected, res.time_taken, res.cost
 FROM llm_results res

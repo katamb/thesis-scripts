@@ -35,6 +35,13 @@ class BaseLlmRunner:
         file_name = self.file_path[last_slash_index:last_dot_index]
         return file_name
 
+    # Workaround until langchain supports new gpt-4-turbo model
+    def calculate_cost(self, prompt_tokens, completion_tokens):
+        if self.model_name != "gpt-4-0125-preview":
+            raise Exception("Check model")
+        return ((prompt_tokens * 0.01) + (completion_tokens * 0.03)) * 0.001
+
+
     @staticmethod
     def load_prompt_from_file(prompt_name):
         with open("./prompts/" + prompt_name, 'r') as file:
