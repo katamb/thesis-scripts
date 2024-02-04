@@ -2,15 +2,15 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain_community.callbacks import get_openai_callback
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationChain
-from datetime import date
+import threading
 import time
 import os
 import re
 
 
 class SelfReflectionPromptRunner(BaseLlmRunner):
-    def __init__(self, file_path, prompt_name):
-        super().__init__(file_path, prompt_name)
+    def __init__(self, file_path, prompt_name, lock=threading.Lock()):
+        super().__init__(file_path, prompt_name, lock)
         self.self_reflection_prompt_name = self.prompt_name + "_self_reflection"
         self.self_reflection_result_folder_path = self.base_result_path + self.self_reflection_prompt_name
         if not os.path.exists(self.self_reflection_result_folder_path):
@@ -21,6 +21,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         conversation = ConversationChain(llm=self.llm)
         code = self.load_file_content()
 
+        ## first call ##
         first_template = self.load_prompt_from_file(self.prompt_name)
         first_prompt = PromptTemplate.from_template(template=first_template, partial_variables={"code": code})
         with get_openai_callback() as cb1:
@@ -34,25 +35,14 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
             time_spent_1 = end - start
             print(llm_response_1)
 
-        tokens_used = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
-        with open("results.csv", "a") as res:
-            cwes = self.clean_result(llm_response_1)
-            res.write(
-                f"{self.model_name};"
-                f"{self.dataset_name};"
-                f"{self.prompt_name};"
-                f"{self.get_file_name()};"
-                f"{len(cwes) != 0};"
-                f"{self.clean_result(llm_response_1)};"
-                f"{time_spent_1};"
-                f"{tokens_used};"
-                f"{cost_1};"
-                f"{str(date.today())}\n"
-            )
+        tokens_used_1 = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
+        cwes = self.clean_result(llm_response_1)
+        self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent_1, tokens_used_1, cost_1)
 
         with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
             r.write(llm_response_1)
 
+        ## second call ##
         second_template = self.load_prompt_from_file(self.self_reflection_prompt_name)
         second_prompt = PromptTemplate.from_template(second_template)
         with get_openai_callback() as cb2:
@@ -66,22 +56,16 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
             time_spent_2 = end - start
             print(llm_response_2)
 
-        tokens_used = (f"total_tokens: {self.safe_int_addition(total_tokens_1, total_tokens_2)}, "
-                       f"completion_tokens: {self.safe_int_addition(completion_tokens_1, completion_tokens_2)}, "
-                       f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2)}")
-        with open("results.csv", "a") as res:
-            res.write(
-                f"{self.model_name};"
-                f"{self.dataset_name};"
-                f"{self.self_reflection_prompt_name};"
-                f"{self.get_file_name()};"
-                f"{self.is_vulnerability_present(llm_response_2)};"
-                f"{self.clean_result(llm_response_2)};"
-                f"{self.safe_float_addition(time_spent_1, time_spent_2)};"
-                f"{tokens_used};"
-                f"{self.safe_float_addition(cost_1, cost_2)};"
-                f"{str(date.today())}\n"
-            )
+        tokens_used_sum = (f"total_tokens: {self.safe_int_addition(total_tokens_1, total_tokens_2)}, "
+                           f"completion_tokens: {self.safe_int_addition(completion_tokens_1, completion_tokens_2)}, "
+                           f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2)}")
+        is_vulnerable = self.is_vulnerability_present(llm_response_2)
+        cwe_ids = self.clean_result(llm_response_2)
+        if cwe_ids == "" and is_vulnerable:
+            cwe_ids = self.clean_result(llm_response_1)
+        time_spent_sum = self.safe_float_addition(time_spent_1, time_spent_2)
+        cost_sum = self.safe_float_addition(cost_1, cost_2)
+        self.save_result_row(self.self_reflection_prompt_name, is_vulnerable, cwe_ids, time_spent_sum, tokens_used_sum, cost_sum)
 
         with open(self.self_reflection_result_folder_path + "\\" + self.get_file_name(), "w") as r:
             r.write(llm_response_2)
