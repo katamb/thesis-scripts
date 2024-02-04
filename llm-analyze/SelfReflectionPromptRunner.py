@@ -11,7 +11,7 @@ import re
 class SelfReflectionPromptRunner(BaseLlmRunner):
     def __init__(self, file_path, prompt_name, lock=threading.Lock()):
         super().__init__(file_path, prompt_name, lock)
-        self.self_reflection_prompt_name = self.prompt_name + "_self_reflection"
+        self.self_reflection_prompt_name = self.prompt_name + "_improve"
         self.self_reflection_result_folder_path = self.base_result_path + self.self_reflection_prompt_name
         if not os.path.exists(self.self_reflection_result_folder_path):
             os.makedirs(self.self_reflection_result_folder_path)
@@ -97,6 +97,6 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
 
     def validate(self):
         first_template = self.load_prompt_from_file(self.prompt_name)
-        second_template = self.load_prompt_from_file(self.prompt_name + "_self_reflection")
+        second_template = self.load_prompt_from_file(self.self_reflection_prompt_name)
         if first_template == "" or second_template == "":
             raise Exception("One of the templates is not defined!")
