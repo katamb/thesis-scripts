@@ -2,7 +2,7 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain_community.callbacks import get_openai_callback
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationChain
-from datetime import date
+import threading
 import time
 import os
 import re
@@ -15,8 +15,8 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         CriticiseRefinePromptRunner(file, "basic_prompt_rci", "basic_prompt_rci_criticise", "basic_prompt_rci_improve")
         CriticiseRefinePromptRunner(file, "basic_prompt_refinement", "basic_prompt_refinement_feedback", "basic_prompt_refinement_refine")
     """
-    def __init__(self, file_path, first_prompt_name, second_prompt_name, third_prompt_name):
-        super().__init__(file_path, first_prompt_name)
+    def __init__(self, file_path, first_prompt_name, second_prompt_name, third_prompt_name, lock=threading.Lock()):
+        super().__init__(file_path, first_prompt_name, lock)
         self.criticise_prompt = second_prompt_name
         self.improve_prompt = third_prompt_name
         self.criticise_folder_path = self.base_result_path + self.criticise_prompt
@@ -46,21 +46,9 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
             print(llm_response_1)
 
         # save first call results
-        tokens_used = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
-        with open("results.csv", "a") as res:
-            cwes = self.clean_result(llm_response_1)
-            res.write(
-                f"{self.model_name};"
-                f"{self.dataset_name};"
-                f"{self.prompt_name};"
-                f"{self.get_file_name()};"
-                f"{len(cwes) != 0};"
-                f"{self.clean_result(llm_response_1)};"
-                f"{time_spent_1};"
-                f"{tokens_used};"
-                f"{cost_1};"
-                f"{str(date.today())}\n"
-            )
+        tokens_used_1 = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
+        cwes = self.clean_result(llm_response_1)
+        self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent_1, tokens_used_1, cost_1)
 
         # save first call LLM response for audit trail
         with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
@@ -99,22 +87,16 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
             print(llm_response_3)
 
         # save third call results
-        tokens_used = (f"total_tokens: {self.safe_int_addition(total_tokens_1, total_tokens_2, total_tokens_3)}, "
-                       f"completion_tokens: {self.safe_int_addition(completion_tokens_1, completion_tokens_2, completion_tokens_3)}, "
-                       f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2, prompt_tokens_3)}")
-        with open("results.csv", "a") as res:
-            res.write(
-                f"{self.model_name};"
-                f"{self.dataset_name};"
-                f"{self.improve_prompt};"
-                f"{self.get_file_name()};"
-                f"{self.is_vulnerability_present(llm_response_3)};"
-                f"{self.clean_result(llm_response_3)};"
-                f"{self.safe_float_addition(time_spent_1, time_spent_2, time_spent_3)};"
-                f"{tokens_used};"
-                f"{self.safe_float_addition(cost_1, cost_2, cost_3)};"
-                f"{str(date.today())}\n"
-            )
+        tokens_used_sum = (f"total_tokens: {self.safe_int_addition(total_tokens_1, total_tokens_2, total_tokens_3)}, "
+                           f"completion_tokens: {self.safe_int_addition(completion_tokens_1, completion_tokens_2, completion_tokens_3)}, "
+                           f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2, prompt_tokens_3)}")
+        is_vulnerable = self.is_vulnerability_present(llm_response_3)
+        cwe_ids = self.clean_result(llm_response_3)
+        if cwe_ids == "" and is_vulnerable:
+            cwe_ids = self.clean_result(llm_response_1)
+        time_spent_sum = self.safe_float_addition(time_spent_1, time_spent_2, time_spent_3)
+        cost_sum = self.safe_float_addition(cost_1, cost_2, cost_3)
+        self.save_result_row(self.improve_prompt, is_vulnerable, cwe_ids, time_spent_sum, tokens_used_sum, cost_sum)
 
         # save third call LLM response for audit trail
         with open(self.improve_folder_path + "\\" + self.get_file_name(), "w") as r:

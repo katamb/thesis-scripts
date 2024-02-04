@@ -2,19 +2,19 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain_community.callbacks import get_openai_callback
 from langchain.agents import AgentExecutor, create_react_agent
 from langchain_core.prompts import PromptTemplate
-from datetime import date
 from AstTool import get_ast_from_code
 from ScatTool import get_codeql_results, get_spotbugs_results
 from langchain.agents import Tool
 from langchain_experimental.utilities import PythonREPL
 from langchain_core.runnables import RunnableConfig
 import time
+import threading
 
 
 # https://python.langchain.com/docs/modules/agents/agent_types/react
 class ReActRunner(BaseLlmRunner):
-    def __init__(self, file_path, prompt_name):
-        super().__init__(file_path, prompt_name)
+    def __init__(self, file_path, prompt_name, lock=threading.Lock()):
+        super().__init__(file_path, prompt_name, lock)
 
     def run_prompt(self):
         # Create prompt containing instructions and code
@@ -47,20 +47,8 @@ class ReActRunner(BaseLlmRunner):
             time_spent = end - start
             print(llm_response)
 
-        with open("results.csv", "a") as res:
-            cwes = self.clean_result(llm_response["output"])
-            res.write(
-                f"{self.model_name};"
-                f"{self.dataset_name};"
-                f"{self.prompt_name};"
-                f"{self.get_file_name()};"
-                f"{len(cwes) != 0};"
-                f"{cwes};"
-                f"{time_spent};"
-                f"{tokens_used};"
-                f"{cost};"
-                f"{str(date.today())}\n"
-            )
+        cwes = self.clean_result(llm_response["output"])
+        self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent, tokens_used, cost)
 
         with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
             r.write(llm_response["output"])

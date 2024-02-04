@@ -2,13 +2,13 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_community.callbacks import get_openai_callback
-from datetime import date
 import time
+import threading
 
 
 class SimplePromptRunner(BaseLlmRunner):
-    def __init__(self, file_path, prompt_name):
-        super().__init__(file_path, prompt_name)
+    def __init__(self, file_path, prompt_name, lock=threading.Lock()):
+        super().__init__(file_path, prompt_name, lock)
 
     def run_prompt(self):
         template = self.load_prompt_from_file(self.prompt_name)
@@ -25,20 +25,8 @@ class SimplePromptRunner(BaseLlmRunner):
             time_spent = end - start
             print(llm_response)
 
-        with open("results.csv", "a") as res:
-            cwes = self.clean_result(llm_response)
-            res.write(
-                f"{self.model_name};"
-                f"{self.dataset_name};"
-                f"{self.prompt_name};"
-                f"{self.get_file_name()};"
-                f"{len(cwes) != 0};"
-                f"{cwes};"
-                f"{time_spent};"
-                f"{tokens_used};"
-                f"{cost};"
-                f"{str(date.today())}\n"
-            )
+        cwes = self.clean_result(llm_response)
+        self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent, tokens_used, cost)
 
         with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
             r.write(llm_response)

@@ -1,18 +1,20 @@
 from dotenv import load_dotenv, find_dotenv
-# from SimplePromptRunner import SimplePromptRunner
+from SimplePromptRunner import SimplePromptRunner
 from ReActRunner import ReActRunner
 from SelfReflectionPromptRunner import SelfReflectionPromptRunner
 from CriticiseRefinePromptRunner import CriticiseRefinePromptRunner
 from concurrent.futures import ThreadPoolExecutor
 import os
+import threading
 
 
-def run_prompt(file_path):
-    runner = CriticiseRefinePromptRunner(file_path, "basic_prompt_rci", "basic_prompt_rci_criticise", "basic_prompt_rci_improve")
+def run_prompt(file_path, lock=threading.Lock()):
+    runner = CriticiseRefinePromptRunner(file_path, "basic_prompt_rci", "basic_prompt_rci_criticise", "basic_prompt_rci_improve", lock)
     runner.run_prompt()
 
 
 def process_directory_concurrently(directory_path):
+    lock = threading.Lock()
     counter = 0
     for root, dirs, files in os.walk(directory_path):
         with ThreadPoolExecutor(max_workers=14) as executor:
@@ -24,7 +26,7 @@ def process_directory_concurrently(directory_path):
                     file_path = os.path.join(root, file)
                     counter += 1
                     print("x-count", counter)
-                    future = executor.submit(run_prompt, file_path)
+                    future = executor.submit(run_prompt, file_path, lock)
                     futures.append(future)
 
             # Wait for all tasks to complete
