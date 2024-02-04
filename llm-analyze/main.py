@@ -17,7 +17,7 @@ def process_directory_concurrently(directory_path):
     lock = threading.Lock()
     counter = 0
     for root, dirs, files in os.walk(directory_path):
-        with ThreadPoolExecutor(max_workers=14) as executor:
+        with ThreadPoolExecutor(max_workers=17) as executor:
             futures = []
             for file in files:
                 if "Main" in file or "Helper" in file:

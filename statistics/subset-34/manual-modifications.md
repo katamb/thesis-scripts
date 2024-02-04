@@ -12,4 +12,4 @@ Manual fixes done for llm-rci-results:
 * For basic_prompt_rci_improve prompt and file J19736, the CWE-476 was manually added
 * For basic_prompt_rci_improve prompt and file J22026, the CWE-20 was manually added
 * For basic_prompt_rci_improve prompt and file J22420, the CWE-79 was manually added
-* 
+

@@ -11,12 +11,26 @@ FROM (
         ds.cwe_present,
         -- ds.cwe_id,  -- Uncomment for grouped response
         CASE
-            WHEN NOT ds.cwe_present AND NOT res.vulnerability_detected
+            WHEN NOT ds.cwe_present AND
+                 (NOT res.vulnerability_detected OR
+                    (res.vulnerability_detected AND NOT EXISTS (
+                        SELECT 1
+                        FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
+                        JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+                    ))
+                 )
             THEN TRUE
             ELSE FALSE
         END AS true_negative,
         CASE
-            WHEN ds.cwe_present AND NOT res.vulnerability_detected
+            WHEN ds.cwe_present AND
+                 (NOT res.vulnerability_detected OR
+                    (res.vulnerability_detected AND NOT EXISTS (
+                        SELECT 1
+                        FROM unnest(string_to_array(ds.acceptable_cwe_ids, ' ')) AS id1
+                        JOIN unnest(string_to_array(res.identified_cwe_ids, ' ')) AS id2 ON id1 = id2
+                    ))
+                 )
             THEN TRUE
             ELSE FALSE
         END AS false_negative,
