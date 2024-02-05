@@ -27,9 +27,9 @@
    Use prompt from 1. and ask it to improve results using ideas from here: https://arxiv.org/pdf/2303.17491.pdf
 4. Simple/basic prompt with simple self refinement: 
    Similar to 2. but less elaborate and simpler approach.
-5. Noever prompt
+5. Noever prompt https://arxiv.org/ftp/arxiv/papers/2308/2308.10345.pdf
 6. Noever prompt with RCI/self-reflection/self-refinement (based on which one worked the best with simple prompts)
-7. Dataflow analysis prompt
+7. Dataflow analysis prompt https://arxiv.org/pdf/2311.16169.pdf
 8. Dataflow analysis prompt with RCI/self-reflection/self-refinement (based on which one worked the best with simple prompts)
 9. Noever prompt + test (karl_prompt)
 10. Noever prompt + test with RCI/self-reflection/self-refinement (based on which one worked the best with simple prompts)

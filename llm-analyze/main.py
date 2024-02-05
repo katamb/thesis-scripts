@@ -9,7 +9,11 @@ import threading
 
 
 def run_prompt(file_path, lock=threading.Lock()):
-    runner = CriticiseRefinePromptRunner(file_path, "basic_prompt_refinement", "basic_prompt_refinement_feedback", "basic_prompt_refinement_refine",  lock)
+    runner = CriticiseRefinePromptRunner(file_path,
+                                         "dataflow_analysis_prompt_rci",
+                                         "dataflow_analysis_prompt_rci_criticise",
+                                         "dataflow_analysis_prompt_rci_improve",
+                                         lock)
     runner.run_prompt()
 
 
