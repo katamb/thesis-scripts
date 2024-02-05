@@ -9,7 +9,7 @@ import threading
 
 
 def run_prompt(file_path, lock=threading.Lock()):
-    runner = SelfReflectionPromptRunner(file_path, "basic_prompt_sr", lock)
+    runner = CriticiseRefinePromptRunner(file_path, "basic_prompt_refinement", "basic_prompt_refinement_feedback", "basic_prompt_refinement_refine",  lock)
     runner.run_prompt()
 
 
@@ -49,8 +49,7 @@ if __name__ == "__main__":
 
     # C:\Users\karlt\thesis\datasets\juliet-top-25\src\testcases\CWE566_Authorization_Bypass_Through_SQL_Primary\J19871.java
     #file = os.environ.get("DATASET_DIRECTORY_ROOT") + "\\src\\testcases\\CWE78_OS_Command_Injection\\J20841.java"
-    #runner = CriticiseRefinePromptRunner(file, "basic_prompt_rci", "basic_prompt_rci_criticise", "basic_prompt_rci_improve")
-    #runner.run_prompt()
+    #run_prompt(file)
 
     dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
     folder = os.path.join(dataset_root, "src", "testcases")
