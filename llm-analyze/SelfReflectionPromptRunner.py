@@ -80,12 +80,17 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
     def safe_float_addition(str_1, str_2):
         return str(float(str_1) + float(str_2))
 
-    @staticmethod
-    def is_vulnerability_present(input_text):
+    def is_vulnerability_present(self, input_text):
         vulnerability_pattern = re.compile(r'vulnerability: (YES|NO) \|')
 
-        vulnerability_match = vulnerability_pattern.search(input_text)
+        # Write out if some manual checks are needed
+        all_matches = vulnerability_pattern.findall(input_text)
+        if len(all_matches) > 1:
+            with open("./manual-checks-needed.csv", "a") as f:
+                f.write(f"{self.dataset_name}, {self.model_name}, {self.prompt_name}")
 
+        # Find the match, covers 99% of cases
+        vulnerability_match = vulnerability_pattern.search(input_text)
         if vulnerability_match:
             vulnerability_status = vulnerability_match.group(1).strip()
             if vulnerability_status.upper() == "YES":

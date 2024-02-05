@@ -10,9 +10,9 @@ import threading
 
 def run_prompt(file_path, lock=threading.Lock()):
     runner = CriticiseRefinePromptRunner(file_path,
-                                         "dataflow_analysis_prompt_rci",
-                                         "dataflow_analysis_prompt_rci_criticise",
-                                         "dataflow_analysis_prompt_rci_improve",
+                                         "require_fix_prompt_rci",
+                                         "require_fix_prompt_rci_criticise",
+                                         "require_fix_prompt_rci_improve",
                                          lock)
     runner.run_prompt()
 

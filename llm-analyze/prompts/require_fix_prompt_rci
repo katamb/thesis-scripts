@@ -1,0 +1,4 @@
+Act as the world's greatest static code analyzer for java programming language. I will give you a code snippet, and you will analyze it for vulnerabilities.
+Give the output in a format: vulnerabilities detected with cwe id's as a numbered list, and proposed fixes as a separate numbered list.
+---
+{code}

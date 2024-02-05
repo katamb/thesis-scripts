@@ -64,7 +64,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
             total_tokens_2 = cb2.total_tokens
             completion_tokens_2 = cb2.completion_tokens
             prompt_tokens_2 = cb2.prompt_tokens
-            cost_2 = self.calculate_cost(cb2.prompt_tokens, cb2.completion_tokens) # cb2.total_cost
+            cost_2 = self.calculate_cost(cb2.prompt_tokens, cb2.completion_tokens)  # cb2.total_cost
             time_spent_2 = end - start
             print(llm_response_2)
 
@@ -112,12 +112,17 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
     def safe_float_addition(str_1, str_2, str_3):
         return str(float(str_1) + float(str_2) + float(str_3))
 
-    @staticmethod
-    def is_vulnerability_present(input_text):
+    def is_vulnerability_present(self, input_text):
         vulnerability_pattern = re.compile(r'vulnerability: (YES|NO) \|')
 
-        vulnerability_match = vulnerability_pattern.search(input_text)
+        # Write out if some manual checks are needed
+        all_matches = vulnerability_pattern.findall(input_text)
+        if len(all_matches) > 1:
+            with open("./manual-checks-needed.csv", "a") as f:
+                f.write(f"{self.dataset_name}, {self.model_name}, {self.prompt_name}")
 
+        # Find the match, covers 99% of cases
+        vulnerability_match = vulnerability_pattern.search(input_text)
         if vulnerability_match:
             vulnerability_status = vulnerability_match.group(1).strip()
             if vulnerability_status.upper() == "YES":
