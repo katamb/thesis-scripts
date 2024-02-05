@@ -5,7 +5,6 @@ from langchain.chains import ConversationChain
 import threading
 import time
 import os
-import re
 
 
 class SelfReflectionPromptRunner(BaseLlmRunner):
@@ -59,10 +58,10 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         tokens_used_sum = (f"total_tokens: {self.safe_int_addition(total_tokens_1, total_tokens_2)}, "
                            f"completion_tokens: {self.safe_int_addition(completion_tokens_1, completion_tokens_2)}, "
                            f"prompt_tokens: {self.safe_int_addition(prompt_tokens_1, prompt_tokens_2)}")
-        is_vulnerable = self.is_vulnerability_present(llm_response_2)
-        cwe_ids = self.clean_result(llm_response_2)
-        if cwe_ids == "" and is_vulnerable:
-            cwe_ids = self.clean_result(llm_response_1)
+        is_vulnerable = True
+        cwe_ids = self.get_cwes(llm_response_2)
+        if cwe_ids == "":
+            is_vulnerable = False
         time_spent_sum = self.safe_float_addition(time_spent_1, time_spent_2)
         cost_sum = self.safe_float_addition(cost_1, cost_2)
         self.save_result_row(self.self_reflection_prompt_name, is_vulnerable, cwe_ids, time_spent_sum, tokens_used_sum, cost_sum)
@@ -80,25 +79,17 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
     def safe_float_addition(str_1, str_2):
         return str(float(str_1) + float(str_2))
 
-    def is_vulnerability_present(self, input_text):
-        vulnerability_pattern = re.compile(r'vulnerability: (YES|NO) \|')
+    def get_cwes(self, input_text):
+        vulnerabilities = ""
+        if "\n" in input_text:
+            for line in input_text:
+                if line.startswith("vulnerability: YES |"):
+                    vulnerabilities += self.clean_result(line)
+        else:
+            if input_text.startswith("vulnerability: YES |"):
+                vulnerabilities += self.clean_result(input_text)
 
-        # Write out if some manual checks are needed
-        all_matches = vulnerability_pattern.findall(input_text)
-        if len(all_matches) > 1:
-            with open("./manual-checks-needed.csv", "a") as f:
-                f.write(f"{self.dataset_name}, {self.model_name}, {self.prompt_name}")
-
-        # Find the match, covers 99% of cases
-        vulnerability_match = vulnerability_pattern.search(input_text)
-        if vulnerability_match:
-            vulnerability_status = vulnerability_match.group(1).strip()
-            if vulnerability_status.upper() == "YES":
-                return True
-            if vulnerability_status.upper() == "NO":
-                return False
-
-        return None
+        return vulnerabilities
 
     def validate(self):
         first_template = self.load_prompt_from_file(self.prompt_name)
