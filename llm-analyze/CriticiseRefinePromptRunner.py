@@ -22,9 +22,9 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         self.criticise_folder_path = self.base_result_path + self.criticise_prompt
         self.improve_folder_path = self.base_result_path + self.improve_prompt
         if not os.path.exists(self.criticise_folder_path):
-            os.makedirs(self.criticise_folder_path)
+            os.makedirs(self.criticise_folder_path, exist_ok=True)
         if not os.path.exists(self.improve_folder_path):
-            os.makedirs(self.improve_folder_path)
+            os.makedirs(self.improve_folder_path, exist_ok=True)
 
     def run_prompt(self):
         self.validate()

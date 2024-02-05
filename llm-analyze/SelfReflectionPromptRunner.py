@@ -14,7 +14,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         self.self_reflection_prompt_name = self.prompt_name + "_improve"
         self.self_reflection_result_folder_path = self.base_result_path + self.self_reflection_prompt_name
         if not os.path.exists(self.self_reflection_result_folder_path):
-            os.makedirs(self.self_reflection_result_folder_path)
+            os.makedirs(self.self_reflection_result_folder_path, exist_ok=True)
 
     def run_prompt(self):
         self.validate()

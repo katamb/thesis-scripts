@@ -25,7 +25,7 @@ class BaseLlmRunner:
         self.base_result_path = os.environ.get('RESULTS_DIRECTORY_ROOT') + "\\" + self.dataset_name + "\\"
         self.result_folder_path = self.base_result_path + self.prompt_name
         if not os.path.exists(self.result_folder_path):
-            os.makedirs(self.result_folder_path)
+            os.makedirs(self.result_folder_path, exist_ok=True)
 
     def load_file_content(self):
         with open(self.file_path, 'r') as file:
