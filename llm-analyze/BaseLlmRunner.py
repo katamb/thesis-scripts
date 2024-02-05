@@ -22,8 +22,8 @@ class BaseLlmRunner:
         self.llm = ChatOpenAI(temperature=0, model_name=self.model_name, streaming=False)
         self.results_lock = results_lock
         set_verbose(True)
-        self.base_result_path = os.environ.get('RESULTS_DIRECTORY_ROOT') + "\\" + self.dataset_name + "\\"
-        self.result_folder_path = self.base_result_path + self.prompt_name
+        self.base_result_path = os.path.join(os.environ.get('RESULTS_DIRECTORY_ROOT'), self.dataset_name, self.model_name)
+        self.result_folder_path = os.path.join(self.base_result_path, self.prompt_name)
         if not os.path.exists(self.result_folder_path):
             os.makedirs(self.result_folder_path, exist_ok=True)
 

@@ -19,8 +19,8 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         super().__init__(file_path, first_prompt_name, lock)
         self.criticise_prompt = second_prompt_name
         self.improve_prompt = third_prompt_name
-        self.criticise_folder_path = self.base_result_path + self.criticise_prompt
-        self.improve_folder_path = self.base_result_path + self.improve_prompt
+        self.criticise_folder_path = os.path.join(self.base_result_path, self.criticise_prompt)
+        self.improve_folder_path = os.path.join(self.base_result_path, self.improve_prompt)
         if not os.path.exists(self.criticise_folder_path):
             os.makedirs(self.criticise_folder_path, exist_ok=True)
         if not os.path.exists(self.improve_folder_path):
@@ -51,7 +51,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent_1, tokens_used_1, cost_1)
 
         # save first call LLM response for audit trail
-        with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
+        with open(os.path.join(self.result_folder_path, self.get_file_name()), "w") as r:
             r.write(llm_response_1)
 
         ## second call ##
@@ -69,7 +69,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
             print(llm_response_2)
 
         # save second call LLM response for audit trail
-        with open(self.criticise_folder_path + "\\" + self.get_file_name(), "w") as r:
+        with open(os.path.join(self.criticise_folder_path, self.get_file_name()), "w") as r:
             r.write(llm_response_2)
 
         ## third (and final) call ##
@@ -99,7 +99,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         self.save_result_row(self.improve_prompt, is_vulnerable, cwe_ids, time_spent_sum, tokens_used_sum, cost_sum)
 
         # save third call LLM response for audit trail
-        with open(self.improve_folder_path + "\\" + self.get_file_name(), "w") as r:
+        with open(os.path.join(self.improve_folder_path, self.get_file_name()), "w") as r:
             r.write(llm_response_3)
 
         return llm_response_3

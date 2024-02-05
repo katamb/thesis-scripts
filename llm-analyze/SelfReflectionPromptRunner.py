@@ -12,7 +12,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
     def __init__(self, file_path, prompt_name, lock=threading.Lock()):
         super().__init__(file_path, prompt_name, lock)
         self.self_reflection_prompt_name = self.prompt_name + "_improve"
-        self.self_reflection_result_folder_path = self.base_result_path + self.self_reflection_prompt_name
+        self.self_reflection_result_folder_path = os.path.join(self.base_result_path, self.self_reflection_prompt_name)
         if not os.path.exists(self.self_reflection_result_folder_path):
             os.makedirs(self.self_reflection_result_folder_path, exist_ok=True)
 
@@ -39,7 +39,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         cwes = self.clean_result(llm_response_1)
         self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent_1, tokens_used_1, cost_1)
 
-        with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
+        with open(os.path.join(self.result_folder_path, self.get_file_name()), "w") as r:
             r.write(llm_response_1)
 
         ## second call ##
@@ -67,7 +67,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
         cost_sum = self.safe_float_addition(cost_1, cost_2)
         self.save_result_row(self.self_reflection_prompt_name, is_vulnerable, cwe_ids, time_spent_sum, tokens_used_sum, cost_sum)
 
-        with open(self.self_reflection_result_folder_path + "\\" + self.get_file_name(), "w") as r:
+        with open(os.path.join(self.self_reflection_result_folder_path, self.get_file_name()), "w") as r:
             r.write(llm_response_2)
 
         return llm_response_2

@@ -9,6 +9,7 @@ from langchain_experimental.utilities import PythonREPL
 from langchain_core.runnables import RunnableConfig
 import time
 import threading
+import os
 
 
 # https://python.langchain.com/docs/modules/agents/agent_types/react
@@ -50,7 +51,7 @@ class ReActRunner(BaseLlmRunner):
         cwes = self.clean_result(llm_response["output"])
         self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent, tokens_used, cost)
 
-        with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
+        with open(os.path.join(self.result_folder_path, self.get_file_name()), "w") as r:
             r.write(llm_response["output"])
 
         return llm_response

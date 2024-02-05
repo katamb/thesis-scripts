@@ -2,6 +2,7 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_community.callbacks import get_openai_callback
+import os
 import time
 import threading
 
@@ -28,7 +29,7 @@ class SimplePromptRunner(BaseLlmRunner):
         cwes = self.clean_result(llm_response)
         self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent, tokens_used, cost)
 
-        with open(self.result_folder_path + "\\" + self.get_file_name(), "w") as r:
+        with open(os.path.join(self.result_folder_path, self.get_file_name()), "w") as r:
             r.write(llm_response)
 
         return llm_response
