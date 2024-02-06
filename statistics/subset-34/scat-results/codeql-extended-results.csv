@@ -1,0 +1,318 @@
+juliet-top-25-subset-34,codeql-extended,J18234,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,62,62,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18234,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,68,68,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18264,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,62,62,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18264,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,68,68,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18452,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,27,27,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18452,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,33,33,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18458,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,28,28,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18458,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,34,34,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18532,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,21,21,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18532,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,27,27,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18584,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,70,70,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18584,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,76,76,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18588,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,72,72,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18588,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,78,78,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18596,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,70,70,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18596,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,76,76,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18604,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,70,70,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18604,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,76,76,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18736,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,53,53,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18736,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,59,59,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18748,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,55,55,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18748,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,61,61,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18994,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,54,54,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18994,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,60,60,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19000,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,54,54,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19000,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,60,60,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19306,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,26,26,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19306,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,32,32,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19324,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,26,26,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19324,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,32,32,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19344,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,64,64,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19344,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,70,70,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19346,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,64,64,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19346,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,70,70,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19354,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,64,64,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19354,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,70,70,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19500,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,47,47,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J19500,CWE-22 CWE-23 CWE-36 CWE-73 CWE-610 CWE-642 CWE-664 CWE-668 CWE-706,Uncontrolled data used in path expression,53,53,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20432,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,59,59,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20464,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,20,20,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20676,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,16,16,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20680,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20736,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,31,31,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20756,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,29,29,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20772,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,16,16,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20808,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Uncontrolled command line,22,22,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20478,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,49,49,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20496,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,47,47,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20626,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,63,63,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20632,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,22,22,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20633,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,73,73,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20633,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,95,95,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20677,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,37,37,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20677,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,59,59,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20681,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20809,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,81,81,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20809,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,103,103,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20822,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20830,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,42,42,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20840,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20856,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,16,16,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20857,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,19,19,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20890,CWE-74 CWE-77 CWE-78 CWE-88 CWE-707,Building a command line with string concatenation,21,21,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J20972,CWE-74 CWE-79 CWE-707,Cross-site scripting,53,53,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21126,CWE-74 CWE-79 CWE-707,Cross-site scripting,9,9,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21138,CWE-74 CWE-79 CWE-707,Cross-site scripting,14,14,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21164,CWE-74 CWE-79 CWE-707,Cross-site scripting,7,7,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21176,CWE-74 CWE-79 CWE-707,Cross-site scripting,26,26,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21214,CWE-74 CWE-79 CWE-707,Cross-site scripting,59,59,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21318,CWE-74 CWE-79 CWE-707,Cross-site scripting,46,46,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21362,CWE-74 CWE-79 CWE-707,Cross-site scripting,53,53,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21498,CWE-74 CWE-79 CWE-707,Cross-site scripting,19,19,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21522,CWE-74 CWE-79 CWE-707,Cross-site scripting,9,9,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21572,CWE-74 CWE-79 CWE-707,Cross-site scripting,26,26,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21600,CWE-74 CWE-79 CWE-707,Cross-site scripting,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21646,CWE-74 CWE-79 CWE-707,Cross-site scripting,65,65,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J21726,CWE-74 CWE-79 CWE-707,Cross-site scripting,49,49,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22150,CWE-74 CWE-79 CWE-707,Cross-site scripting,54,54,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22152,CWE-74 CWE-79 CWE-707,Cross-site scripting,59,59,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22180,CWE-74 CWE-79 CWE-707,Cross-site scripting,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22324,CWE-74 CWE-79 CWE-707,Cross-site scripting,14,14,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22340,CWE-74 CWE-79 CWE-707,Cross-site scripting,13,13,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22346,CWE-74 CWE-79 CWE-707,Cross-site scripting,10,10,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22374,CWE-74 CWE-79 CWE-707,Cross-site scripting,24,24,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22388,CWE-74 CWE-79 CWE-707,Cross-site scripting,23,23,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22408,CWE-74 CWE-79 CWE-707,Cross-site scripting,65,65,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22416,CWE-74 CWE-79 CWE-707,Cross-site scripting,69,69,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22420,CWE-74 CWE-79 CWE-707,Cross-site scripting,63,63,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22500,CWE-74 CWE-79 CWE-707,Cross-site scripting,47,47,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22508,CWE-74 CWE-79 CWE-707,Cross-site scripting,46,46,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22524,CWE-74 CWE-79 CWE-707,Cross-site scripting,17,17,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22584,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,62,62,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J22710,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,53,53,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J23782,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,26,26,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J23876,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,24,24,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24046,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,19,19,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24134,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,32,32,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24218,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,32,32,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24370,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,66,66,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24444,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,69,69,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J25094,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,54,54,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J25116,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,51,51,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J25136,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built from user-controlled sources,53,53,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J23230,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,25,25,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J23231,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,29,29,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J23590,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,55,55,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J23877,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,24,24,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J23877,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,62,62,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24616,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24788,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,22,22,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J24808,CWE-74 CWE-89 CWE-564 CWE-707 CWE-943,Query built by concatenation with a possibly-untrusted string,20,20,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J13100,CWE-20 CWE-129 CWE-693,Improper validation of user-provided size used for array construction,60,60,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J13100,CWE-20 CWE-129 CWE-693,Improper validation of user-provided size used for array construction,61,61,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J10126,CWE-20 CWE-129 CWE-693,Improper validation of user-provided array index,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J11338,CWE-20 CWE-129 CWE-693,Improper validation of user-provided array index,24,24,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J11558,CWE-20 CWE-129 CWE-693,Improper validation of user-provided array index,31,31,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J11608,CWE-20 CWE-129 CWE-693,Improper validation of user-provided array index,31,31,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J14350,CWE-190 CWE-191 CWE-682,User-controlled data in arithmetic expression,7,7,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J14374,CWE-190 CWE-191 CWE-682,User-controlled data in arithmetic expression,22,22,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J14728,CWE-190 CWE-191 CWE-682,User-controlled data in arithmetic expression,71,71,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J15370,CWE-190 CWE-191 CWE-682,User-controlled data in arithmetic expression,54,54,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J15376,CWE-190 CWE-191 CWE-682,User-controlled data in arithmetic expression,56,56,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J16950,CWE-190 CWE-191 CWE-682,User-controlled data in arithmetic expression,16,16,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J15728,CWE-190 CWE-191 CWE-682,Uncontrolled data in arithmetic expression,16,16,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18756,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,36,36,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18757,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,40,40,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18757,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,47,47,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18757,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,82,82,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18757,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,89,89,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18758,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,39,39,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,85,85,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,96,96,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,139,139,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,146,146,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,187,187,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18759,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,194,194,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18760,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,39,39,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,85,85,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,96,96,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,139,139,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,146,146,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,187,187,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18761,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,194,194,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18764,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,43,43,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,50,50,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,87,87,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,98,98,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,141,141,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,148,148,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,189,189,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18765,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,196,196,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18766,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,42,42,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,40,40,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,49,49,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,86,86,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,97,97,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,140,140,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,147,147,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,188,188,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18767,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,195,195,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18770,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,47,47,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,45,45,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,54,54,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,91,91,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,102,102,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,145,145,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,152,152,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,193,193,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18771,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,200,200,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18772,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,39,39,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,85,85,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,96,96,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,139,139,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,146,146,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,187,187,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18773,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,194,194,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18774,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,39,39,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,85,85,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,96,96,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,139,139,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,146,146,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,187,187,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18775,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,194,194,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18780,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,39,39,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,85,85,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,96,96,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,139,139,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,146,146,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,187,187,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18781,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,194,194,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18782,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,39,39,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,85,85,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,96,96,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,139,139,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,146,146,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,187,187,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18783,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,194,194,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18784,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,45,45,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,52,52,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,94,94,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,108,108,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,160,160,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,167,167,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,213,213,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18785,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,220,220,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18788,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,37,37,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18789,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,36,36,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18789,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,44,44,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18789,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,81,81,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18789,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,88,88,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18790,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,42,42,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18791,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,52,52,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18791,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,59,59,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18791,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,100,100,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18791,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,107,107,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18791,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,143,143,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18791,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,155,155,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18792,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,42,42,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18793,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,42,42,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18793,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,53,53,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18793,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,95,95,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18793,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,102,102,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18794,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,17,17,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18795,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,21,21,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18795,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,56,56,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18795,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,66,66,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18795,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,73,73,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18796,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,40,40,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18796,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,75,75,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18797,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,58,58,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18797,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,69,69,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18797,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,108,108,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18797,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,115,115,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18798,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,21,21,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18799,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,25,25,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18799,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,60,60,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18799,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,72,72,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18799,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,79,79,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18800,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,9,9,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18800,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18801,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,25,25,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18802,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,10,10,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18802,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,19,19,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18803,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,26,26,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18803,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,75,75,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18806,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18806,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,21,21,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18807,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,28,28,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18807,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,77,77,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18826,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,10,10,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18826,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,19,19,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18827,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,26,26,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18827,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,75,75,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18832,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,9,9,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18832,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,16,16,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18833,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,23,23,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18842,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,16,16,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18842,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,48,48,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18843,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,19,19,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18848,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,11,11,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18860,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,11,11,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18868,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,11,11,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18872,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18892,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,10,10,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18892,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18893,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,22,22,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18893,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18904,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,10,10,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18904,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18905,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,22,22,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18905,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18914,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,10,10,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18914,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18915,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,22,22,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18915,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,41,41,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18920,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,9,9,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18920,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18921,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,19,19,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18924,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,11,11,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18924,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,17,17,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18925,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,27,27,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18928,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,9,9,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18928,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18929,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,27,27,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18930,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18930,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,18,18,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18931,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18932,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18934,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,13,13,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18936,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,13,13,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18938,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18940,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,15,15,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18942,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,14,14,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18944,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,14,14,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18948,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,13,13,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18950,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,13,13,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18954,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,13,13,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18956,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,13,13,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18960,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,14,14,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18966,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,28,28,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18968,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,14,14,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18970,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,23,23,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18972,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,12,12,2024-02-06
+juliet-top-25-subset-34,codeql-extended,J18974,CWE-284 CWE-287 CWE-330 CWE-344 CWE-657 CWE-664 CWE-671 CWE-693 CWE-710 CWE-798,Hard-coded credential in API call,26,26,2024-02-06
