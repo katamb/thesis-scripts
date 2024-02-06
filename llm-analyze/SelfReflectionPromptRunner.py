@@ -82,14 +82,14 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
     def get_cwes(self, input_text):
         vulnerabilities = ""
         if "\n" in input_text:
-            for line in input_text:
-                if line.startswith("vulnerability: YES |"):
-                    vulnerabilities += self.clean_result(line)
+            for line in input_text.split("\n"):
+                if line.strip().startswith("vulnerability: YES |"):
+                    vulnerabilities += self.clean_result(line.strip()) + " "
         else:
-            if input_text.startswith("vulnerability: YES |"):
-                vulnerabilities += self.clean_result(input_text)
+            if input_text.strip().startswith("vulnerability: YES |"):
+                vulnerabilities += self.clean_result(input_text.strip()) + " "
 
-        return vulnerabilities
+        return vulnerabilities.strip()
 
     def validate(self):
         first_template = self.load_prompt_from_file(self.prompt_name)
