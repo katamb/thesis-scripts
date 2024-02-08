@@ -8,4 +8,6 @@ Unsanitized Data Flows: <numbered list of data flows that are not sanitized in t
 Vulnerability analysis verdict: <numbered list of vulnerabilities, if any, in the format "vulnerability: <YES or NO> | vulnerability type: <CWE_ID> | vulnerability name: <NAME_OF_CWE> | explanation: <explanation for prediction>">
 """
 Is the following code snippet prone to any security vulnerability?
-```{code}```
+```java
+{code}
+```

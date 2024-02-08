@@ -46,7 +46,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
 
         # save first call results
         tokens_used_1 = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
-        cwes = self.clean_result(llm_response_1)
+        cwes = self.get_cwes(llm_response_1)
         self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent_1, tokens_used_1, cost_1)
 
         # save first call LLM response for audit trail
@@ -115,10 +115,10 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         vulnerabilities = ""
         if "\n" in input_text:
             for line in input_text.split("\n"):
-                if line.strip().startswith("vulnerability: YES |"):
+                if "vulnerability: YES |" in line.strip():
                     vulnerabilities += self.clean_result(line.strip()) + " "
         else:
-            if input_text.strip().startswith("vulnerability: YES |"):
+            if "vulnerability: YES |" in input_text.strip():
                 vulnerabilities += self.clean_result(input_text.strip()) + " "
 
         return vulnerabilities.strip()
