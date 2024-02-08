@@ -9,11 +9,7 @@ import threading
 
 
 def run_prompt(file_path, lock=threading.Lock()):
-    runner = CriticiseRefinePromptRunner(file_path,
-                                         "require_fix_prompt_rci",
-                                         "require_fix_prompt_rci_criticise",
-                                         "require_fix_prompt_rci_improve",
-                                         lock)
+    runner = SelfReflectionPromptRunner(file_path, "basic_prompt_rci_short", lock)
     runner.run_prompt()
 
 
@@ -50,11 +46,11 @@ def process_directory(directory_path):
 
 if __name__ == "__main__":
     load_dotenv(find_dotenv())
+    dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
 
-    # C:\Users\karlt\thesis\datasets\juliet-top-25\src\testcases\CWE566_Authorization_Bypass_Through_SQL_Primary\J19871.java
-    #file = os.environ.get("DATASET_DIRECTORY_ROOT") + "\\src\\testcases\\CWE78_OS_Command_Injection\\J20841.java"
+    # C:\Users\karlt\thesis\datasets\juliet-top-25\src\testcases\CWE129_Improper_Validation_of_Array_Index\s03\J11608.java
+    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
     #run_prompt(file)
 
-    dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
     folder = os.path.join(dataset_root, "src", "testcases")
     process_directory_concurrently(folder)

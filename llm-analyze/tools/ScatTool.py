@@ -4,7 +4,7 @@ from langchain.agents import tool
 @tool("Get output of a CodeQL SCAT analysis of the file")
 def get_codeql_results(file_name):
     """Tool that returns the CodeQL static code analysis (SCAT) of Java code when given the name of the Java file. Consider that these provide many false negative results."""
-    with open("./scat/codeql-results.csv", "r") as f:
+    with open("scat/codeql-results.csv", "r") as f:
         lines = f.readlines()
 
     output = ""
@@ -23,7 +23,7 @@ def get_codeql_results(file_name):
 @tool("Get output of a SpotBugs SCAT analysis of the file")
 def get_spotbugs_results(file_name):
     """Tool that returns the SpotBugs static code analysis (SCAT) of Java code when given the name of the Java file. Consider that these provide many false negative results."""
-    with open("./scat/spotbugs-results.csv", "r") as f:
+    with open("scat/spotbugs-results.csv", "r") as f:
         lines2 = f.readlines()
 
     output = ""

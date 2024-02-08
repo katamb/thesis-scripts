@@ -6763,3 +6763,7 @@ gpt-4-0125-preview;juliet-top-25-subset-34;require_fix_prompt_rci_improve;J24809
 gpt-4-0125-preview;juliet-top-25-subset-34;require_fix_prompt_rci_improve;J25136;True;CWE-89 CWE-319 CWE-404 CWE-20;89.1786253452301;total_tokens: 5321, completion_tokens: 1440, prompt_tokens: 3881;0.08201;2024-02-06
 gpt-4-0125-preview;juliet-top-25-subset-34;require_fix_prompt_rci_improve;J25095;True;CWE-89 CWE-639 CWE-20 CWE-404;89.25785446166992;total_tokens: 8042, completion_tokens: 1438, prompt_tokens: 6604;0.10918;2024-02-06
 gpt-4-0125-preview;juliet-top-25-subset-34;require_fix_prompt_rci_improve;J25116;True;CWE-89 CWE-319 CWE-404 CWE-20;95.7340395450592;total_tokens: 5110, completion_tokens: 1375, prompt_tokens: 3735;0.0786;2024-02-06
+gpt-4-0125-preview;juliet-top-25-subset-34;react_full_prompt;J11608;True;CWE-129;71.91311311721802;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-02-07
+gpt-4-0125-preview;juliet-top-25-subset-34;react_full_prompt;J11608;True;CWE-129;9.290317058563232;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-02-07
+gpt-4-0125-preview;juliet-top-25-subset-34;original_react_prompt;J11608;True;CWE-129;53.76379585266113;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-02-07
+gpt-4-0125-preview;juliet-top-25-subset-34;original_react_prompt;J11608;True;CWE-129;70.6713285446167;total_tokens: 0, completion_tokens: 0, prompt_tokens: 0;0.0;2024-02-07
