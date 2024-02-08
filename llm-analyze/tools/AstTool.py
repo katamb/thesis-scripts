@@ -3,7 +3,7 @@ from langchain.agents import tool
 import os
 import uuid
 
-JAVA_LANGUAGE = Language("ast/build/my-languages.so", "java")
+JAVA_LANGUAGE = Language("tools/ast/build/my-languages.so", "java")
 parser = Parser()
 parser.set_language(JAVA_LANGUAGE)
 
