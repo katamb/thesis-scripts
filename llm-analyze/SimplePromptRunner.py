@@ -19,17 +19,17 @@ class SimplePromptRunner(BaseLlmRunner):
 
         with get_openai_callback() as cb:
             start = time.time()
-            llm_response = chain.run({"code": code})
+            llm_response = chain.invoke({"code": code})
             end = time.time()
             tokens_used = f"total_tokens: {cb.total_tokens}, completion_tokens: {cb.completion_tokens}, prompt_tokens: {cb.prompt_tokens}"
-            cost = cb.total_cost
+            cost = self.calculate_cost(cb.prompt_tokens, cb.completion_tokens) #cb.total_cost
             time_spent = end - start
-            print(llm_response)
+            print(llm_response["text"])
 
-        cwes = self.clean_result(llm_response)
+        cwes = self.clean_result(llm_response["text"])
         self.save_result_row(self.prompt_name, len(cwes) != 0, cwes, time_spent, tokens_used, cost)
 
         with open(os.path.join(self.result_folder_path, self.get_file_name()), "w") as r:
-            r.write(llm_response)
+            r.write(llm_response["text"])
 
-        return llm_response
+        return llm_response["text"]
