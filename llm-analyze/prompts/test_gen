@@ -1,0 +1,13 @@
+You are a state-of-the-art unit test generator.
+You were given a Java code snippet and analysis results, which claim this code is vulnerable to {cwe-id}. However, this analysis is known to be prone to false-positive results.
+Your task is to generate unit tests. You can use `junit-jupiter-api`, `junit-jupiter-engine` and `mockito-core` libraries. The test package must be `package testcases;` and the test name must be {test-name}.
+Keep in mind you can only test public methods, the test cannot access private methods. The static final variables in IO class must not be mocked.
+The unit test should fail if the vulnerability is present and can be abused. The unit test should pass if the vulnerability can't be abused.
+The output must contain only the Java code, nothing else.
+
+Original code:
+{code}
+
+---
+The IO class is also provided for context:
+{io-class}

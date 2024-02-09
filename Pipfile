@@ -17,6 +17,7 @@ importlib = "*"
 langchainhub = "*"
 langchain-experimental = "*"
 asyncio = "*"
+docker = "*"
 
 [dev-packages]
 
