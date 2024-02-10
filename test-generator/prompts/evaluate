@@ -1,0 +1,6 @@
+The generated tests are: {test-code}.
+---
+Running it resulted in: {test-result}.
+---
+Based on that, can the result be considered false positive or do the tests need to be changed?
+If based on the tests it can be said with high certainty that the original analysis produced false positive results, output the sentence "The analysis results are false positive."
