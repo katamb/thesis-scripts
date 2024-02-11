@@ -34,32 +34,46 @@ def save_result_row(file_name: str, is_true_positive: bool):
         )
 
 
+def get_cwe_from_path(file_path: str) -> str:
+    match = re.search(r'CWE(\d+)_', file_path)
+    if match:
+        return f"CWE-{match.group(1)}"
+    else:
+        raise Exception("Unable to get the CWE")
+
+
 def main(file_path: str):
     # Get the name for the test to be generated
     file_and_test_name = get_file_and_test_name(file_path)
     file_name = file_and_test_name[0]
     test_name = file_and_test_name[1]
-    cwe_id = "CWE-129"  # todo
+    cwe_id = get_cwe_from_path(file_path)
     code = load_file_content(file_path)
-
-    # Evaluate whether the file can be tested
+    test_generator_model = TestGeneratorModel(file_path)
     evaluation_model = EvaluatorModel(file_path)
+
+    # Initial evaluation of whether the file can be tested
     evaluation_result = evaluation_model.run_prompt(
         "initial_evaluate", {"code": code, "cwe-id": cwe_id}
     )
-
     if "Can't be unit tested" in evaluation_result:
         save_result_row(file_name, True)
         print("File: ", file_path, " can't be unit tested, considering result as TP.")
+        return
 
-    # Generate tests
-    test_generator = TestGeneratorModel(file_path)
-    test_gen_result = test_generator.run_prompt(
+    # Generate initial tests
+    test_gen_result = test_generator_model.run_prompt(
         "initial_test_gen", {"code": code, "cwe-id": cwe_id, "test-name": test_name, "evaluation-result": evaluation_result}
     )
     test_running_result = interact_with_env(test_gen_result, test_name)
+    # Fix compilation errors
+    if "Compilation failed" in test_running_result:
+        test_gen_result = test_generator_model.run_prompt(
+            "test_gen_reflection", {"test-run-result": test_running_result}
+        )
+        test_running_result = interact_with_env(test_gen_result, test_name)
 
-    # Re-evaluate
+    # Evaluate testing results
     evaluation_result = evaluation_model.run_prompt(
         "evaluate", {"test-code": test_gen_result, "test-result": test_running_result}
     )
@@ -67,11 +81,14 @@ def main(file_path: str):
         save_result_row(file_name, False)
         print("File: ", file_path, " is considered false positive.")
         return
+    if "The analysis results are true positive" in evaluation_result:
+        save_result_row(file_name, True)
+        print("File: ", file_path, " is considered true positive.")
+        return
 
     # FUTURE loop start
     # Regen tests
-    test_generator = TestGeneratorModel(file_path)
-    test_gen_result = test_generator.run_prompt(
+    test_gen_result = test_generator_model.run_prompt(
         "test_gen", {"feedback": evaluation_result}
     )
     test_running_result = interact_with_env(test_gen_result, test_name)
@@ -82,6 +99,10 @@ def main(file_path: str):
         save_result_row(file_name, False)
         print("File: ", file_path, " is considered false positive.")
         return
+    if "The analysis results are true positive" in evaluation_result:
+        save_result_row(file_name, True)
+        print("File: ", file_path, " is considered true positive.")
+        return
     # FUTURE loop end
 
     return test_running_result
@@ -91,6 +112,6 @@ if __name__ == "__main__":
     load_dotenv(find_dotenv())
     dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
 
-    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
-    file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s01", "J10677.java")
+    file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
+    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s01", "J10677.java")
     print(main(file))

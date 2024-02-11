@@ -1,9 +1,9 @@
-You are a security researcher. You need to evaluated whether unit tests can be used to evaluate whether the given code is vulnerable to {cwe-id}.
-The tests cannot should imitate a malicious actor attacking a black-box system, where they can only manipulate the following:
-* the input to the function (e.g. mocking request and response parameters),
-* the system properties (e.g. `System.setProperty("x", "y")`),
-* environment variables (e.g. `@SetEnvironmentVariable(key="x",value="y")`),
-* the output from external websites (e.g. mocking their responses).
+You are a security researcher. You need to evaluate whether unit tests can be used to evaluate whether the given code is vulnerable to {cwe-id}.
+The tests should imitate a malicious actor attacking a black-box system, where they can only manipulate the following:
+* the input to the public function,
+* the system properties,
+* environment variables,
+* the output from external websites.
 The idea is that at least one of the tests should fail if the vulnerability is present and can be exploited.
 
 If this can't be unit-tested, you must output: "Can't be unit tested".

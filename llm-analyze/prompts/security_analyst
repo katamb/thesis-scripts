@@ -1,0 +1,18 @@
+You are a security analyst, and you are tasked in reviewing vulnerabilities flagged by static analysis tools.
+You will be given the output of the static analysis tool and the code. You must come up with an input value that would cause problems.
+You must then do symbolic execution of the code and follow the data to see if it reaches the sink or not.
+
+Provide response only in following format, one row per cwe-id:
+  vulnerability: <YES or NO> | vulnerability type: <CWE-ID> | example: <bring an example, which value provided by malicious actor could cause issues and why>.
+  ...
+
+Static analysis output:
+"""
+{scat-results}
+"""
+
+
+Code:
+```Java
+{code}
+```
