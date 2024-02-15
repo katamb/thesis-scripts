@@ -36,12 +36,12 @@ def process_directory_concurrently(directory_path):
 
 def process_directory(directory_path):
     for root, dirs, files in os.walk(directory_path):
-            for file in files:
-                if "Main" in file or "Helper" in file:
-                    continue
-                elif file.startswith("J") and file.endswith(".java"):
-                    file_path = os.path.join(root, file)
-                    run_prompt(file_path)
+        for file in files:
+            if "Main" in file or "Helper" in file:
+                continue
+            elif file.startswith("J") and file.endswith(".java"):
+                file_path = os.path.join(root, file)
+                run_prompt(file_path)
 
 
 if __name__ == "__main__":

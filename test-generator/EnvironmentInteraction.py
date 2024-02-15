@@ -40,7 +40,7 @@ def copy_test_to_docker(container, test, test_name):
 
 def run_test_in_docker(container, filename):
     try:
-        command = f"./gradlew test --tests testcases.{filename}.* --info"
+        command = f"./gradlew test --tests testcases.{filename}.*"
         exec_id = container.exec_run(command)
         output = exec_id.output.decode('utf-8').strip()
         print(output)
@@ -49,7 +49,29 @@ def run_test_in_docker(container, filename):
         print(f"An error occurred while running command '{command}': {str(e)}")
 
 
+def extract_relevant_run_info(gradle_output: str, test_name: str) -> str:
+    output = ""
+    if "Compilation failed" in gradle_output:
+        start = False
+        for line in gradle_output.split("\n"):
+            if line.strip() == "":
+                continue
+            if "compileJava" in line:
+                start = True
+            if start:
+                output += line + "\n"
+            if "Compilation failed" in line:
+                break
+    else:
+        for line in gradle_output.split("\n"):
+            if test_name in line:
+                output += line + "\n"
+    return output
+
+
 def interact_with_env(test, test_name):
+    # Sanitize test
+    test = test.replace("```java", "").replace("```", "")
     # Get container reference
     container = get_container()
     # Copy the file to Docker
@@ -57,4 +79,4 @@ def interact_with_env(test, test_name):
     # Run the code in Docker and return the result:
     #   Do this only at your own risk, just running unknown code in Docker is still not 100% safe, but it's a lot safer than running it on your local machine.
     result = run_test_in_docker(container, test_name)
-    return result
+    return extract_relevant_run_info(result, test_name)

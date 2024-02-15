@@ -4,7 +4,7 @@ Lets think step-by-step and give the response in the following format:
 1. List potential malicious sources: <numbered list of input sources>
 2. List the sinks for those malicious sources: <numbered list of output sinks>
 3. List the sanitizers for those malicious sources: <numbered list of sanitizers, if any>
-4. List other potential issues with the given code.
+4. List other potential issues with the given code: <numbered list of potential issues>
 5. Provide verdict (one line for every potential discovered weakness):
  vulnerability: <YES or NO> | vulnerability type: <CWE_ID> | vulnerability name: <NAME_OF_CWE> | explanation: <explanation for prediction>
  ...

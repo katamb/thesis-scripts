@@ -1,18 +1,16 @@
 from dotenv import load_dotenv, find_dotenv
-from TestGeneratorModel import TestGeneratorModel
-from EvaluatorModel import EvaluatorModel
+from BaseModel import BaseModel
 from EnvironmentInteraction import interact_with_env
 import re
 import os
 
 
-def get_file_and_test_name(file_path: str) -> str:
+def get_file_and_test_name(file_path: str) -> tuple:
     file_name_pattern = r"J(\d{5})\.java"
     match = re.search(file_name_pattern, file_path)
     file_nr = match.group(1)
     if match:
-        test_name = f"J{file_nr}", f"J{file_nr}Test"
-        return test_name
+        return f"J{file_nr}", f"J{file_nr}Test"
     else:
         raise Exception(f"Failed getting file name from path {file_path}.")
 
@@ -43,14 +41,14 @@ def get_cwe_from_path(file_path: str) -> str:
 
 
 def main(file_path: str):
-    # Get the name for the test to be generated
+    # Set the initial state and variables
     file_and_test_name = get_file_and_test_name(file_path)
     file_name = file_and_test_name[0]
     test_name = file_and_test_name[1]
     cwe_id = get_cwe_from_path(file_path)
     code = load_file_content(file_path)
-    test_generator_model = TestGeneratorModel(file_path)
-    evaluation_model = EvaluatorModel(file_path)
+    test_generator_model = BaseModel(file_path, file_name)
+    evaluation_model = BaseModel(file_path, file_name)
 
     # Initial evaluation of whether the file can be tested
     evaluation_result = evaluation_model.run_prompt(
@@ -72,10 +70,15 @@ def main(file_path: str):
             "test_gen_reflection", {"test-run-result": test_running_result}
         )
         test_running_result = interact_with_env(test_gen_result, test_name)
+    if "Compilation failed" in test_running_result:
+        test_gen_result = test_generator_model.run_prompt(
+            "test_gen_reflection", {"test-run-result": test_running_result}
+        )
+        test_running_result = interact_with_env(test_gen_result, test_name)
 
     # Evaluate testing results
     evaluation_result = evaluation_model.run_prompt(
-        "evaluate", {"test-code": test_gen_result, "test-result": test_running_result}
+        "evaluate", {"test-code": test_gen_result, "test-result": test_running_result, "cwe-id": cwe_id}
     )
     if "The analysis results are false positive" in evaluation_result:
         save_result_row(file_name, False)
@@ -93,7 +96,7 @@ def main(file_path: str):
     )
     test_running_result = interact_with_env(test_gen_result, test_name)
     evaluation_result = evaluation_model.run_prompt(
-        "evaluate", {"test-code": test_gen_result, "test-result": test_running_result}
+        "evaluate", {"test-code": test_gen_result, "test-result": test_running_result, "cwe-id": cwe_id}
     )
     if "The analysis results are false positive" in evaluation_result:
         save_result_row(file_name, False)
@@ -112,6 +115,6 @@ if __name__ == "__main__":
     load_dotenv(find_dotenv())
     dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
 
-    file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
-    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s01", "J10677.java")
+    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
+    file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s01", "J10677.java")
     print(main(file))

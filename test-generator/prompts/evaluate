@@ -1,8 +1,11 @@
-The generated tests are: {test-code}.
----
-Running it resulted in: {test-result}.
----
-Based on that, can the result be considered false positive or do the tests need to be changed? Consider if the tests are actually testing the correct thing.
-If the tests are relevant and correct and all tests passed, the result is likely to be false positive. If some tests fail, the result should be true positive.
+You are a security researcher. You are given some tests and the results of running these results.
+You need to decide if the {cwe-id} weakness is present in the code that is being tested. If the tests are not enough to decide, give instructions on how the tests should be improved.
+
 If based on the tests it can be said with high certainty that the original analysis produced false positive results, output the sentence "The analysis results are false positive."
 If based on the tests it can be said with high certainty that the original analysis produced true positive results, output the sentence "The analysis results are true positive."
+
+The generated tests are:
+```{test-code}```
+
+Running it resulted in:
+```{test-result}```
