@@ -68,7 +68,7 @@ AI: """
         ## second and third calls ##
         for criticise_prompt_name, improve_prompt_name in self.improvement_prompts:
             # second call
-            criticise_template = initial_template + llm_response_1 + "\nHuman: " + self.load_prompt_from_file(criticise_prompt_name) + "\nAI: "
+            criticise_template = initial_template + self.sanitize(llm_response_1) + "\nHuman: " + self.load_prompt_from_file(criticise_prompt_name) + "\nAI: "
             criticise_prompt = PromptTemplate(input_variables=["code"], template=criticise_template)
             criticise_chain = LLMChain(llm=self.llm, prompt=criticise_prompt)
             llm_response_2, time_spent_2, total_tokens_2, completion_tokens_2, prompt_tokens_2, cost_2 = self.call_llm(criticise_chain, code)
@@ -77,7 +77,7 @@ AI: """
                 r.write(llm_response_2)
 
             # third (and final) call
-            improve_template = criticise_template + llm_response_2 + "\nHuman: " + self.load_prompt_from_file(improve_prompt_name) + "\nAI: "
+            improve_template = criticise_template + self.sanitize(llm_response_2) + "\nHuman: " + self.load_prompt_from_file(improve_prompt_name) + "\nAI: "
             improve_prompt = PromptTemplate(input_variables=["code"], template=improve_template)
             improve_chain = LLMChain(llm=self.llm, prompt=improve_prompt)
             llm_response_3, time_spent_3, total_tokens_3, completion_tokens_3, prompt_tokens_3, cost_3 = self.call_llm(improve_chain, code)
@@ -124,3 +124,7 @@ AI: """
             i_template = self.load_prompt_from_file(improve_prompt)
             if c_template.strip() == "" or i_template.strip() == "":
                 raise Exception("One of the templates is not defined!")
+
+    @staticmethod
+    def sanitize(llm_response):
+        return llm_response.replace("{", "{{").replace("}", "}}")

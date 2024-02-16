@@ -28,7 +28,7 @@ def process_directory_concurrently(directory_path):
             for file in files:
                 if "Main" in file or "Helper" in file:
                     continue
-                elif file.startswith("J") and file.endswith(".java") and "J11608" not in file:
+                elif file.startswith("J") and file.endswith(".java") and file not in ["J11608.java","J10677.java", "J10126.java", "J10127.java", "J10531.java", "J10530.java","J10676.java", "J10754.java", "J11015.java", "J10755.java", "J11176.java","J10738.java", "J11177.java", "J10739.java", "J11339.java", "J11014.java","J11338.java", "J11558.java", "J11559.java", "J11609.java", "J12326.java","J12327.java", "J12225.java", "J12499.java", "J12498.java", "J12291.java","J12224.java", "J12290.java"]:
                     file_path = os.path.join(root, file)
                     counter += 1
                     print("x-count", counter)
