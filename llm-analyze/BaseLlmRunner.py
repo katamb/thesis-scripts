@@ -42,12 +42,6 @@ class BaseLlmRunner:
         file_name = self.file_path[last_slash_index:last_dot_index]
         return file_name
 
-    # Workaround until langchain supports new gpt-4-turbo model
-    def calculate_cost(self, prompt_tokens, completion_tokens):
-        if self.model_name != "gpt-4-0125-preview":
-            raise Exception("Check model")
-        return ((prompt_tokens * 0.01) + (completion_tokens * 0.03)) * 0.001
-
     def save_result_row(self, prompt_name, is_vulnerable, cwe_ids, timing, tokens_used, cost):
         with self.results_lock:
             with open("results.csv", "a") as res:

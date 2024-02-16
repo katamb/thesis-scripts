@@ -22,7 +22,7 @@ class SimplePromptRunner(BaseLlmRunner):
             llm_response = chain.invoke({"code": code})
             end = time.time()
             tokens_used = f"total_tokens: {cb.total_tokens}, completion_tokens: {cb.completion_tokens}, prompt_tokens: {cb.prompt_tokens}"
-            cost = self.calculate_cost(cb.prompt_tokens, cb.completion_tokens) #cb.total_cost
+            cost = cb.total_cost
             time_spent = end - start
             print(llm_response["text"])
 
