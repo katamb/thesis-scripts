@@ -29,7 +29,7 @@ def process_directory_concurrently(directory_path: str):
             for file in files:
                 if "Main" in file or "Helper" in file:
                     continue
-                elif file.startswith("J") and file.endswith(".java"):
+                elif file.startswith("J") and file.endswith(".java") and "J11608" not in file:
                     file_path = os.path.join(root, file)
                     counter += 1
                     print("x-count", counter)
@@ -56,8 +56,8 @@ if __name__ == "__main__":
     dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
 
     # C:\Users\karlt\thesis\datasets\juliet-top-25\src\testcases\CWE129_Improper_Validation_of_Array_Index\s03\J11608.java
-    file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
-    run_prompt(file)
+    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
+    #run_prompt(file)
 
-    #folder = os.path.join(dataset_root, "src", "testcases")
-    #process_directory_concurrently(folder)
+    folder = os.path.join(dataset_root, "src", "testcases")
+    process_directory_concurrently(folder)

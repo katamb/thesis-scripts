@@ -64,6 +64,18 @@ class BaseLlmRunner:
             content = file.read()
         return content
 
+    def get_cwes(self, input_text):
+        vulnerabilities = ""
+        if "\n" in input_text:
+            for line in input_text.split("\n"):
+                if "vulnerability: YES |" in line.strip():
+                    vulnerabilities += self.clean_result(line.strip()) + " "
+        else:
+            if "vulnerability: YES |" in input_text.strip():
+                vulnerabilities += self.clean_result(input_text.strip()) + " "
+
+        return vulnerabilities.strip()
+
     @staticmethod
     def clean_result(text):
         pattern = r'\b(?:cwe-|CWE-|cwe|CWE)(\d+)\b'

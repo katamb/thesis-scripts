@@ -106,18 +106,6 @@ AI: """
     def safe_float_addition(str_1, str_2, str_3):
         return str(float(str_1) + float(str_2) + float(str_3))
 
-    def get_cwes(self, input_text):
-        vulnerabilities = ""
-        if "\n" in input_text:
-            for line in input_text.split("\n"):
-                if "vulnerability: YES |" in line.strip():
-                    vulnerabilities += self.clean_result(line.strip()) + " "
-        else:
-            if "vulnerability: YES |" in input_text.strip():
-                vulnerabilities += self.clean_result(input_text.strip()) + " "
-
-        return vulnerabilities.strip()
-
     def validate(self):
         for criticise_prompt, improve_prompt in self.improvement_prompts:
             c_template = self.load_prompt_from_file(criticise_prompt)
