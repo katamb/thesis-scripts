@@ -1,7 +1,7 @@
 from dotenv import load_dotenv, find_dotenv
-from SimplePromptRunner import SimplePromptRunner
-from ReActRunner import ReActRunner
-from SelfReflectionPromptRunner import SelfReflectionPromptRunner
+#from SimplePromptRunner import SimplePromptRunner
+#from ReActRunner import ReActRunner
+#from SelfReflectionPromptRunner import SelfReflectionPromptRunner
 from CriticiseRefinePromptRunner import CriticiseRefinePromptRunner
 from concurrent.futures import ThreadPoolExecutor
 import os
@@ -9,7 +9,13 @@ import threading
 
 
 def run_prompt(file_path, lock=threading.Lock()):
-    runner = SelfReflectionPromptRunner(file_path, "basic_prompt_rci_short", lock)
+    runner = CriticiseRefinePromptRunner(file_path,
+                                         "cot_prompt_rci",
+                                         [
+                                             ("cot_prompt_rci_criticise", "cot_prompt_rci_improve"),
+                                             ("cot_prompt_rci_criticise_short", "cot_prompt_rci_improve_short")
+                                         ],
+                                         lock)
     runner.run_prompt()
 
 
@@ -22,7 +28,7 @@ def process_directory_concurrently(directory_path):
             for file in files:
                 if "Main" in file or "Helper" in file:
                     continue
-                elif file.startswith("J") and file.endswith(".java"):
+                elif file.startswith("J") and file.endswith(".java") and "J11608" not in file:
                     file_path = os.path.join(root, file)
                     counter += 1
                     print("x-count", counter)
