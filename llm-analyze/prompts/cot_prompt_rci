@@ -11,4 +11,6 @@ Lets think step-by-step and give the response in the following format:
 
 ---
 Is the following code snippet prone to any security vulnerability?
-```{code}```
+```java
+{code}
+```
