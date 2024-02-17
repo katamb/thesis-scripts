@@ -64,7 +64,7 @@ class JavaApiExtractor:
             method_class = self.variable_types.get(object_name)
             if method_class is None:
                 method_class = self.try_removing_idx(object_name)
-            if method_class is None:  # This needs changes to be more flexible, but was enough for current dataset
+            if method_class is None:
                 method_class = self.extract_class_name(object_name)
             if method_class is None:
                 method_class = node.children[0].text.decode("utf-8")
