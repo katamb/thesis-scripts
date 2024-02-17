@@ -1,0 +1,10 @@
+I want you to act as a vulnerability detection system. I will provide you with the original program and the API call sequence, and you will act upon them. 
+Provide response only in following format:
+  vulnerability: <YES or NO> | vulnerability type: <CWE ID> | vulnerability name: <CWE NAME> | explanation: <short explanation for prediction>
+  ...
+  
+API call sequence: {api-flow-seq}
+Is the following program buggy? 
+```java
+{code}
+```

@@ -1,0 +1,579 @@
+llm_model;dataset;prompt_name;file_name;vulnerability_present;cwe_ids;time_taken (in seconds);tokens_used;cost (in dollars);created_at
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11608;True;CWE-129;24.135034799575806;total_tokens: 1044, completion_tokens: 477, prompt_tokens: 567;0.019979999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10127;True;CWE-129 CWE-20 CWE-390;16.43668246269226;total_tokens: 1312, completion_tokens: 489, prompt_tokens: 823;0.022899999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10126;True;CWE-129 CWE-20;22.44030785560608;total_tokens: 1152, completion_tokens: 444, prompt_tokens: 708;0.0204;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10531;True;CWE-89 CWE-20 CWE-209;23.803266048431396;total_tokens: 1744, completion_tokens: 508, prompt_tokens: 1236;0.0276;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10530;True;CWE-129 CWE-754 CWE-390;28.104978561401367;total_tokens: 1242, completion_tokens: 546, prompt_tokens: 696;0.023340000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10676;True;CWE-129 CWE-20 CWE-390;28.412034273147583;total_tokens: 1042, completion_tokens: 518, prompt_tokens: 524;0.02078;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10677;True;CWE-129 CWE-20;29.336851596832275;total_tokens: 1442, completion_tokens: 514, prompt_tokens: 928;0.0247;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11338;True;CWE-129 CWE-20;15.33013105392456;total_tokens: 1034, completion_tokens: 515, prompt_tokens: 519;0.02064;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10739;True;CWE-129 CWE-20;19.35619020462036;total_tokens: 1390, completion_tokens: 487, prompt_tokens: 903;0.02364;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10754;True;CWE-129 CWE-20;20.052061557769775;total_tokens: 1039, completion_tokens: 517, prompt_tokens: 522;0.02073;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11015;True;CWE-129 CWE-20 CWE-390 CWE-561;20.189039707183838;total_tokens: 1826, completion_tokens: 485, prompt_tokens: 1341;0.02796;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11177;True;CWE-129 CWE-20;20.85959815979004;total_tokens: 1249, completion_tokens: 591, prompt_tokens: 658;0.02431;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11176;True;CWE-129 CWE-20 CWE-755;22.81270718574524;total_tokens: 1010, completion_tokens: 477, prompt_tokens: 533;0.019639999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10755;True;CWE-129 CWE-20 CWE-754;23.932413578033447;total_tokens: 1431, completion_tokens: 533, prompt_tokens: 898;0.02497;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11339;True;CWE-129 CWE-20;26.448614358901978;total_tokens: 1467, completion_tokens: 531, prompt_tokens: 936;0.02529;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11014;True;CWE-129 CWE-390 CWE-476;27.417688131332397;total_tokens: 1292, completion_tokens: 537, prompt_tokens: 755;0.02366;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J10738;True;CWE-129 CWE-20;28.218051433563232;total_tokens: 1049, completion_tokens: 487, prompt_tokens: 562;0.02023;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11558;True;CWE-129;19.856255531311035;total_tokens: 1048, completion_tokens: 493, prompt_tokens: 555;0.02034;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11559;True;CWE-129 CWE-20;23.61237597465515;total_tokens: 1492, completion_tokens: 490, prompt_tokens: 1002;0.02472;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J11609;True;CWE-129 CWE-20 CWE-755;25.149385452270508;total_tokens: 1593, completion_tokens: 543, prompt_tokens: 1050;0.02679;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12224;True;CWE-129;16.28872561454773;total_tokens: 971, completion_tokens: 527, prompt_tokens: 444;0.02025;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12753;True;CWE-129;18.0020649433136;total_tokens: 1349, completion_tokens: 500, prompt_tokens: 849;0.023489999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12327;True;CWE-20 CWE-129 CWE-390;21.12370228767395;total_tokens: 1250, completion_tokens: 509, prompt_tokens: 741;0.02268;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12326;True;CWE-129 CWE-22 CWE-20;23.97742199897766;total_tokens: 1113, completion_tokens: 487, prompt_tokens: 626;0.02087;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12498;True;CWE-129 CWE-703;24.588004112243652;total_tokens: 1206, completion_tokens: 550, prompt_tokens: 656;0.02306;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12499;True;CWE-22 CWE-129 CWE-20 CWE-532;25.338870763778687;total_tokens: 1587, completion_tokens: 488, prompt_tokens: 1099;0.02563;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12290;True;CWE-22 CWE-20 CWE-390;26.69642996788025;total_tokens: 1168, completion_tokens: 537, prompt_tokens: 631;0.02242;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12291;True;CWE-129;27.858587741851807;total_tokens: 1660, completion_tokens: 549, prompt_tokens: 1111;0.02758;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12752;False;;31.854228496551514;total_tokens: 955, completion_tokens: 478, prompt_tokens: 477;0.01911;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12225;True;CWE-129;48.102975368499756;total_tokens: 1393, completion_tokens: 603, prompt_tokens: 790;0.02599;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12930;True;CWE-129;20.995232105255127;total_tokens: 937, completion_tokens: 487, prompt_tokens: 450;0.019110000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J13101;True;CWE-129 CWE-400 CWE-20 CWE-390;26.534799098968506;total_tokens: 1860, completion_tokens: 594, prompt_tokens: 1266;0.03048;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J13100;True;CWE-20 CWE-400 CWE-703;34.99904251098633;total_tokens: 1164, completion_tokens: 452, prompt_tokens: 712;0.020679999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J12931;False;;35.396684408187866;total_tokens: 1247, completion_tokens: 462, prompt_tokens: 785;0.02171;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14350;True;CWE-20 CWE-703;14.651227474212646;total_tokens: 994, completion_tokens: 479, prompt_tokens: 515;0.01952;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14351;True;CWE-190 CWE-20;26.61250638961792;total_tokens: 1225, completion_tokens: 549, prompt_tokens: 676;0.02323;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14375;True;CWE-190 CWE-532;28.24534249305725;total_tokens: 1409, completion_tokens: 531, prompt_tokens: 878;0.02471;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14374;True;CWE-190 CWE-20;28.736588716506958;total_tokens: 1047, completion_tokens: 553, prompt_tokens: 494;0.02153;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14944;True;CWE-22 CWE-20 CWE-390;16.657750368118286;total_tokens: 1186, completion_tokens: 562, prompt_tokens: 624;0.0231;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14945;True;CWE-190 CWE-22 CWE-532;26.912712335586548;total_tokens: 1683, completion_tokens: 550, prompt_tokens: 1133;0.02783;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14728;True;CWE-20 CWE-400 CWE-755;28.73474884033203;total_tokens: 1211, completion_tokens: 447, prompt_tokens: 764;0.02105;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J14729;True;CWE-190 CWE-20;29.63178539276123;total_tokens: 2032, completion_tokens: 614, prompt_tokens: 1418;0.0326;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15371;True;CWE-20 CWE-190 CWE-390;21.373121738433838;total_tokens: 1713, completion_tokens: 477, prompt_tokens: 1236;0.02667;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15376;True;CWE-20 CWE-807;22.46331477165222;total_tokens: 1259, completion_tokens: 564, prompt_tokens: 695;0.023869999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15728;False;;22.998114585876465;total_tokens: 971, completion_tokens: 511, prompt_tokens: 460;0.01993;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15936;True;CWE-20 CWE-390;24.35574460029602;total_tokens: 1394, completion_tokens: 505, prompt_tokens: 889;0.02404;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15937;True;CWE-20 CWE-400 CWE-754 CWE-772;24.632286548614502;total_tokens: 1554, completion_tokens: 549, prompt_tokens: 1005;0.026520000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15370;True;CWE-20 CWE-190 CWE-390;28.44549536705017;total_tokens: 1078, completion_tokens: 399, prompt_tokens: 679;0.01876;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15377;True;CWE-20 CWE-400 CWE-209;30.505794048309326;total_tokens: 1880, completion_tokens: 622, prompt_tokens: 1258;0.03124;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15891;True;CWE-190 CWE-20 CWE-390;32.79746055603027;total_tokens: 1273, completion_tokens: 498, prompt_tokens: 775;0.022690000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15729;False;;39.39033055305481;total_tokens: 1264, completion_tokens: 462, prompt_tokens: 802;0.021880000000000004;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J15890;True;CWE-190 CWE-754 CWE-400 CWE-772;46.25603628158569;total_tokens: 1295, completion_tokens: 645, prompt_tokens: 650;0.025849999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J16322;False;;22.706603288650513;total_tokens: 887, completion_tokens: 442, prompt_tokens: 445;0.01771;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J17186;True;CWE-190;23.72220492362976;total_tokens: 981, completion_tokens: 506, prompt_tokens: 475;0.01993;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J16951;True;CWE-20 CWE-190 CWE-754;25.787683725357056;total_tokens: 1365, completion_tokens: 530, prompt_tokens: 835;0.02425;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J17187;True;CWE-190;33.41547393798828;total_tokens: 1307, completion_tokens: 513, prompt_tokens: 794;0.02333;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J16950;True;CWE-20 CWE-311 CWE-939;33.576481103897095;total_tokens: 1251, completion_tokens: 547, prompt_tokens: 704;0.02345;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J16260;True;CWE-190;35.90298891067505;total_tokens: 1062, completion_tokens: 621, prompt_tokens: 441;0.02304;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J16261;True;CWE-190;37.79315733909607;total_tokens: 1326, completion_tokens: 578, prompt_tokens: 748;0.02482;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J16323;False;;63.99353075027466;total_tokens: 1088, completion_tokens: 541, prompt_tokens: 547;0.021700000000000004;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18139;True;CWE-190 CWE-20 CWE-390;17.38173007965088;total_tokens: 1272, completion_tokens: 476, prompt_tokens: 796;0.02224;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J17866;False;;19.334142923355103;total_tokens: 1009, completion_tokens: 483, prompt_tokens: 526;0.01975;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18138;True;CWE-20 CWE-404;22.531096935272217;total_tokens: 1140, completion_tokens: 473, prompt_tokens: 667;0.02086;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18108;False;;23.873115062713623;total_tokens: 1132, completion_tokens: 474, prompt_tokens: 658;0.0208;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J17318;True;CWE-190;24.3863627910614;total_tokens: 961, completion_tokens: 488, prompt_tokens: 473;0.01937;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J17867;True;CWE-190;28.644843816757202;total_tokens: 1349, completion_tokens: 506, prompt_tokens: 843;0.02361;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18109;True;CWE-190 CWE-20 CWE-390;37.23211908340454;total_tokens: 1720, completion_tokens: 563, prompt_tokens: 1157;0.02846;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J17319;False;;47.821585178375244;total_tokens: 1288, completion_tokens: 502, prompt_tokens: 786;0.02292;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18273;False;;19.193604469299316;total_tokens: 1251, completion_tokens: 534, prompt_tokens: 717;0.02319;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18585;False;;21.577025413513184;total_tokens: 1552, completion_tokens: 471, prompt_tokens: 1081;0.024939999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18264;True;CWE-22 CWE-23 CWE-400 CWE-404 CWE-311 CWE-532;22.82304620742798;total_tokens: 1512, completion_tokens: 582, prompt_tokens: 930;0.02676;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18533;True;CWE-22 CWE-20 CWE-200;23.085718631744385;total_tokens: 1348, completion_tokens: 572, prompt_tokens: 776;0.024919999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18265;False;;23.5656898021698;total_tokens: 1299, completion_tokens: 558, prompt_tokens: 741;0.02415;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18452;True;CWE-22 CWE-20;23.66853094100952;total_tokens: 1281, completion_tokens: 543, prompt_tokens: 738;0.02367;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18584;True;CWE-22 CWE-23 CWE-200;23.846923828125;total_tokens: 1432, completion_tokens: 455, prompt_tokens: 977;0.02342;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18588;True;CWE-23 CWE-276 CWE-20 CWE-404 CWE-532;25.23450756072998;total_tokens: 1574, completion_tokens: 585, prompt_tokens: 989;0.02744;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18235;False;;26.72214937210083;total_tokens: 1680, completion_tokens: 583, prompt_tokens: 1097;0.02846;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18453;True;CWE-404;26.9792058467865;total_tokens: 1667, completion_tokens: 590, prompt_tokens: 1077;0.028469999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18458;True;CWE-22 CWE-200;28.519758939743042;total_tokens: 1283, completion_tokens: 528, prompt_tokens: 755;0.02339;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18369;True;CWE-399;29.795705556869507;total_tokens: 1672, completion_tokens: 607, prompt_tokens: 1065;0.02886;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18368;True;CWE-22 CWE-532;34.78544020652771;total_tokens: 1189, completion_tokens: 473, prompt_tokens: 716;0.02135;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18272;True;CWE-22 CWE-20 CWE-200;35.6343719959259;total_tokens: 1342, completion_tokens: 490, prompt_tokens: 852;0.023219999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18459;False;;37.60285496711731;total_tokens: 1648, completion_tokens: 550, prompt_tokens: 1098;0.027480000000000004;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18589;True;CWE-399;23.798255443572998;total_tokens: 1654, completion_tokens: 563, prompt_tokens: 1091;0.0278;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18670;True;CWE-22 CWE-200 CWE-707;18.19137454032898;total_tokens: 1254, completion_tokens: 552, prompt_tokens: 702;0.02358;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18630;True;CWE-22 CWE-399 CWE-532;21.424712657928467;total_tokens: 1345, completion_tokens: 499, prompt_tokens: 846;0.02343;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18234;True;CWE-22 CWE-400 CWE-390;45.82553744316101;total_tokens: 1443, completion_tokens: 494, prompt_tokens: 949;0.02431;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18687;True;CWE-390;18.493593454360962;total_tokens: 1528, completion_tokens: 475, prompt_tokens: 1053;0.024779999999999996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18605;True;CWE-399;24.042986631393433;total_tokens: 1585, completion_tokens: 494, prompt_tokens: 1091;0.02573;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18532;True;CWE-22;48.78769826889038;total_tokens: 1214, completion_tokens: 464, prompt_tokens: 750;0.02142;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18597;True;CWE-399;26.89796257019043;total_tokens: 1630, completion_tokens: 547, prompt_tokens: 1083;0.02724;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18596;True;CWE-22 CWE-400 CWE-200;28.496944904327393;total_tokens: 1542, completion_tokens: 564, prompt_tokens: 978;0.026699999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18686;True;CWE-22 CWE-200;24.044511556625366;total_tokens: 1276, completion_tokens: 572, prompt_tokens: 704;0.0242;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18736;True;CWE-22 CWE-918 CWE-390;18.561526775360107;total_tokens: 1395, completion_tokens: 492, prompt_tokens: 903;0.02379;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18702;True;CWE-22 CWE-200;24.440861225128174;total_tokens: 1369, completion_tokens: 524, prompt_tokens: 845;0.02417;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18631;True;CWE-399;31.868484497070312;total_tokens: 1607, completion_tokens: 515, prompt_tokens: 1092;0.02637;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18604;True;CWE-22 CWE-22 CWE-23 CWE-200;37.14274859428406;total_tokens: 1504, completion_tokens: 522, prompt_tokens: 982;0.025480000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18671;False;;33.868043661117554;total_tokens: 1581, completion_tokens: 532, prompt_tokens: 1049;0.02645;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18749;True;CWE-404 CWE-532;20.77868366241455;total_tokens: 1251, completion_tokens: 504, prompt_tokens: 747;0.02259;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18737;False;;38.06529188156128;total_tokens: 1636, completion_tokens: 545, prompt_tokens: 1091;0.02726;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18703;True;CWE-22 CWE-390;45.33711576461792;total_tokens: 1824, completion_tokens: 621, prompt_tokens: 1203;0.03066;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18748;True;CWE-22 CWE-20 CWE-390;42.60401201248169;total_tokens: 1443, completion_tokens: 542, prompt_tokens: 901;0.02527;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18756;True;CWE-259 CWE-532 CWE-404;12.418442249298096;total_tokens: 1091, completion_tokens: 462, prompt_tokens: 629;0.02015;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18771;True;CWE-321 CWE-326 CWE-532 CWE-259 CWE-404;17.083730697631836;total_tokens: 2188, completion_tokens: 445, prompt_tokens: 1743;0.030780000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18773;True;CWE-321 CWE-259 CWE-532 CWE-22 CWE-326;20.82147216796875;total_tokens: 2218, completion_tokens: 481, prompt_tokens: 1737;0.031799999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18766;True;CWE-259 CWE-532 CWE-22;22.791404962539673;total_tokens: 1152, completion_tokens: 477, prompt_tokens: 675;0.02106;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18761;True;CWE-321 CWE-22 CWE-326 CWE-404 CWE-532;23.79548406600952;total_tokens: 2231, completion_tokens: 502, prompt_tokens: 1729;0.03235;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18765;True;CWE-321 CWE-259 CWE-532 CWE-313 CWE-22 CWE-200;24.065812826156616;total_tokens: 2217, completion_tokens: 490, prompt_tokens: 1727;0.03197;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18764;True;CWE-259 CWE-22 CWE-532 CWE-404 CWE-732;24.14101815223694;total_tokens: 1196, completion_tokens: 532, prompt_tokens: 664;0.022600000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18772;True;CWE-259 CWE-22 CWE-532 CWE-399;24.73107600212097;total_tokens: 1193, completion_tokens: 537, prompt_tokens: 656;0.02267;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18780;True;CWE-259 CWE-532 CWE-313 CWE-404 CWE-548;25.639846324920654;total_tokens: 1149, completion_tokens: 485, prompt_tokens: 664;0.02119;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18774;True;CWE-259 CWE-532 CWE-399;26.706344604492188;total_tokens: 1149, completion_tokens: 497, prompt_tokens: 652;0.02143;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18757;True;CWE-321 CWE-259 CWE-22 CWE-200 CWE-326 CWE-209;27.8207004070282;total_tokens: 1430, completion_tokens: 414, prompt_tokens: 1016;0.02258;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18775;True;CWE-321 CWE-259 CWE-532 CWE-313 CWE-548 CWE-200;27.639824628829956;total_tokens: 2315, completion_tokens: 594, prompt_tokens: 1721;0.03503;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18781;True;CWE-321 CWE-259 CWE-532 CWE-22;15.548971176147461;total_tokens: 2254, completion_tokens: 485, prompt_tokens: 1769;0.03224;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18759;True;CWE-321 CWE-259 CWE-532 CWE-22;30.597311973571777;total_tokens: 2113, completion_tokens: 408, prompt_tokens: 1705;0.029290000000000004;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18767;True;CWE-321 CWE-326 CWE-532 CWE-259 CWE-404;31.541431427001953;total_tokens: 2189, completion_tokens: 415, prompt_tokens: 1774;0.03019;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18758;True;CWE-259 CWE-532 CWE-404 CWE-611;34.74351787567139;total_tokens: 1177, completion_tokens: 529, prompt_tokens: 648;0.02235;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18760;True;CWE-259 CWE-22 CWE-312 CWE-404 CWE-532;35.1748366355896;total_tokens: 1127, completion_tokens: 473, prompt_tokens: 654;0.02073;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18793;True;CWE-321 CWE-326 CWE-209 CWE-404 CWE-22;11.629920721054077;total_tokens: 1426, completion_tokens: 372, prompt_tokens: 1054;0.0217;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18770;True;CWE-259 CWE-532 CWE-22 CWE-404;42.25587010383606;total_tokens: 1202, completion_tokens: 528, prompt_tokens: 674;0.02258;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18782;True;CWE-259 CWE-532 CWE-404;24.643441438674927;total_tokens: 1160, completion_tokens: 502, prompt_tokens: 658;0.02164;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18783;True;CWE-321 CWE-326 CWE-209 CWE-259 CWE-404;21.38423442840576;total_tokens: 2149, completion_tokens: 404, prompt_tokens: 1745;0.02957;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18789;True;CWE-321 CWE-259 CWE-22 CWE-327 CWE-390;19.601369619369507;total_tokens: 1442, completion_tokens: 392, prompt_tokens: 1050;0.022260000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18799;True;CWE-321 CWE-326 CWE-209 CWE-404 CWE-312;12.790201902389526;total_tokens: 1524, completion_tokens: 421, prompt_tokens: 1103;0.02366;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18795;True;CWE-321 CWE-326 CWE-209 CWE-312 CWE-404;21.02437114715576;total_tokens: 1466, completion_tokens: 412, prompt_tokens: 1054;0.0229;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18794;True;CWE-259 CWE-532 CWE-200 CWE-312;22.87918782234192;total_tokens: 1172, completion_tokens: 528, prompt_tokens: 644;0.02228;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18788;True;CWE-259 CWE-532 CWE-312 CWE-398;27.25941514968872;total_tokens: 1169, completion_tokens: 523, prompt_tokens: 646;0.02215;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18797;True;CWE-259 CWE-22 CWE-327 CWE-532 CWE-399;20.57108998298645;total_tokens: 1589, completion_tokens: 399, prompt_tokens: 1190;0.02387;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18791;True;CWE-321 CWE-256 CWE-532 CWE-200 CWE-313;27.19387936592102;total_tokens: 2025, completion_tokens: 534, prompt_tokens: 1491;0.03093;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18798;True;CWE-259 CWE-532 CWE-313 CWE-404;22.914157390594482;total_tokens: 1133, completion_tokens: 460, prompt_tokens: 673;0.02053;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18785;True;CWE-321 CWE-22 CWE-404 CWE-326;35.725825548172;total_tokens: 2236, completion_tokens: 436, prompt_tokens: 1800;0.031080000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18784;True;CWE-259 CWE-532 CWE-398;38.60338115692139;total_tokens: 1261, completion_tokens: 586, prompt_tokens: 675;0.024329999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18796;True;CWE-321 CWE-312 CWE-532 CWE-259;36.02220678329468;total_tokens: 1486, completion_tokens: 506, prompt_tokens: 980;0.02498;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18792;True;CWE-259 CWE-532 CWE-404 CWE-311;41.84446740150452;total_tokens: 1158, completion_tokens: 510, prompt_tokens: 648;0.02178;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18790;True;CWE-259 CWE-532 CWE-200 CWE-312 CWE-404;819.4801154136658;total_tokens: 1355, completion_tokens: 660, prompt_tokens: 695;0.026750000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18832;True;CWE-259 CWE-209;17.6472270488739;total_tokens: 1146, completion_tokens: 539, prompt_tokens: 607;0.02224;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18868;True;CWE-798 CWE-259;17.663970470428467;total_tokens: 986, completion_tokens: 502, prompt_tokens: 484;0.019899999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18849;True;CWE-20 CWE-497 CWE-561;18.84909725189209;total_tokens: 1161, completion_tokens: 469, prompt_tokens: 692;0.020989999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18807;True;CWE-89 CWE-259 CWE-404;19.212125062942505;total_tokens: 1537, completion_tokens: 549, prompt_tokens: 988;0.026350000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18833;True;CWE-89 CWE-259 CWE-20 CWE-404;21.93314552307129;total_tokens: 1164, completion_tokens: 490, prompt_tokens: 674;0.02144;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18801;True;CWE-259 CWE-89 CWE-20 CWE-209;22.530308485031128;total_tokens: 1075, completion_tokens: 418, prompt_tokens: 657;0.01911;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18827;True;CWE-89 CWE-259 CWE-209 CWE-20;21.66095280647278;total_tokens: 1451, completion_tokens: 481, prompt_tokens: 970;0.02413;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18843;True;CWE-89 CWE-259 CWE-209;24.78950548171997;total_tokens: 1262, completion_tokens: 556, prompt_tokens: 706;0.02374;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18826;True;CWE-259 CWE-209;26.332475662231445;total_tokens: 1144, completion_tokens: 536, prompt_tokens: 608;0.02216;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18806;True;CWE-259 CWE-532;26.990745782852173;total_tokens: 1178, completion_tokens: 550, prompt_tokens: 628;0.02278;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18802;True;CWE-259 CWE-532 CWE-209;28.011603593826294;total_tokens: 1137, completion_tokens: 534, prompt_tokens: 603;0.02205;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18803;True;CWE-89 CWE-259 CWE-390 CWE-400 CWE-532;30.81855797767639;total_tokens: 1443, completion_tokens: 483, prompt_tokens: 960;0.02409;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18848;True;CWE-532 CWE-311;31.617143630981445;total_tokens: 1040, completion_tokens: 561, prompt_tokens: 479;0.02162;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18860;True;CWE-532;31.732051372528076;total_tokens: 1009, completion_tokens: 529, prompt_tokens: 480;0.020669999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18842;True;CWE-259 CWE-532;33.049623250961304;total_tokens: 1069, completion_tokens: 442, prompt_tokens: 627;0.01953;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18861;True;CWE-20 CWE-497;39.485379695892334;total_tokens: 1325, completion_tokens: 631, prompt_tokens: 694;0.025869999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18873;True;CWE-20 CWE-497 CWE-390;22.460809230804443;total_tokens: 1265, completion_tokens: 561, prompt_tokens: 704;0.023870000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18892;True;CWE-532;22.644646167755127;total_tokens: 984, completion_tokens: 541, prompt_tokens: 443;0.02066;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18800;True;CWE-259 CWE-532;45.230040550231934;total_tokens: 1091, completion_tokens: 501, prompt_tokens: 590;0.02093;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18905;True;CWE-20 CWE-532;22.384485006332397;total_tokens: 1171, completion_tokens: 531, prompt_tokens: 640;0.02233;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18904;True;CWE-259 CWE-532;23.382896900177002;total_tokens: 1005, completion_tokens: 561, prompt_tokens: 444;0.02127;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18914;True;CWE-532 CWE-259;24.44976544380188;total_tokens: 910, completion_tokens: 465, prompt_tokens: 445;0.0184;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18915;True;CWE-532 CWE-20;22.629942178726196;total_tokens: 1203, completion_tokens: 561, prompt_tokens: 642;0.02325;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18921;True;CWE-20 CWE-532;21.74800992012024;total_tokens: 969, completion_tokens: 458, prompt_tokens: 511;0.01885;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18872;True;CWE-532;35.59275794029236;total_tokens: 1006, completion_tokens: 521, prompt_tokens: 485;0.02048;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18869;True;CWE-20 CWE-497;36.39992570877075;total_tokens: 1197, completion_tokens: 495, prompt_tokens: 702;0.021869999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18893;True;CWE-532 CWE-20 CWE-798;32.46707201004028;total_tokens: 1156, completion_tokens: 518, prompt_tokens: 638;0.021920000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18920;True;CWE-532 CWE-561;29.68069553375244;total_tokens: 1008, completion_tokens: 564, prompt_tokens: 444;0.021359999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18929;True;CWE-20;24.64675283432007;total_tokens: 1056, completion_tokens: 511, prompt_tokens: 545;0.02078;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18925;True;CWE-20 CWE-532;29.069332599639893;total_tokens: 1076, completion_tokens: 563, prompt_tokens: 513;0.022019999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18924;True;CWE-259 CWE-532 CWE-312 CWE-313;31.81477117538452;total_tokens: 988, completion_tokens: 542, prompt_tokens: 446;0.020720000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18928;True;CWE-798;32.46923899650574;total_tokens: 1132, completion_tokens: 605, prompt_tokens: 527;0.02342;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18931;True;CWE-532 CWE-20;28.878600597381592;total_tokens: 1040, completion_tokens: 497, prompt_tokens: 543;0.02034;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18930;True;CWE-532;33.44399976730347;total_tokens: 978, completion_tokens: 514, prompt_tokens: 464;0.02006;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18936;True;CWE-321 CWE-327 CWE-200;19.100998163223267;total_tokens: 1007, completion_tokens: 471, prompt_tokens: 536;0.01949;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18948;True;CWE-321 CWE-327 CWE-310 CWE-798;25.211726665496826;total_tokens: 1098, completion_tokens: 561, prompt_tokens: 537;0.0222;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18935;True;CWE-326 CWE-20 CWE-319 CWE-310;26.129395961761475;total_tokens: 1336, completion_tokens: 542, prompt_tokens: 794;0.0242;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18937;True;CWE-326 CWE-20 CWE-319;27.70531988143921;total_tokens: 1350, completion_tokens: 550, prompt_tokens: 800;0.0245;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18933;True;CWE-327 CWE-20 CWE-319;27.821154594421387;total_tokens: 1050, completion_tokens: 466, prompt_tokens: 584;0.01982;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18940;True;CWE-321 CWE-327 CWE-200 CWE-310;28.03174877166748;total_tokens: 1123, completion_tokens: 575, prompt_tokens: 548;0.02273;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18945;True;CWE-327 CWE-20 CWE-310 CWE-319 CWE-396;29.16572380065918;total_tokens: 1404, completion_tokens: 594, prompt_tokens: 810;0.02592;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18941;True;CWE-327 CWE-20;30.68411922454834;total_tokens: 1466, completion_tokens: 656, prompt_tokens: 810;0.02778;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18938;True;CWE-321 CWE-327 CWE-311;31.23925018310547;total_tokens: 1091, completion_tokens: 533, prompt_tokens: 558;0.021570000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18934;True;CWE-321 CWE-327 CWE-749;32.077699184417725;total_tokens: 1085, completion_tokens: 552, prompt_tokens: 533;0.021890000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18932;True;CWE-321 CWE-326 CWE-390;32.14558529853821;total_tokens: 992, completion_tokens: 472, prompt_tokens: 520;0.01936;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18943;True;CWE-326 CWE-319 CWE-20;32.10248327255249;total_tokens: 1343, completion_tokens: 522, prompt_tokens: 821;0.023870000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18942;True;CWE-321 CWE-327 CWE-200;35.957213401794434;total_tokens: 1027, completion_tokens: 474, prompt_tokens: 553;0.019749999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18949;True;CWE-327 CWE-20;36.418933391571045;total_tokens: 1310, completion_tokens: 508, prompt_tokens: 802;0.023260000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18944;True;CWE-321 CWE-327 CWE-310 CWE-390;39.02530527114868;total_tokens: 1080, completion_tokens: 535, prompt_tokens: 545;0.021500000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18956;True;CWE-321 CWE-331 CWE-798;21.79797673225403;total_tokens: 1065, completion_tokens: 524, prompt_tokens: 541;0.021130000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18960;True;CWE-321 CWE-327 CWE-310 CWE-200;22.938026905059814;total_tokens: 1097, completion_tokens: 555, prompt_tokens: 542;0.022070000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18955;True;CWE-327 CWE-400 CWE-20;26.45180916786194;total_tokens: 1149, completion_tokens: 489, prompt_tokens: 660;0.02127;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18950;True;CWE-321 CWE-326 CWE-310 CWE-390;54.41413426399231;total_tokens: 1035, completion_tokens: 500, prompt_tokens: 535;0.02035;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18939;True;CWE-327 CWE-20 CWE-319;56.23832368850708;total_tokens: 1410, completion_tokens: 588, prompt_tokens: 822;0.02586;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18967;True;CWE-327 CWE-798 CWE-20 CWE-532;24.89515495300293;total_tokens: 1430, completion_tokens: 476, prompt_tokens: 954;0.02382;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18951;True;CWE-326 CWE-20;40.15462279319763;total_tokens: 1331, completion_tokens: 533, prompt_tokens: 798;0.02397;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18961;True;CWE-327 CWE-20 CWE-319;30.1474769115448;total_tokens: 1376, completion_tokens: 564, prompt_tokens: 812;0.02504;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18969;True;CWE-327 CWE-20 CWE-319;31.804587602615356;total_tokens: 1122, completion_tokens: 519, prompt_tokens: 603;0.0216;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18954;True;CWE-327 CWE-20 CWE-310 CWE-390;39.48100519180298;total_tokens: 1103, completion_tokens: 507, prompt_tokens: 596;0.02117;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18972;True;CWE-321 CWE-532;28.565494298934937;total_tokens: 1104, completion_tokens: 484, prompt_tokens: 620;0.02072;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18974;True;CWE-321 CWE-798 CWE-327 CWE-310;15.770806550979614;total_tokens: 1093, completion_tokens: 536, prompt_tokens: 557;0.021650000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18968;True;CWE-321 CWE-327 CWE-390;34.02763509750366;total_tokens: 1079, completion_tokens: 540, prompt_tokens: 539;0.021589999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18970;True;CWE-327 CWE-703;35.75804543495178;total_tokens: 1105, completion_tokens: 570, prompt_tokens: 535;0.022449999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18971;True;CWE-327 CWE-319 CWE-20;34.32963228225708;total_tokens: 1096, completion_tokens: 493, prompt_tokens: 603;0.020819999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18973;True;CWE-327 CWE-20 CWE-319;31.373289823532104;total_tokens: 1212, completion_tokens: 574, prompt_tokens: 638;0.0236;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18966;True;CWE-321 CWE-532;40.38390135765076;total_tokens: 1420, completion_tokens: 630, prompt_tokens: 790;0.0268;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18975;True;CWE-327 CWE-20 CWE-319 CWE-310;26.940481662750244;total_tokens: 1225, completion_tokens: 592, prompt_tokens: 633;0.02409;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18957;True;CWE-327 CWE-20;56.51321268081665;total_tokens: 1371, completion_tokens: 561, prompt_tokens: 810;0.02493;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19307;False;;15.349750280380249;total_tokens: 1142, completion_tokens: 444, prompt_tokens: 698;0.0203;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19043;False;;15.723491907119751;total_tokens: 1140, completion_tokens: 447, prompt_tokens: 693;0.02034;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19108;True;CWE-22 CWE-200 CWE-707;19.518972635269165;total_tokens: 1179, completion_tokens: 534, prompt_tokens: 645;0.02247;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19157;False;;21.489193439483643;total_tokens: 1454, completion_tokens: 460, prompt_tokens: 994;0.02374;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19122;True;CWE-22;22.264457941055298;total_tokens: 1209, completion_tokens: 527, prompt_tokens: 682;0.02263;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18995;False;;22.34638810157776;total_tokens: 1573, completion_tokens: 586, prompt_tokens: 987;0.02745;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J18994;True;CWE-22 CWE-20 CWE-404;23.07853126525879;total_tokens: 1428, completion_tokens: 545, prompt_tokens: 883;0.02518;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19025;False;;23.552778244018555;total_tokens: 1437, completion_tokens: 453, prompt_tokens: 984;0.02343;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19306;True;CWE-22 CWE-200 CWE-209;24.577308177947998;total_tokens: 1130, completion_tokens: 410, prompt_tokens: 720;0.019499999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19123;False;;24.792094230651855;total_tokens: 1648, completion_tokens: 659, prompt_tokens: 989;0.02966;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19024;True;CWE-22 CWE-20 CWE-200;25.02934217453003;total_tokens: 1338, completion_tokens: 513, prompt_tokens: 825;0.02364;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19001;True;CWE-200 CWE-400;25.925889492034912;total_tokens: 1567, completion_tokens: 568, prompt_tokens: 999;0.02703;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19109;True;CWE-404;27.817718029022217;total_tokens: 1216, completion_tokens: 557, prompt_tokens: 659;0.0233;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19000;True;CWE-22 CWE-20 CWE-200;33.36986994743347;total_tokens: 1525, completion_tokens: 636, prompt_tokens: 889;0.027970000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19324;True;CWE-22 CWE-200 CWE-434 CWE-400;34.09007287025452;total_tokens: 1350, completion_tokens: 593, prompt_tokens: 757;0.025359999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19344;True;CWE-23 CWE-400 CWE-755 CWE-276;21.313947439193726;total_tokens: 1492, completion_tokens: 557, prompt_tokens: 935;0.026060000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19156;True;CWE-22 CWE-200;40.14431977272034;total_tokens: 1418, completion_tokens: 515, prompt_tokens: 903;0.024480000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19346;True;CWE-23 CWE-400 CWE-20;20.513970851898193;total_tokens: 1446, completion_tokens: 513, prompt_tokens: 933;0.02472;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19325;True;CWE-22 CWE-20 CWE-200;27.07407832145691;total_tokens: 1257, completion_tokens: 474, prompt_tokens: 783;0.02205;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19355;False;;20.742730617523193;total_tokens: 1531, completion_tokens: 532, prompt_tokens: 999;0.02595;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19345;True;CWE-22 CWE-399 CWE-390;25.99701690673828;total_tokens: 1569, completion_tokens: 572, prompt_tokens: 997;0.027129999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19354;True;CWE-23 CWE-276 CWE-20 CWE-400;23.744433879852295;total_tokens: 1487, completion_tokens: 551, prompt_tokens: 936;0.02589;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19042;True;CWE-22 CWE-20 CWE-200;48.36487412452698;total_tokens: 1349, completion_tokens: 521, prompt_tokens: 828;0.02391;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19375;False;;23.584052801132202;total_tokens: 1497, completion_tokens: 519, prompt_tokens: 978;0.02535;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19382;True;CWE-22;23.99113154411316;total_tokens: 1323, completion_tokens: 525, prompt_tokens: 798;0.02373;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19401;False;;24.657875537872314;total_tokens: 1495, completion_tokens: 499, prompt_tokens: 996;0.02493;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19383;True;CWE-209;28.9604754447937;total_tokens: 1524, completion_tokens: 519, prompt_tokens: 1005;0.02562;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19400;True;CWE-22 CWE-707 CWE-390;29.05252504348755;total_tokens: 1336, completion_tokens: 549, prompt_tokens: 787;0.02434;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19408;True;CWE-22 CWE-200 CWE-532;23.831310510635376;total_tokens: 1312, completion_tokens: 528, prompt_tokens: 784;0.02368;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19409;False;;24.07208824157715;total_tokens: 1137, completion_tokens: 444, prompt_tokens: 693;0.02025;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19500;True;CWE-22 CWE-311;21.278145790100098;total_tokens: 1377, completion_tokens: 495, prompt_tokens: 882;0.023669999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19347;True;CWE-209;38.469390630722046;total_tokens: 1569, completion_tokens: 576, prompt_tokens: 993;0.027209999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19374;True;CWE-22 CWE-200;41.603055477142334;total_tokens: 1361, completion_tokens: 583, prompt_tokens: 778;0.02527;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19501;False;;48.167253494262695;total_tokens: 1355, completion_tokens: 455, prompt_tokens: 900;0.022650000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19509;False;;18.19634246826172;total_tokens: 942, completion_tokens: 437, prompt_tokens: 505;0.01816;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19557;False;;20.16366744041443;total_tokens: 926, completion_tokens: 451, prompt_tokens: 475;0.01828;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19648;True;CWE-476;20.268579721450806;total_tokens: 890, completion_tokens: 487, prompt_tokens: 403;0.01864;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19667;False;;22.32099676132202;total_tokens: 1009, completion_tokens: 484, prompt_tokens: 525;0.01977;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19508;False;;22.910529851913452;total_tokens: 909, completion_tokens: 490, prompt_tokens: 419;0.01889;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19588;True;CWE-476;23.214776754379272;total_tokens: 940, completion_tokens: 528, prompt_tokens: 412;0.01996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19554;True;CWE-476;25.031920671463013;total_tokens: 869, completion_tokens: 465, prompt_tokens: 404;0.01799;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19649;True;CWE-476 CWE-457;25.06641149520874;total_tokens: 1001, completion_tokens: 511, prompt_tokens: 490;0.020229999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19680;False;;25.634256601333618;total_tokens: 937, completion_tokens: 510, prompt_tokens: 427;0.01957;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19556;True;CWE-476;26.78544330596924;total_tokens: 885, completion_tokens: 483, prompt_tokens: 402;0.01851;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19666;False;;27.76091718673706;total_tokens: 985, completion_tokens: 536, prompt_tokens: 449;0.02057;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19681;True;CWE-390;27.99680185317993;total_tokens: 1140, completion_tokens: 637, prompt_tokens: 503;0.024139999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19661;False;;28.61149287223816;total_tokens: 1023, completion_tokens: 602, prompt_tokens: 421;0.022269999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19589;False;;28.634663581848145;total_tokens: 1322, completion_tokens: 655, prompt_tokens: 667;0.026320000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19660;False;;29.259886741638184;total_tokens: 885, completion_tokens: 467, prompt_tokens: 418;0.018189999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19555;False;;34.36490797996521;total_tokens: 1028, completion_tokens: 549, prompt_tokens: 479;0.02126;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19758;True;CWE-476;16.40045404434204;total_tokens: 965, completion_tokens: 555, prompt_tokens: 410;0.02075;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19736;True;CWE-476;23.55160427093506;total_tokens: 981, completion_tokens: 551, prompt_tokens: 430;0.02083;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19685;False;;30.577234268188477;total_tokens: 1052, completion_tokens: 539, prompt_tokens: 513;0.0213;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19686;True;CWE-476;29.73376178741455;total_tokens: 1027, completion_tokens: 598, prompt_tokens: 429;0.02223;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19740;True;CWE-476;24.26129388809204;total_tokens: 914, completion_tokens: 510, prompt_tokens: 404;0.01934;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19684;False;;51.90139937400818;total_tokens: 1122, completion_tokens: 690, prompt_tokens: 432;0.025019999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19720;True;CWE-476;30.632702350616455;total_tokens: 931, completion_tokens: 517, prompt_tokens: 414;0.01965;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19721;True;CWE-476;35.47403335571289;total_tokens: 1243, completion_tokens: 572, prompt_tokens: 671;0.02387;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19737;True;CWE-476;32.94506025314331;total_tokens: 1106, completion_tokens: 564, prompt_tokens: 542;0.02234;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19731;False;;33.59377360343933;total_tokens: 1030, completion_tokens: 540, prompt_tokens: 490;0.0211;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19741;True;CWE-476;33.81456398963928;total_tokens: 1165, completion_tokens: 528, prompt_tokens: 637;0.02221;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19759;True;CWE-476;35.95289611816406;total_tokens: 1244, completion_tokens: 583, prompt_tokens: 661;0.0241;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19760;True;CWE-476;32.88560199737549;total_tokens: 1037, completion_tokens: 589, prompt_tokens: 448;0.02215;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19687;False;;53.46326231956482;total_tokens: 1038, completion_tokens: 531, prompt_tokens: 507;0.020999999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19742;True;CWE-476;46.341567039489746;total_tokens: 972, completion_tokens: 562, prompt_tokens: 410;0.02096;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19743;True;CWE-476;48.447410106658936;total_tokens: 1250, completion_tokens: 589, prompt_tokens: 661;0.02428;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19761;False;;32.04141712188721;total_tokens: 1055, completion_tokens: 497, prompt_tokens: 558;0.02049;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19730;True;CWE-476;56.313254833221436;total_tokens: 911, completion_tokens: 507, prompt_tokens: 404;0.01925;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19794;True;CWE-598;16.999258041381836;total_tokens: 1232, completion_tokens: 650, prompt_tokens: 582;0.02532;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19790;True;CWE-319;17.004204750061035;total_tokens: 1130, completion_tokens: 545, prompt_tokens: 585;0.0222;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19798;True;CWE-319 CWE-294;19.073692321777344;total_tokens: 1162, completion_tokens: 588, prompt_tokens: 574;0.023379999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19797;False;;19.280288457870483;total_tokens: 1291, completion_tokens: 469, prompt_tokens: 822;0.022289999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19788;False;;19.351322889328003;total_tokens: 1034, completion_tokens: 439, prompt_tokens: 595;0.019119999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19784;True;CWE-311;21.218655347824097;total_tokens: 1110, completion_tokens: 540, prompt_tokens: 570;0.0219;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19792;True;CWE-598;22.934941291809082;total_tokens: 1154, completion_tokens: 564, prompt_tokens: 590;0.022819999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19783;False;;26.400338888168335;total_tokens: 1096, completion_tokens: 512, prompt_tokens: 584;0.0212;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19796;True;CWE-598;28.403752326965332;total_tokens: 1193, completion_tokens: 599, prompt_tokens: 594;0.02391;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19785;True;CWE-561;29.464478492736816;total_tokens: 1398, completion_tokens: 602, prompt_tokens: 796;0.02602;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19795;True;CWE-79 CWE-539 CWE-391;32.28560400009155;total_tokens: 1409, completion_tokens: 597, prompt_tokens: 812;0.026029999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19789;True;CWE-598 CWE-489;32.63397574424744;total_tokens: 1500, completion_tokens: 676, prompt_tokens: 824;0.028519999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19787;False;;32.584784507751465;total_tokens: 1371, completion_tokens: 569, prompt_tokens: 802;0.02509;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19793;False;;32.73643636703491;total_tokens: 1329, completion_tokens: 506, prompt_tokens: 823;0.02341;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19791;False;;38.92890191078186;total_tokens: 1351, completion_tokens: 539, prompt_tokens: 812;0.02429;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19802;True;CWE-319;19.503042221069336;total_tokens: 999, completion_tokens: 426, prompt_tokens: 573;0.01851;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19803;False;;23.00577974319458;total_tokens: 1390, completion_tokens: 588, prompt_tokens: 802;0.025660000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19786;True;CWE-598 CWE-693;43.59991121292114;total_tokens: 1147, completion_tokens: 574, prompt_tokens: 573;0.022949999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19800;False;;27.309110164642334;total_tokens: 1072, completion_tokens: 500, prompt_tokens: 572;0.02072;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19782;False;;45.174402952194214;total_tokens: 1010, completion_tokens: 446, prompt_tokens: 564;0.01902;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19808;True;CWE-548;18.06675410270691;total_tokens: 1130, completion_tokens: 555, prompt_tokens: 575;0.022400000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19804;True;CWE-319 CWE-311;27.31695246696472;total_tokens: 1279, completion_tokens: 534, prompt_tokens: 745;0.023469999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19799;True;CWE-311 CWE-20;34.06160235404968;total_tokens: 1510, completion_tokens: 706, prompt_tokens: 804;0.029219999999999996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19810;True;CWE-601 CWE-598;19.02855157852173;total_tokens: 1043, completion_tokens: 453, prompt_tokens: 590;0.01949;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19806;True;CWE-319 CWE-601;26.254525899887085;total_tokens: 1113, completion_tokens: 535, prompt_tokens: 578;0.021830000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19801;False;;34.65208697319031;total_tokens: 1457, completion_tokens: 657, prompt_tokens: 800;0.027710000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19809;False;;23.49030113220215;total_tokens: 1342, completion_tokens: 536, prompt_tokens: 806;0.02414;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19805;False;;35.9865505695343;total_tokens: 1477, completion_tokens: 712, prompt_tokens: 765;0.029009999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19812;False;;27.14991521835327;total_tokens: 1039, completion_tokens: 467, prompt_tokens: 572;0.019729999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19807;False;;31.881215810775757;total_tokens: 1343, completion_tokens: 531, prompt_tokens: 812;0.024050000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19811;True;CWE-598;29.43326210975647;total_tokens: 1505, completion_tokens: 682, prompt_tokens: 823;0.02869;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19814;True;CWE-598 CWE-799;28.1948025226593;total_tokens: 1166, completion_tokens: 585, prompt_tokens: 581;0.02336;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19813;True;CWE-79 CWE-598 CWE-311;30.381702423095703;total_tokens: 1293, completion_tokens: 701, prompt_tokens: 592;0.026949999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19815;False;;28.179381132125854;total_tokens: 1188, completion_tokens: 587, prompt_tokens: 601;0.023619999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19817;False;;13.151885509490967;total_tokens: 946, completion_tokens: 448, prompt_tokens: 498;0.01842;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19827;False;;17.5477237701416;total_tokens: 1107, completion_tokens: 440, prompt_tokens: 667;0.01987;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19816;True;CWE-79;20.46782684326172;total_tokens: 976, completion_tokens: 498, prompt_tokens: 478;0.01972;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19825;True;CWE-79;21.969018697738647;total_tokens: 1195, completion_tokens: 539, prompt_tokens: 656;0.02273;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19826;True;CWE-79;22.414788246154785;total_tokens: 945, completion_tokens: 441, prompt_tokens: 504;0.01827;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19819;False;;22.928351402282715;total_tokens: 1123, completion_tokens: 483, prompt_tokens: 640;0.02089;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19818;False;;22.845120429992676;total_tokens: 954, completion_tokens: 470, prompt_tokens: 484;0.01894;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19822;True;CWE-319;23.584485292434692;total_tokens: 1092, completion_tokens: 583, prompt_tokens: 509;0.02258;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19829;True;CWE-352 CWE-16;24.15456533432007;total_tokens: 1256, completion_tokens: 600, prompt_tokens: 656;0.02456;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19830;True;CWE-79 CWE-523;24.518508672714233;total_tokens: 963, completion_tokens: 455, prompt_tokens: 508;0.01873;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19824;True;CWE-523 CWE-20;24.487278938293457;total_tokens: 1151, completion_tokens: 652, prompt_tokens: 499;0.024550000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19821;True;CWE-570 CWE-571;24.937838077545166;total_tokens: 1252, completion_tokens: 606, prompt_tokens: 646;0.02464;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19832;False;;27.421445608139038;total_tokens: 945, completion_tokens: 457, prompt_tokens: 488;0.01859;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19820;False;;29.391935110092163;total_tokens: 924, completion_tokens: 437, prompt_tokens: 487;0.01798;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19831;True;CWE-79;31.747851610183716;total_tokens: 1236, completion_tokens: 570, prompt_tokens: 666;0.023759999999999996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19834;False;;19.686773538589478;total_tokens: 1002, completion_tokens: 516, prompt_tokens: 486;0.02034;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19828;False;;38.8956401348114;total_tokens: 1167, completion_tokens: 671, prompt_tokens: 496;0.02509;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19833;False;;27.789279222488403;total_tokens: 1233, completion_tokens: 585, prompt_tokens: 648;0.02403;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19844;False;;17.196388721466064;total_tokens: 947, completion_tokens: 443, prompt_tokens: 504;0.01833;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19837;False;;22.354814529418945;total_tokens: 1176, completion_tokens: 530, prompt_tokens: 646;0.02236;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19835;False;;24.80810785293579;total_tokens: 1107, completion_tokens: 463, prompt_tokens: 644;0.02033;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19839;False;;24.589870929718018;total_tokens: 1062, completion_tokens: 453, prompt_tokens: 609;0.01968;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19845;False;;21.090639352798462;total_tokens: 1194, completion_tokens: 527, prompt_tokens: 667;0.02248;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19823;False;;50.10382151603699;total_tokens: 1178, completion_tokens: 510, prompt_tokens: 668;0.02198;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19843;True;CWE-79 CWE-20 CWE-391;29.084343910217285;total_tokens: 1203, completion_tokens: 553, prompt_tokens: 650;0.02309;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19846;True;CWE-259;26.81483507156372;total_tokens: 1048, completion_tokens: 562, prompt_tokens: 486;0.02172;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19840;True;CWE-79;32.760815143585205;total_tokens: 1071, completion_tokens: 579, prompt_tokens: 492;0.022289999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19841;True;CWE-79;34.20571827888489;total_tokens: 1241, completion_tokens: 585, prompt_tokens: 656;0.02411;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19849;True;CWE-352;21.67119288444519;total_tokens: 1096, completion_tokens: 581, prompt_tokens: 515;0.022579999999999996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19836;True;CWE-79;40.6083025932312;total_tokens: 1025, completion_tokens: 538, prompt_tokens: 487;0.02101;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19838;True;CWE-598;43.45536184310913;total_tokens: 1196, completion_tokens: 607, prompt_tokens: 589;0.0241;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19842;False;;44.364258766174316;total_tokens: 1129, completion_tokens: 640, prompt_tokens: 489;0.02409;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19848;True;CWE-523;35.29863953590393;total_tokens: 1050, completion_tokens: 555, prompt_tokens: 495;0.0216;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19847;False;;43.661869764328;total_tokens: 1130, completion_tokens: 624, prompt_tokens: 506;0.023780000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19874;True;CWE-89 CWE-209;13.268741369247437;total_tokens: 1087, completion_tokens: 431, prompt_tokens: 656;0.01949;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19862;True;CWE-89 CWE-209;17.312145233154297;total_tokens: 1071, completion_tokens: 411, prompt_tokens: 660;0.01893;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19871;False;;18.338549852371216;total_tokens: 1561, completion_tokens: 602, prompt_tokens: 959;0.02765;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19861;True;CWE-209;19.475261211395264;total_tokens: 1483, completion_tokens: 503, prompt_tokens: 980;0.02489;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19858;True;CWE-89 CWE-209;21.757389307022095;total_tokens: 1169, completion_tokens: 506, prompt_tokens: 663;0.02181;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19854;True;CWE-20 CWE-840;23.40738534927368;total_tokens: 1268, completion_tokens: 617, prompt_tokens: 651;0.02502;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19855;False;;24.543050527572632;total_tokens: 1540, completion_tokens: 581, prompt_tokens: 959;0.027019999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19864;True;CWE-89 CWE-20 CWE-532;25.426225423812866;total_tokens: 1181, completion_tokens: 509, prompt_tokens: 672;0.02199;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19852;True;CWE-20 CWE-703;27.664891242980957;total_tokens: 1241, completion_tokens: 593, prompt_tokens: 648;0.024269999999999996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19863;False;;27.938042163848877;total_tokens: 1505, completion_tokens: 536, prompt_tokens: 969;0.02577;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19867;False;;28.300121784210205;total_tokens: 1555, completion_tokens: 594, prompt_tokens: 961;0.02743;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19853;False;;29.42993187904358;total_tokens: 1518, completion_tokens: 565, prompt_tokens: 953;0.026479999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19865;False;;30.85829734802246;total_tokens: 1560, completion_tokens: 581, prompt_tokens: 979;0.027219999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19866;True;CWE-89;32.830514430999756;total_tokens: 1170, completion_tokens: 518, prompt_tokens: 652;0.02206;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19875;False;;22.5660719871521;total_tokens: 1518, completion_tokens: 549, prompt_tokens: 969;0.026160000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19860;False;;40.053321838378906;total_tokens: 1248, completion_tokens: 580, prompt_tokens: 668;0.024079999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19877;True;CWE-20 CWE-399 CWE-756;22.162567615509033;total_tokens: 1586, completion_tokens: 623, prompt_tokens: 963;0.028319999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19876;True;CWE-89;26.851053714752197;total_tokens: 1102, completion_tokens: 449, prompt_tokens: 653;0.02;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19878;False;;28.576660871505737;total_tokens: 1231, completion_tokens: 574, prompt_tokens: 657;0.02379;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19870;True;CWE-532;51.38305115699768;total_tokens: 1141, completion_tokens: 490, prompt_tokens: 651;0.02121;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19879;True;CWE-404 CWE-390;29.283225297927856;total_tokens: 1518, completion_tokens: 547, prompt_tokens: 971;0.02612;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19883;False;;24.364503860473633;total_tokens: 1161, completion_tokens: 487, prompt_tokens: 674;0.02135;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19859;True;CWE-532 CWE-404;54.32373595237732;total_tokens: 1454, completion_tokens: 485, prompt_tokens: 969;0.024239999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19884;True;CWE-89 CWE-209;26.59847402572632;total_tokens: 1253, completion_tokens: 444, prompt_tokens: 809;0.02141;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19880;True;CWE-89 CWE-20 CWE-532 CWE-705 CWE-834;31.549649953842163;total_tokens: 1200, completion_tokens: 557, prompt_tokens: 643;0.02314;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19885;True;CWE-89 CWE-209;26.825095415115356;total_tokens: 1658, completion_tokens: 531, prompt_tokens: 1127;0.027200000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19881;True;CWE-532 CWE-404 CWE-561;33.83914494514465;total_tokens: 1234, completion_tokens: 569, prompt_tokens: 665;0.023719999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19882;False;;34.13219237327576;total_tokens: 1246, completion_tokens: 594, prompt_tokens: 652;0.02434;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19888;True;CWE-20 CWE-399;27.68001675605774;total_tokens: 1291, completion_tokens: 631, prompt_tokens: 660;0.02553;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19891;True;CWE-532;19.49829912185669;total_tokens: 1191, completion_tokens: 474, prompt_tokens: 717;0.02139;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19890;True;CWE-89 CWE-209;24.35265040397644;total_tokens: 1121, completion_tokens: 430, prompt_tokens: 691;0.01981;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19887;True;CWE-532 CWE-404;39.92228722572327;total_tokens: 1284, completion_tokens: 608, prompt_tokens: 676;0.025;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19889;True;CWE-209;35.11833381652832;total_tokens: 1172, completion_tokens: 486, prompt_tokens: 686;0.02144;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19886;True;CWE-89 CWE-20 CWE-532;49.76636791229248;total_tokens: 1178, completion_tokens: 524, prompt_tokens: 654;0.022260000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20099;True;CWE-22 CWE-20 CWE-704;22.01932954788208;total_tokens: 2008, completion_tokens: 552, prompt_tokens: 1456;0.031120000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20158;True;CWE-400;23.334097385406494;total_tokens: 973, completion_tokens: 510, prompt_tokens: 463;0.01993;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20016;True;CWE-400;25.904003620147705;total_tokens: 1294, completion_tokens: 559, prompt_tokens: 735;0.02412;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19954;True;CWE-400;25.999945878982544;total_tokens: 1173, completion_tokens: 519, prompt_tokens: 654;0.02211;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20137;True;CWE-400 CWE-79 CWE-20;26.82627558708191;total_tokens: 1455, completion_tokens: 560, prompt_tokens: 895;0.025750000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19899;True;CWE-20 CWE-404;28.848933458328247;total_tokens: 1909, completion_tokens: 557, prompt_tokens: 1352;0.030230000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20098;False;;30.87606978416443;total_tokens: 1251, completion_tokens: 500, prompt_tokens: 751;0.02251;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19973;True;CWE-20 CWE-400;31.012470245361328;total_tokens: 1792, completion_tokens: 591, prompt_tokens: 1201;0.029740000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19955;True;CWE-400 CWE-20;31.185124397277832;total_tokens: 1716, completion_tokens: 469, prompt_tokens: 1247;0.02654;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20008;True;CWE-20 CWE-703;31.25005316734314;total_tokens: 1317, completion_tokens: 619, prompt_tokens: 698;0.02555;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20118;True;CWE-834;34.543596029281616;total_tokens: 1011, completion_tokens: 495, prompt_tokens: 516;0.02001;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19898;True;CWE-400 CWE-20;35.459439516067505;total_tokens: 1205, completion_tokens: 494, prompt_tokens: 711;0.021929999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20017;True;CWE-209 CWE-20;37.445295095443726;total_tokens: 1923, completion_tokens: 643, prompt_tokens: 1280;0.03209;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J19972;True;CWE-400 CWE-20;40.11777138710022;total_tokens: 1225, completion_tokens: 532, prompt_tokens: 693;0.02289;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20009;False;;42.35489106178284;total_tokens: 1927, completion_tokens: 593, prompt_tokens: 1334;0.031129999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20119;True;CWE-807 CWE-20;43.20504665374756;total_tokens: 1567, completion_tokens: 553, prompt_tokens: 1014;0.02673;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20302;True;CWE-400 CWE-22 CWE-20;15.630842208862305;total_tokens: 1157, completion_tokens: 539, prompt_tokens: 618;0.022350000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20213;True;CWE-400 CWE-20;19.16364073753357;total_tokens: 1605, completion_tokens: 508, prompt_tokens: 1097;0.02621;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20136;True;CWE-400 CWE-20;51.02731442451477;total_tokens: 1192, completion_tokens: 578, prompt_tokens: 614;0.023479999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20159;True;CWE-400 CWE-20;31.286492109298706;total_tokens: 1116, completion_tokens: 507, prompt_tokens: 609;0.0213;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20313;False;;23.54312229156494;total_tokens: 1467, completion_tokens: 419, prompt_tokens: 1048;0.02305;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20212;True;CWE-400 CWE-20;29.015406370162964;total_tokens: 1087, completion_tokens: 528, prompt_tokens: 559;0.02143;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20209;True;CWE-834 CWE-20 CWE-209;30.92192053794861;total_tokens: 1672, completion_tokens: 598, prompt_tokens: 1074;0.028679999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20317;False;;27.71537137031555;total_tokens: 1627, completion_tokens: 460, prompt_tokens: 1167;0.02547;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20208;True;CWE-834;42.088563203811646;total_tokens: 1050, completion_tokens: 490, prompt_tokens: 560;0.0203;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20357;True;CWE-834;29.699524641036987;total_tokens: 1385, completion_tokens: 566, prompt_tokens: 819;0.025169999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20312;True;CWE-22 CWE-20 CWE-704;36.66661190986633;total_tokens: 1248, completion_tokens: 542, prompt_tokens: 706;0.02332;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20365;False;;31.05560541152954;total_tokens: 1130, completion_tokens: 510, prompt_tokens: 620;0.0215;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20384;True;CWE-400 CWE-20;31.26363754272461;total_tokens: 1299, completion_tokens: 595, prompt_tokens: 704;0.024889999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20385;True;CWE-20 CWE-400;29.943053245544434;total_tokens: 1930, completion_tokens: 620, prompt_tokens: 1310;0.0317;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20356;False;;40.62462902069092;total_tokens: 1117, completion_tokens: 536, prompt_tokens: 581;0.02189;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20364;False;;41.646034717559814;total_tokens: 978, completion_tokens: 504, prompt_tokens: 474;0.01986;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20303;True;CWE-20 CWE-22 CWE-400;56.72987461090088;total_tokens: 1779, completion_tokens: 612, prompt_tokens: 1167;0.030029999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20316;True;CWE-200 CWE-707 CWE-390;62.007657051086426;total_tokens: 1312, completion_tokens: 700, prompt_tokens: 612;0.02712;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20627;True;CWE-390;21.213586568832397;total_tokens: 1202, completion_tokens: 566, prompt_tokens: 636;0.02334;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20626;True;CWE-78 CWE-22 CWE-390;22.231873273849487;total_tokens: 1212, completion_tokens: 490, prompt_tokens: 722;0.02192;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20736;True;CWE-78;22.714843273162842;total_tokens: 1045, completion_tokens: 499, prompt_tokens: 546;0.02043;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20479;True;CWE-390;22.870413541793823;total_tokens: 1124, completion_tokens: 500, prompt_tokens: 624;0.02124;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20680;True;CWE-78 CWE-209;22.932276010513306;total_tokens: 941, completion_tokens: 430, prompt_tokens: 511;0.018009999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20677;False;;24.78460144996643;total_tokens: 1398, completion_tokens: 587, prompt_tokens: 811;0.02572;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20465;False;;27.31624960899353;total_tokens: 1095, completion_tokens: 554, prompt_tokens: 541;0.02203;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20676;True;CWE-78 CWE-390;28.03852891921997;total_tokens: 1154, completion_tokens: 494, prompt_tokens: 660;0.02142;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20497;True;CWE-400;29.97570252418518;total_tokens: 1063, completion_tokens: 568, prompt_tokens: 495;0.021989999999999996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20433;False;;30.91355323791504;total_tokens: 1140, completion_tokens: 500, prompt_tokens: 640;0.0214;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20632;True;CWE-78 CWE-390;30.97947931289673;total_tokens: 1390, completion_tokens: 534, prompt_tokens: 856;0.024579999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20633;True;CWE-78 CWE-532 CWE-404;31.9312162399292;total_tokens: 1591, completion_tokens: 603, prompt_tokens: 988;0.02797;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20478;True;CWE-78;37.80560851097107;total_tokens: 1072, completion_tokens: 425, prompt_tokens: 647;0.01922;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20496;True;CWE-78 CWE-390;40.407264709472656;total_tokens: 1139, completion_tokens: 509, prompt_tokens: 630;0.02157;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20756;True;CWE-78;18.837282180786133;total_tokens: 1049, completion_tokens: 523, prompt_tokens: 526;0.02095;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20737;True;CWE-390;20.272650718688965;total_tokens: 1218, completion_tokens: 575, prompt_tokens: 643;0.02368;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20464;True;CWE-78;42.53009867668152;total_tokens: 1271, completion_tokens: 553, prompt_tokens: 718;0.02377;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20432;True;CWE-78 CWE-390;43.81573009490967;total_tokens: 1263, completion_tokens: 549, prompt_tokens: 714;0.023610000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20808;True;CWE-78 CWE-404;21.675990104675293;total_tokens: 1341, completion_tokens: 454, prompt_tokens: 887;0.022490000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20773;True;CWE-390;23.755974054336548;total_tokens: 1026, completion_tokens: 483, prompt_tokens: 543;0.01992;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20757;True;CWE-390;26.32643485069275;total_tokens: 1148, completion_tokens: 523, prompt_tokens: 625;0.02194;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20830;True;CWE-78 CWE-22 CWE-532;19.500919342041016;total_tokens: 1051, completion_tokens: 448, prompt_tokens: 603;0.01947;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20840;True;CWE-78 CWE-532 CWE-404;19.30769968032837;total_tokens: 1130, completion_tokens: 533, prompt_tokens: 597;0.02196;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20681;True;CWE-390;57.11725425720215;total_tokens: 993, completion_tokens: 484, prompt_tokens: 509;0.01961;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20831;True;CWE-390;25.82523536682129;total_tokens: 1114, completion_tokens: 490, prompt_tokens: 624;0.02094;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20823;False;;27.855408191680908;total_tokens: 1129, completion_tokens: 515, prompt_tokens: 614;0.021589999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20841;True;CWE-390;25.282187938690186;total_tokens: 926, completion_tokens: 420, prompt_tokens: 506;0.01766;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20822;True;CWE-78 CWE-22 CWE-532;35.884552001953125;total_tokens: 1053, completion_tokens: 459, prompt_tokens: 594;0.01971;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20857;False;;25.553698539733887;total_tokens: 912, completion_tokens: 406, prompt_tokens: 506;0.01724;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20856;True;CWE-78;28.348137855529785;total_tokens: 1163, completion_tokens: 570, prompt_tokens: 593;0.023029999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20891;False;;28.626363039016724;total_tokens: 1111, completion_tokens: 506, prompt_tokens: 605;0.02123;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20772;True;CWE-77;48.40510177612305;total_tokens: 1022, completion_tokens: 469, prompt_tokens: 553;0.0196;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20890;True;CWE-390;32.29299330711365;total_tokens: 956, completion_tokens: 481, prompt_tokens: 475;0.01918;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20809;True;CWE-78 CWE-400 CWE-404;52.4271821975708;total_tokens: 1690, completion_tokens: 671, prompt_tokens: 1019;0.03032;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21176;True;CWE-79 CWE-116;22.12200403213501;total_tokens: 1029, completion_tokens: 521, prompt_tokens: 508;0.020710000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21063;True;CWE-79;22.379069328308105;total_tokens: 1118, completion_tokens: 538, prompt_tokens: 580;0.02194;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21164;True;CWE-79;23.60840630531311;total_tokens: 922, completion_tokens: 477, prompt_tokens: 445;0.01876;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21062;True;CWE-79 CWE-532;25.055347204208374;total_tokens: 1211, completion_tokens: 522, prompt_tokens: 689;0.02255;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21126;True;CWE-79;26.040651559829712;total_tokens: 873, completion_tokens: 453, prompt_tokens: 420;0.01779;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20972;True;CWE-79 CWE-400 CWE-532;26.76022481918335;total_tokens: 1205, completion_tokens: 537, prompt_tokens: 668;0.022789999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21318;True;CWE-79 CWE-20 CWE-311;27.022428035736084;total_tokens: 1215, completion_tokens: 578, prompt_tokens: 637;0.02371;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J20973;True;CWE-570;29.779579639434814;total_tokens: 1066, completion_tokens: 579, prompt_tokens: 487;0.022239999999999996;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21138;True;CWE-79 CWE-20;30.981240272521973;total_tokens: 952, completion_tokens: 507, prompt_tokens: 445;0.01966;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21215;True;CWE-79;31.586488485336304;total_tokens: 985, completion_tokens: 511, prompt_tokens: 474;0.02007;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21214;True;CWE-79 CWE-20 CWE-400;31.745216846466064;total_tokens: 1167, completion_tokens: 468, prompt_tokens: 699;0.02103;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21165;True;CWE-79;32.081636905670166;total_tokens: 980, completion_tokens: 509, prompt_tokens: 471;0.019979999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21177;True;CWE-570;32.14375042915344;total_tokens: 1115, completion_tokens: 548, prompt_tokens: 567;0.022109999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21319;False;;33.04408812522888;total_tokens: 1194, completion_tokens: 621, prompt_tokens: 573;0.02436;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21362;True;CWE-200 CWE-404;34.89175581932068;total_tokens: 1242, completion_tokens: 582, prompt_tokens: 660;0.02406;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21127;True;CWE-117 CWE-20;39.30093336105347;total_tokens: 1068, completion_tokens: 626, prompt_tokens: 442;0.0232;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21139;True;CWE-79;40.631369829177856;total_tokens: 1183, completion_tokens: 634, prompt_tokens: 549;0.02451;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21461;False;;17.75816822052002;total_tokens: 1036, completion_tokens: 474, prompt_tokens: 562;0.01984;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21363;False;;22.741685152053833;total_tokens: 1070, completion_tokens: 515, prompt_tokens: 555;0.021;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21443;False;;27.615320920944214;total_tokens: 1023, completion_tokens: 455, prompt_tokens: 568;0.01933;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21600;True;CWE-20 CWE-79;19.21420931816101;total_tokens: 1190, completion_tokens: 552, prompt_tokens: 638;0.022940000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21573;False;;22.450122117996216;total_tokens: 1056, completion_tokens: 501, prompt_tokens: 555;0.02058;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21647;False;;22.475224494934082;total_tokens: 851, completion_tokens: 364, prompt_tokens: 487;0.01579;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21442;True;CWE-532 CWE-22 CWE-200;35.121102809906006;total_tokens: 1202, completion_tokens: 512, prompt_tokens: 690;0.022260000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21646;True;CWE-20 CWE-79;25.481499671936035;total_tokens: 1253, completion_tokens: 541, prompt_tokens: 712;0.023350000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21498;True;CWE-79;33.37783193588257;total_tokens: 972, completion_tokens: 514, prompt_tokens: 458;0.02;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21522;True;CWE-79;34.37162256240845;total_tokens: 932, completion_tokens: 518, prompt_tokens: 414;0.01968;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21523;False;;36.341949462890625;total_tokens: 1040, completion_tokens: 604, prompt_tokens: 436;0.022479999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21499;True;CWE-79;44.60236978530884;total_tokens: 1067, completion_tokens: 540, prompt_tokens: 527;0.02147;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21601;True;CWE-20 CWE-79 CWE-200;41.51066446304321;total_tokens: 1424, completion_tokens: 679, prompt_tokens: 745;0.027819999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21572;True;CWE-79;45.147618532180786;total_tokens: 1019, completion_tokens: 517, prompt_tokens: 502;0.02053;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21460;True;CWE-22 CWE-79 CWE-200;83.06252026557922;total_tokens: 1200, completion_tokens: 520, prompt_tokens: 680;0.0224;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21726;False;;29.717801094055176;total_tokens: 1076, completion_tokens: 440, prompt_tokens: 636;0.01956;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21727;False;;31.411192893981934;total_tokens: 1038, completion_tokens: 467, prompt_tokens: 571;0.01972;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21831;False;;17.35427761077881;total_tokens: 940, completion_tokens: 468, prompt_tokens: 472;0.01876;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21995;True;CWE-79;21.961332321166992;total_tokens: 931, completion_tokens: 467, prompt_tokens: 464;0.01865;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21755;False;;24.937391757965088;total_tokens: 1098, completion_tokens: 525, prompt_tokens: 573;0.02148;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21889;True;CWE-79;25.799843311309814;total_tokens: 1032, completion_tokens: 475, prompt_tokens: 557;0.019819999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21754;False;;27.110958099365234;total_tokens: 1121, completion_tokens: 448, prompt_tokens: 673;0.02017;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21802;True;CWE-209 CWE-20;27.565210342407227;total_tokens: 1179, completion_tokens: 531, prompt_tokens: 648;0.02241;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21994;True;CWE-79;29.74262285232544;total_tokens: 975, completion_tokens: 489, prompt_tokens: 486;0.01953;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21902;True;CWE-79;31.394734621047974;total_tokens: 968, completion_tokens: 499, prompt_tokens: 469;0.019659999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21903;True;CWE-79;31.683022260665894;total_tokens: 1092, completion_tokens: 543, prompt_tokens: 549;0.02178;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21888;True;CWE-79 CWE-20;31.908824682235718;total_tokens: 1056, completion_tokens: 572, prompt_tokens: 484;0.022;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22014;True;CWE-20 CWE-200 CWE-400 CWE-79;32.41027021408081;total_tokens: 1311, completion_tokens: 585, prompt_tokens: 726;0.02481;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21779;True;CWE-79;32.747403144836426;total_tokens: 1000, completion_tokens: 514, prompt_tokens: 486;0.02028;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21885;True;CWE-79;32.722267866134644;total_tokens: 1099, completion_tokens: 541, prompt_tokens: 558;0.021810000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21884;True;CWE-79 CWE-20;33.07218790054321;total_tokens: 1033, completion_tokens: 553, prompt_tokens: 480;0.02139;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21778;True;CWE-200 CWE-404;34.717175245285034;total_tokens: 1221, completion_tokens: 554, prompt_tokens: 667;0.023289999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21803;True;CWE-79;35.70856809616089;total_tokens: 1134, completion_tokens: 569, prompt_tokens: 565;0.022719999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22027;False;;20.09902596473694;total_tokens: 1110, completion_tokens: 541, prompt_tokens: 569;0.021920000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22026;True;CWE-20 CWE-79 CWE-400 CWE-772;23.201186180114746;total_tokens: 1311, completion_tokens: 597, prompt_tokens: 714;0.02505;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22015;False;;30.003380298614502;total_tokens: 1094, completion_tokens: 515, prompt_tokens: 579;0.021240000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J21830;True;CWE-532 CWE-22 CWE-209;48.15353608131409;total_tokens: 1211, completion_tokens: 544, prompt_tokens: 667;0.022990000000000003;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22078;True;CWE-22 CWE-209 CWE-398;22.385671377182007;total_tokens: 1073, completion_tokens: 506, prompt_tokens: 567;0.02085;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22054;True;CWE-538 CWE-22 CWE-532;28.254459142684937;total_tokens: 1084, completion_tokens: 523, prompt_tokens: 561;0.0213;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22081;False;;23.059026956558228;total_tokens: 993, completion_tokens: 523, prompt_tokens: 470;0.02039;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22032;True;CWE-20 CWE-74 CWE-200 CWE-400;31.05002236366272;total_tokens: 1196, completion_tokens: 480, prompt_tokens: 716;0.02156;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22079;False;;25.210838317871094;total_tokens: 1110, completion_tokens: 540, prompt_tokens: 570;0.0219;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22080;True;CWE-532 CWE-200 CWE-611;24.880343675613403;total_tokens: 1160, completion_tokens: 607, prompt_tokens: 553;0.02374;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22055;True;CWE-79;30.391424417495728;total_tokens: 1123, completion_tokens: 565, prompt_tokens: 558;0.022529999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22089;True;CWE-79;25.694565534591675;total_tokens: 1075, completion_tokens: 584, prompt_tokens: 491;0.02243;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22067;False;;29.003582000732422;total_tokens: 1156, completion_tokens: 596, prompt_tokens: 560;0.02348;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22088;True;CWE-79 CWE-22;31.704627990722656;total_tokens: 1096, completion_tokens: 526, prompt_tokens: 570;0.02148;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22066;True;CWE-538 CWE-22 CWE-200;35.65959310531616;total_tokens: 1110, completion_tokens: 548, prompt_tokens: 562;0.02206;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22119;False;;26.955431699752808;total_tokens: 1069, completion_tokens: 490, prompt_tokens: 579;0.02049;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22118;True;CWE-311 CWE-200;37.50328040122986;total_tokens: 1201, completion_tokens: 561, prompt_tokens: 640;0.02323;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22033;True;CWE-79;51.48665952682495;total_tokens: 1158, completion_tokens: 585, prompt_tokens: 573;0.02328;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22375;False;;18.34723448753357;total_tokens: 1086, completion_tokens: 543, prompt_tokens: 543;0.02172;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22151;False;;22.379725456237793;total_tokens: 1060, completion_tokens: 489, prompt_tokens: 571;0.02038;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22186;True;CWE-79;23.026646375656128;total_tokens: 1221, completion_tokens: 575, prompt_tokens: 646;0.02371;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22180;True;CWE-79 CWE-532;24.299936294555664;total_tokens: 1187, completion_tokens: 495, prompt_tokens: 692;0.021769999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22325;True;CWE-79;25.59576916694641;total_tokens: 1098, completion_tokens: 542, prompt_tokens: 556;0.02182;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22374;True;CWE-79;25.677289247512817;total_tokens: 932, completion_tokens: 447, prompt_tokens: 485;0.01826;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22388;True;CWE-79;26.74063754081726;total_tokens: 948, completion_tokens: 472, prompt_tokens: 476;0.01892;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22341;False;;27.175166606903076;total_tokens: 1147, completion_tokens: 608, prompt_tokens: 539;0.023629999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22346;True;CWE-79;28.23945140838623;total_tokens: 918, completion_tokens: 483, prompt_tokens: 435;0.01884;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22347;True;CWE-79;28.699706077575684;total_tokens: 973, completion_tokens: 516, prompt_tokens: 457;0.020050000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22324;True;CWE-79;28.556233406066895;total_tokens: 952, completion_tokens: 501, prompt_tokens: 451;0.019540000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22181;True;CWE-79;29.484593629837036;total_tokens: 1112, completion_tokens: 589, prompt_tokens: 523;0.022899999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22153;True;CWE-79;34.0698127746582;total_tokens: 1129, completion_tokens: 548, prompt_tokens: 581;0.02225;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22340;True;CWE-79;35.4897723197937;total_tokens: 943, completion_tokens: 507, prompt_tokens: 436;0.01957;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22187;False;;35.96367168426514;total_tokens: 1162, completion_tokens: 601, prompt_tokens: 561;0.023639999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22389;False;;23.62818694114685;total_tokens: 1088, completion_tokens: 634, prompt_tokens: 454;0.023559999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22152;True;CWE-79 CWE-404;43.279362201690674;total_tokens: 1270, completion_tokens: 586, prompt_tokens: 684;0.024419999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22416;True;CWE-79 CWE-20 CWE-400 CWE-200;19.250161170959473;total_tokens: 1202, completion_tokens: 468, prompt_tokens: 734;0.02138;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22409;True;CWE-561;22.559268712997437;total_tokens: 1028, completion_tokens: 439, prompt_tokens: 589;0.01906;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22408;True;CWE-79 CWE-400 CWE-754;23.671050310134888;total_tokens: 1295, completion_tokens: 560, prompt_tokens: 735;0.02415;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22150;True;CWE-79 CWE-400 CWE-20;47.643388509750366;total_tokens: 1315, completion_tokens: 643, prompt_tokens: 672;0.02601;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22464;True;CWE-79 CWE-200;22.187552213668823;total_tokens: 1053, completion_tokens: 494, prompt_tokens: 559;0.02041;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22465;False;;23.346221685409546;total_tokens: 1124, completion_tokens: 570, prompt_tokens: 554;0.022639999999999997;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22500;True;CWE-79;23.449091911315918;total_tokens: 1203, completion_tokens: 552, prompt_tokens: 651;0.02307;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22417;False;;27.600496530532837;total_tokens: 1083, completion_tokens: 496, prompt_tokens: 587;0.020749999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22501;False;;22.407843351364136;total_tokens: 1254, completion_tokens: 666, prompt_tokens: 588;0.02586;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22472;True;CWE-79 CWE-22;29.540571212768555;total_tokens: 1088, completion_tokens: 526, prompt_tokens: 562;0.0214;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22508;True;CWE-79;23.745095252990723;total_tokens: 1191, completion_tokens: 558, prompt_tokens: 633;0.02307;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22420;True;CWE-20 CWE-79 CWE-400;37.27282500267029;total_tokens: 1259, completion_tokens: 547, prompt_tokens: 712;0.023530000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22473;True;CWE-79;36.305355072021484;total_tokens: 1141, completion_tokens: 581, prompt_tokens: 560;0.02303;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22421;True;CWE-79;44.9785270690918;total_tokens: 1144, completion_tokens: 579, prompt_tokens: 565;0.023019999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22509;False;;35.9936363697052;total_tokens: 1098, completion_tokens: 533, prompt_tokens: 565;0.02164;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22525;True;CWE-20 CWE-399;30.93073034286499;total_tokens: 1528, completion_tokens: 625, prompt_tokens: 903;0.02778;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22524;True;CWE-79 CWE-918 CWE-532;40.51638698577881;total_tokens: 1338, completion_tokens: 546, prompt_tokens: 792;0.024300000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23231;True;CWE-89 CWE-20;17.06355857849121;total_tokens: 1460, completion_tokens: 462, prompt_tokens: 998;0.02384;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23230;True;CWE-89 CWE-209;20.579788208007812;total_tokens: 1073, completion_tokens: 398, prompt_tokens: 675;0.018690000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22585;True;CWE-89 CWE-756;21.09404158592224;total_tokens: 2270, completion_tokens: 422, prompt_tokens: 1848;0.03114;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22710;True;CWE-89 CWE-209;22.948381662368774;total_tokens: 1157, completion_tokens: 345, prompt_tokens: 812;0.01847;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22711;True;CWE-89 CWE-209;27.8330180644989;total_tokens: 1625, completion_tokens: 574, prompt_tokens: 1051;0.027729999999999998;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J22584;True;CWE-89;40.565744400024414;total_tokens: 1396, completion_tokens: 535, prompt_tokens: 861;0.02466;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23782;True;CWE-89;16.241750240325928;total_tokens: 1121, completion_tokens: 471, prompt_tokens: 650;0.02063;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23590;True;CWE-89;19.406376600265503;total_tokens: 1357, completion_tokens: 526, prompt_tokens: 831;0.02409;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23876;True;CWE-89 CWE-404;22.69305396080017;total_tokens: 1357, completion_tokens: 398, prompt_tokens: 959;0.02153;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23591;True;CWE-89 CWE-532;32.56062436103821;total_tokens: 1596, completion_tokens: 526, prompt_tokens: 1070;0.02648;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23877;True;CWE-89 CWE-209 CWE-478;32.966907262802124;total_tokens: 2115, completion_tokens: 540, prompt_tokens: 1575;0.03195;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J23783;False;;34.27276110649109;total_tokens: 2055, completion_tokens: 561, prompt_tokens: 1494;0.03177;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24370;True;CWE-89 CWE-400 CWE-772;16.751286268234253;total_tokens: 1326, completion_tokens: 445, prompt_tokens: 881;0.02216;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24616;True;CWE-89 CWE-22 CWE-390;18.36878204345703;total_tokens: 1211, completion_tokens: 482, prompt_tokens: 729;0.02175;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24444;True;CWE-89 CWE-400 CWE-209;23.88111424446106;total_tokens: 1383, completion_tokens: 498, prompt_tokens: 885;0.02379;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24134;True;CWE-89 CWE-20;25.211796522140503;total_tokens: 1222, completion_tokens: 548, prompt_tokens: 674;0.02318;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24445;True;CWE-89;27.408074140548706;total_tokens: 2538, completion_tokens: 634, prompt_tokens: 1904;0.03806;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24046;True;CWE-89;27.80282235145569;total_tokens: 1112, completion_tokens: 490, prompt_tokens: 622;0.02092;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24219;False;;28.777514696121216;total_tokens: 2142, completion_tokens: 602, prompt_tokens: 1540;0.033460000000000004;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24218;True;CWE-89;29.23776888847351;total_tokens: 1200, completion_tokens: 520, prompt_tokens: 680;0.0224;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24135;False;;32.10426735877991;total_tokens: 2141, completion_tokens: 601, prompt_tokens: 1540;0.03343;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24371;True;CWE-89 CWE-20 CWE-209;42.62974834442139;total_tokens: 1660, completion_tokens: 521, prompt_tokens: 1139;0.027020000000000002;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24617;True;CWE-89;45.3476619720459;total_tokens: 2168, completion_tokens: 637, prompt_tokens: 1531;0.03442;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24047;False;;57.66586899757385;total_tokens: 2027, completion_tokens: 589, prompt_tokens: 1438;0.032049999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J25117;True;CWE-89 CWE-209;16.496589422225952;total_tokens: 1472, completion_tokens: 418, prompt_tokens: 1054;0.02308;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J25136;True;CWE-89 CWE-209;21.04311513900757;total_tokens: 1163, completion_tokens: 333, prompt_tokens: 830;0.01829;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24809;True;CWE-209;24.12667155265808;total_tokens: 1360, completion_tokens: 495, prompt_tokens: 865;0.0235;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J25137;True;CWE-89 CWE-756;25.076676845550537;total_tokens: 2355, completion_tokens: 579, prompt_tokens: 1776;0.035129999999999995;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J25094;True;CWE-89 CWE-20 CWE-209;29.11705470085144;total_tokens: 1201, completion_tokens: 383, prompt_tokens: 818;0.01967;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24788;True;CWE-89;31.368772745132446;total_tokens: 1136, completion_tokens: 498, prompt_tokens: 638;0.02132;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24789;False;;34.048510789871216;total_tokens: 2020, completion_tokens: 573, prompt_tokens: 1447;0.031659999999999994;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J25095;False;;36.53056192398071;total_tokens: 2362, completion_tokens: 610, prompt_tokens: 1752;0.035820000000000005;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J24808;True;CWE-89 CWE-759;43.315810680389404;total_tokens: 1209, completion_tokens: 601, prompt_tokens: 608;0.02411;2024-02-16
+gpt-4-0125-preview;juliet-top-25-subset-34;cot_high_level;J25116;True;CWE-89 CWE-390;77.73021292686462;total_tokens: 1203, completion_tokens: 404, prompt_tokens: 799;0.020110000000000003;2024-02-16

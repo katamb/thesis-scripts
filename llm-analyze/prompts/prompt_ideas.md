@@ -11,7 +11,7 @@
 
 # Potential clues:
 1. Output of SCAT tools
-2. AST representation (extracting DFG aor API call descriptions would require extra work)
+2. AST representation (extracting DFG or API call descriptions would require extra work)
 3. ? Running the outputted code in virtual environment (probably not trivial)
 4. Potentially could put the code together with AST...
 

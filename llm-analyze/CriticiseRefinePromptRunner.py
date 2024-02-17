@@ -3,6 +3,7 @@ from BaseLlmRunner import BaseLlmRunner
 from langchain_community.callbacks import get_openai_callback
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+from tools.ast.ApiCallExtractor import get_api_call_seq
 import threading
 import time
 import os
@@ -32,10 +33,10 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         return folder_path
 
     @staticmethod
-    def call_llm(chain: LLMChain, code: str) -> Tuple[str, float, int, int, int, float]:
+    def call_llm(chain: LLMChain, code: str, api_call_seq: str) -> Tuple[str, float, int, int, int, float]:
         with get_openai_callback() as cb:
             start = time.time()
-            llm_response = chain.invoke(input={"code": code})
+            llm_response = chain.invoke(input={"code": code, "api-flow-seq": api_call_seq})
             end = time.time()
             total_tokens = cb.total_tokens
             completion_tokens = cb.completion_tokens
@@ -48,15 +49,16 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
     def run_prompt(self):
         self.validate()  # Fail early if something is not properly defined
         code = self.load_file_content()  # Load the code sample from dataset
+        api_call_seq = get_api_call_seq(code)
         initial_human_input = self.load_prompt_from_file(self.prompt_name)
         initial_template = f"""The following is a conversation between a human and an AI security analyst. If the AI security analyst does not know the answer to a question, it truthfully says it does not know.\n
 Human: {initial_human_input}
 AI: """
 
         ## initial call ##
-        initial_prompt = PromptTemplate(input_variables=["code"], template=initial_template)
+        initial_prompt = PromptTemplate(input_variables=["code", "api-flow-seq"], template=initial_template)
         initial_chain = LLMChain(llm=self.llm, prompt=initial_prompt)
-        llm_response_1, time_spent_1, total_tokens_1, completion_tokens_1, prompt_tokens_1, cost_1 = self.call_llm(initial_chain, code)
+        llm_response_1, time_spent_1, total_tokens_1, completion_tokens_1, prompt_tokens_1, cost_1 = self.call_llm(initial_chain, code, api_call_seq)
         # save first call results
         tokens_used_1 = f"total_tokens: {total_tokens_1}, completion_tokens: {completion_tokens_1}, prompt_tokens: {prompt_tokens_1}"
         cwes = self.get_cwes(llm_response_1)
@@ -69,18 +71,18 @@ AI: """
         for criticise_prompt_name, improve_prompt_name in self.improvement_prompts:
             # second call
             criticise_template = initial_template + self.sanitize(llm_response_1) + "\nHuman: " + self.load_prompt_from_file(criticise_prompt_name) + "\nAI: "
-            criticise_prompt = PromptTemplate(input_variables=["code"], template=criticise_template)
+            criticise_prompt = PromptTemplate(input_variables=["code", "api-flow-seq"], template=criticise_template)
             criticise_chain = LLMChain(llm=self.llm, prompt=criticise_prompt)
-            llm_response_2, time_spent_2, total_tokens_2, completion_tokens_2, prompt_tokens_2, cost_2 = self.call_llm(criticise_chain, code)
+            llm_response_2, time_spent_2, total_tokens_2, completion_tokens_2, prompt_tokens_2, cost_2 = self.call_llm(criticise_chain, code, api_call_seq)
             # save second call LLM response for audit trail
             with open(os.path.join(self.get_folder_path(criticise_prompt_name), self.get_file_name()), "w") as r:
                 r.write(llm_response_2)
 
             # third (and final) call
             improve_template = criticise_template + self.sanitize(llm_response_2) + "\nHuman: " + self.load_prompt_from_file(improve_prompt_name) + "\nAI: "
-            improve_prompt = PromptTemplate(input_variables=["code"], template=improve_template)
+            improve_prompt = PromptTemplate(input_variables=["code", "api-flow-seq"], template=improve_template)
             improve_chain = LLMChain(llm=self.llm, prompt=improve_prompt)
-            llm_response_3, time_spent_3, total_tokens_3, completion_tokens_3, prompt_tokens_3, cost_3 = self.call_llm(improve_chain, code)
+            llm_response_3, time_spent_3, total_tokens_3, completion_tokens_3, prompt_tokens_3, cost_3 = self.call_llm(improve_chain, code, api_call_seq)
             # save third call results
             tokens_used_sum = (f"total_tokens: {self.safe_int_addition(total_tokens_1, total_tokens_2, total_tokens_3)}, "
                                f"completion_tokens: {self.safe_int_addition(completion_tokens_1, completion_tokens_2, completion_tokens_3)}, "
