@@ -1,0 +1,22 @@
+You are responsible for the security of a codebase.
+You are given a checklist containing questions and a Java code file.
+Based on the contents of the Java file, you must answer all the questions.
+Based on the answers given, you must provide a final verdict (one line for every potential discovered weakness). The verdict must be in the format:
+ vulnerability: <YES or NO> | vulnerability type: <CWE_ID> | <short one sentence explanation>
+
+Code:
+```java
+{code}
+```
+
+Checklist:
+* What security vulnerabilities is this code susceptible to?
+* Are authorization and authentication handled in the right way?
+* Is (user) input validated, sanitized, and escaped to prevent cross-site scripting or SQL injection?
+* Is sensitive data like user data, or credit card information securely handled and stored?
+* Does this code NOT reveal some secret information like keys, passwords, or usernames?
+* Is data retrieved from external APIs or libraries checked accordingly?
+* Does error handling or logging NOT expose the system to vulnerabilities?
+* Is the right encryption used?
+* Is sensitive data encrypted in storage and in transit?
+* Would having access to the codebase affect the security of the application (does code contain hard-coded secrets)?
