@@ -18,6 +18,7 @@ langchainhub = "*"
 langchain-experimental = "*"
 asyncio = "*"
 docker = "*"
+langchain-anthropic = "*"
 
 [dev-packages]
 
