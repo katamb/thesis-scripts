@@ -1,0 +1,246 @@
+You are a security researcher, expert in detecting security vulnerabilities.
+You are given some Java code. You must analyse it for vulnerabilities and provide a response only in following format:
+  vulnerability: <YES or NO> | vulnerability type: <CWE ID> | explanation: <short explanation for prediction>.
+Use N/A in other fields if there are no vulnerabilities. Do not include anything else in response.
+You are first given a few examples with correct responses and at the end the code that you must analyse.
+---
+Input: ```String script = System.getProperty("SCRIPTNAME");
+if (script != null)
+System.exec(script);```
+Response: vulnerability: YES | vulnerability type: CWE-78 | explanation: If an attacker has control over the "SCRIPTNAME" property, then they could modify the property to point to a dangerous program.
+---
+Input: ```String script = "ls -la";
+System.exec(script);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```public static final double price = 20.00;
+int quantity = currentUser.getAttribute("quantity");
+double total = price * quantity;
+chargeUser(total);```
+Response: vulnerability: YES | vulnerability type: CWE-20 | explanation: The user has no control over the price variable, however the code does not prevent a negative value from being specified for quantity. If an attacker were to provide a negative value, then the user would have their account credited instead of debited.
+---
+Input: ```public static final double price = 20.00;
+int quantity = 7;
+double total = price * quantity;
+chargeUser(total);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```String filename = System.getProperty("com.domain.application.dictionaryFile");
+File dictionaryFile = new File(filename);```
+Response: vulnerability: YES | vulnerability type: CWE-22 | explanation: The path is not validated or modified to prevent it from containing relative or absolute path sequences before creating the File object. This allows anyone who can control the system property to determine what file is used. Ideally, the path should be resolved relative to some kind of application or user home directory.
+---
+Input: ```String filename = "/home/zeros.txt";
+File dictionaryFile = new File(filename);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```IntentFilter filter = new IntentFilter("com.example.URLHandler.openURL");
+MyReceiver receiver = new MyReceiver();
+registerReceiver(receiver, filter);
+...
+public class UrlHandlerReceiver extends BroadcastReceiver {{
+@Override
+public void onReceive(Context context, Intent intent) {{
+if("com.example.URLHandler.openURL".equals(intent.getAction())) {{
+String URL = intent.getStringExtra("URLToOpen");
+int length = URL.length();
+}}}}}}```
+Response: vulnerability: YES | vulnerability type: CWE-476 | explanation: The application assumes the URL will always be included in the intent. When the URL is not present, the call to getStringExtra() will return null, thus causing a null pointer exception when length() is called.
+---
+Input: ```IntentFilter filter = new IntentFilter("com.example.URLHandler.openURL");
+MyReceiver receiver = new MyReceiver();
+registerReceiver(receiver, filter);
+...
+public class UrlHandlerReceiver extends BroadcastReceiver {{
+@Override
+public void onReceive(Context context, Intent intent) {{
+if("com.example.URLHandler.openURL".equals(intent.getAction())) {{
+String URL = intent.getStringExtra("URLToOpen");
+if (URL != null) {{
+int length = URL.length();
+}}
+}}}}}}```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```DriverManager.getConnection(url, "scott", "tiger");```
+Response: vulnerability: YES | vulnerability type: CWE-798 | explanation: This is an example of an external hard-coded password on the client-side of a connection. This code will run successfully, but anyone who has access to it will have access to the password.
+---
+Input: ```GuardedString pwd = fetchPwdFromSecretStorage();
+DriverManager.getConnection(url, "scott", pwd);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```String home = System.getProperty("APPHOME");
+String cmd = home + INITCMD;
+java.lang.Runtime.getRuntime().exec(cmd);```
+Response: vulnerability: YES | vulnerability type: CWE-77 | explanation: The code above allows an attacker to execute arbitrary commands with the elevated privilege of the application by modifying the system property APPHOME to point to a different path containing a malicious version of INITCMD. Because the program does not validate the value read from the environment, if an attacker can control the value of the system property APPHOME, then they can fool the application into running malicious code and take control of the system.
+---
+Input: ```String cmd = "/home/app/" + INITCMD;
+java.lang.Runtime.getRuntime().exec(cmd);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```try {{
+File file = new File("object.obj");
+ObjectInputStream in = new ObjectInputStream(new FileInputStream(file));
+javax.swing.JButton button = (javax.swing.JButton) in.readObject();
+in.close();
+}}```
+Response: vulnerability: YES | vulnerability type: CWE-502 | explanation: This code does not attempt to verify the source or contents of the file before deserializing it. An attacker may be able to replace the intended file with a file that contains arbitrary malicious code which will be executed when the button is pressed.
+---
+Input: ```try {{
+File file = new File("object.obj");
+ObjectInputStream in = new ObjectInputStream(new FileInputStream(file));
+javax.swing.JButton button = (javax.swing.JButton) validateAndRead(in);
+in.close();
+}}```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```public BankAccount createBankAccount(String accountNumber, String accountType, String accountName, String accountSSN, double balance) {{
+BankAccount account = new BankAccount();
+account.setAccountNumber(accountNumber);
+account.setAccountType(accountType);
+account.setAccountOwnerName(accountName);
+account.setAccountOwnerSSN(accountSSN);
+account.setBalance(balance);
+return account;
+}}```
+Response: vulnerability: YES | vulnerability type: CWE-306 | explanation: There is no authentication mechanism to ensure that the user creating this bank account object has the authority to create new bank accounts. Some authentication mechanisms should be used to verify that the user has the authority to create bank account objects.
+---
+Input: ```private boolean isUserAuthentic = false;
+// authenticate user,
+// if user is authenticated then set variable to true
+// otherwise set variable to false
+public boolean authenticateUser(String username, String password) {{
+...
+}}
+public BankAccount createNewBankAccount(String accountNumber, String accountType,
+String accountName, String accountSSN, double balance) {{
+BankAccount account = null;
+if (isUserAuthentic) {{
+account = new BankAccount();
+account.setAccountNumber(accountNumber);
+account.setAccountType(accountType);
+account.setAccountOwnerName(accountName);
+account.setAccountOwnerSSN(accountSSN);
+account.setBalance(balance);
+}}
+return account;
+}}```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```public enum Roles {{
+ADMIN,USER,GUEST
+}}
+public void printDebugInfo(User requestingUser){{
+if(isAuthenticated(requestingUser)){{
+switch(requestingUser.role){{
+case GUEST:
+System.out.println("You are not authorized to perform this command");
+break;
+default:
+System.out.println(currentDebugState());
+break;
+}}
+}}
+else{{
+System.out.println("You must be logged in to perform this command");
+}}}}```
+Response: vulnerability: YES | vulnerability type: CWE-269 | explanation: While the intention was to only allow Administrators to print the debug information, the code as written only excludes those with the role of "GUEST". Someone with the role of "ADMIN" or "USER" will be allowed access, which goes against the original intent. An attacker may be able to use this debug information to craft an attack on the system.
+---
+Input: ```public enum Roles {{
+ADMIN,USER,GUEST
+}}
+public void printDebugInfo(User requestingUser){{
+if(isAuthenticated(requestingUser)){{
+switch(requestingUser.role){{
+case ADMIN:
+System.out.println("You are not authorized to perform this command");
+break;
+default:
+System.out.println(currentDebugState());
+break;
+}}
+}}
+else{{
+System.out.println("You must be logged in to perform this command");
+}}}}```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```protected void doPost(HttpServletRequest request, HttpServletResponse response) throws Exception {{
+response.setContentType("text/html");
+PrintWriter out = response.getWriter();
+String contentType = request.getContentType();
+// the starting position of the boundary header
+int ind = contentType.indexOf("boundary=");
+String boundary = contentType.substring(ind+9);
+String pLine = new String();
+String uploadLocation = new String(UPLOAD_DIRECTORY_STRING); //Constant value
+// verify that content type is multipart form data
+if (contentType != null && contentType.indexOf("multipart/form-data") != -1) {{
+// extract the filename from the Http header
+BufferedReader br = new BufferedReader(new InputStreamReader(request.getInputStream()));
+...
+pLine = br.readLine();
+String filename = pLine.substring(pLine.lastIndexOf("\\"), pLine.lastIndexOf("\""));
+...
+// output the file to the local upload directory
+try {{
+BufferedWriter bw = new BufferedWriter(new FileWriter(uploadLocation+filename, true));
+for (String line; (line=br.readLine())!=null; ) {{
+if (line.indexOf(boundary) == -1) {{
+bw.write(line);
+bw.newLine();
+bw.flush();
+}}}} //end of for loop
+bw.close();
+}} catch (IOException ex) {{...}}
+// output successful upload response HTML page
+}}
+// output unsuccessful upload response HTML page
+}}```
+Response: vulnerability: YES | vulnerability type: CWE-434 | explanation: This code does not perform a check on the type of the file being uploaded (CWE-434). This could allow an attacker to upload any executable file or other file with malicious code.
+          vulnerability: YES | vulnerability type: CWE-23 | explanation: Since the code does not check the filename that is provided in the header, an attacker can use "../" sequences to write to files outside of the intended directory.
+---
+Input: ```protected void doPost(HttpServletRequest request,HttpServletResponse response)throws Exception{{
+response.setContentType("text/html");
+PrintWriter out=response.getWriter();
+String contentType=request.getContentType();
+// the starting position of the boundary header
+int ind=contentType.indexOf("boundary=");
+String boundary=contentType.substring(ind+9);
+String pLine=new String();
+String uploadLocation=new String(UPLOAD_DIRECTORY_STRING); //Constant value
+// verify that content type is multipart form data
+if(contentType!=null&&contentType.indexOf("multipart/form-data")!=-1){{
+// extract the filename from the Http header
+BufferedReader br=new BufferedReader(new InputStreamReader(request.getInputStream()));
+...
+pLine=br.readLine();
+String filename=pLine.substring(pLine.lastIndexOf("\\"),pLine.lastIndexOf("\""));
+// Check file type by extension
+String fileExtension = getFileExtension(filename);
+if (!isValidFileType(fileExtension)) {{
+// Output unsuccessful upload response HTML page
+return;
+}}
+// Sanitize filename to prevent path traversal
+filename = sanitizeFilename(filename);
+...
+// output the file to the local upload directory
+try{{
+BufferedWriter bw=new BufferedWriter(new FileWriter(uploadLocation+filename,true));
+for(String line;(line=br.readLine())!=null;){{
+if(line.indexOf(boundary)==-1){{
+bw.write(line);
+bw.newLine();
+bw.flush();
+}}
+}} //end of for loop
+bw.close();
+}}catch(IOException ex){{...}}
+// output successful upload response HTML page
+}}
+// output unsuccessful upload response HTML page
+}}```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```{code}```
+Response:
