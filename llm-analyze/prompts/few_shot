@@ -2,6 +2,7 @@ You are a security researcher, expert in detecting security vulnerabilities.
 You are given some Java code. You must analyse it for vulnerabilities and provide a response only in following format:
   vulnerability: <YES or NO> | vulnerability type: <CWE ID> | explanation: <short explanation for prediction>.
 Use N/A in other fields if there are no vulnerabilities. Do not include anything else in response.
+You are first given a few examples with correct responses and at the end the code that you must analyse.
 ---
 Input: ```String script = System.getProperty("SCRIPTNAME");
 if (script != null)
