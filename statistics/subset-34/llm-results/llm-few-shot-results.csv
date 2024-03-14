@@ -577,3 +577,581 @@ gpt-4-0125-preview;juliet-top-25-subset-34;few_shot;J25117;True;CWE-89;3.0965087
 gpt-4-0125-preview;juliet-top-25-subset-34;few_shot;J25137;True;CWE-89;3.335556745529175;total_tokens: 2004, completion_tokens: 45, prompt_tokens: 1959;0.02094;2024-03-07
 gpt-4-0125-preview;juliet-top-25-subset-34;few_shot;J25116;True;CWE-89;3.4036519527435303;total_tokens: 1031, completion_tokens: 49, prompt_tokens: 982;0.011290000000000001;2024-03-07
 gpt-4-0125-preview;juliet-top-25-subset-34;few_shot;J24809;True;CWE-89;4.467912435531616;total_tokens: 1104, completion_tokens: 56, prompt_tokens: 1048;0.01216;2024-03-07
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10677;True;CWE-129;33.635045528411865;total_tokens: 5061, completion_tokens: 618, prompt_tokens: 4443;0.06297;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10676;True;CWE-129;33.005555152893066;total_tokens: 3860, completion_tokens: 624, prompt_tokens: 3236;0.05108;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10126;True;CWE-129;28.054641723632812;total_tokens: 4193, completion_tokens: 548, prompt_tokens: 3645;0.052890000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10530;True;CWE-129;34.29873847961426;total_tokens: 4471, completion_tokens: 656, prompt_tokens: 3815;0.057830000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10127;True;CWE-129;23.96565580368042;total_tokens: 4686, completion_tokens: 603, prompt_tokens: 4083;0.05892;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10531;True;CWE-89 CWE-129 CWE-209;43.09623980522156;total_tokens: 6381, completion_tokens: 865, prompt_tokens: 5516;0.08111;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11176;True;CWE-129;27.7513644695282;total_tokens: 3741, completion_tokens: 569, prompt_tokens: 3172;0.04878999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11338;True;CWE-129;20.817986965179443;total_tokens: 3851, completion_tokens: 625, prompt_tokens: 3226;0.05101;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11177;True;CWE-129;26.747769117355347;total_tokens: 4497, completion_tokens: 702, prompt_tokens: 3795;0.05900999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10754;True;CWE-129;26.48137354850769;total_tokens: 3853, completion_tokens: 620, prompt_tokens: 3233;0.05093;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11339;True;CWE-129;32.96621751785278;total_tokens: 5194, completion_tokens: 668, prompt_tokens: 4526;0.0653;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10739;True;CWE-129 CWE-20;26.93582057952881;total_tokens: 4992, completion_tokens: 654, prompt_tokens: 4338;0.063;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10738;True;CWE-129;37.32805776596069;total_tokens: 3914, completion_tokens: 608, prompt_tokens: 3306;0.0513;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J10755;True;CWE-129 CWE-20;37.01688885688782;total_tokens: 5343, completion_tokens: 828, prompt_tokens: 4515;0.06999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11014;True;CWE-129 CWE-390 CWE-476;42.110093116760254;total_tokens: 5040, completion_tokens: 900, prompt_tokens: 4140;0.0684;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11015;True;CWE-129 CWE-20 CWE-390 CWE-561 CWE-400;40.8180251121521;total_tokens: 6715, completion_tokens: 943, prompt_tokens: 5772;0.08601;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11558;True;CWE-129;24.74320101737976;total_tokens: 3936, completion_tokens: 629, prompt_tokens: 3307;0.05194;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11609;True;CWE-20;31.547638654708862;total_tokens: 5528, completion_tokens: 651, prompt_tokens: 4877;0.0683;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11608;True;CWE-129;31.149574756622314;total_tokens: 3870, completion_tokens: 584, prompt_tokens: 3286;0.050379999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J11559;True;CWE-20;33.42631196975708;total_tokens: 5319, completion_tokens: 651, prompt_tokens: 4668;0.06621;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12224;True;CWE-129;21.72026777267456;total_tokens: 3646, completion_tokens: 633, prompt_tokens: 3013;0.04912;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12225;True;CWE-129;53.86544322967529;total_tokens: 4976, completion_tokens: 742, prompt_tokens: 4234;0.06459999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12753;True;CWE-129;26.005432605743408;total_tokens: 4893, completion_tokens: 675, prompt_tokens: 4218;0.06243;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12752;True;CWE-129;40.40213131904602;total_tokens: 3623, completion_tokens: 599, prompt_tokens: 3024;0.048209999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12291;True;CWE-129 CWE-22;37.782886266708374;total_tokens: 5858, completion_tokens: 753, prompt_tokens: 5105;0.07364000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12498;True;CWE-129 CWE-22 CWE-703;35.77913784980774;total_tokens: 4630, completion_tokens: 838, prompt_tokens: 3792;0.06306;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12290;True;CWE-22 CWE-129 CWE-390;39.63003611564636;total_tokens: 4668, completion_tokens: 934, prompt_tokens: 3734;0.06536;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12327;True;CWE-20 CWE-129 CWE-390;35.34809136390686;total_tokens: 4757, completion_tokens: 790, prompt_tokens: 3967;0.06337;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12499;True;CWE-22 CWE-129 CWE-20 CWE-532;43.16769742965698;total_tokens: 6002, completion_tokens: 910, prompt_tokens: 5092;0.07822000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12326;True;CWE-129 CWE-22 CWE-20;42.874730825424194;total_tokens: 4319, completion_tokens: 766, prompt_tokens: 3553;0.05850999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J13100;True;CWE-400;39.00761961936951;total_tokens: 4237, completion_tokens: 562, prompt_tokens: 3675;0.05361;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12931;True;CWE-129;40.905726194381714;total_tokens: 4510, completion_tokens: 587, prompt_tokens: 3923;0.056839999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J12930;True;CWE-129;27.067124843597412;total_tokens: 3562, completion_tokens: 600, prompt_tokens: 2962;0.04762;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J13101;True;CWE-129 CWE-400 CWE-20;38.86395883560181;total_tokens: 6676, completion_tokens: 936, prompt_tokens: 5740;0.08548;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14350;True;CWE-190;21.069541454315186;total_tokens: 3780, completion_tokens: 616, prompt_tokens: 3164;0.05012;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14374;True;CWE-190 CWE-20;37.9115788936615;total_tokens: 4080, completion_tokens: 785, prompt_tokens: 3295;0.0565;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14351;True;CWE-190 CWE-20;36.17268490791321;total_tokens: 4533, completion_tokens: 734, prompt_tokens: 3799;0.06001000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14375;True;CWE-190 CWE-532;38.25121021270752;total_tokens: 5161, completion_tokens: 755, prompt_tokens: 4406;0.06671;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14728;True;CWE-400;33.43531847000122;total_tokens: 4395, completion_tokens: 565, prompt_tokens: 3830;0.05525000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14729;True;CWE-190 CWE-20;37.053086280822754;total_tokens: 6943, completion_tokens: 795, prompt_tokens: 6148;0.08533;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14945;True;CWE-190 CWE-22 CWE-532;39.08950328826904;total_tokens: 6097, completion_tokens: 871, prompt_tokens: 5226;0.07839;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J14944;True;CWE-22 CWE-20 CWE-390;31.38066864013672;total_tokens: 4669, completion_tokens: 900, prompt_tokens: 3769;0.06469;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15376;True;CWE-20;27.296617031097412;total_tokens: 4486, completion_tokens: 650, prompt_tokens: 3836;0.057859999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15936;True;CWE-20;29.62848687171936;total_tokens: 4927, completion_tokens: 615, prompt_tokens: 4312;0.06157;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15729;True;CWE-190;48.59241271018982;total_tokens: 4615, completion_tokens: 627, prompt_tokens: 3988;0.05869;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15937;True;CWE-20 CWE-400 CWE-754 CWE-772;35.921574115753174;total_tokens: 5849, completion_tokens: 955, prompt_tokens: 4894;0.07758999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15377;True;CWE-20 CWE-209 CWE-400 CWE-918;42.40724325180054;total_tokens: 6768, completion_tokens: 988, prompt_tokens: 5780;0.08744;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15371;True;CWE-20 CWE-190 CWE-390;35.703004121780396;total_tokens: 6109, completion_tokens: 750, prompt_tokens: 5359;0.07608999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15728;True;CWE-390;38.08780813217163;total_tokens: 3728, completion_tokens: 666, prompt_tokens: 3062;0.050600000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15370;True;CWE-20 CWE-190 CWE-390;44.55602049827576;total_tokens: 4314, completion_tokens: 740, prompt_tokens: 3574;0.05793999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15891;True;CWE-190 CWE-20 CWE-390;48.947311878204346;total_tokens: 4778, completion_tokens: 757, prompt_tokens: 4021;0.06292;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J15890;True;CWE-190 CWE-400 CWE-772;63.10802483558655;total_tokens: 4965, completion_tokens: 976, prompt_tokens: 3989;0.06917;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J16260;True;CWE-190;39.750224590301514;total_tokens: 3925, completion_tokens: 721, prompt_tokens: 3204;0.053669999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J16950;True;CWE-20;38.50626611709595;total_tokens: 4465, completion_tokens: 635, prompt_tokens: 3830;0.05735;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J16322;True;CWE-190;28.77728509902954;total_tokens: 3381, completion_tokens: 537, prompt_tokens: 2844;0.04455;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J16323;True;CWE-190;70.73500514030457;total_tokens: 4073, completion_tokens: 682, prompt_tokens: 3391;0.05437;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J16261;True;CWE-190;44.93122482299805;total_tokens: 4789, completion_tokens: 725, prompt_tokens: 4064;0.06239;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J17186;True;CWE-190;31.100171089172363;total_tokens: 3701, completion_tokens: 626, prompt_tokens: 3075;0.04953;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J17187;True;CWE-190;42.28067970275879;total_tokens: 4750, completion_tokens: 675, prompt_tokens: 4075;0.061;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J16951;True;CWE-20 CWE-190 CWE-754;38.13916802406311;total_tokens: 5064, completion_tokens: 797, prompt_tokens: 4267;0.06658;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J17866;True;CWE-807;24.45237421989441;total_tokens: 3853, completion_tokens: 639, prompt_tokens: 3214;0.05131;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J17318;True;CWE-190;29.63167452812195;total_tokens: 3618, completion_tokens: 590, prompt_tokens: 3028;0.04798;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J17867;True;CWE-190;34.929431200027466;total_tokens: 4754, completion_tokens: 591, prompt_tokens: 4163;0.059359999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J17319;True;CWE-190;54.64475870132446;total_tokens: 4617, completion_tokens: 626, prompt_tokens: 3991;0.058690000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18138;True;CWE-20 CWE-404;31.058953523635864;total_tokens: 4405, completion_tokens: 715, prompt_tokens: 3690;0.05835;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18109;True;CWE-190 CWE-20 CWE-390;46.33155012130737;total_tokens: 6128, completion_tokens: 822, prompt_tokens: 5306;0.07772;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18108;True;CWE-20;35.168155670166016;total_tokens: 4189, completion_tokens: 619, prompt_tokens: 3570;0.05427;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18139;True;CWE-190 CWE-20 CWE-390;37.472973346710205;total_tokens: 4890, completion_tokens: 810, prompt_tokens: 4080;0.06509999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18584;True;CWE-22;27.61683678627014;total_tokens: 4989, completion_tokens: 530, prompt_tokens: 4459;0.06049;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18368;True;CWE-22;39.186856508255005;total_tokens: 4294, completion_tokens: 573, prompt_tokens: 3721;0.054400000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18264;True;CWE-22;27.415367603302002;total_tokens: 5250, completion_tokens: 673, prompt_tokens: 4577;0.06596;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18272;True;CWE-22;40.34506297111511;total_tokens: 4749, completion_tokens: 585, prompt_tokens: 4164;0.05918999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18452;True;CWE-22;29.02749991416931;total_tokens: 4560, completion_tokens: 639, prompt_tokens: 3921;0.05838;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18532;True;CWE-22;54.36013150215149;total_tokens: 4359, completion_tokens: 555, prompt_tokens: 3804;0.05469;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18273;True;CWE-22;24.64693784713745;total_tokens: 4522, completion_tokens: 649, prompt_tokens: 3873;0.0582;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18453;True;CWE-22;32.75205874443054;total_tokens: 5712, completion_tokens: 675, prompt_tokens: 5037;0.07061999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18235;True;CWE-22;32.63673281669617;total_tokens: 5842, completion_tokens: 721, prompt_tokens: 5121;0.07284;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18459;True;CWE-22;44.04729747772217;total_tokens: 5796, completion_tokens: 714, prompt_tokens: 5082;0.07224000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18458;True;CWE-22;35.15902662277222;total_tokens: 4572, completion_tokens: 621, prompt_tokens: 3951;0.05814000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18533;True;CWE-22;29.916483163833618;total_tokens: 4746, completion_tokens: 653, prompt_tokens: 4093;0.060520000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18369;True;CWE-22;36.70841836929321;total_tokens: 5789, completion_tokens: 743, prompt_tokens: 5046;0.07275;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18585;True;CWE-22;30.026287078857422;total_tokens: 5440, completion_tokens: 613, prompt_tokens: 4827;0.06666;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18604;True;CWE-22;42.73725628852844;total_tokens: 5205, completion_tokens: 597, prompt_tokens: 4608;0.06399;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18670;True;CWE-22;23.516251802444458;total_tokens: 4524, completion_tokens: 673, prompt_tokens: 3851;0.0587;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18703;True;CWE-22;50.49924159049988;total_tokens: 6238, completion_tokens: 735, prompt_tokens: 5503;0.07708000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18589;True;CWE-22;32.758460998535156;total_tokens: 5734, completion_tokens: 700, prompt_tokens: 5034;0.07134;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18605;True;CWE-22;31.3289737701416;total_tokens: 5538, completion_tokens: 620, prompt_tokens: 4918;0.06778;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18265;True;CWE-22;37.05189061164856;total_tokens: 4671, completion_tokens: 691, prompt_tokens: 3980;0.060530000000000014;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18702;True;CWE-22;30.98564338684082;total_tokens: 4821, completion_tokens: 613, prompt_tokens: 4208;0.060469999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18631;True;CWE-22;39.86520338058472;total_tokens: 5623, completion_tokens: 665, prompt_tokens: 4958;0.06953000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18597;True;CWE-22;35.90269875526428;total_tokens: 5680, completion_tokens: 698, prompt_tokens: 4982;0.07076;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18234;True;CWE-22 CWE-400 CWE-390;61.155192375183105;total_tokens: 5155, completion_tokens: 697, prompt_tokens: 4458;0.06548999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18686;True;CWE-22;32.51008105278015;total_tokens: 4605, completion_tokens: 692, prompt_tokens: 3913;0.05989;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18687;True;CWE-22;26.91171932220459;total_tokens: 5408, completion_tokens: 631, prompt_tokens: 4777;0.0667;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18748;True;CWE-22;46.98329472541809;total_tokens: 5055, completion_tokens: 639, prompt_tokens: 4416;0.06333;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18671;True;CWE-22;44.40245008468628;total_tokens: 5571, completion_tokens: 683, prompt_tokens: 4888;0.06937;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18749;True;CWE-22;26.005686044692993;total_tokens: 4533, completion_tokens: 632, prompt_tokens: 3901;0.057969999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18630;True;CWE-22 CWE-399;33.932589292526245;total_tokens: 4927, completion_tokens: 709, prompt_tokens: 4218;0.06345;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18736;True;CWE-22 CWE-918 CWE-390;28.393924951553345;total_tokens: 5165, completion_tokens: 771, prompt_tokens: 4394;0.06706999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18737;True;CWE-22;47.3591890335083;total_tokens: 5686, completion_tokens: 669, prompt_tokens: 5017;0.07024;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18588;True;CWE-23 CWE-276 CWE-20 CWE-404 CWE-532;46.11278581619263;total_tokens: 5929, completion_tokens: 1005, prompt_tokens: 4924;0.07939;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18596;True;CWE-22 CWE-400 CWE-200;46.04014301300049;total_tokens: 5634, completion_tokens: 854, prompt_tokens: 4780;0.07342;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18770;True;CWE-259 CWE-532 CWE-22 CWE-404;54.009514808654785;total_tokens: 4705, completion_tokens: 889, prompt_tokens: 3816;0.06483;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18772;True;CWE-259 CWE-22 CWE-532 CWE-399;37.357988119125366;total_tokens: 4809, completion_tokens: 963, prompt_tokens: 3846;0.06735;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18759;True;CWE-321 CWE-259 CWE-532 CWE-22 CWE-326;44.28493046760559;total_tokens: 7588, completion_tokens: 870, prompt_tokens: 6718;0.09328;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18757;True;CWE-321 CWE-259 CWE-22 CWE-200 CWE-326 CWE-209;43.588616609573364;total_tokens: 5740, completion_tokens: 983, prompt_tokens: 4757;0.07706;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18771;True;CWE-321 CWE-326 CWE-532 CWE-259 CWE-404;35.409663438797;total_tokens: 7793, completion_tokens: 877, prompt_tokens: 6916;0.09547;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18780;True;CWE-259 CWE-532 CWE-313 CWE-404 CWE-548;44.971137046813965;total_tokens: 4673, completion_tokens: 931, prompt_tokens: 3742;0.06534999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18760;True;CWE-259 CWE-22 CWE-312 CWE-404 CWE-532;54.83371543884277;total_tokens: 4692, completion_tokens: 961, prompt_tokens: 3731;0.06614;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18764;True;CWE-259 CWE-22 CWE-532 CWE-404 CWE-732;45.4123752117157;total_tokens: 4877, completion_tokens: 1023, prompt_tokens: 3854;0.06923;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18758;True;CWE-259 CWE-532 CWE-404;56.55648589134216;total_tokens: 4561, completion_tokens: 842, prompt_tokens: 3719;0.062450000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18773;True;CWE-259 CWE-321 CWE-532 CWE-22 CWE-326;44.62468338012695;total_tokens: 7894, completion_tokens: 929, prompt_tokens: 6965;0.09752;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18761;True;CWE-321 CWE-22 CWE-326 CWE-404 CWE-532;48.40455603599548;total_tokens: 7942, completion_tokens: 970, prompt_tokens: 6972;0.09881999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18775;True;CWE-321 CWE-259 CWE-532 CWE-313 CWE-548 CWE-200;52.35212469100952;total_tokens: 8455, completion_tokens: 1214, prompt_tokens: 7241;0.10883000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18756;True;CWE-532 CWE-404 CWE-319;38.334938287734985;total_tokens: 5054, completion_tokens: 1131, prompt_tokens: 3923;0.07316;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18766;True;CWE-259 CWE-532 CWE-22;49.021870136260986;total_tokens: 4517, completion_tokens: 821, prompt_tokens: 3696;0.06159;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18784;True;CWE-259 CWE-532 CWE-398;50.57668399810791;total_tokens: 4733, completion_tokens: 839, prompt_tokens: 3894;0.06411;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18774;True;CWE-259 CWE-22 CWE-399 CWE-532;55.46654009819031;total_tokens: 4575, completion_tokens: 879, prompt_tokens: 3696;0.06333;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18781;True;CWE-321 CWE-259 CWE-532 CWE-22;32.43510341644287;total_tokens: 7957, completion_tokens: 910, prompt_tokens: 7047;0.09777;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18785;True;CWE-321 CWE-22 CWE-404 CWE-326;48.154433727264404;total_tokens: 7909, completion_tokens: 861, prompt_tokens: 7048;0.09631;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18767;True;CWE-321 CWE-326 CWE-532 CWE-259 CWE-404;63.114153146743774;total_tokens: 7905, completion_tokens: 913, prompt_tokens: 6992;0.09731000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18765;True;CWE-321 CWE-259 CWE-532 CWE-313 CWE-22 CWE-200;56.847413539886475;total_tokens: 8159, completion_tokens: 1107, prompt_tokens: 7052;0.10373;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18783;True;CWE-321 CWE-326 CWE-209 CWE-259 CWE-404;44.316457986831665;total_tokens: 7818, completion_tokens: 921, prompt_tokens: 6897;0.09659999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18794;True;CWE-259 CWE-532 CWE-200 CWE-312;37.45746183395386;total_tokens: 4623, completion_tokens: 883, prompt_tokens: 3740;0.06389;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18793;True;CWE-321 CWE-326 CWE-209 CWE-404 CWE-22;26.78487205505371;total_tokens: 5568, completion_tokens: 854, prompt_tokens: 4714;0.07276;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18788;True;CWE-259 CWE-532 CWE-312 CWE-398;48.77179408073425;total_tokens: 4705, completion_tokens: 937, prompt_tokens: 3768;0.06578999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18789;True;CWE-321 CWE-259 CWE-22 CWE-327 CWE-390;41.66172194480896;total_tokens: 5608, completion_tokens: 866, prompt_tokens: 4742;0.0734;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18792;True;CWE-259 CWE-532 CWE-404 CWE-311;60.1931369304657;total_tokens: 4623, completion_tokens: 896, prompt_tokens: 3727;0.06415;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18790;True;CWE-259 CWE-532 CWE-200 CWE-312 CWE-404;840.7711522579193;total_tokens: 5533, completion_tokens: 1244, prompt_tokens: 4289;0.08021;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18798;True;CWE-259 CWE-532 CWE-313 CWE-404;36.81634759902954;total_tokens: 4480, completion_tokens: 807, prompt_tokens: 3673;0.06094;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18796;True;CWE-259 CWE-312 CWE-532 CWE-319 CWE-327 CWE-404;53.62440848350525;total_tokens: 5742, completion_tokens: 996, prompt_tokens: 4746;0.07733999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18791;True;CWE-321 CWE-256 CWE-532 CWE-200 CWE-313;51.55228638648987;total_tokens: 7455, completion_tokens: 1065, prompt_tokens: 6390;0.09584999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18795;True;CWE-321 CWE-326 CWE-209 CWE-312 CWE-404;42.936588525772095;total_tokens: 5618, completion_tokens: 829, prompt_tokens: 4789;0.07275999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18782;True;CWE-259 CWE-532 CWE-404 CWE-548 CWE-319;66.27644681930542;total_tokens: 4772, completion_tokens: 991, prompt_tokens: 3781;0.06754;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18799;True;CWE-321 CWE-326 CWE-209 CWE-404 CWE-312;42.115888833999634;total_tokens: 5887, completion_tokens: 906, prompt_tokens: 4981;0.07699;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18797;True;CWE-259 CWE-22 CWE-327 CWE-532 CWE-399;54.199286222457886;total_tokens: 6022, completion_tokens: 860, prompt_tokens: 5162;0.07742;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18806;True;CWE-259;30.739223957061768;total_tokens: 4244, completion_tokens: 637, prompt_tokens: 3607;0.05518000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18800;True;CWE-259;49.66795301437378;total_tokens: 3988, completion_tokens: 591, prompt_tokens: 3397;0.0517;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18843;True;CWE-89;29.50231671333313;total_tokens: 4480, completion_tokens: 632, prompt_tokens: 3848;0.05743999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18868;True;CWE-259;22.666693687438965;total_tokens: 3698, completion_tokens: 609, prompt_tokens: 3089;0.04916;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18826;True;CWE-259;31.88626718521118;total_tokens: 4149, completion_tokens: 628, prompt_tokens: 3521;0.05405;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18861;True;CWE-20;45.26717925071716;total_tokens: 4720, completion_tokens: 741, prompt_tokens: 3979;0.06202;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18832;True;CWE-259;23.51775097846985;total_tokens: 4155, completion_tokens: 632, prompt_tokens: 3523;0.05419;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18860;True;CWE-532;37.806541204452515;total_tokens: 3750, completion_tokens: 628, prompt_tokens: 3122;0.05006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18833;True;CWE-89;28.891600847244263;total_tokens: 4181, completion_tokens: 561, prompt_tokens: 3620;0.05303;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18842;True;CWE-259 CWE-532;41.09962463378906;total_tokens: 3973, completion_tokens: 583, prompt_tokens: 3390;0.05138999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18872;True;CWE-532;39.33058547973633;total_tokens: 3739, completion_tokens: 617, prompt_tokens: 3122;0.04973;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18802;True;CWE-259 CWE-532 CWE-209;37.305097341537476;total_tokens: 4356, completion_tokens: 784, prompt_tokens: 3572;0.05924;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18848;True;CWE-532;41.557703256607056;total_tokens: 3915, completion_tokens: 698, prompt_tokens: 3217;0.053110000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18892;True;CWE-532;28.271706342697144;total_tokens: 3659, completion_tokens: 631, prompt_tokens: 3028;0.049210000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18869;True;CWE-20;43.95819711685181;total_tokens: 4336, completion_tokens: 605, prompt_tokens: 3731;0.055459999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18801;True;CWE-259 CWE-89 CWE-20 CWE-209;35.290419816970825;total_tokens: 4343, completion_tokens: 781, prompt_tokens: 3562;0.05905;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18914;True;CWE-259 CWE-532;30.899245262145996;total_tokens: 3502, completion_tokens: 600, prompt_tokens: 2902;0.047020000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18905;True;CWE-532;30.481992721557617;total_tokens: 4233, completion_tokens: 626, prompt_tokens: 3607;0.05485;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18915;True;CWE-532;30.798605918884277;total_tokens: 4317, completion_tokens: 648, prompt_tokens: 3669;0.05613;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18920;True;CWE-532;36.97319936752319;total_tokens: 3736, completion_tokens: 656, prompt_tokens: 3080;0.05048;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18807;True;CWE-89 CWE-259 CWE-404;35.24617648124695;total_tokens: 5559, completion_tokens: 800, prompt_tokens: 4759;0.07159;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18921;True;CWE-532;29.515538215637207;total_tokens: 3649, completion_tokens: 567, prompt_tokens: 3082;0.04783;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18929;True;CWE-20;29.88782000541687;total_tokens: 3892, completion_tokens: 607, prompt_tokens: 3285;0.05106;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18827;True;CWE-89 CWE-259 CWE-209 CWE-20;39.18701148033142;total_tokens: 5374, completion_tokens: 777, prompt_tokens: 4597;0.06928;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18803;True;CWE-89 CWE-259 CWE-390 CWE-400 CWE-532;48.45826053619385;total_tokens: 5552, completion_tokens: 921, prompt_tokens: 4631;0.07394;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18931;True;CWE-532;33.2645800113678;total_tokens: 3833, completion_tokens: 585, prompt_tokens: 3248;0.05003;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18930;True;CWE-532;38.96040654182434;total_tokens: 3654, completion_tokens: 609, prompt_tokens: 3045;0.04872;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18873;True;CWE-20;37.51604151725769;total_tokens: 4576, completion_tokens: 687, prompt_tokens: 3889;0.0595;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18904;True;CWE-259 CWE-532;38.26356887817383;total_tokens: 3904, completion_tokens: 773, prompt_tokens: 3131;0.0545;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18893;True;CWE-532 CWE-20;47.99651288986206;total_tokens: 4456, completion_tokens: 801, prompt_tokens: 3655;0.06058;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18925;True;CWE-20 CWE-532;40.84477376937866;total_tokens: 4138, completion_tokens: 776, prompt_tokens: 3362;0.056900000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18928;True;CWE-798;43.14133071899414;total_tokens: 4176, completion_tokens: 727, prompt_tokens: 3449;0.0563;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18924;True;CWE-259 CWE-532 CWE-312 CWE-313;52.62669491767883;total_tokens: 4089, completion_tokens: 913, prompt_tokens: 3176;0.05915000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18849;True;CWE-20 CWE-497 CWE-561;49.58642506599426;total_tokens: 4684, completion_tokens: 866, prompt_tokens: 3818;0.06416;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18944;True;CWE-321;43.31328058242798;total_tokens: 3955, completion_tokens: 625, prompt_tokens: 3330;0.05205;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18943;True;CWE-326 CWE-20;39.66900563240051;total_tokens: 4861, completion_tokens: 693, prompt_tokens: 4168;0.062470000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18942;True;CWE-321 CWE-327;44.12993383407593;total_tokens: 3848, completion_tokens: 624, prompt_tokens: 3224;0.05095999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18949;True;CWE-327 CWE-20;45.0934784412384;total_tokens: 4814, completion_tokens: 719, prompt_tokens: 4095;0.06252;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18932;True;CWE-321 CWE-326 CWE-390;41.130074977874756;total_tokens: 3983, completion_tokens: 764, prompt_tokens: 3219;0.055110000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18937;True;CWE-326 CWE-20;38.10668611526489;total_tokens: 4800, completion_tokens: 682, prompt_tokens: 4118;0.06164;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18948;True;CWE-321 CWE-327 CWE-310 CWE-798;35.42634296417236;total_tokens: 4127, completion_tokens: 778, prompt_tokens: 3349;0.056830000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18941;True;CWE-327 CWE-20;40.998188734054565;total_tokens: 5256, completion_tokens: 850, prompt_tokens: 4406;0.06956000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18936;True;CWE-321 CWE-327 CWE-200;30.392539739608765;total_tokens: 3850, completion_tokens: 667, prompt_tokens: 3183;0.05184;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18939;True;CWE-327 CWE-20 CWE-319;67.90011548995972;total_tokens: 5232, completion_tokens: 877, prompt_tokens: 4355;0.06986;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18933;True;CWE-327 CWE-20;40.78720664978027;total_tokens: 4021, completion_tokens: 655, prompt_tokens: 3366;0.05331;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18935;True;CWE-326 CWE-20 CWE-319 CWE-310;40.04168176651001;total_tokens: 4848, completion_tokens: 762, prompt_tokens: 4086;0.06372;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18934;True;CWE-321 CWE-327;46.78924584388733;total_tokens: 4156, completion_tokens: 773, prompt_tokens: 3383;0.05702000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18940;True;CWE-321 CWE-327 CWE-200 CWE-310;43.87873840332031;total_tokens: 4488, completion_tokens: 931, prompt_tokens: 3557;0.0635;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18956;True;CWE-321;28.789615869522095;total_tokens: 3913, completion_tokens: 617, prompt_tokens: 3296;0.05147;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18950;True;CWE-321 CWE-326 CWE-310 CWE-390;70.96287631988525;total_tokens: 4169, completion_tokens: 833, prompt_tokens: 3336;0.05835;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18966;True;CWE-321;47.280749797821045;total_tokens: 5005, completion_tokens: 741, prompt_tokens: 4264;0.06487;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18970;True;CWE-327;41.617801666259766;total_tokens: 4042, completion_tokens: 670, prompt_tokens: 3372;0.05382000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18957;True;CWE-327 CWE-20;67.31429934501648;total_tokens: 5026, completion_tokens: 786, prompt_tokens: 4240;0.06598000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18938;True;CWE-321 CWE-327 CWE-310;52.223084688186646;total_tokens: 4270, completion_tokens: 813, prompt_tokens: 3457;0.05896;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18969;True;CWE-327;39.533318281173706;total_tokens: 4072, completion_tokens: 605, prompt_tokens: 3467;0.05282;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18954;True;CWE-327 CWE-20 CWE-310 CWE-390;52.82862997055054;total_tokens: 4409, completion_tokens: 864, prompt_tokens: 3545;0.06137;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18955;True;CWE-327 CWE-400 CWE-20;39.647642850875854;total_tokens: 4481, completion_tokens: 791, prompt_tokens: 3690;0.060629999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18974;True;CWE-321;21.83450722694397;total_tokens: 3999, completion_tokens: 629, prompt_tokens: 3370;0.052570000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18972;True;CWE-321;36.85556507110596;total_tokens: 4024, completion_tokens: 573, prompt_tokens: 3451;0.051699999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18975;True;CWE-327;33.944035053253174;total_tokens: 4382, completion_tokens: 681, prompt_tokens: 3701;0.057440000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18971;True;CWE-327 CWE-20;45.471181869506836;total_tokens: 4155, completion_tokens: 689, prompt_tokens: 3466;0.055330000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18968;True;CWE-321 CWE-327 CWE-390;48.26807427406311;total_tokens: 4279, completion_tokens: 844, prompt_tokens: 3435;0.05967;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18973;True;CWE-327 CWE-20 CWE-319;42.77568459510803;total_tokens: 4491, completion_tokens: 802, prompt_tokens: 3689;0.060950000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18961;True;CWE-327 CWE-20 CWE-319;48.38288593292236;total_tokens: 5111, completion_tokens: 839, prompt_tokens: 4272;0.06789;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18951;True;CWE-326 CWE-20;64.96767473220825;total_tokens: 4925, completion_tokens: 775, prompt_tokens: 4150;0.06475;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18960;True;CWE-321 CWE-327 CWE-310 CWE-200;47.876254081726074;total_tokens: 4350, completion_tokens: 883, prompt_tokens: 3467;0.06116;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18945;True;CWE-327 CWE-20 CWE-310 CWE-319 CWE-396;66.32669281959534;total_tokens: 5547, completion_tokens: 1118, prompt_tokens: 4429;0.07783000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18967;True;CWE-327 CWE-798 CWE-20 CWE-532;55.56031680107117;total_tokens: 5446, completion_tokens: 861, prompt_tokens: 4585;0.07168000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19001;True;CWE-200;31.241857051849365;total_tokens: 5427, completion_tokens: 666, prompt_tokens: 4761;0.06759;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19306;True;CWE-22;30.251846313476562;total_tokens: 4104, completion_tokens: 499, prompt_tokens: 3605;0.051019999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19108;True;CWE-22;25.40164542198181;total_tokens: 4272, completion_tokens: 633, prompt_tokens: 3639;0.055380000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19324;True;CWE-22;40.6734893321991;total_tokens: 4752, completion_tokens: 674, prompt_tokens: 4078;0.061;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19109;True;CWE-404;34.64801216125488;total_tokens: 4365, completion_tokens: 652, prompt_tokens: 3713;0.056690000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19122;True;CWE-22;29.402014017105103;total_tokens: 4349, completion_tokens: 622, prompt_tokens: 3727;0.055929999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19157;True;CWE-404;29.59513258934021;total_tokens: 5122, completion_tokens: 577, prompt_tokens: 4545;0.06276;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19025;True;CWE-404;32.103474855422974;total_tokens: 5046, completion_tokens: 563, prompt_tokens: 4483;0.06172;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19000;True;CWE-22;42.01541614532471;total_tokens: 5304, completion_tokens: 737, prompt_tokens: 4567;0.06778;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19043;True;CWE-22;24.826031923294067;total_tokens: 4206, completion_tokens: 590, prompt_tokens: 3616;0.05386;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19307;True;CWE-22;25.113665103912354;total_tokens: 4231, completion_tokens: 589, prompt_tokens: 3642;0.05409;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19156;True;CWE-22;49.7805118560791;total_tokens: 5007, completion_tokens: 632, prompt_tokens: 4375;0.06271;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19123;False;;34.56582999229431;total_tokens: 5842, completion_tokens: 850, prompt_tokens: 4992;0.07542;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19042;True;CWE-22 CWE-20 CWE-200;61.304187059402466;total_tokens: 4994, completion_tokens: 772, prompt_tokens: 4222;0.06538000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18994;True;CWE-22 CWE-20 CWE-404;36.58101487159729;total_tokens: 5389, completion_tokens: 904, prompt_tokens: 4485;0.07197;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19355;True;CWE-23;26.023937463760376;total_tokens: 5421, completion_tokens: 679, prompt_tokens: 4742;0.06779;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19401;True;CWE-22;30.16747736930847;total_tokens: 5278, completion_tokens: 632, prompt_tokens: 4646;0.06542;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19347;True;CWE-22;47.02308225631714;total_tokens: 5609, completion_tokens: 770, prompt_tokens: 4839;0.07149;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19375;True;CWE-404;31.674366235733032;total_tokens: 5378, completion_tokens: 703, prompt_tokens: 4675;0.06784;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19325;True;CWE-22 CWE-20 CWE-200;38.74976325035095;total_tokens: 4608, completion_tokens: 685, prompt_tokens: 3923;0.05978;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J18995;True;CWE-22;39.863985538482666;total_tokens: 5557, completion_tokens: 744, prompt_tokens: 4813;0.07045;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19383;True;CWE-22;36.47180414199829;total_tokens: 5314, completion_tokens: 629, prompt_tokens: 4685;0.06572;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19374;True;CWE-22;51.29487180709839;total_tokens: 4806, completion_tokens: 678, prompt_tokens: 4128;0.061619999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19354;True;CWE-23 CWE-20;35.02932548522949;total_tokens: 5375, completion_tokens: 765, prompt_tokens: 4610;0.06905;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19382;True;CWE-22;33.336259841918945;total_tokens: 4713, completion_tokens: 634, prompt_tokens: 4079;0.05981;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19500;True;CWE-22;26.81821918487549;total_tokens: 4836, completion_tokens: 578, prompt_tokens: 4258;0.059919999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19400;True;CWE-22;38.79776406288147;total_tokens: 4734, completion_tokens: 649, prompt_tokens: 4085;0.06032;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19409;True;CWE-23;30.347297191619873;total_tokens: 4198, completion_tokens: 580, prompt_tokens: 3618;0.05358;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19346;True;CWE-23 CWE-400 CWE-20;34.446449518203735;total_tokens: 5279, completion_tokens: 759, prompt_tokens: 4520;0.06797;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19501;True;CWE-918;53.81856083869934;total_tokens: 4845, completion_tokens: 590, prompt_tokens: 4255;0.06025000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19345;True;CWE-22 CWE-399 CWE-390;42.79124855995178;total_tokens: 5789, completion_tokens: 886, prompt_tokens: 4903;0.07561000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19024;True;CWE-22 CWE-20 CWE-200;50.25584149360657;total_tokens: 5060, completion_tokens: 822, prompt_tokens: 4238;0.06704000000000002;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19344;True;CWE-23 CWE-400 CWE-755 CWE-276;43.5689640045166;total_tokens: 5646, completion_tokens: 957, prompt_tokens: 4689;0.0756;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19408;True;CWE-22 CWE-200 CWE-532;41.853079319000244;total_tokens: 4888, completion_tokens: 782, prompt_tokens: 4106;0.06452;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19555;False;;38.12458562850952;total_tokens: 3761, completion_tokens: 602, prompt_tokens: 3159;0.04965;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19588;True;CWE-476;27.22190237045288;total_tokens: 3529, completion_tokens: 614, prompt_tokens: 2915;0.04757;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19648;True;CWE-476;24.47541046142578;total_tokens: 3373, completion_tokens: 569, prompt_tokens: 2804;0.04511;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19661;False;;32.782878160476685;total_tokens: 3744, completion_tokens: 655, prompt_tokens: 3089;0.050539999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19554;True;CWE-476;29.67446804046631;total_tokens: 3312, completion_tokens: 552, prompt_tokens: 2760;0.04416;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19557;False;;25.737403392791748;total_tokens: 3572, completion_tokens: 567, prompt_tokens: 3005;0.047060000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19660;True;CWE-755;35.162171363830566;total_tokens: 3420, completion_tokens: 589, prompt_tokens: 2831;0.04598;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19508;False;;28.829955339431763;total_tokens: 3422, completion_tokens: 584, prompt_tokens: 2838;0.045899999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19509;False;;24.520023822784424;total_tokens: 3628, completion_tokens: 557, prompt_tokens: 3071;0.047420000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19649;False;;32.38534927368164;total_tokens: 3738, completion_tokens: 597, prompt_tokens: 3141;0.049319999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19680;True;CWE-476;33.27796030044556;total_tokens: 3639, completion_tokens: 657, prompt_tokens: 2982;0.04953;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19681;True;CWE-390;35.85993432998657;total_tokens: 4168, completion_tokens: 746, prompt_tokens: 3422;0.0566;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19589;True;CWE-476;36.68007731437683;total_tokens: 4801, completion_tokens: 807, prompt_tokens: 3994;0.06415000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19721;True;CWE-476;39.88731527328491;total_tokens: 4432, completion_tokens: 654, prompt_tokens: 3778;0.05739999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19730;True;CWE-476;60.608514070510864;total_tokens: 3448, completion_tokens: 597, prompt_tokens: 2851;0.04642;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19720;True;CWE-476;36.731586933135986;total_tokens: 3492, completion_tokens: 598, prompt_tokens: 2894;0.04688;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19666;True;CWE-476;38.88239550590515;total_tokens: 3769, completion_tokens: 687, prompt_tokens: 3082;0.05143;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19685;True;CWE-476;37.927956104278564;total_tokens: 3975, completion_tokens: 682, prompt_tokens: 3293;0.05339;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19686;True;CWE-476;37.3607919216156;total_tokens: 3950, completion_tokens: 772, prompt_tokens: 3178;0.05494;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19731;True;CWE-476;39.9677357673645;total_tokens: 3880, completion_tokens: 679, prompt_tokens: 3201;0.052379999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19667;True;CWE-561;35.33956503868103;total_tokens: 3789, completion_tokens: 606, prompt_tokens: 3183;0.05001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19736;True;CWE-476;30.775530338287354;total_tokens: 3699, completion_tokens: 666, prompt_tokens: 3033;0.05031;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19556;True;CWE-476;40.82873010635376;total_tokens: 3403, completion_tokens: 598, prompt_tokens: 2805;0.04598999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19684;True;CWE-476;66.0421290397644;total_tokens: 4185, completion_tokens: 851, prompt_tokens: 3334;0.05886999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19758;True;CWE-476;20.900023460388184;total_tokens: 3610, completion_tokens: 645, prompt_tokens: 2965;0.049;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19740;True;CWE-476;31.881293058395386;total_tokens: 3451, completion_tokens: 598, prompt_tokens: 2853;0.046470000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19742;True;CWE-476;54.231719970703125;total_tokens: 3650, completion_tokens: 664, prompt_tokens: 2986;0.049780000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19741;True;CWE-476;42.08090090751648;total_tokens: 4359, completion_tokens: 702, prompt_tokens: 3657;0.05763;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19743;True;CWE-476;56.40688896179199;total_tokens: 4483, completion_tokens: 691, prompt_tokens: 3792;0.058649999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19759;True;CWE-476;41.82281160354614;total_tokens: 4471, completion_tokens: 689, prompt_tokens: 3782;0.05849;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19760;True;CWE-476;38.52508020401001;total_tokens: 3820, completion_tokens: 675, prompt_tokens: 3145;0.051699999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19737;True;CWE-476;47.636871337890625;total_tokens: 4095, completion_tokens: 699, prompt_tokens: 3396;0.05493000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19687;True;CWE-755;71.54493713378906;total_tokens: 3937, completion_tokens: 681, prompt_tokens: 3256;0.052989999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19761;False;;46.50604486465454;total_tokens: 4090, completion_tokens: 692, prompt_tokens: 3398;0.05474;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19792;True;CWE-598;26.751732110977173;total_tokens: 4162, completion_tokens: 646, prompt_tokens: 3516;0.05453999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19790;True;CWE-319;20.927550792694092;total_tokens: 4076, completion_tokens: 617, prompt_tokens: 3459;0.053099999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19784;True;CWE-311;26.648356676101685;total_tokens: 4026, completion_tokens: 618, prompt_tokens: 3408;0.05262;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19794;True;CWE-79;22.66601276397705;total_tokens: 4438, completion_tokens: 764, prompt_tokens: 3674;0.059660000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19789;True;CWE-79;38.775818824768066;total_tokens: 5266, completion_tokens: 804, prompt_tokens: 4462;0.06874;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19782;False;;51.449819564819336;total_tokens: 3835, completion_tokens: 594, prompt_tokens: 3241;0.05023;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19796;True;CWE-598;34.70598101615906;total_tokens: 4283, completion_tokens: 682, prompt_tokens: 3601;0.05647;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19791;True;CWE-79;45.580992698669434;total_tokens: 4873, completion_tokens: 697, prompt_tokens: 4176;0.06267;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19786;True;CWE-598;50.713886976242065;total_tokens: 4152, completion_tokens: 663, prompt_tokens: 3489;0.054779999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19785;True;CWE-79;36.58371114730835;total_tokens: 4972, completion_tokens: 743, prompt_tokens: 4229;0.06458;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19795;True;CWE-79;41.288079261779785;total_tokens: 4990, completion_tokens: 723, prompt_tokens: 4267;0.06436;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19793;True;CWE-79;41.83506107330322;total_tokens: 4764, completion_tokens: 639, prompt_tokens: 4125;0.06042;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19803;False;;26.68096685409546;total_tokens: 4809, completion_tokens: 626, prompt_tokens: 4183;0.060610000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19783;True;CWE-79;37.53239297866821;total_tokens: 4084, completion_tokens: 660, prompt_tokens: 3424;0.05404;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19808;True;CWE-319;21.838403463363647;total_tokens: 4093, completion_tokens: 640, prompt_tokens: 3453;0.05373000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19806;True;CWE-319;30.445566415786743;total_tokens: 4037, completion_tokens: 615, prompt_tokens: 3422;0.05267;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19788;True;CWE-79;31.200439929962158;total_tokens: 3855, completion_tokens: 549, prompt_tokens: 3306;0.04953;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19787;False;;44.626341581344604;total_tokens: 4918, completion_tokens: 725, prompt_tokens: 4193;0.06368000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19801;False;;40.750243186950684;total_tokens: 5101, completion_tokens: 741, prompt_tokens: 4360;0.06583;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19797;True;CWE-79;32.30418515205383;total_tokens: 4777, completion_tokens: 675, prompt_tokens: 4102;0.06127;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19800;True;CWE-79;35.814961433410645;total_tokens: 3981, completion_tokens: 623, prompt_tokens: 3358;0.05227;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19798;True;CWE-319 CWE-79 CWE-294;33.51546573638916;total_tokens: 4578, completion_tokens: 930, prompt_tokens: 3648;0.06437999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19810;True;CWE-601;23.77172827720642;total_tokens: 3878, completion_tokens: 568, prompt_tokens: 3310;0.050140000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19812;False;;30.473772525787354;total_tokens: 3804, completion_tokens: 528, prompt_tokens: 3276;0.0486;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19804;True;CWE-319;35.216994762420654;total_tokens: 4572, completion_tokens: 637, prompt_tokens: 3935;0.05846;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19805;True;CWE-79;45.453094482421875;total_tokens: 5192, completion_tokens: 836, prompt_tokens: 4356;0.06864;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19807;True;CWE-79;41.15227651596069;total_tokens: 4810, completion_tokens: 669, prompt_tokens: 4141;0.06148000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19799;True;CWE-79;46.55419182777405;total_tokens: 5296, completion_tokens: 833, prompt_tokens: 4463;0.06961999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19814;True;CWE-598;33.05641436576843;total_tokens: 4233, completion_tokens: 690, prompt_tokens: 3543;0.05613;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19813;True;CWE-79;35.26165771484375;total_tokens: 4642, completion_tokens: 827, prompt_tokens: 3815;0.06295999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19802;True;CWE-319;30.7005877494812;total_tokens: 3745, completion_tokens: 538, prompt_tokens: 3207;0.04821;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19809;True;CWE-79;32.409789085388184;total_tokens: 4824, completion_tokens: 684, prompt_tokens: 4140;0.06192;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19811;True;CWE-598;37.990779876708984;total_tokens: 5303, completion_tokens: 811, prompt_tokens: 4492;0.06925;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19815;False;;36.307241916656494;total_tokens: 4494, completion_tokens: 770, prompt_tokens: 3724;0.06034;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19826;True;CWE-79;26.329052448272705;total_tokens: 3580, completion_tokens: 555, prompt_tokens: 3025;0.0469;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19820;True;CWE-79;33.80552864074707;total_tokens: 3504, completion_tokens: 538, prompt_tokens: 2966;0.0458;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19827;True;CWE-79;22.149106740951538;total_tokens: 4116, completion_tokens: 584, prompt_tokens: 3532;0.05284;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19825;True;CWE-79;26.676822900772095;total_tokens: 4315, completion_tokens: 643, prompt_tokens: 3672;0.056010000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19821;True;CWE-79;30.46148681640625;total_tokens: 4548, completion_tokens: 756, prompt_tokens: 3792;0.0606;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19829;True;CWE-352;29.41919732093811;total_tokens: 4453, completion_tokens: 672, prompt_tokens: 3781;0.057969999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19818;True;CWE-79;28.429927825927734;total_tokens: 3605, completion_tokens: 587, prompt_tokens: 3018;0.04779;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19817;False;;19.34332036972046;total_tokens: 3580, completion_tokens: 538, prompt_tokens: 3042;0.04656;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19832;True;CWE-79;34.10896611213684;total_tokens: 3667, completion_tokens: 621, prompt_tokens: 3046;0.04909000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19824;True;CWE-523;31.521870374679565;total_tokens: 4212, completion_tokens: 760, prompt_tokens: 3452;0.057319999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19822;True;CWE-319;30.76016402244568;total_tokens: 4003, completion_tokens: 680, prompt_tokens: 3323;0.05363;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19828;True;CWE-79;45.91745352745056;total_tokens: 4281, completion_tokens: 806, prompt_tokens: 3475;0.058929999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19831;True;CWE-79;39.1754674911499;total_tokens: 4474, completion_tokens: 698, prompt_tokens: 3776;0.058699999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19819;True;CWE-79;31.030142068862915;total_tokens: 4149, completion_tokens: 620, prompt_tokens: 3529;0.05389;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19823;True;CWE-79;58.62794017791748;total_tokens: 4312, completion_tokens: 645, prompt_tokens: 3667;0.05602000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19833;True;CWE-79;32.00783824920654;total_tokens: 4471, completion_tokens: 717, prompt_tokens: 3754;0.059050000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19835;True;CWE-79;29.211570978164673;total_tokens: 4120, completion_tokens: 608, prompt_tokens: 3512;0.053360000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19816;True;CWE-79;30.660018920898438;total_tokens: 3655, completion_tokens: 600, prompt_tokens: 3055;0.04855;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19836;True;CWE-79;46.98758125305176;total_tokens: 3842, completion_tokens: 666, prompt_tokens: 3176;0.05174;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19840;True;CWE-79;38.1006224155426;total_tokens: 3961, completion_tokens: 695, prompt_tokens: 3266;0.053509999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19841;True;CWE-79;39.32600402832031;total_tokens: 4460, completion_tokens: 693, prompt_tokens: 3767;0.05846;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19847;False;;47.144203424453735;total_tokens: 4067, completion_tokens: 678, prompt_tokens: 3389;0.05423;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19842;True;CWE-79;49.350698471069336;total_tokens: 4176, completion_tokens: 770, prompt_tokens: 3406;0.05716;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19834;True;CWE-79;28.071130514144897;total_tokens: 3793, completion_tokens: 661, prompt_tokens: 3132;0.05115;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19839;True;CWE-79;31.688835859298706;total_tokens: 3961, completion_tokens: 582, prompt_tokens: 3379;0.051250000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19844;True;CWE-79;22.699519634246826;total_tokens: 3625, completion_tokens: 584, prompt_tokens: 3041;0.04793;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19838;True;CWE-598;51.38068604469299;total_tokens: 4361, completion_tokens: 755, prompt_tokens: 3606;0.058710000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19846;True;CWE-259;32.33447599411011;total_tokens: 3886, completion_tokens: 673, prompt_tokens: 3213;0.05232;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19848;True;CWE-523;40.43873310089111;total_tokens: 3885, completion_tokens: 655, prompt_tokens: 3230;0.051949999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19845;True;CWE-79;27.90395951271057;total_tokens: 4361, completion_tokens: 665, prompt_tokens: 3696;0.05691;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19849;True;CWE-352;26.535174131393433;total_tokens: 4003, completion_tokens: 673, prompt_tokens: 3330;0.053489999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19837;True;CWE-79;31.41762924194336;total_tokens: 4267, completion_tokens: 634, prompt_tokens: 3633;0.055349999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19843;True;CWE-79;37.23132944107056;total_tokens: 4387, completion_tokens: 680, prompt_tokens: 3707;0.05746999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19830;True;CWE-79 CWE-523;43.98133707046509;total_tokens: 3830, completion_tokens: 704, prompt_tokens: 3126;0.052379999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19860;False;;44.02003026008606;total_tokens: 4377, completion_tokens: 612, prompt_tokens: 3765;0.056010000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19867;False;;32.71634006500244;total_tokens: 5298, completion_tokens: 626, prompt_tokens: 4672;0.0655;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19861;True;CWE-209;24.824526071548462;total_tokens: 5157, completion_tokens: 589, prompt_tokens: 4568;0.06335;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19852;True;CWE-89;33.16863751411438;total_tokens: 3258, completion_tokens: 690, prompt_tokens: 2568;0.04638;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19874;True;CWE-89;18.788981199264526;total_tokens: 3962, completion_tokens: 511, prompt_tokens: 3451;0.04984000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19858;True;CWE-89;28.177518367767334;total_tokens: 4210, completion_tokens: 589, prompt_tokens: 3621;0.05388;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19855;True;CWE-200;30.929518461227417;total_tokens: 5350, completion_tokens: 680, prompt_tokens: 4670;0.06709999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19862;True;CWE-89 CWE-209;23.496447324752808;total_tokens: 4080, completion_tokens: 594, prompt_tokens: 3486;0.05268;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19876;True;CWE-89;29.880821228027344;total_tokens: 4004, completion_tokens: 527, prompt_tokens: 3477;0.05058;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19866;True;CWE-89;41.11457180976868;total_tokens: 4240, completion_tokens: 615, prompt_tokens: 3625;0.0547;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19871;True;CWE-404;26.3712637424469;total_tokens: 5416, completion_tokens: 705, prompt_tokens: 4711;0.06826;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19863;True;CWE-89;36.029959201812744;total_tokens: 5338, completion_tokens: 699, prompt_tokens: 4639;0.06736;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19870;False;;61.78383016586304;total_tokens: 4390, completion_tokens: 742, prompt_tokens: 3648;0.05874;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19878;True;CWE-20;33.60786557197571;total_tokens: 4429, completion_tokens: 677, prompt_tokens: 3752;0.05782999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19859;True;CWE-532 CWE-404;66.35189604759216;total_tokens: 5401, completion_tokens: 783, prompt_tokens: 4618;0.06967;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19854;False;;36.98193979263306;total_tokens: 4890, completion_tokens: 913, prompt_tokens: 3977;0.06716;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19879;True;CWE-89 CWE-404 CWE-390;36.704410552978516;total_tokens: 5425, completion_tokens: 777, prompt_tokens: 4648;0.06979;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19853;True;CWE-390 CWE-404 CWE-561;43.31877613067627;total_tokens: 5440, completion_tokens: 802, prompt_tokens: 4638;0.07044;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19864;True;CWE-89 CWE-20 CWE-532;39.852978467941284;total_tokens: 4481, completion_tokens: 756, prompt_tokens: 3725;0.05993;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19882;True;CWE-396;41.57577586174011;total_tokens: 4459, completion_tokens: 689, prompt_tokens: 3770;0.058370000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19883;True;CWE-200;31.081215143203735;total_tokens: 4204, completion_tokens: 581, prompt_tokens: 3623;0.05366;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19884;True;CWE-89;33.86287450790405;total_tokens: 4454, completion_tokens: 520, prompt_tokens: 3934;0.054939999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19886;True;CWE-89 CWE-20 CWE-532;57.27405595779419;total_tokens: 4508, completion_tokens: 793, prompt_tokens: 3715;0.060939999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19889;True;CWE-209;39.764960527420044;total_tokens: 4276, completion_tokens: 598, prompt_tokens: 3678;0.054720000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19865;True;CWE-391;49.700422525405884;total_tokens: 5803, completion_tokens: 913, prompt_tokens: 4890;0.07629;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19891;True;CWE-532;24.062037229537964;total_tokens: 4305, completion_tokens: 577, prompt_tokens: 3728;0.05459;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19885;True;CWE-89 CWE-209;37.62528157234192;total_tokens: 5844, completion_tokens: 719, prompt_tokens: 5125;0.07282;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19880;True;CWE-89 CWE-20 CWE-532;45.530768632888794;total_tokens: 4592, completion_tokens: 830, prompt_tokens: 3762;0.06251999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19890;True;CWE-89;31.423587322235107;total_tokens: 4067, completion_tokens: 512, prompt_tokens: 3555;0.05091000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19877;True;CWE-89 CWE-20 CWE-399 CWE-756;40.43319129943848;total_tokens: 5636, completion_tokens: 867, prompt_tokens: 4769;0.0737;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19888;False;;40.76361870765686;total_tokens: 4804, completion_tokens: 830, prompt_tokens: 3974;0.06464;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19875;True;CWE-390;43.779210567474365;total_tokens: 5734, completion_tokens: 936, prompt_tokens: 4798;0.07606;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19887;True;CWE-532 CWE-404;55.628233909606934;total_tokens: 4839, completion_tokens: 870, prompt_tokens: 3969;0.06579;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19881;True;CWE-532 CWE-404 CWE-561;56.81561326980591;total_tokens: 4630, completion_tokens: 808, prompt_tokens: 3822;0.06246;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20158;True;CWE-400;27.840466022491455;total_tokens: 3688, completion_tokens: 641, prompt_tokens: 3047;0.0497;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19972;True;CWE-400;44.884533166885376;total_tokens: 4412, completion_tokens: 637, prompt_tokens: 3775;0.05686;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20136;True;CWE-400;55.950157165527344;total_tokens: 4358, completion_tokens: 715, prompt_tokens: 3643;0.05788;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19899;True;CWE-20 CWE-404;34.56043839454651;total_tokens: 6531, completion_tokens: 712, prompt_tokens: 5819;0.07955000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19973;True;CWE-20;37.89910316467285;total_tokens: 6089, completion_tokens: 678, prompt_tokens: 5411;0.07445;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20119;True;CWE-20;50.134690046310425;total_tokens: 5519, completion_tokens: 708, prompt_tokens: 4811;0.06935000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19954;True;CWE-400;32.921710729599;total_tokens: 4294, completion_tokens: 649, prompt_tokens: 3645;0.05592;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19898;True;CWE-400;43.15446186065674;total_tokens: 4370, completion_tokens: 612, prompt_tokens: 3758;0.055940000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20016;True;CWE-400;34.41427230834961;total_tokens: 4622, completion_tokens: 667, prompt_tokens: 3955;0.05956;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20017;True;CWE-209 CWE-20;47.02356266975403;total_tokens: 6713, completion_tokens: 885, prompt_tokens: 5828;0.08483;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J19955;True;CWE-400 CWE-20;40.795172691345215;total_tokens: 6095, completion_tokens: 715, prompt_tokens: 5380;0.07525;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20209;True;CWE-834;36.62405490875244;total_tokens: 5845, completion_tokens: 756, prompt_tokens: 5089;0.07357;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20008;True;CWE-20;44.165732860565186;total_tokens: 4719, completion_tokens: 742, prompt_tokens: 3977;0.06203;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20098;True;CWE-400;44.231433391571045;total_tokens: 4547, completion_tokens: 637, prompt_tokens: 3910;0.05821;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20212;True;CWE-400;36.605501890182495;total_tokens: 4038, completion_tokens: 666, prompt_tokens: 3372;0.05370000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20313;True;CWE-22;28.4283766746521;total_tokens: 5125, completion_tokens: 519, prompt_tokens: 4606;0.061630000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20208;True;CWE-834;50.6341507434845;total_tokens: 3892, completion_tokens: 599, prompt_tokens: 3293;0.0509;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20118;True;CWE-834;48.78371500968933;total_tokens: 3854, completion_tokens: 640, prompt_tokens: 3214;0.05134;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20317;True;CWE-22;34.09858751296997;total_tokens: 5641, completion_tokens: 580, prompt_tokens: 5061;0.06801;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20356;True;CWE-807;46.45328712463379;total_tokens: 4188, completion_tokens: 702, prompt_tokens: 3486;0.055920000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20159;True;CWE-400;44.612428426742554;total_tokens: 4134, completion_tokens: 644, prompt_tokens: 3490;0.054220000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20137;True;CWE-400 CWE-79 CWE-20;49.235793590545654;total_tokens: 5485, completion_tokens: 922, prompt_tokens: 4563;0.07329;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20312;True;CWE-22 CWE-20 CWE-704;51.044902324676514;total_tokens: 4727, completion_tokens: 816, prompt_tokens: 3911;0.06359000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20384;True;CWE-400 CWE-20;39.576557874679565;total_tokens: 4848, completion_tokens: 843, prompt_tokens: 4005;0.06534;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20009;True;CWE-89 CWE-20 CWE-404;65.45083141326904;total_tokens: 7063, completion_tokens: 1035, prompt_tokens: 6028;0.09133;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20213;True;CWE-400 CWE-20;34.87933659553528;total_tokens: 5708, completion_tokens: 719, prompt_tokens: 4989;0.07146;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20365;True;CWE-400;40.14529275894165;total_tokens: 4207, completion_tokens: 660, prompt_tokens: 3547;0.05527;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20364;True;CWE-807;51.457788705825806;total_tokens: 3767, completion_tokens: 663, prompt_tokens: 3104;0.05093;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20099;True;CWE-22 CWE-20 CWE-704;45.774534463882446;total_tokens: 7407, completion_tokens: 1068, prompt_tokens: 6339;0.09543;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20385;True;CWE-20 CWE-400;39.57444143295288;total_tokens: 6585, completion_tokens: 786, prompt_tokens: 5799;0.08157;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20357;True;CWE-834;41.050509214401245;total_tokens: 5075, completion_tokens: 784, prompt_tokens: 4291;0.06642999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20302;True;CWE-400 CWE-22 CWE-20;33.03790020942688;total_tokens: 4570, completion_tokens: 876, prompt_tokens: 3694;0.06322;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20303;True;CWE-22 CWE-400 CWE-20;75.47033929824829;total_tokens: 6540, completion_tokens: 1000, prompt_tokens: 5540;0.0854;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20316;True;CWE-200 CWE-707 CWE-390;80.63804268836975;total_tokens: 5098, completion_tokens: 1078, prompt_tokens: 4020;0.07254;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20676;True;CWE-78;31.477611303329468;total_tokens: 4189, completion_tokens: 592, prompt_tokens: 3597;0.05373000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20433;False;;34.5388605594635;total_tokens: 4053, completion_tokens: 532, prompt_tokens: 3521;0.05117;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20496;True;CWE-78;44.50655651092529;total_tokens: 4128, completion_tokens: 596, prompt_tokens: 3532;0.0532;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20627;True;CWE-78;25.894331216812134;total_tokens: 4381, completion_tokens: 700, prompt_tokens: 3681;0.05781;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20736;True;CWE-78;27.66485023498535;total_tokens: 3859, completion_tokens: 594, prompt_tokens: 3265;0.05047;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20464;True;CWE-78;48.666895627975464;total_tokens: 4520, completion_tokens: 638, prompt_tokens: 3882;0.05796;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20681;True;CWE-78;63.17104983329773;total_tokens: 3729, completion_tokens: 595, prompt_tokens: 3134;0.04919;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20677;True;CWE-78;31.077097177505493;total_tokens: 5037, completion_tokens: 745, prompt_tokens: 4292;0.06527;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20432;True;CWE-78;50.53304743766785;total_tokens: 4505, completion_tokens: 641, prompt_tokens: 3864;0.05787;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20680;True;CWE-78;29.816406726837158;total_tokens: 3545, completion_tokens: 525, prompt_tokens: 3020;0.04595;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20497;False;;37.4398148059845;total_tokens: 4105, completion_tokens: 784, prompt_tokens: 3321;0.05672999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20479;True;CWE-78;30.5040385723114;total_tokens: 4147, completion_tokens: 619, prompt_tokens: 3528;0.05385;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20633;True;CWE-78 CWE-532 CWE-404;40.1311981678009;total_tokens: 5576, completion_tokens: 782, prompt_tokens: 4794;0.0714;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20478;True;CWE-78;46.52834892272949;total_tokens: 3936, completion_tokens: 518, prompt_tokens: 3418;0.04972;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20632;True;CWE-78;39.60282111167908;total_tokens: 4897, completion_tokens: 638, prompt_tokens: 4259;0.06173000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20737;True;CWE-78;25.37327480316162;total_tokens: 4468, completion_tokens: 733, prompt_tokens: 3735;0.05934;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20772;True;CWE-78;52.243999004364014;total_tokens: 3818, completion_tokens: 576, prompt_tokens: 3242;0.049699999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20808;True;CWE-78;24.871383905410767;total_tokens: 4725, completion_tokens: 535, prompt_tokens: 4190;0.05795;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20756;True;CWE-78;26.099120378494263;total_tokens: 3882, completion_tokens: 626, prompt_tokens: 3256;0.051340000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20757;True;CWE-78;33.14976215362549;total_tokens: 4217, completion_tokens: 650, prompt_tokens: 3567;0.055170000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20809;True;CWE-78;57.1577935218811;total_tokens: 5855, completion_tokens: 800, prompt_tokens: 5055;0.07455;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20465;True;CWE-78;39.215595722198486;total_tokens: 4136, completion_tokens: 734, prompt_tokens: 3402;0.05604;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20626;True;CWE-78 CWE-22 CWE-390;35.20248055458069;total_tokens: 4790, completion_tokens: 861, prompt_tokens: 3929;0.06512;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20823;True;CWE-78;33.54958772659302;total_tokens: 4199, completion_tokens: 659, prompt_tokens: 3540;0.05517;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20840;True;CWE-78;24.716853857040405;total_tokens: 4122, completion_tokens: 633, prompt_tokens: 3489;0.05388;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20831;True;CWE-78;32.15240788459778;total_tokens: 4112, completion_tokens: 610, prompt_tokens: 3502;0.053320000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20891;True;CWE-78;33.62081265449524;total_tokens: 4117, completion_tokens: 638, prompt_tokens: 3479;0.05393;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20773;True;CWE-78;34.319905281066895;total_tokens: 3927, completion_tokens: 647, prompt_tokens: 3280;0.052210000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20830;True;CWE-78 CWE-22 CWE-532;28.269739866256714;total_tokens: 4100, completion_tokens: 693, prompt_tokens: 3407;0.054860000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20890;True;CWE-78;39.20286703109741;total_tokens: 3706, completion_tokens: 638, prompt_tokens: 3068;0.049819999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20856;True;CWE-78;36.18621063232422;total_tokens: 4203, completion_tokens: 659, prompt_tokens: 3544;0.055209999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20841;True;CWE-78;33.5389130115509;total_tokens: 3559, completion_tokens: 548, prompt_tokens: 3011;0.04655;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20857;True;CWE-78;33.6330041885376;total_tokens: 3552, completion_tokens: 555, prompt_tokens: 2997;0.046619999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20822;True;CWE-78 CWE-22 CWE-532;49.54337954521179;total_tokens: 4250, completion_tokens: 792, prompt_tokens: 3458;0.05834;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20972;True;CWE-79;31.08272886276245;total_tokens: 4358, completion_tokens: 651, prompt_tokens: 3707;0.0566;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21215;True;CWE-79;36.23182964324951;total_tokens: 3715, completion_tokens: 629, prompt_tokens: 3086;0.049729999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21319;True;CWE-79;38.094011068344116;total_tokens: 4374, completion_tokens: 757, prompt_tokens: 3617;0.05888;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21138;True;CWE-79;36.50827765464783;total_tokens: 3656, completion_tokens: 651, prompt_tokens: 3005;0.049580000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21139;True;CWE-79;46.308083295822144;total_tokens: 4295, completion_tokens: 748, prompt_tokens: 3547;0.05791;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21062;True;CWE-79;30.703696966171265;total_tokens: 4393, completion_tokens: 646, prompt_tokens: 3747;0.05685;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21127;True;CWE-79;45.15705180168152;total_tokens: 3993, completion_tokens: 762, prompt_tokens: 3231;0.05517;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21318;True;CWE-79;33.70149517059326;total_tokens: 4432, completion_tokens: 720, prompt_tokens: 3712;0.05872;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21164;True;CWE-79;30.330134391784668;total_tokens: 3514, completion_tokens: 592, prompt_tokens: 2922;0.04698000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21177;True;CWE-79;39.243038177490234;total_tokens: 4149, completion_tokens: 708, prompt_tokens: 3441;0.05565;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21362;True;CWE-200 CWE-404;42.34751915931702;total_tokens: 4589, completion_tokens: 764, prompt_tokens: 3825;0.06117;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21126;True;CWE-79;34.40784502029419;total_tokens: 3380, completion_tokens: 577, prompt_tokens: 2803;0.04534;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21214;True;CWE-79 CWE-20 CWE-400;40.924402952194214;total_tokens: 4565, completion_tokens: 800, prompt_tokens: 3765;0.061649999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21165;True;CWE-79;42.17113757133484;total_tokens: 3690, completion_tokens: 628, prompt_tokens: 3062;0.049460000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J20973;True;CWE-79;40.05234408378601;total_tokens: 4033, completion_tokens: 741, prompt_tokens: 3292;0.05515;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21498;True;CWE-79;37.51260757446289;total_tokens: 3684, completion_tokens: 642, prompt_tokens: 3042;0.04968;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21442;True;CWE-200;40.7243390083313;total_tokens: 4356, completion_tokens: 627, prompt_tokens: 3729;0.05610000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21522;True;CWE-79;38.00865125656128;total_tokens: 3532, completion_tokens: 627, prompt_tokens: 2905;0.04786;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21443;True;CWE-561;33.389756202697754;total_tokens: 3880, completion_tokens: 597, prompt_tokens: 3283;0.05074;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21572;True;CWE-79;48.95644283294678;total_tokens: 3796, completion_tokens: 626, prompt_tokens: 3170;0.05048;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21499;True;CWE-79;49.59882831573486;total_tokens: 3931, completion_tokens: 644, prompt_tokens: 3287;0.05219;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21460;True;CWE-79;88.95406174659729;total_tokens: 4345, completion_tokens: 634, prompt_tokens: 3711;0.05613;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21573;False;;26.84487557411194;total_tokens: 3873, completion_tokens: 571, prompt_tokens: 3302;0.05015;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21461;True;CWE-79;24.003462076187134;total_tokens: 3902, completion_tokens: 618, prompt_tokens: 3284;0.05138;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21063;True;CWE-79;35.530060052871704;total_tokens: 4138, completion_tokens: 678, prompt_tokens: 3460;0.05494;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21600;True;CWE-79;23.696495532989502;total_tokens: 4303, completion_tokens: 658, prompt_tokens: 3645;0.056190000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21647;False;;25.13472318649292;total_tokens: 3192, completion_tokens: 402, prompt_tokens: 2790;0.039959999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21176;True;CWE-79;35.959272384643555;total_tokens: 3865, completion_tokens: 653, prompt_tokens: 3212;0.051710000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21523;True;CWE-79;42.83674430847168;total_tokens: 4003, completion_tokens: 786, prompt_tokens: 3217;0.055749999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21363;False;;33.14737868309021;total_tokens: 4325, completion_tokens: 821, prompt_tokens: 3504;0.05967;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21646;True;CWE-79;32.87029957771301;total_tokens: 4510, completion_tokens: 661, prompt_tokens: 3849;0.058320000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21601;True;CWE-20 CWE-79 CWE-200;67.4827811717987;total_tokens: 5341, completion_tokens: 1010, prompt_tokens: 4331;0.07361000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21726;True;CWE-918;36.57356929779053;total_tokens: 4038, completion_tokens: 591, prompt_tokens: 3447;0.052199999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21727;True;CWE-79;50.46296048164368;total_tokens: 4457, completion_tokens: 888, prompt_tokens: 3569;0.062329999999999997;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21902;True;CWE-79;36.18380904197693;total_tokens: 3653, completion_tokens: 613, prompt_tokens: 3040;0.04879;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21995;True;CWE-79;27.07518482208252;total_tokens: 3552, completion_tokens: 591, prompt_tokens: 2961;0.04734;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21754;True;CWE-200;32.487701416015625;total_tokens: 4080, completion_tokens: 539, prompt_tokens: 3541;0.05158;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21888;True;CWE-79;37.56426286697388;total_tokens: 3898, completion_tokens: 676, prompt_tokens: 3222;0.052500000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21831;True;CWE-79;23.19286823272705;total_tokens: 3638, completion_tokens: 624, prompt_tokens: 3014;0.04886;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21779;True;CWE-79;38.70146179199219;total_tokens: 3788, completion_tokens: 650, prompt_tokens: 3138;0.050879999999999995;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21755;True;CWE-79;31.236499309539795;total_tokens: 4089, completion_tokens: 667, prompt_tokens: 3422;0.05423;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21903;True;CWE-79;38.970155239105225;total_tokens: 4039, completion_tokens: 670, prompt_tokens: 3369;0.05379;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21802;True;CWE-209 CWE-20;35.30316400527954;total_tokens: 4492, completion_tokens: 773, prompt_tokens: 3719;0.06038;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21830;True;CWE-209;55.92745232582092;total_tokens: 4334, completion_tokens: 627, prompt_tokens: 3707;0.055880000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21803;True;CWE-79;43.77185082435608;total_tokens: 4211, completion_tokens: 712, prompt_tokens: 3499;0.05635;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21778;True;CWE-200;43.03979992866516;total_tokens: 4376, completion_tokens: 645, prompt_tokens: 3731;0.05666;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21884;True;CWE-79;41.419761180877686;total_tokens: 3857, completion_tokens: 677, prompt_tokens: 3180;0.05211;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21885;True;CWE-79;41.27889275550842;total_tokens: 4058, completion_tokens: 667, prompt_tokens: 3391;0.05392000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21889;True;CWE-79;35.010990381240845;total_tokens: 3887, completion_tokens: 616, prompt_tokens: 3271;0.05119;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J21994;True;CWE-79;38.99906778335571;total_tokens: 3661, completion_tokens: 597, prompt_tokens: 3064;0.04855;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22027;False;;24.220196962356567;total_tokens: 4011, completion_tokens: 596, prompt_tokens: 3415;0.05203000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22055;True;CWE-79;34.8144416809082;total_tokens: 4151, completion_tokens: 704, prompt_tokens: 3447;0.05559;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22015;True;CWE-79;36.29174542427063;total_tokens: 4078, completion_tokens: 659, prompt_tokens: 3419;0.05396;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22079;True;CWE-79;29.128073692321777;total_tokens: 4080, completion_tokens: 661, prompt_tokens: 3419;0.054020000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22066;True;CWE-22;41.27377247810364;total_tokens: 4047, completion_tokens: 638, prompt_tokens: 3409;0.05323;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22033;True;CWE-79;58.6359589099884;total_tokens: 4230, completion_tokens: 705, prompt_tokens: 3525;0.0564;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22054;True;CWE-22 CWE-532;35.47237777709961;total_tokens: 4151, completion_tokens: 741, prompt_tokens: 3410;0.056330000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22032;True;CWE-20 CWE-200 CWE-400;38.841238021850586;total_tokens: 4539, completion_tokens: 732, prompt_tokens: 3807;0.06003;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22081;True;CWE-79;29.357803344726562;total_tokens: 3785, completion_tokens: 667, prompt_tokens: 3118;0.05119;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22067;True;CWE-79;36.939866065979004;total_tokens: 4249, completion_tokens: 730, prompt_tokens: 3519;0.05709;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22078;True;CWE-22 CWE-209 CWE-398;30.350937128067017;total_tokens: 4222, completion_tokens: 786, prompt_tokens: 3436;0.05794;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22014;True;CWE-20 CWE-200 CWE-400 CWE-79;48.92423677444458;total_tokens: 4960, completion_tokens: 925, prompt_tokens: 4035;0.06810000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22118;True;CWE-319;45.32633709907532;total_tokens: 4313, completion_tokens: 649, prompt_tokens: 3664;0.05611000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22088;True;CWE-79 CWE-22;41.24531316757202;total_tokens: 4129, completion_tokens: 711, prompt_tokens: 3418;0.05551;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22119;True;CWE-79;35.41873526573181;total_tokens: 3992, completion_tokens: 632, prompt_tokens: 3360;0.05256000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22089;True;CWE-79;34.904813051223755;total_tokens: 4090, completion_tokens: 757, prompt_tokens: 3333;0.056040000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22080;True;CWE-200 CWE-532;37.742971897125244;total_tokens: 4827, completion_tokens: 1028, prompt_tokens: 3799;0.06883;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22026;True;CWE-20 CWE-79 CWE-400 CWE-772;45.228771924972534;total_tokens: 4998, completion_tokens: 936, prompt_tokens: 4062;0.0687;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22347;False;;31.60512137413025;total_tokens: 3552, completion_tokens: 548, prompt_tokens: 3004;0.04648;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22375;True;CWE-79;23.273011445999146;total_tokens: 4053, completion_tokens: 689, prompt_tokens: 3364;0.054310000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22388;True;CWE-79;31.896103858947754;total_tokens: 3593, completion_tokens: 591, prompt_tokens: 3002;0.04775;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22346;True;CWE-79;33.45976686477661;total_tokens: 3490, completion_tokens: 591, prompt_tokens: 2899;0.046720000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22325;True;CWE-79;30.953970432281494;total_tokens: 4075, completion_tokens: 674, prompt_tokens: 3401;0.05423;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22180;True;CWE-79;29.72475290298462;total_tokens: 4375, completion_tokens: 643, prompt_tokens: 3732;0.05661;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22186;True;CWE-79;28.62348985671997;total_tokens: 4408, completion_tokens: 689, prompt_tokens: 3719;0.05786;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22153;True;CWE-79;39.819228649139404;total_tokens: 4147, completion_tokens: 672, prompt_tokens: 3475;0.05491;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22374;True;CWE-79;31.853944063186646;total_tokens: 3629, completion_tokens: 602, prompt_tokens: 3027;0.04833;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22150;True;CWE-79;53.955400228500366;total_tokens: 4694, completion_tokens: 762, prompt_tokens: 3932;0.06218;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22341;True;CWE-79;34.19000172615051;total_tokens: 4231, completion_tokens: 748, prompt_tokens: 3483;0.05727;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22181;True;CWE-79;37.590296030044556;total_tokens: 4078, completion_tokens: 701, prompt_tokens: 3377;0.0548;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22151;True;CWE-79;30.63826084136963;total_tokens: 3997, completion_tokens: 648, prompt_tokens: 3349;0.05293;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22389;True;CWE-79;29.22243881225586;total_tokens: 4071, completion_tokens: 779, prompt_tokens: 3292;0.05629;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22187;True;CWE-79;45.33737063407898;total_tokens: 4225, completion_tokens: 711, prompt_tokens: 3514;0.056470000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22324;True;CWE-79;38.9845232963562;total_tokens: 3617, completion_tokens: 633, prompt_tokens: 2984;0.048830000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22416;True;CWE-79;24.33626365661621;total_tokens: 4333, completion_tokens: 570, prompt_tokens: 3763;0.05473;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22473;True;CWE-79;40.400771617889404;total_tokens: 4180, completion_tokens: 703, prompt_tokens: 3477;0.05586;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22417;True;CWE-79;33.453129291534424;total_tokens: 4000, completion_tokens: 619, prompt_tokens: 3381;0.052379999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22340;True;CWE-79;47.92366909980774;total_tokens: 3578, completion_tokens: 625, prompt_tokens: 2953;0.048279999999999997;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22152;True;CWE-79 CWE-404;55.70700645446777;total_tokens: 4796, completion_tokens: 854, prompt_tokens: 3942;0.06504;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22409;True;CWE-79;29.089642763137817;total_tokens: 3830, completion_tokens: 554, prompt_tokens: 3276;0.04937999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22420;True;CWE-79;44.26199913024902;total_tokens: 4534, completion_tokens: 669, prompt_tokens: 3865;0.05872;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22421;True;CWE-79;52.88188076019287;total_tokens: 4201, completion_tokens: 709, prompt_tokens: 3492;0.05618999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22508;True;CWE-79;28.83205509185791;total_tokens: 4315, completion_tokens: 670, prompt_tokens: 3645;0.05655;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22500;True;CWE-79;29.735830068588257;total_tokens: 4342, completion_tokens: 658, prompt_tokens: 3684;0.056580000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22408;True;CWE-79 CWE-400 CWE-754;33.16187071800232;total_tokens: 4942, completion_tokens: 892, prompt_tokens: 4050;0.06726;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22465;True;CWE-79;32.97178387641907;total_tokens: 4171, completion_tokens: 715, prompt_tokens: 3456;0.05600999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22472;True;CWE-79 CWE-22;39.487765312194824;total_tokens: 4132, completion_tokens: 727, prompt_tokens: 3405;0.05585999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22509;True;CWE-79;43.02345132827759;total_tokens: 4055, completion_tokens: 659, prompt_tokens: 3396;0.05373;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22525;True;CWE-79;40.208329916000366;total_tokens: 5338, completion_tokens: 742, prompt_tokens: 4596;0.06822;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22501;True;CWE-79;37.04009699821472;total_tokens: 4585, completion_tokens: 828, prompt_tokens: 3757;0.06241;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22524;True;CWE-79 CWE-918 CWE-532;53.571290493011475;total_tokens: 5127, completion_tokens: 903, prompt_tokens: 4224;0.06933;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22464;True;CWE-79 CWE-200 CWE-552;44.01974129676819;total_tokens: 4147, completion_tokens: 776, prompt_tokens: 3371;0.05699;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22584;True;CWE-89;45.178290605545044;total_tokens: 4898, completion_tokens: 621, prompt_tokens: 4277;0.06140000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23230;True;CWE-89;25.876243829727173;total_tokens: 3950, completion_tokens: 497, prompt_tokens: 3453;0.04944;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23231;True;CWE-89 CWE-20;24.096940517425537;total_tokens: 5324, completion_tokens: 694, prompt_tokens: 4630;0.06712;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22710;True;CWE-89;30.213135242462158;total_tokens: 4172, completion_tokens: 425, prompt_tokens: 3747;0.050219999999999994;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22711;True;CWE-89 CWE-20 CWE-209;43.803160429000854;total_tokens: 5913, completion_tokens: 871, prompt_tokens: 5042;0.07655;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J22585;True;CWE-89 CWE-400 CWE-20;38.51902461051941;total_tokens: 7943, completion_tokens: 767, prompt_tokens: 7176;0.09477;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23782;True;CWE-89;20.46134305000305;total_tokens: 4083, completion_tokens: 565, prompt_tokens: 3518;0.05213;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23783;True;CWE-89;39.112096071243286;total_tokens: 6934, completion_tokens: 694, prompt_tokens: 6240;0.08321999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23590;True;CWE-89;25.671843767166138;total_tokens: 4778, completion_tokens: 610, prompt_tokens: 4168;0.059980000000000006;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23877;True;CWE-89;41.21735095977783;total_tokens: 7071, completion_tokens: 636, prompt_tokens: 6435;0.08343;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23876;True;CWE-89 CWE-404;32.790226459503174;total_tokens: 4989, completion_tokens: 618, prompt_tokens: 4371;0.06225;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J23591;True;CWE-89 CWE-532;44.37531590461731;total_tokens: 5767, completion_tokens: 784, prompt_tokens: 4983;0.07335;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24134;True;CWE-89;28.877888679504395;total_tokens: 4373, completion_tokens: 632, prompt_tokens: 3741;0.05637;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24445;True;CWE-89;32.909990310668945;total_tokens: 8378, completion_tokens: 756, prompt_tokens: 7622;0.0989;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24218;True;CWE-89;35.33471632003784;total_tokens: 4307, completion_tokens: 604, prompt_tokens: 3703;0.055150000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24046;True;CWE-89;33.924479961395264;total_tokens: 4046, completion_tokens: 576, prompt_tokens: 3470;0.051980000000000005;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24371;True;CWE-89 CWE-20 CWE-209;49.66814875602722;total_tokens: 5957, completion_tokens: 793, prompt_tokens: 5164;0.07543;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24219;True;CWE-89;35.959139823913574;total_tokens: 7240, completion_tokens: 758, prompt_tokens: 6482;0.08756;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24616;True;CWE-89 CWE-22 CWE-390;26.899850368499756;total_tokens: 4671, completion_tokens: 805, prompt_tokens: 3866;0.06281;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24047;True;CWE-89 CWE-89;66.68090891838074;total_tokens: 6873, completion_tokens: 749, prompt_tokens: 6124;0.08371;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24617;True;CWE-89;54.82928419113159;total_tokens: 7268, completion_tokens: 759, prompt_tokens: 6509;0.08786000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24135;True;CWE-89;41.88559103012085;total_tokens: 7323, completion_tokens: 812, prompt_tokens: 6511;0.08947;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24444;True;CWE-89 CWE-400 CWE-209;35.6434531211853;total_tokens: 5133, completion_tokens: 774, prompt_tokens: 4359;0.06681000000000001;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24370;True;CWE-89 CWE-400 CWE-772;28.640217304229736;total_tokens: 4977, completion_tokens: 730, prompt_tokens: 4247;0.06437;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24808;True;CWE-89;46.9270339012146;total_tokens: 4361, completion_tokens: 703, prompt_tokens: 3658;0.05767;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J25116;True;CWE-89;81.37987542152405;total_tokens: 4323, completion_tokens: 494, prompt_tokens: 3829;0.053110000000000004;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24788;True;CWE-89;36.687583208084106;total_tokens: 4137, completion_tokens: 601, prompt_tokens: 3536;0.05338999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J25137;True;CWE-89;30.701512336730957;total_tokens: 7824, completion_tokens: 696, prompt_tokens: 7128;0.09215999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J25136;True;CWE-89;27.117977380752563;total_tokens: 4239, completion_tokens: 439, prompt_tokens: 3800;0.05117;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J25095;True;CWE-89;42.8919620513916;total_tokens: 7830, completion_tokens: 720, prompt_tokens: 7110;0.0927;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J25117;True;CWE-89 CWE-209;23.18578791618347;total_tokens: 5320, completion_tokens: 627, prompt_tokens: 4693;0.06573999999999999;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24809;True;CWE-89;32.251314878463745;total_tokens: 4883, completion_tokens: 650, prompt_tokens: 4233;0.061829999999999996;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J24789;True;CWE-89;42.887441873550415;total_tokens: 6823, completion_tokens: 699, prompt_tokens: 6124;0.08221;2024-03-08
+gpt-4-0125-preview;juliet-top-25-subset-34;few_shot_improve;J25094;True;CWE-89 CWE-20 CWE-209;39.79182267189026;total_tokens: 4421, completion_tokens: 577, prompt_tokens: 3844;0.05575000000000001;2024-03-08
