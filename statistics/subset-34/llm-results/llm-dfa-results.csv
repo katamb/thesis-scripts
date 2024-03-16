@@ -473,7 +473,7 @@ gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19344;True;CWE-22 CWE-23;106.95973420143127;total_tokens: 5138, completion_tokens: 1080, prompt_tokens: 4058;0.07297999999999999;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19408;True;CWE-22 CWE-200;82.04816818237305;total_tokens: 4369, completion_tokens: 935, prompt_tokens: 3434;0.06239;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19382;True;CWE-22;93.86226081848145;total_tokens: 4464, completion_tokens: 932, prompt_tokens: 3532;0.06328;2024-02-05
-gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19401;None;CWE-20 CWE-22;92.37253880500793;total_tokens: 5265, completion_tokens: 1049, prompt_tokens: 4216;0.07363;2024-02-05
+gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19401;False;CWE-20 CWE-22;92.37253880500793;total_tokens: 5265, completion_tokens: 1049, prompt_tokens: 4216;0.07363;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19501;True;CWE-20;79.03185415267944;total_tokens: 4596, completion_tokens: 878, prompt_tokens: 3718;0.06352;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19409;True;CWE-200;86.6352026462555;total_tokens: 4307, completion_tokens: 1038, prompt_tokens: 3269;0.06383;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19500;True;CWE-22;92.02418184280396;total_tokens: 4692, completion_tokens: 928, prompt_tokens: 3764;0.06548;2024-02-05
@@ -564,7 +564,7 @@ gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci;J19782;F
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci;J19784;False;;31.95608639717102;total_tokens: 828, completion_tokens: 317, prompt_tokens: 511;0.014620000000000001;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19790;False;;48.45934510231018;total_tokens: 3659, completion_tokens: 877, prompt_tokens: 2782;0.054130000000000005;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19794;False;;52.47324562072754;total_tokens: 3367, completion_tokens: 728, prompt_tokens: 2639;0.04823;2024-02-05
-gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19789;None;CWE-20;54.32476043701172;total_tokens: 4139, completion_tokens: 783, prompt_tokens: 3356;0.05705;2024-02-05
+gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19789;False;CWE-20;54.32476043701172;total_tokens: 4139, completion_tokens: 783, prompt_tokens: 3356;0.05705;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19787;True;CWE-79;56.0857298374176;total_tokens: 4234, completion_tokens: 855, prompt_tokens: 3379;0.05944000000000001;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19796;False;;56.70026087760925;total_tokens: 3504, completion_tokens: 786, prompt_tokens: 2718;0.05076;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19788;False;;56.874064445495605;total_tokens: 3490, completion_tokens: 772, prompt_tokens: 2718;0.05034;2024-02-05
@@ -676,9 +676,9 @@ gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19843;False;;65.81775975227356;total_tokens: 3929, completion_tokens: 896, prompt_tokens: 3033;0.057210000000000004;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19846;True;CWE-79;61.90149998664856;total_tokens: 3033, completion_tokens: 755, prompt_tokens: 2278;0.04543;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19844;False;;64.30175185203552;total_tokens: 3326, completion_tokens: 849, prompt_tokens: 2477;0.05024;2024-02-05
-gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19838;None;CWE-79;79.9667055606842;total_tokens: 3963, completion_tokens: 1002, prompt_tokens: 2961;0.05967;2024-02-05
+gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19838;False;CWE-79;79.9667055606842;total_tokens: 3963, completion_tokens: 1002, prompt_tokens: 2961;0.05967;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19849;False;;57.306849002838135;total_tokens: 3358, completion_tokens: 814, prompt_tokens: 2544;0.04986;2024-02-05
-gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19847;None;CWE-79;64.26428890228271;total_tokens: 3109, completion_tokens: 750, prompt_tokens: 2359;0.04609;2024-02-05
+gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19847;False;CWE-79;64.26428890228271;total_tokens: 3109, completion_tokens: 750, prompt_tokens: 2359;0.04609;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19842;False;;78.37172508239746;total_tokens: 3467, completion_tokens: 901, prompt_tokens: 2566;0.05269;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J19848;True;CWE-79;75.36676049232483;total_tokens: 3078, completion_tokens: 754, prompt_tokens: 2324;0.045860000000000005;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci;J19862;True;CWE-89;17.471275568008423;total_tokens: 954, completion_tokens: 353, prompt_tokens: 601;0.0166;2024-02-05
@@ -1126,7 +1126,7 @@ gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci;J24219;T
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24370;True;CWE-89;50.106199741363525;total_tokens: 4149, completion_tokens: 729, prompt_tokens: 3420;0.05607000000000001;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24218;True;CWE-89;54.03125619888306;total_tokens: 3703, completion_tokens: 798, prompt_tokens: 2905;0.052989999999999995;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24444;True;CWE-20 CWE-259 CWE-89 CWE-755 CWE-399;61.13145995140076;total_tokens: 4238, completion_tokens: 814, prompt_tokens: 3424;0.058660000000000004;2024-02-05
-gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24046;None;CWE-89;63.867823362350464;total_tokens: 3616, completion_tokens: 832, prompt_tokens: 2784;0.0528;2024-02-05
+gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24046;False;CWE-89;63.867823362350464;total_tokens: 3616, completion_tokens: 832, prompt_tokens: 2784;0.0528;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24616;True;CWE-89;64.7883038520813;total_tokens: 3882, completion_tokens: 790, prompt_tokens: 3092;0.05462;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24134;True;CWE-89;67.45573544502258;total_tokens: 3601, completion_tokens: 750, prompt_tokens: 2851;0.05101;2024-02-05
 gpt-4-0125-preview;juliet-top-25-subset-34;dataflow_analysis_prompt_rci_improve;J24371;True;CWE-89;70.16316223144531;total_tokens: 5990, completion_tokens: 1128, prompt_tokens: 4862;0.08246;2024-02-05
