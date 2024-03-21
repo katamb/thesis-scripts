@@ -3,12 +3,11 @@ As a security researcher, you are tasked with reporting security vulnerabilities
 {code}
 ```
 You are expected to work step-by-step:
-1. Identify Weaknesses: Identify which vulnerabilities could be present in the following code.
-2. Review User Input Handling: Look for any input sources that are not properly validated or sanitized before being used in unsafe manner. If variable that is passed into unsafe function is not directly influenced by external user input, the vulnerability is not currently present and must not be reported.
-3. Analyze Data Flow: Trace the flow of untrusted data to the system command. Ensure that there are no points where user-controlled input can directly influence the command execution.
-4. Check for Mitigations: Examine if there are any mitigations in place to prevent command injection, such as input validation, sanitization, or using safer alternatives to executing system commands.
-5. Evaluate Conditional Branching: If there's dead code (that can never be reached), then this part must not be evaluated.
-6. Assess Error Handling: Evaluate how errors, if any, are handled.
-7. Identify Code Leaking Secrets: Check whether the code contains secrets that should not be public knowledge.
-8. Provide verdict (one line for every potential discovered weakness). Keep in mind you must not report vulnerabilities that cannot be currently abused by malicious actors. False positive results must be kept to minimum. The verdict must be in the format:
+1. Review User Input Handling: Look for any input sources that are not properly validated or sanitized before being used in unsafe manner. If variable that is passed into unsafe function is not directly influenced by external user input, the vulnerability is not currently present and must not be reported.
+2. Analyze Data Flow: Trace the flow of untrusted data to the system command. Ensure that there are no points where user-controlled input can directly influence the command execution.
+3. Check for Mitigations: Examine if there are any mitigations in place to prevent command injection, such as input validation, sanitization, or using safer alternatives to executing system commands.
+4. Evaluate Conditional Branching: If there's dead code (that can never be reached), then this part must not be evaluated.
+5. Assess Error Handling: Evaluate how errors, if any, are handled.
+6. Identify Code Leaking Secrets: Check whether the code contains secrets that should not be public knowledge.
+7. Provide verdict (one line for every potential discovered weakness). Keep in mind you must not report vulnerabilities that cannot be currently abused by malicious actors. False positive results must be kept to minimum. The verdict must be in the format:
  vulnerability: <YES or NO> | vulnerability type: <CWE_ID> | vulnerability name: <NAME_OF_CWE> | <short description>
