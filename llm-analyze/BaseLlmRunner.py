@@ -1,6 +1,7 @@
 from dotenv import load_dotenv, find_dotenv
 from abc import abstractmethod
 from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
 from langchain.globals import set_verbose
 from datetime import date
 import os
@@ -18,8 +19,8 @@ class BaseLlmRunner:
         self.dataset_name = os.environ.get("CURRENT_DATASET_NAME")
         self.file_path = file_path
         self.prompt_name = prompt_name
-        self.model_name = "gpt-4-0125-preview"
-        self.llm = ChatOpenAI(temperature=0, model_name=self.model_name, streaming=False)
+        self.model_name = "claude-3-opus-20240229"
+        self.llm = ChatAnthropic(temperature=0, model_name=self.model_name)
         self.results_lock = results_lock
         set_verbose(True)
         self.base_result_path = os.path.join(os.environ.get('RESULTS_DIRECTORY_ROOT'), self.dataset_name, self.model_name)
@@ -67,11 +68,20 @@ class BaseLlmRunner:
     def get_cwes(self, input_text):
         vulnerabilities = ""
         if "\n" in input_text:
-            for line in input_text.split("\n"):
-                if "vulnerability: YES |" in line.strip():
-                    vulnerabilities += self.clean_result(line.strip()) + " "
+            if "|" in input_text:
+                for line in input_text.split("\n"):
+                    if "vulnerability: YES |" in line.strip().replace("*", ""):
+                        vulnerabilities += self.clean_result(line.strip()) + " "
+            else:
+                skip_next = False
+                for line in input_text.split("\n"):
+                    if skip_next:
+                        vulnerabilities += self.clean_result(line.strip()) + " "
+                        skip_next = False
+                    if "vulnerability: YES" in line.strip().replace("*", ""):
+                        skip_next = True
         else:
-            if "vulnerability: YES |" in input_text.strip():
+            if "vulnerability: YES |" in input_text.strip().replace("*", ""):
                 vulnerabilities += self.clean_result(input_text.strip()) + " "
 
         return vulnerabilities.strip()
