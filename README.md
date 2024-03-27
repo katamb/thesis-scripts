@@ -1,4 +1,30 @@
 # Scripts for Masters thesis
+This repository contains Python script used for running the experiments required for my Master thesis.
+For variables, a dotenv (`.env`) file should be created.
+The associated dataset is available in: https://github.com/katamb/juliet-top-25.
+
+## The `dataset-normalization` package
+This package contains the scripts used for pre-processing the dataset. The files should be run in order.
+To run the scripts, a variable called `DATASET_DIRECTORY_ROOT` should be set up in the dotenv file, which should point to the dataset root directory.
+The original dataset id the Java Juliet 1.3 dataset: https://samate.nist.gov/SARD/test-suites/111.
+The dataset was reduced to contain the vulnerabilities from MITRE's top 25 and the subcategories of the MITRE's top 25.
+The build tooling was changed to Gradle and then the scripts in this repository were used for further pre-processing.
+
+We don't want to give LLMs clues about the vulnerabilities in the files, so we remove comments and change names of variables (like "good" or "bad") which could give away the answer.
+Secondly we don't want to waste tokens, as running LLMs is expensive, so we want to remove unnecessary whitespace. The steps taken:
+1. Run `remove-comments.py` to remove all comments and extra whitespace from the test files.
+2. Run `prune-testcases.py` to remove the more complex testcases spanning multiple files. Similarly to what was done for example here: https://arxiv.org/pdf/2311.16169.pdf
+3. Run `split-files.py` to split files into 2: good case and bad case.
+4. Run `remove-clues.py` script to also rename the files and most of the methods.
+   After that, some manual processing were required, e.g.
+   replacing all instances of "good" and "bad" in remaining variable and method names.
+   Also, to help later classifications, a `file-mapping.csv` file is added to the dataset root which maps the new obscure files
+   to the vulnerabilities and marks whether the file is vulnerable or not.
+5. The resulting dataset is in the `full-pre-processed-set` branch in the dataset repository. 
+   The dataset was made smaller using the `get-random-subset.py` script.
+
+---
+
 Running code:
 1. Create `.env` file
    1. Set OPENAI_API_KEY

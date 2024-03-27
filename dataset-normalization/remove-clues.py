@@ -30,17 +30,18 @@ acceptable_mappings = {
 
 
 def get_file_name(file_path):
-    last_dot_index = file_path.rindex('.')
-    last_slash_index = file_path.rindex('\\') + 1
+    last_dot_index = file_path.rindex(".")
+    last_slash_index = file_path.rindex(os.sep) + 1
     file_name = file_path[last_slash_index:last_dot_index]
     return file_name
 
 
 def remove_clues(file_path, counter):
-    with open(file_path, 'r') as file:
+    # Open the testcase file
+    with open(file_path, "r") as file:
         content = file.read()
 
-    # Rename functions
+    # Rename these functions, does not cover everything, manual follow-up will be needed
     content = content.replace("good()", "process()")
     content = content.replace("good1()", "process1()")
     content = content.replace("good(HttpServletRequest", "process(HttpServletRequest")
@@ -59,18 +60,21 @@ def remove_clues(file_path, counter):
     content = content.replace("bad()", "handle()")
     content = content.replace("bad(HttpServletRequest", "handle(HttpServletRequest")
 
-    # Rename file
     old_file_name = get_file_name(file_path)
     new_file_name = "J" + str(counter)
     new_file_path = file_path.replace(old_file_name, new_file_name)
+    # Rename class
     content = content.replace(old_file_name, new_file_name)
+    # Rename file
     os.rename(file_path, new_file_path)
 
-    with open(new_file_path, 'w') as file:
+    # Save the file
+    with open(new_file_path, "w") as file:
         file.write(content)
 
-    root_dir = os.environ.get('DATASET_DIRECTORY_ROOT')
-    with open(root_dir + "\\file-mapping.csv", "a") as f:
+    # Write the mapping between old and new file names to the csv file
+    root_dir = os.environ.get("DATASET_DIRECTORY_ROOT")
+    with open(os.path.join(root_dir, "file-mapping.csv"), "a") as f:
         cwe = old_file_name.split("_")[0]
         cwe_id = f"CWE-{cwe[3:]}"
         cwe_present = "bad" in old_file_name
@@ -82,17 +86,21 @@ def remove_clues(file_path, counter):
 
 
 def process_main_file(file_path, renamings):
-    with open(file_path, 'r') as file:
+    # Open the main file
+    with open(file_path, "r") as file:
         content = file.read()
 
+    # Rename the file names in the main file
     for k in renamings:
         content = content.replace(k + "()", renamings[k] + "()")
 
-    with open(file_path, 'w') as file:
+    # Save the main file
+    with open(file_path, "w") as file:
         file.write(content)
 
 
 def process_directory(directory_path):
+    # Start the file names from "J10000"
     counter = 10000
     for root, dirs, files in os.walk(directory_path):
         renamings = {}
@@ -105,19 +113,20 @@ def process_directory(directory_path):
                 renamings[file_names_tuple[0]] = file_names_tuple[1]
                 counter += 1
             elif "Main" in file:
+                # Rename the function calls in the main file
                 file_path = os.path.join(root, file)
                 process_main_file(file_path, renamings)
 
 
 if __name__ == "__main__":
     load_dotenv(find_dotenv())
-    root_dir = os.environ.get('DATASET_DIRECTORY_ROOT')
+    root_dir = os.environ.get("DATASET_DIRECTORY_ROOT")
     # Create mapping file
-    mapping_file = root_dir + "\\file-mapping.csv"
+    mapping_file = os.path.join(root_dir, "file-mapping.csv")
     if not os.path.exists(mapping_file):
         with open(mapping_file, "w") as f:
             f.write("file_name,original_file_name,cwe_id,cwe_present,acceptable_cwe_ids,cwe_description\n")
     # Run clue-removal script
-    current_dir = root_dir + "\\src\\testcases\\"
+    current_dir = os.path.join(root_dir, "src", "testcases")
     process_directory(current_dir)
     print("Script completed successfully.")

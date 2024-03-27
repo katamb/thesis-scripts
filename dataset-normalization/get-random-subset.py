@@ -5,7 +5,8 @@ import random
 import re
 
 
-pattern = r'\.J(\d{5})\(\)\)\.runTest\('
+# The pattern used for function calling in Main files
+pattern = r"\.J(\d{5})\(\)\)\.runTest\("
 
 
 def get_matching_el_id(el):
@@ -16,8 +17,8 @@ def get_matching_el_id(el):
 
 
 def choose_files(mapping_file, amount_of_files_to_keep_per_cwe):
-    # Read in the file
-    with open(mapping_file, 'r', newline="") as infile:
+    # Read in the mapping file
+    with open(mapping_file, "r", newline="") as infile:
         reader = csv.reader(infile)
         data = list(reader)
 
@@ -34,6 +35,8 @@ def choose_files(mapping_file, amount_of_files_to_keep_per_cwe):
             curr_list.append(item)
             data_map[cwe_id] = curr_list
 
+    # Pick the given amount of files randomly from dataset.
+    # Make sure when "good" file is chosen, then the corresponding "bad" file is chosen too, and vice versa.
     new_data = [data[1]]
     for k in data_map:
         current_cwe_list = data_map[k]
@@ -58,7 +61,7 @@ def choose_files(mapping_file, amount_of_files_to_keep_per_cwe):
             new_data.extend(current_cwe_list)
 
     # Write the modified content to a new CSV file
-    with open(mapping_file, 'w', newline="") as outfile:
+    with open(mapping_file, "w", newline="") as outfile:
         writer = csv.writer(outfile)
         sorted_list = sorted(new_data, key=lambda x: x[1])
         for row in sorted_list:
@@ -66,50 +69,60 @@ def choose_files(mapping_file, amount_of_files_to_keep_per_cwe):
 
 
 def remove_refs_to_removed_files(file_path, mapping_file):
-    with open(mapping_file, 'r', newline="") as infile:
+    # Read mapping file
+    with open(mapping_file, "r", newline="") as infile:
         reader = csv.reader(infile)
         mappings = list(reader)
-    existing_files = []
+    existing_files = []  # Create a list of files that we keep
     for mapping in mappings:
         existing_files.append(mapping[1])
 
+    # Read the main file
     with open(file_path, "r") as f:
         content = f.readlines()
 
     new_content = []
     for line in content:
         match = re.search(pattern, line)
+        # If function calling line
         if match:
             matched_numbers = f"J{match.group(1)}"
+            # If a file we keep is not referenced, skip the line
             if matched_numbers not in existing_files:
                 continue
         new_content.append(line)
 
-
+    # Write the main file
     with open(file_path, "w") as f:
         for line in new_content:
             f.write(line)
 
 
 def remove_files_not_present_in_mapping_file(ds_directory, mapping_file):
+    # Read the mapping file
     with open(mapping_file, "r") as f:
         content = f.read()
 
     for root, dirs, files in os.walk(ds_directory):
         for file in files:
             file_path = os.path.join(root, file)
+            # Remove the files not in the mapping file
             if file.startswith("J") and file.endswith(".java"):
                 if file.split(".")[0] not in content:
                     os.remove(file_path)
+            # Rename the file references in Main files
             elif "Main" in file:
                 remove_refs_to_removed_files(file_path, mapping_file)
 
 
 if __name__ == "__main__":
     load_dotenv(find_dotenv())
-    amount_of_files_to_keep_per_cwe = 34  # Has to be positive even integer
-    mapping_file = os.environ.get("DATASET_DIRECTORY_ROOT") + "\\file-mapping.csv"
+    dataset_directory_root = os.environ.get("DATASET_DIRECTORY_ROOT")
+    amount_of_files_to_keep_per_cwe = 34  # The number of files to keep per CWE, has to be positive even integer
+    # Choose the files to keep:
+    mapping_file = os.path.join(dataset_directory_root, "file-mapping.csv")
     choose_files(mapping_file, amount_of_files_to_keep_per_cwe)
-    ds_directory = os.environ.get("DATASET_DIRECTORY_ROOT") + "\\src\\testcases\\"
+    # Remove the other files
+    ds_directory = os.path.join(dataset_directory_root, "src", "testcases")
     remove_files_not_present_in_mapping_file(ds_directory, mapping_file)
     print("Script completed successfully.")
