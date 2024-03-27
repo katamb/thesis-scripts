@@ -1,7 +1,5 @@
 from dotenv import load_dotenv, find_dotenv
 from SimplePromptRunner import SimplePromptRunner
-#from ReActRunner import ReActRunner
-#from SelfReflectionPromptRunner import SelfReflectionPromptRunner
 from CriticiseRefinePromptRunner import CriticiseRefinePromptRunner
 from concurrent.futures import ThreadPoolExecutor
 import os
@@ -40,6 +38,7 @@ def process_directory_concurrently(directory_path: str):
                 future.result()
 
 
+# Used to process directory one file at a time
 def process_directory(directory_path: str):
     for root, dirs, files in os.walk(directory_path):
         for file in files:
@@ -54,9 +53,10 @@ if __name__ == "__main__":
     load_dotenv(find_dotenv())
     dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
 
-    # C:\Users\karlt\thesis\datasets\juliet-top-25\src\testcases\CWE129_Improper_Validation_of_Array_Index\s03\J11608.java
+    # Uncomment next two lines and comment in last two lines to test on a single file
     #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11609.java")
     #run_prompt(file)
 
+    # Run tests on the whole dataset
     folder = os.path.join(dataset_root, "src", "testcases")
     process_directory_concurrently(folder)

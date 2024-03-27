@@ -3,6 +3,7 @@ from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_community.callbacks import get_openai_callback
 from utils.AnthropicTokenCounter import AnthropicTokenCounter
+from typing import Tuple
 import os
 import time
 import threading
@@ -12,7 +13,7 @@ class SimplePromptRunner(BaseLlmRunner):
     def __init__(self, file_path: str, prompt_name: str, lock=threading.Lock()):
         super().__init__(file_path, prompt_name, lock)
 
-    def run_prompt(self):
+    def run_prompt(self) -> str:
         template = self.load_prompt_from_file(self.prompt_name)
         code = self.load_file_content()
         prompt = PromptTemplate.from_template(template)
@@ -33,7 +34,7 @@ class SimplePromptRunner(BaseLlmRunner):
 
         return llm_response
 
-    def call_gpt_llm(self, chain: LLMChain, code: str):
+    def call_gpt_llm(self, chain: LLMChain, code: str) -> Tuple[str, float, float, str]:
         with get_openai_callback() as cb:
             start = time.time()
             llm_response = chain.invoke({"code": code})["text"]
@@ -44,7 +45,7 @@ class SimplePromptRunner(BaseLlmRunner):
             print(llm_response)
         return llm_response, cost, time_spent, tokens_used
 
-    def call_anthropic_llm(self, chain: LLMChain, code: str):
+    def call_anthropic_llm(self, chain: LLMChain, code: str) -> Tuple[str, float, float, str]:
         token_counter = AnthropicTokenCounter(self.llm)
         start = time.time()
         llm_response = chain.invoke({"code": code}, config={"callbacks": [token_counter]})["text"]

@@ -16,7 +16,7 @@ forbidden_words = [
 ]  # Lower case.
 raw_text = """
 
-Overall, all approaches incorrectly identify an SQL injection vulnerability in the code. The wording of the problem in the case of CodeQL and SpotBugs hints that string concatenation should not be used in SQL statements. Similarly, Claude 3 Opus model correctly mentions that string concatenation should not be used. GPT-4 incorrectly states the function to be vulnerable to SQL injection. We classify all results as false positives, as the code is not exploitable, but all approaches report SQL injection vulnerabilities. The Claude 3 Opus model provides the best verdict, correctly noticing that the code is currently not exploitable. However, it still reports: "vulnerability: YES | vulnerability type: CWE-89", which we count as positive classification.
+
 
 """  # Put your raw text here.
 

@@ -26,7 +26,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         super().__init__(file_path, initial_prompt, lock)
         self.improvement_prompts = improvement_prompts
 
-    def get_folder_path(self, prompt_name: str):
+    def get_folder_path(self, prompt_name: str) -> str:
         folder_path = os.path.join(self.base_result_path, prompt_name)
         if not os.path.exists(folder_path):
             os.makedirs(folder_path, exist_ok=True)
@@ -69,7 +69,7 @@ class CriticiseRefinePromptRunner(BaseLlmRunner):
         else:
             raise Exception("Using a model not set up!")
 
-    def run_prompt(self):
+    def run_prompt(self) -> str:
         self.validate()  # Fail early if something is not properly defined
         code = self.load_file_content()  # Load the code sample from dataset
         initial_human_input = self.load_prompt_from_file(self.prompt_name)
