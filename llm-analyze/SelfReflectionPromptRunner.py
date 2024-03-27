@@ -30,7 +30,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
             total_tokens_1 = cb1.total_tokens
             completion_tokens_1 = cb1.completion_tokens
             prompt_tokens_1 = cb1.prompt_tokens
-            cost_1 = self.calculate_cost(cb1.prompt_tokens, cb1.completion_tokens)  # cb1.total_cost
+            cost_1 = cb1.total_cost
             time_spent_1 = end - start
             print(llm_response_1)
 
@@ -51,7 +51,7 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
             total_tokens_2 = cb2.total_tokens
             completion_tokens_2 = cb2.completion_tokens
             prompt_tokens_2 = cb2.prompt_tokens
-            cost_2 = self.calculate_cost(cb2.prompt_tokens, cb2.completion_tokens)  # cb2.total_cost
+            cost_2 = cb2.total_cost
             time_spent_2 = end - start
             print(llm_response_2)
 
@@ -78,18 +78,6 @@ class SelfReflectionPromptRunner(BaseLlmRunner):
     @staticmethod
     def safe_float_addition(str_1, str_2):
         return str(float(str_1) + float(str_2))
-
-    def get_cwes(self, input_text):
-        vulnerabilities = ""
-        if "\n" in input_text:
-            for line in input_text.split("\n"):
-                if line.strip().startswith("vulnerability: YES |"):
-                    vulnerabilities += self.clean_result(line.strip()) + " "
-        else:
-            if input_text.strip().startswith("vulnerability: YES |"):
-                vulnerabilities += self.clean_result(input_text.strip()) + " "
-
-        return vulnerabilities.strip()
 
     def validate(self):
         first_template = self.load_prompt_from_file(self.prompt_name)

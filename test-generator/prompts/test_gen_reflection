@@ -1,0 +1,4 @@
+The tests did not compile. The logs look like that:
+{test-run-result}
+---
+Please fix the tests. The output must contain only the fixed tests.

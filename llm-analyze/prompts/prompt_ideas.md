@@ -8,10 +8,12 @@
 7. Hints? Not sure how to utilize that
 8. Dataflow analysis (Khare and Dutta)
 9. Provide API / dataflow descriptions
+10. Providing extra context from codebase when asked (has not shown to be beneficial: https://arxiv.org/pdf/2401.01269.pdf and https://arxiv.org/pdf/2401.16185.pdf)
+11. Code review (list taken from https://www.awesomecodereviews.com/checklists/secure-code-review-checklist/, slightly modified)
 
 # Potential clues:
 1. Output of SCAT tools
-2. AST representation (extracting DFG aor API call descriptions would require extra work)
+2. AST representation (extracting DFG or API call descriptions would require extra work)
 3. ? Running the outputted code in virtual environment (probably not trivial)
 4. Potentially could put the code together with AST...
 

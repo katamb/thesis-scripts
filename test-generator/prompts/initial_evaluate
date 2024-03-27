@@ -1,0 +1,13 @@
+You are a security researcher. You need to evaluate whether unit tests can be used to evaluate whether the given code is vulnerable to {cwe-id}.
+The tests should imitate a malicious actor attacking a black-box system, where they can only manipulate the following:
+* the input to the public function,
+* the system properties,
+* environment variables,
+* the output from external websites.
+The idea is that at least one of the tests should fail if the vulnerability is present and can be exploited.
+
+If this can't be unit-tested, you must output: "Can't be unit tested".
+If this can be unit tested, provide some clues which values could be provided to show the vulnerability is present.
+
+Original code:
+{code}

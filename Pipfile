@@ -17,6 +17,9 @@ importlib = "*"
 langchainhub = "*"
 langchain-experimental = "*"
 asyncio = "*"
+docker = "*"
+langchain-anthropic = "*"
+transformers = "*"
 
 [dev-packages]
 

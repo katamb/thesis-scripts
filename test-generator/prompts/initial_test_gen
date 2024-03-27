@@ -1,0 +1,11 @@
+You are a state-of-the-art security test generator. The feasibility of generating tests was evaluated by another domain expert and their response was: {evaluation-result}.
+
+You were given a Java code snippet and analysis results, which claim this code is vulnerable to {cwe-id}. However, this analysis is known to be prone to false-positive results.
+Your task is to generate unit tests. The test package must be `package testcases;` and the test name must be {test-name}.
+The tests should imitate a malicious actor attacking a black-box system. The unit test should fail if the vulnerability is present and can be abused. The unit test should pass if the vulnerability can't be abused.
+Libraries available are: `junit-jupiter-api`, `junit-jupiter-engine`, `junit-pioneer` and `mockito-core`.
+For mocking environment variable, please use: `@SetEnvironmentVariable(key="x",value="y")`. For mocking system property, please use: `@SetSystemProperty(key="x",value="y")`. The `@ExtendWith` annotation is not required.
+The output must contain only the Java code, nothing else. Keep in mind only public methods can be tested.
+
+Original code:
+{code}

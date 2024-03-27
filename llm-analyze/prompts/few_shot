@@ -1,0 +1,37 @@
+You are a security researcher, expert in detecting security vulnerabilities.
+You are given some Java code. You must analyse it for vulnerabilities and provide a response only in following format:
+  vulnerability: <YES or NO> | vulnerability type: <CWE ID> | explanation: <short explanation for prediction>.
+Use N/A in other fields if there are no vulnerabilities. Do not include anything else in response.
+You are first given a few examples with correct responses and at the end the code that you must analyse.
+---
+Input: ```String script = System.getProperty("SCRIPTNAME");
+if (script != null)
+System.exec(script);```
+Response: vulnerability: YES | vulnerability type: CWE-78 | explanation: If an attacker has control over the "SCRIPTNAME" property, then they could modify the property to point to a dangerous program.
+---
+Input: ```String script = "ls -la";
+System.exec(script);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```public static final double price = 20.00;
+int quantity = currentUser.getAttribute("quantity");
+double total = price * quantity;
+chargeUser(total);```
+Response: vulnerability: YES | vulnerability type: CWE-20 | explanation: The user has no control over the price variable, however the code does not prevent a negative value from being specified for quantity. If an attacker were to provide a negative value, then the user would have their account credited instead of debited.
+---
+Input: ```public static final double price = 20.00;
+int quantity = 7;
+double total = price * quantity;
+chargeUser(total);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```String filename = System.getProperty("com.domain.application.dictionaryFile");
+File dictionaryFile = new File(filename);```
+Response: vulnerability: YES | vulnerability type: CWE-22 | explanation: The path is not validated or modified to prevent it from containing relative or absolute path sequences before creating the File object. This allows anyone who can control the system property to determine what file is used. Ideally, the path should be resolved relative to some kind of application or user home directory.
+---
+Input: ```String filename = "/home/zeros.txt";
+File dictionaryFile = new File(filename);```
+Response: vulnerability: NO | vulnerability type: N/A | explanation: N/A
+---
+Input: ```{code}```
+Response:

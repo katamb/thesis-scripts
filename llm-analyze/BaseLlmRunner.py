@@ -1,6 +1,7 @@
 from dotenv import load_dotenv, find_dotenv
 from abc import abstractmethod
 from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
 from langchain.globals import set_verbose
 from datetime import date
 import os
@@ -18,8 +19,8 @@ class BaseLlmRunner:
         self.dataset_name = os.environ.get("CURRENT_DATASET_NAME")
         self.file_path = file_path
         self.prompt_name = prompt_name
-        self.model_name = "gpt-4-0125-preview"
-        self.llm = ChatOpenAI(temperature=0, model_name=self.model_name, streaming=False)
+        self.model_name = "gpt-4-0613"
+        self.llm = ChatOpenAI(temperature=0, model_name=self.model_name)
         self.results_lock = results_lock
         set_verbose(True)
         self.base_result_path = os.path.join(os.environ.get('RESULTS_DIRECTORY_ROOT'), self.dataset_name, self.model_name)
@@ -42,12 +43,6 @@ class BaseLlmRunner:
         file_name = self.file_path[last_slash_index:last_dot_index]
         return file_name
 
-    # Workaround until langchain supports new gpt-4-turbo model
-    def calculate_cost(self, prompt_tokens, completion_tokens):
-        if self.model_name != "gpt-4-0125-preview":
-            raise Exception("Check model")
-        return ((prompt_tokens * 0.01) + (completion_tokens * 0.03)) * 0.001
-
     def save_result_row(self, prompt_name, is_vulnerable, cwe_ids, timing, tokens_used, cost):
         with self.results_lock:
             with open("results.csv", "a") as res:
@@ -69,6 +64,27 @@ class BaseLlmRunner:
         with open("./prompts/" + prompt_name, 'r') as file:
             content = file.read()
         return content
+
+    def get_cwes(self, input_text):
+        vulnerabilities = ""
+        if "\n" in input_text:
+            if "|" in input_text:
+                for line in input_text.split("\n"):
+                    if "vulnerability: YES |" in line.strip().replace("*", ""):
+                        vulnerabilities += self.clean_result(line.strip()) + " "
+            else:
+                skip_next = False
+                for line in input_text.split("\n"):
+                    if skip_next:
+                        vulnerabilities += self.clean_result(line.strip()) + " "
+                        skip_next = False
+                    if "vulnerability: YES" in line.strip().replace("*", ""):
+                        skip_next = True
+        else:
+            if "vulnerability: YES |" in input_text.strip().replace("*", ""):
+                vulnerabilities += self.clean_result(input_text.strip()) + " "
+
+        return vulnerabilities.strip()
 
     @staticmethod
     def clean_result(text):
