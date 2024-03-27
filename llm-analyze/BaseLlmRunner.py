@@ -19,8 +19,8 @@ class BaseLlmRunner:
         self.dataset_name = os.environ.get("CURRENT_DATASET_NAME")
         self.file_path = file_path
         self.prompt_name = prompt_name
-        self.model_name = "claude-3-opus-20240229"
-        self.llm = ChatAnthropic(temperature=0, model_name=self.model_name)
+        self.model_name = "gpt-4-0613"
+        self.llm = ChatOpenAI(temperature=0, model_name=self.model_name)
         self.results_lock = results_lock
         set_verbose(True)
         self.base_result_path = os.path.join(os.environ.get('RESULTS_DIRECTORY_ROOT'), self.dataset_name, self.model_name)

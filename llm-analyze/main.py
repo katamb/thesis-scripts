@@ -4,16 +4,15 @@ from SimplePromptRunner import SimplePromptRunner
 #from SelfReflectionPromptRunner import SelfReflectionPromptRunner
 from CriticiseRefinePromptRunner import CriticiseRefinePromptRunner
 from concurrent.futures import ThreadPoolExecutor
-from tools.ast.ApiCallExtractor import get_api_call_seq
 import os
 import threading
 
 
 def run_prompt(file_path: str, lock=threading.Lock()):
     runner = CriticiseRefinePromptRunner(file_path,
-                                         "api_seq_prompt_rci",
+                                         "dataflow_analysis_prompt_rci",
                                          [
-                                             ("api_seq_prompt_rci_criticise_short", "api_seq_prompt_rci_improve_short")
+                                             ("dataflow_analysis_prompt_rci_criticise", "dataflow_analysis_prompt_rci_improve")
                                          ],
                                          lock)
     #runner = SimplePromptRunner(file_path, "cot_high_level", lock)
@@ -24,7 +23,7 @@ def process_directory_concurrently(directory_path: str):
     lock = threading.Lock()
     counter = 0
     for root, dirs, files in os.walk(directory_path):
-        with ThreadPoolExecutor(max_workers=17) as executor:
+        with ThreadPoolExecutor(max_workers=14) as executor:
             futures = []
             for file in files:
                 if "Main" in file or "Helper" in file:
@@ -56,7 +55,7 @@ if __name__ == "__main__":
     dataset_root = os.environ.get("DATASET_DIRECTORY_ROOT")
 
     # C:\Users\karlt\thesis\datasets\juliet-top-25\src\testcases\CWE129_Improper_Validation_of_Array_Index\s03\J11608.java
-    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11608.java")
+    #file = os.path.join(dataset_root, "src", "testcases", "CWE129_Improper_Validation_of_Array_Index", "s03", "J11609.java")
     #run_prompt(file)
 
     folder = os.path.join(dataset_root, "src", "testcases")
